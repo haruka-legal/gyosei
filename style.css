@@ -1906,26 +1906,77 @@ footer p {
   flex-shrink: 0;
 }
 .check-list { list-style: none; margin-bottom: 18px; }
-.check-list li {
-  position: relative;
-  padding-left: 28px;
+.check-list li { margin-bottom: 10px; }
+.check-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
   font-size: 13.5px;
   color: var(--text-mid);
   line-height: 1.8;
-  margin-bottom: 10px;
+  cursor: pointer;
 }
-.check-list li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 3px;
+.check-input {
+  appearance: none;
+  -webkit-appearance: none;
   width: 16px;
   height: 16px;
+  margin-top: 3px;
+  flex-shrink: 0;
   border: 1.5px solid var(--blue);
   border-radius: 4px;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition);
+}
+.check-input:checked {
+  background: var(--blue);
+  border-color: var(--blue);
+}
+.check-input:checked::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 5px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.check-input:checked ~ span {
+  color: var(--text-light);
+  text-decoration: line-through;
 }
 .check-answer { font-size: 13.5px; color: var(--text-mid); line-height: 1.95; }
 .check-answer strong { color: var(--navy); }
+
+/* =====================
+   印刷用スタイル
+   ===================== */
+@media print {
+  .article-hero, header, .mobile-menu, .info-bar, footer,
+  .mid-cta, .header-cta {
+    display: none !important;
+  }
+  body { background: #fff; color: #000; }
+  .article-main { padding: 0; background: #fff; }
+  .article-inner { max-width: 100%; padding: 0; }
+  .check-block { border: 1px solid #999; break-inside: avoid; page-break-inside: avoid; }
+  .conclusion-box { border: 1px solid #999; background: #fff !important; color: #000 !important; }
+  .conclusion-box, .article-lead, .check-answer { color: #000 !important; }
+  .check-input {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    border: 1.5px solid #000;
+  }
+  .check-input:checked { background: #000; border-color: #000; }
+  .check-label { color: #000; }
+  a { text-decoration: none; color: #000; }
+  .faq-q svg { display: none; }
+  .faq-a { display: block !important; }
+}
 
 .article-h2 {
   font-family: 'Noto Serif JP', serif;
