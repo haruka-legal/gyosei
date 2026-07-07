@@ -283,22 +283,12 @@
     <p class="section-desc" style="margin-bottom:36px">当てはまる方はお気軽にご相談ください。</p>
 
     <div class="tab-buttons" role="tablist">
-      <button class="tab-btn active" onclick="switchTab('personal')" id="tab-personal" role="tab" aria-selected="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline-block;vertical-align:middle;margin-right:4px"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>個人の方</button>
-      <button class="tab-btn" onclick="switchTab('business')" id="tab-business" role="tab" aria-selected="false"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline-block;vertical-align:middle;margin-right:4px"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>経営者の方</button>
+      <button class="tab-btn active" onclick="switchTab('business')" id="tab-business" role="tab" aria-selected="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline-block;vertical-align:middle;margin-right:4px"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>経営者の方</button>
+      <button class="tab-btn" onclick="switchTab('personal')" id="tab-personal" role="tab" aria-selected="false"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline-block;vertical-align:middle;margin-right:4px"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>個人の方</button>
       <button class="tab-btn" onclick="switchTab('marriage')" id="tab-marriage" role="tab" aria-selected="false"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" stroke="none" style="display:inline-block;vertical-align:middle;margin-right:4px"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>国際結婚の方</button>
     </div>
 
-    <div id="panel-personal" class="tab-panel active" role="tabpanel">
-      <div class="worries-grid">
-        <div class="worry-item">在留資格の更新期限が近づいているが、何をすればいいかわからない</div>
-        <div class="worry-item">就労ビザを取得したいが、手続きが複雑で不安</div>
-        <div class="worry-item">永住権や帰化を目指しているが、要件や手順がよくわからない</div>
-        <div class="worry-item">在留資格を変更したいが、どう進めればいいか見当がつかない</div>
-        <div class="worry-item">日本語が得意でなく、書類作成や役所での手続きに不安がある</div>
-        <div class="worry-item">家族を日本に呼び寄せたいが、何から始めればいいかわからない</div>
-      </div>
-    </div>
-    <div id="panel-business" class="tab-panel" role="tabpanel">
+    <div id="panel-business" class="tab-panel active" role="tabpanel">
       <div class="worries-grid">
         <div class="worry-item">外国人を採用したいが、ビザの手続きが複雑でどこから始めればいいかわからない</div>
         <div class="worry-item">採用した外国人スタッフのビザ更新や手続きを任せられる専門家を探している</div>
@@ -306,6 +296,16 @@
         <div class="worry-item">外国人スタッフが増えてきたので、継続的にサポートしてくれる行政書士と顧問契約を結びたい</div>
         <div class="worry-item">外国人雇用を会社の強みにしたいが、何から整備すればよいかわからない</div>
         <div class="worry-item">採用予定の外国人が就労できる在留資格を持っているか確認したい</div>
+      </div>
+    </div>
+    <div id="panel-personal" class="tab-panel" role="tabpanel">
+      <div class="worries-grid">
+        <div class="worry-item">在留資格の更新期限が近づいているが、何をすればいいかわからない</div>
+        <div class="worry-item">就労ビザを取得したいが、手続きが複雑で不安</div>
+        <div class="worry-item">永住権や帰化を目指しているが、要件や手順がよくわからない</div>
+        <div class="worry-item">在留資格を変更したいが、どう進めればいいか見当がつかない</div>
+        <div class="worry-item">日本語が得意でなく、書類作成や役所での手続きに不安がある</div>
+        <div class="worry-item">家族を日本に呼び寄せたいが、何から始めればいいかわからない</div>
       </div>
     </div>
     <div id="panel-marriage" class="tab-panel" role="tabpanel">
