@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://haruka-gyosei.com/sitemap.xml

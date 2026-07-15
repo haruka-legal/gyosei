@@ -1,0 +1,78 @@
+---
+layout: layouts/base.njk
+pageType: article
+ogType: article
+---
+{% set root = page.url | relRoot %}
+<!-- ===================== ARTICLE HERO ===================== -->
+<div class="article-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      {% for crumb in breadcrumbs %}<a href="{{ root }}{{ crumb.url | noLeadSlash }}">{{ crumb.name }}</a>{% if not loop.last %} ／ {% endif %}{% endfor %}
+    </div>
+    <p class="label-eyebrow" style="color:rgba(196,161,94,.8)">{{ category }}</p>
+    <h1 class="article-hero-title">{{ title }}</h1>
+    <div class="article-hero-meta">
+      <span>公開日：{{ datePublished | readableDate }}</span>
+      <span>執筆：{{ site.name }}</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== ARTICLE MAIN ===================== -->
+<div class="article-main">
+  <div class="article-inner">
+
+    {% if image %}
+    <div style="border-radius:12px;overflow:hidden;margin-bottom:32px;">
+      <img src="{{ root }}{{ image | noLeadSlash }}" alt="{{ imageAlt or title }}" style="width:100%;height:auto;display:block;">
+    </div>
+    {% endif %}
+
+    {% if conclusion %}
+    <div class="conclusion-box reveal">
+      {{ conclusion }}
+    </div>
+    {% endif %}
+
+    {{ content | safe }}
+
+    {% if checklist %}
+    <h2 class="article-h2">{{ checklistTitle or "企業が今すべきこと" }}</h2>
+    <ul class="check-list" style="margin-bottom:24px;">
+      {% for item in checklist %}
+      <li><label class="check-label"><input type="checkbox" class="check-input"><span>{{ item | safe }}</span></label></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <div class="mid-cta reveal">
+      <p>{{ ctaMessage or "自社の状況について相談したい、という場合はお気軽にご相談ください。" }}</p>
+      <a href="{{ site.lineUrl }}" class="btn-navy" target="_blank" rel="noopener" style="display:inline-flex">
+        LINEで無料相談
+        <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+
+    {% if faq %}
+    <h2 class="article-h2">よくある質問</h2>
+    <div class="faq-list article-faq-list reveal">
+      {% for item in faq %}
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+          <span>{{ item.q }}</span>
+          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a"><p>{{ item.a }}</p></div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="article-disclaimer">
+      本記事は{{ datePublished | readableDate }}時点の情報に基づいています。{% if sourceUrl %}最新情報は<a href="{{ sourceUrl }}" target="_blank" rel="noopener" style="color:var(--blue);text-decoration:underline;">{{ sourceName }}</a>をご確認ください。{% else %}最新の運用状況は、関係省庁の公表情報をご確認ください。{% endif %}
+      <div class="article-author">{{ site.name }}</div>
+    </div>
+
+  </div>
+</div>
