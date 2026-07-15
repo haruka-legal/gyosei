@@ -33,6 +33,15 @@ module.exports = function (eleventyConfig) {
   // 指定した項目(fileSlug等)を除外
   eleventyConfig.addFilter("whereNot", (arr, key, value) => arr.filter((item) => item[key] !== value));
 
+  // ページの深さに応じた相対パスの起点を計算(例: /articles/foo/ なら "../../")
+  eleventyConfig.addFilter("relRoot", (url) => {
+    const depth = url.split("/").filter(Boolean).length;
+    return depth === 0 ? "./" : "../".repeat(depth);
+  });
+
+  // 先頭の "/" を除去(絶対パス表記のフロントマター値を相対パス化する際に使用)
+  eleventyConfig.addFilter("noLeadSlash", (str) => (str && str.startsWith("/") ? str.slice(1) : str));
+
   // 記事コレクション：articles/ 配下のMarkdownを日付の新しい順に自動収集
   eleventyConfig.addCollection("articles", (collectionApi) => {
     return collectionApi.getFilteredByGlob("src/articles/*.md").sort((a, b) => {
