@@ -33,4 +33,34 @@ module.exports = function (eleventyConfig) {
   // 指定した項目(fileSlug等)を除外
   eleventyConfig.addFilter("whereNot", (arr, key, value) => arr.filter((item) => item[key] !== value));
 
-  // 記事コレクション：articles/
+  // 記事コレクション：articles/ 配下のMarkdownを日付の新しい順に自動収集
+  eleventyConfig.addCollection("articles", (collectionApi) => {
+    return collectionApi.getFilteredByGlob("src/articles/*.md").sort((a, b) => {
+      return new Date(b.data.datePublished) - new Date(a.data.datePublished);
+    });
+  });
+
+  // カテゴリ自動生成：記事のcategoryフィールドから自動でカテゴリ一覧を作る
+  eleventyConfig.addCollection("categories", (collectionApi) => {
+    const articles = collectionApi.getFilteredByGlob("src/articles/*.md");
+    const cats = {};
+    articles.forEach((article) => {
+      const cat = article.data.category;
+      if (!cat) return;
+      if (!cats[cat]) cats[cat] = [];
+      cats[cat].push(article);
+    });
+    return cats;
+  });
+
+  return {
+    dir: {
+      input: "src",
+      output: "_site",
+      includes: "_includes",
+      data: "_data",
+    },
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
+  };
+};
