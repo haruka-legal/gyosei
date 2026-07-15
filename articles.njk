@@ -1,0 +1,37 @@
+---
+layout: layouts/base.njk
+title: "お役立ち記事一覧"
+description: "外国人雇用企業のコンプライアンスを中心に、制度改正や審査基準の最新情報をまとめた記事一覧です。"
+permalink: /articles/
+navActive: articles
+---
+{% set root = page.url | relRoot %}
+<div class="article-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="{{ root }}">トップ</a> ／ お役立ち記事一覧
+    </div>
+    <p class="label-eyebrow" style="color:rgba(196,161,94,.8)">Column</p>
+    <h1 class="article-hero-title">お役立ち記事一覧</h1>
+    <div class="article-hero-meta">
+      <span>外国人雇用企業のコンプライアンスを中心に、制度改正や審査基準の最新情報をまとめています。</span>
+    </div>
+  </div>
+</div>
+
+<div class="services-section" id="articles">
+  <div class="container">
+    <div class="articles-grid" style="margin-top:0;">
+      {% for article in collections.articles %}
+      <a href="{{ root }}{{ article.url | noLeadSlash }}" class="article-card reveal reveal-delay-{{ loop.index0 % 3 + 1 }}">
+        <img src="{{ root }}{{ article.data.image | noLeadSlash }}" alt="{{ article.data.imageAlt or article.data.title }}" style="width:100%;height:160px;object-fit:cover;object-position:center;display:block;">
+        <div class="article-body">
+          <span class="article-cat">{{ article.data.category }}</span>
+          <div class="article-title">{{ article.data.title }}</div>
+          <div class="article-date">{{ article.data.datePublished | cardDate }}</div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
