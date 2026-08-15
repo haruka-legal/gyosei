@@ -36,7 +36,6 @@
   <nav>
     <div class="nav-inner">
       <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
-        <span class="nav-badge">開業準備中</span>
         <div class="nav-links">
           {% for link in site.navLinks %}
           <a href="{{ root }}{{ link.href }}"{% if link.key == navActive %} class="active"{% endif %}>{{ link.label }}</a>
