@@ -61,7 +61,7 @@ module.exports = function (eleventyConfig) {
     });
     return cats;
   });
-
+eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
   return {
     dir: {
       input: "src",
