@@ -71,7 +71,7 @@ eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
     dir: {
       input: "src",
       output: "_site/gyosei",
-     includes: "_includes",
+     includes: "visa/_includes",
       data: "_data",
     },
     markdownTemplateEngine: "njk",
