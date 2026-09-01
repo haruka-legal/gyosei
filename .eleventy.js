@@ -2,8 +2,13 @@ const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
   // 静的ファイルはそのままコピー
-  eleventyConfig.addPassthroughCopy("src/css");
-  eleventyConfig.addPassthroughCopy("src/images");
+eleventyConfig.addPassthroughCopy("src/css");
+
+eleventyConfig.addFilter("dateISO", (dateObj) => {
+  return new Date(dateObj).toISOString();
+});
+
+eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy({ "src/static": "/" }); // CNAME, llms.txt, googleXXXX.html 等
 
   // 日付を「2026年7月3日」のような表示に変換するフィルタ
