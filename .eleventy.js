@@ -1,7 +1,7 @@
 const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.ignores.add("src/visa/_includes/**");
+eleventyConfig.ignores.add("src/visa/**");
   // 静的ファイルはそのままコピー
 eleventyConfig.addPassthroughCopy("src/css");
 
