@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://haruka-gyosei.com/sitemap.xml
+Sitemap: https://haruka-legal.com/gyosei/sitemap.xml
