@@ -1,7 +1,7 @@
 module.exports = {
   name: "遥か行政書士事務所",
   nameEn: "HARUKA LEGAL SUPPORT",
-  url: "https://haruka-gyosei.com",
+  url: "https://haruka-legal.com/gyosei",
   address: "東京都千代田区神田錦町3−6−4",
   lineUrl: "https://lin.ee/Sgysu6a",
   logo: "/images/logo.jpg",
