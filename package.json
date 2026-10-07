@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
-    "serve": "eleventy --serve"
+    "serve": "eleventy --serve",
+    "build:all": "eleventy && eleventy --config=.eleventy-visa.js && eleventy --config=.eleventy-souzoku.js && cp -r src/root/. _site/ && node scripts/check-domains.js _site",
+    "serve:souzoku": "eleventy --config=.eleventy-souzoku.js --serve"
   },
   "keywords": [],
   "author": "",

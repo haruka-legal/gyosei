@@ -1,0 +1,502 @@
+---
+layout: layouts/base.njk
+title: "遥か行政書士事務所 | 千代田区・神保町｜相続手続き・遺言書作成サポート"
+description: "相続人調査・戸籍収集、遺産分割協議書の作成、預貯金や自動車の名義変更、遺言書作成まで、相続の手続きを丁寧にサポートします。東京都千代田区の行政書士事務所です。"
+permalink: /
+navActive: top
+---
+{% set root = page.url | relRoot %}
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title serif">
+      大切な人から<br>受け継ぐものを、<br><em>迷わず、次へ。</em>
+    </h1>
+    <p class="hero-desc">
+      東京都千代田区の行政書士事務所です。<br>
+      戸籍の収集から遺産分割協議書の作成、銀行や自動車の名義変更、遺言書の作成まで、相続の手続きを一つずつ整理してサポートします。
+    </p>
+    <p style="text-align:left;max-width:460px;margin:0 auto 36px;">
+      <a href="{{ site.internationalUrl }}" class="hero-foreign-link">ビザ・外国人雇用のご相談はこちら →</a>
+    </p>
+    <div class="hero-btns">
+      <a href="{{ site.lineUrl }}" class="btn-secondary btn-secondary-main" target="_blank" rel="noopener">
+        LINEで無料相談
+        <span class="btn-sub">24時間受付</span>
+      </a>
+      <a href="#contact" class="btn-secondary">フォームで相談</a>
+    </div>
+    <a href="#services" class="hero-services-link">
+      業務内容を見る
+      <span class="hero-services-icon">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- ===================== WORRIES ===================== -->
+<div class="worries-section" id="worries">
+  <div class="container reveal">
+    <p class="label-eyebrow">Consultation</p>
+    <h2 class="section-title">お悩みはありませんか？</h2>
+    <p class="section-desc" style="margin-bottom:36px">当てはまる方はお気軽にご相談ください。</p>
+
+    <div class="tab-buttons" role="tablist">
+      <button class="tab-btn active" onclick="switchTab('after')" id="tab-after" role="tab" aria-selected="true">相続が起きた方</button>
+      <button class="tab-btn" onclick="switchTab('before')" id="tab-before" role="tab" aria-selected="false">遺言・生前の準備</button>
+      <button class="tab-btn" onclick="switchTab('abroad')" id="tab-abroad" role="tab" aria-selected="false">海外の家族がいる方</button>
+    </div>
+
+    <div id="panel-after" class="tab-panel active" role="tabpanel">
+      <div class="worries-grid">
+        <div class="worry-item">家族が亡くなったが、何から手をつければいいかわからない</div>
+        <div class="worry-item">相続人が誰なのか、戸籍をどこまで集めればいいかわからない</div>
+        <div class="worry-item">本籍地が遠方で、戸籍を取り寄せる時間がない</div>
+        <div class="worry-item">銀行口座の解約や名義変更の手続きが多く、仕事と両立できない</div>
+        <div class="worry-item">遺産の分け方は話し合いで決まったので、きちんと書面にしたい</div>
+        <div class="worry-item">親が遺した自動車や株式の名義変更をしたい</div>
+      </div>
+    </div>
+    <div id="panel-before" class="tab-panel" role="tabpanel">
+      <div class="worries-grid">
+        <div class="worry-item">家族がもめないように、元気なうちに遺言書を作っておきたい</div>
+        <div class="worry-item">自分で書いた遺言書が、法的に有効かどうか不安</div>
+        <div class="worry-item">公正証書遺言を作りたいが、公証役場とのやりとりが不安</div>
+        <div class="worry-item">子どもがいないので、財産が誰に渡るのか知っておきたい</div>
+        <div class="worry-item">自分の財産を一覧にして、家族にわかるようにしておきたい</div>
+        <div class="worry-item">法務局の自筆証書遺言書保管制度を利用したい</div>
+      </div>
+    </div>
+    <div id="panel-abroad" class="tab-panel" role="tabpanel">
+      <div class="worries-grid">
+        <div class="worry-item">相続人の一人が海外に住んでいて、手続きの進め方がわからない</div>
+        <div class="worry-item">海外在住の家族は印鑑登録がなく、印鑑証明書が出せない</div>
+        <div class="worry-item">サイン証明や在留証明が必要と言われたが、何のことかわからない</div>
+        <div class="worry-item">亡くなった家族や相続人に外国籍の人がいる</div>
+        <div class="worry-item">海外の家族と時差があり、書類のやりとりに時間がかかっている</div>
+        <div class="worry-item">日本語が得意でない家族にも、手続きの内容をきちんと伝えたい</div>
+      </div>
+    </div>
+
+    <div class="section-cta-wrap">
+      <a href="{{ site.lineUrl }}" class="btn-navy" target="_blank" rel="noopener">
+        まずは無料でお問い合わせ
+        <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== FLOW ===================== -->
+<div class="flow-section" id="flow">
+  <div class="container">
+    <div class="reveal">
+      <p class="label-eyebrow">Flow</p>
+      <h2 class="section-title">ご相談から受任までの流れ</h2>
+      <p class="section-desc">初めての方も安心してご連絡ください。</p>
+    </div>
+
+    <div class="flow-steps">
+
+      <div class="flow-step reveal reveal-delay-1">
+        <div class="flow-step-header">
+          <div class="flow-num">01</div>
+          <div class="flow-step-title">LINEまたはお問い合わせフォームよりご連絡</div>
+        </div>
+        <div class="flow-step-body">
+          <p class="flow-text">お問い合わせは無料です。まずは以下よりお気軽にご連絡ください。</p>
+          <ul class="flow-list">
+            <li><a href="{{ site.lineUrl }}" target="_blank" rel="noopener" style="color:var(--blue);font-weight:700">LINE</a></li>
+            <li><a href="#contact" style="color:var(--blue);font-weight:700">お問い合わせフォーム</a></li>
+          </ul>
+          <p class="flow-text">亡くなられた方とのご関係、相続人の人数、遺言書の有無など、わかる範囲でお知らせください。</p>
+          <p class="flow-note">※ この段階では正式な回答・判断は行っておりません</p>
+        </div>
+      </div>
+
+      <div class="flow-connector reveal"></div>
+
+      <div class="flow-step reveal reveal-delay-1">
+        <div class="flow-step-header">
+          <div class="flow-num">02</div>
+          <div class="flow-step-title">内容確認</div>
+        </div>
+        <div class="flow-step-body">
+          <p class="flow-text">ご入力内容を確認し、以下を確認いたします。</p>
+          <ul class="flow-list">
+            <li>当事務所で対応可能か</li>
+            <li>登記・相続税・紛争など、他の専門家の対応が必要な内容が含まれていないか</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flow-connector reveal"></div>
+
+      <div class="flow-step reveal reveal-delay-1">
+        <div class="flow-step-header">
+          <div class="flow-num">03</div>
+          <div class="flow-step-title">調査・回答プラン</div>
+          <div class="flow-price-badge">5,000円〜（税込）</div>
+        </div>
+        <div class="flow-step-body">
+          <p class="flow-text">必要な手続き・必要書類・期限などを整理し、進め方をご案内いたします。必要に応じて以下による追加確認を行う場合があります。</p>
+          <ul class="flow-list">
+            <li>LINE通話</li>
+            <li>Google Meet</li>
+            <li>お電話</li>
+          </ul>
+          <div class="flow-notes">
+            <p>※ 本プランは事前決済制となります</p>
+            <p>※ 内容に応じて個別見積となる場合があります</p>
+            <p>※ 当事務所で対応困難と判断した場合は返金いたします</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flow-connector reveal"></div>
+
+      <div class="flow-step flow-step-final reveal reveal-delay-1">
+        <div class="flow-step-header">
+          <div class="flow-num">04</div>
+          <div class="flow-step-title">正式受任</div>
+        </div>
+        <div class="flow-step-body">
+          <p class="flow-text">戸籍の収集や書類作成などをご希望の場合は、正式にご依頼を承ります。業務内容・必要期間・費用等をご案内のうえ、正式受任となります。</p>
+          <p class="flow-text" style="color:var(--gold);font-size:13px;margin-top:8px;">なお、正式受任となった場合は、調査・回答プラン費用を報酬へ充当いたします。</p>
+          <div class="flow-infobox">
+            <div class="flow-infobox-label">ご確認事項</div>
+            <ul class="flow-list">
+              <li>正確なご案内のため、ご回答までお時間をいただく場合があります</li>
+              <li>相続人の間で争いがある場合は、行政書士は対応できません</li>
+              <li>内容に応じて追加確認をお願いする場合があります</li>
+              <li>継続的な無料相談は承っておりません</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-cta-wrap reveal">
+      <a href="{{ site.lineUrl }}" class="btn-navy" target="_blank" rel="noopener">
+        まずはLINEで相談する
+        <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== SERVICES ===================== -->
+<div class="services-section" id="services">
+  <div class="container">
+    <div class="reveal">
+      <p class="label-eyebrow">Services</p>
+      <h2 class="section-title">業務内容</h2>
+      <p class="section-desc">相続が起きたあとの手続きから、元気なうちの遺言書づくりまでサポートします。</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="13" y2="17"/></svg>
+        </div>
+        <div class="service-name">相続人調査・戸籍収集</div>
+        <div class="service-desc">出生から死亡までの戸籍を全国から取り寄せ、相続人を確定します。相続関係説明図や法定相続情報一覧図の作成にも対応します。</div>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>
+        </div>
+        <div class="service-name">遺産分割協議書の作成</div>
+        <div class="service-desc">相続人の皆さまで話し合って決まった内容を、銀行や各種窓口で使える協議書にまとめます。財産目録の作成もお手伝いします。</div>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 10h20"/></svg>
+        </div>
+        <div class="service-name">預貯金・自動車などの名義変更</div>
+        <div class="service-desc">預貯金の解約・払戻し、自動車や株式の名義変更など、窓口ごとに異なる手続きをまとめてサポートします。</div>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <div class="service-name">遺言書の作成サポート</div>
+        <div class="service-desc">自筆証書遺言の文案作成・法務局の保管制度の利用、公正証書遺言の文案作成と公証役場との調整までサポートします。</div>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3c0 0-4 3.5-4 9s4 9 4 9"/><path d="M12 3c0 0 4 3.5 4 9s-4 9-4 9"/><line x1="3" y1="12" x2="21" y2="12"/></svg>
+        </div>
+        <div class="service-name">海外に家族がいる相続</div>
+        <div class="service-desc">海外在住の相続人のサイン証明・在留証明の取得案内や、外国籍の方が関わる相続など、国際業務の経験を活かしてサポートします。</div>
+      </div>
+    </div>
+
+    <div class="fee-note-box reveal" style="margin-top:32px">
+      <strong>行政書士が対応できない手続きについて</strong><br>
+      不動産の相続登記は司法書士、相続税の申告は税理士、相続人の間で争いがある場合の交渉や調停は弁護士の業務です。これらが必要な場合は、その旨をお伝えし、専門家へご相談いただけるようご案内します。
+    </div>
+  </div>
+</div>
+
+<!-- ==================== FEES ==================== -->
+<div class="fees-section" id="fees">
+  <div class="container">
+    <div class="reveal">
+      <p class="label-eyebrow">Fees</p>
+      <h2 class="section-title">料金のご案内</h2>
+      <p class="section-desc">すべて税込み表示です。まずはお気軽にご相談ください。</p>
+    </div>
+
+    {# ▼▼ 料金は仮置きです。公開前に必ず金額を確定してください ▼▼ #}
+    <div class="fees-category reveal">
+      <h3 class="fees-cat-title">相続手続き</h3>
+      <table class="fees-table">
+        <thead>
+          <tr><th>業務</th><th>料金（税込）</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>相続人調査・戸籍収集（相続関係説明図つき）</td><td>【要確定】</td></tr>
+          <tr><td>法定相続情報一覧図の作成・申出</td><td>【要確定】</td></tr>
+          <tr><td>遺産分割協議書の作成</td><td>【要確定】</td></tr>
+          <tr><td>財産目録の作成</td><td>【要確定】</td></tr>
+          <tr><td>預貯金の解約・払戻し（1金融機関あたり）</td><td>【要確定】</td></tr>
+          <tr><td>自動車の名義変更（1台あたり）</td><td>【要確定】</td></tr>
+          <tr><td>相続手続き一式（上記をまとめてご依頼の場合）</td><td>【要確定】</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="fees-category reveal">
+      <h3 class="fees-cat-title">遺言書の作成</h3>
+      <table class="fees-table">
+        <thead>
+          <tr><th>業務</th><th>料金（税込）</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>自筆証書遺言の文案作成</td><td>【要確定】</td></tr>
+          <tr><td>公正証書遺言の文案作成・公証役場との調整</td><td>【要確定】</td></tr>
+          <tr><td>公正証書遺言の証人（1名あたり）</td><td>【要確定】</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="fees-category reveal">
+      <h4 class="fees-sub-title">状況によって追加となる料金</h4>
+      <table class="fees-table">
+        <thead>
+          <tr><th>条件</th><th>追加料金（税込）</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>相続人が海外に住んでいる（1名あたり）</td><td>【要確定】</td></tr>
+          <tr><td>相続人が6名以上</td><td>【要確定】</td></tr>
+          <tr><td>数次相続（相続手続き中に相続人が亡くなった場合）</td><td>【要確定】</td></tr>
+        </tbody>
+      </table>
+      <p class="fees-note">※ 複数の条件に該当する場合は、内容確認後に個別でお見積りします。</p>
+    </div>
+    {# ▲▲ ここまで仮置き ▲▲ #}
+
+    <div class="fee-note-box reveal">
+      <strong>【共通事項】</strong><br>
+      ・着手金：報酬額の50%（依頼確定時）／残金：業務完了時<br>
+      ・お支払い：銀行振込<br>
+      ・別途実費：戸籍などの証明書取得費用・郵送料・公証役場の手数料など（事前にお見積りします）
+    </div>
+  </div>
+</div>
+
+<!-- ===================== ARTICLES ===================== -->
+<div class="articles-section" id="articles">
+  <div class="container">
+    <div class="reveal">
+      <p class="label-eyebrow">Column</p>
+      <h2 class="section-title">お役立ち記事</h2>
+      <p class="section-desc">相続の手続きや遺言書について、ご家族の立場からわかりやすく解説します。</p>
+    </div>
+    {% if collections.articles.length %}
+    <div class="articles-grid">
+      {% for article in collections.articles | slice(0, 6) %}
+        <a href="{{ root }}{{ article.url | noLeadSlash }}" class="article-card reveal reveal-delay-{{ (loop.index0 % 3) + 1 }}{% if loop.index0 >= 4 %} hp-desktop-only{% endif %}">
+          <img src="{{ root }}{{ article.data.image | noLeadSlash }}" alt="{{ article.data.imageAlt or article.data.title }}" style="width:100%;height:160px;object-fit:cover;object-position:center;display:block;">
+          <div class="article-body">
+            <span class="article-cat">{{ article.data.category }}</span>
+            <div class="article-title">{{ article.data.title }}</div>
+            <div class="article-date">{{ article.data.datePublished | cardDate }}</div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+    <div style="text-align:center;margin-top:32px;">
+      <a href="{{ root }}articles/" class="btn-outline-navy" style="display:inline-flex;align-items:center;gap:6px;">
+        過去の記事はこちら
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+    {% else %}
+    <p class="section-desc" style="text-align:center;margin-top:24px">記事は準備中です。</p>
+    {% endif %}
+  </div>
+</div>
+
+<!-- ===================== PROFILE ===================== -->
+<section class="profile-section" id="profile">
+  <div class="profile-inner">
+    <div class="profile-content reveal">
+      <p class="label-eyebrow">Greeting</p>
+      <h2 class="section-title">代表挨拶</h2>
+      <div class="profile-name">岸 はるか</div>
+      <div class="profile-role">遥か行政書士事務所 代表行政書士</div>
+
+      <div class="profile-img-wrap reveal reveal-delay-1">
+        <div class="profile-photo-item main">
+          <img src="{{ root }}images/profile_main.jpg" alt="岸はるか 代表行政書士 遥か行政書士事務所" width="600" height="800" loading="eager" decoding="async">
+        </div>
+        <div class="profile-photo-item sub">
+          <img src="{{ root }}images/profile_abroad.jpg" alt="岸はるか" width="600" height="800" loading="lazy" decoding="async">
+        </div>
+      </div>
+
+      {# ▼ 下書きです。はるかさんご自身の言葉に直してください ▼ #}
+      <p class="profile-desc">
+        はじめまして。遥か行政書士事務所代表の岸はるかです。<br><br>
+        警視庁で警察官として働く中で、世の中にはさまざまな不安や孤独を抱えている方が、想像以上に多くいることを肌で感じました。<br><br>
+        大切な家族を亡くしたあとは、悲しみの中で、戸籍の収集や銀行の手続き、書類の作成など、慣れない手続きが次々と押し寄せてきます。「何から始めればいいのかわからない」という声は、決して珍しいものではありません。<br><br>
+        相続は、どのご家庭にもいつか必ず訪れるものです。自分の家族や身近な人が困ったときに、一番に力になれる存在でありたい。そんな思いから、相続のサポートに取り組んでいます。<br><br>
+        一人ひとり抱えている悩みの形は違います。だからこそ、どんな小さな悩みにも真正面から向き合い、ご家族が安心して前を向けるようになるまで、とことん伴走します。
+      </p>
+      {# ▲ ここまで下書き ▲ #}
+
+      <div class="profile-quote">
+        <p class="profile-quote-label">— 事務所名「遥か」に込めた思い</p>
+        <p class="profile-quote-text">
+          「はるか」は、私自身の名前でもあります。<em>両親から「広い心を持った子に」という願いを込めてつけてもらいました。</em>遠くまで広がる海や大地、そして宇宙。「遥か」という言葉には、果てしない広がりを感じさせるものがあり、私はこの言葉をとても気に入っています。<br><br>
+          受け継いだものを大切にしながら、人と人、過去と未来をつなぐ。受け継ぎ、つなぎ、遥か未来へ。それが、遥か行政書士事務所の理念です。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ACCESS ===================== -->
+<div class="access-section" id="access">
+  <div class="container">
+    <div class="reveal">
+      <p class="label-eyebrow">Access</p>
+      <h2 class="section-title">事務所案内・アクセス</h2>
+      <p class="section-desc">{{ site.address }}</p>
+    </div>
+    <div class="access-grid">
+      <div class="reveal reveal-delay-1">
+        <p class="access-label">最寄り駅</p>
+        <ul class="station-list">
+          <li><span class="station-badge">東京メトロ丸ノ内線</span>淡路町駅　徒歩4分</li>
+          <li><span class="station-badge">都営新宿線</span>小川町駅　徒歩4分</li>
+          <li><span class="station-badge">東京メトロ千代田線</span>新御茶ノ水駅　徒歩4分</li>
+          <li><span class="station-badge">都営三田線・半蔵門線</span>神保町駅　徒歩5分</li>
+          <li><span class="station-badge">東京メトロ東西線</span>竹橋駅　徒歩6分</li>
+        </ul>
+        <p class="access-label">営業時間・連絡先</p>
+        <p class="access-hours">
+          LINE：24時間365日受付<br>
+          <span style="font-size:12px;color:var(--text-light)">（24時間以内に返信いたします）</span>
+        </p>
+        <a href="{{ site.lineUrl }}" class="btn-navy" target="_blank" rel="noopener" style="display:inline-flex;margin-top:8px">
+          無料でお問い合わせ
+          <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="map-wrap reveal reveal-delay-2">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.3242788744565!2d139.7623664!3d35.69363690000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d7e4e4c5311%3A0x999aaae76f3a4f5f!2z44CQOOaciOOBlOOCjemWi-alreS6iOWumuOAkemBpeOBi-ihjOaUv-abuOWjq-S6i-WLmeaJgCAvIEhBUlVLQSBMRUdBTCBTVVBQT1JU44CQT3BlbmluZyBpbiBBdWd1c3TjgJE!5e0!3m2!1sja!2sjp!4v1780048808308!5m2!1sja!2sjp"
+          width="100%" height="400" style="border:0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" title="遥か行政書士事務所 地図">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== FAQ ===================== -->
+<div class="faq-section" id="faq">
+  <div class="container">
+    <div class="reveal">
+      <p class="label-eyebrow">FAQ</p>
+      <h2 class="section-title">よくあるご質問</h2>
+      <p class="section-desc">お問い合わせ前にご確認ください。</p>
+    </div>
+    <div class="faq-list reveal reveal-delay-1">
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+          <span>相談受付は無料ですか？</span>
+          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a">
+          <p>お問い合わせ・内容確認は無料です。その後、必要な手続きや書類を整理してご回答する「調査・回答プラン」は5,000円〜（税込）となります。LINEにて24時間365日受け付けており、24時間以内にご返信いたします。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+          <span>不動産の名義変更（相続登記）や相続税の申告もお願いできますか？</span>
+          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a">
+          <p>相続登記は司法書士、相続税の申告は税理士の業務のため、当事務所では行えません。必要な場合はその旨をお伝えし、専門家へご相談いただけるようご案内します。戸籍の収集や遺産分割協議書など、その前段階の準備は当事務所でお手伝いできます。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+          <span>相続人どうしで意見が分かれています。相談できますか？</span>
+          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a">
+          <p>相続人の間で争いがある場合の交渉や調停は弁護士の業務となるため、行政書士は対応できません。話し合いがまとまっている場合の書類作成や手続きであれば、当事務所でサポートいたします。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+          <span>相続人が海外に住んでいても手続きできますか？</span>
+          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a">
+          <p>はい、可能です。海外在住の方は印鑑証明書の代わりに、現地の日本大使館・領事館でサイン証明（署名証明）を取得していただくなどの準備が必要になります。必要書類や進め方をご案内しますので、お気軽にご相談ください。</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+          <span>千代田区以外でも対応してもらえますか？</span>
+          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="faq-a">
+          <p>はい、オンライン相談にも対応しておりますので、全国どこからでもご相談いただけます。戸籍は郵送で全国から取り寄せることができます。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="contact-section" id="contact">
+  <div class="contact-inner">
+    <div class="reveal">
+      <p class="label-eyebrow">Contact</p>
+      <h2 class="section-title">お問い合わせ</h2>
+      <p class="contact-desc"><strong>まずはLINEからお気軽にどうぞ。</strong><br>お問い合わせ・ご連絡は無料です。24時間受付。</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:28px">
+        <a href="{{ site.lineUrl }}" target="_blank" rel="noopener" class="btn-navy" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#06c755,#00a040);box-shadow:0 4px 16px rgba(6,199,85,.3)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 5.92 2 10.72c0 3.1 1.7 5.84 4.3 7.52l-.7 2.62 2.92-1.44c1.1.3 2.27.46 3.48.46 5.52 0 10-3.92 10-8.72S17.52 2 12 2z"/></svg>
+          LINEで無料相談
+        </a>
+      </div>
+    </div>
+    <div class="form-wrap reveal reveal-delay-1">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLScSlVq7Fiao-6JQXSTVyVt4e4Q6z7YZc7XxGRsk_4u2O7o0zg/viewform?embedded=true"
+        width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0" style="display:block"
+      >読み込んでいます…</iframe>
+      <p class="form-footer">お問い合わせ後、2営業日以内にメールにてご返信いたします。</p>
+    </div>
+  </div>
+</section>

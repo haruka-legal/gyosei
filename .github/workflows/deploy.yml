@@ -35,6 +35,12 @@ jobs:
       - name: Build Visa site
         run: npx @11ty/eleventy --config=.eleventy-visa.js
 
+      - name: Build Souzoku site
+        run: npx @11ty/eleventy --config=.eleventy-souzoku.js
+
+      - name: Copy root entrance page
+        run: cp -r src/root/. _site/
+
       - name: Check links (他ドメイン混入チェック)
         run: node scripts/check-domains.js _site
 

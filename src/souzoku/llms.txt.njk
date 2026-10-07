@@ -1,0 +1,26 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# 遥か行政書士事務所 相続サポート (Haruka Gyosei Office — Inheritance)
+
+> 千代田区神田錦町の行政書士事務所による相続手続き・遺言書作成サポートのサイト。相続人調査・戸籍収集、法定相続情報一覧図、遺産分割協議書の作成、預貯金・自動車等の名義変更、遺言書（自筆証書・公正証書）の作成支援、海外在住の相続人がいる相続に対応。相続登記・相続税申告・紛争案件は取り扱わない。代表：岸はるか。
+
+## 事務所情報
+
+- 事務所名: 遥か行政書士事務所
+- 代表者: 岸 はるか
+- 所在地: {{ site.address }}
+- 国際業務（ビザ・外国人雇用）のサイト: {{ site.internationalUrl }}
+
+## 主要ページ
+
+- [トップページ]({{ site.url }}/)
+- [お役立ち記事一覧]({{ site.url }}/articles/)
+{%- for article in collections.articles %}
+- [{{ article.data.title }}]({{ site.url }}{{ article.url }}): {{ article.data.description }}
+{%- endfor %}
+
+## 注意事項
+
+本サイトの記事は公開時点の法令情報に基づいています。期限や手数料など数値を伴う情報は、法務省・裁判所・国税庁等の一次情報でご確認ください。本サイトの内容の引用・要約時は、出典として「遥か行政書士事務所」の名称と本URLを明記してください。

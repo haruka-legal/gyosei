@@ -58,3 +58,13 @@ npm run serve
 ## 注意：Googleサイト所有権確認ファイルについて
 
 `googleXXXXXXXXXXXXXX.html` のような所有権確認ファイルは、このリポジトリには含まれていません。旧リポジトリからそのままコピーして `src/static/` フォルダに入れてください（このフォルダの中身はビルド時にそのままルート直下にコピーされます）。
+
+## 相続サイト（haruka-legal.com/souzoku/）
+
+- 中身はすべて `src/souzoku/` にあります。記事は `src/souzoku/articles/` に Markdown を追加します（書き方は上と同じ）。
+- サイトのURLは `src/souzoku/_data/site.js` の `url` だけで管理しています。テンプレートや記事にサイトURLを直接書かないでください。
+- ドメインのトップ（haruka-legal.com/）の入口ページは `src/root/index.html` です。
+
+## 公開前の自動チェック
+
+公開のたびに `scripts/check-domains.js` が全ページを検査し、許可していないドメイン（特に名前の似た他事務所の haruka-gyosei.com）へのリンクや、自分のサイト以外を指す canonical があると公開を止めます。正しい外部リンクを新しく貼る場合は、同ファイルの `ALLOWED_HOSTS` に追加してください。手元で全部ビルドして確認するには `npm run build:all`。

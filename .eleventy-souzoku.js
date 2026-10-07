@@ -1,18 +1,16 @@
+// 相続サイト（haruka-legal.com/souzoku/）のビルド設定。日本語版(.eleventy.js)と同じ型。
 const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
-eleventyConfig.ignores.add("src/visa/**");
-eleventyConfig.ignores.add("src/souzoku/**");
-eleventyConfig.ignores.add("src/root/**");
+
   // 静的ファイルはそのままコピー
-eleventyConfig.addPassthroughCopy("src/css");
+eleventyConfig.addPassthroughCopy({ "src/souzoku/css": "css" });
 
 eleventyConfig.addFilter("dateISO", (dateObj) => {
   return new Date(dateObj).toISOString();
 });
 
-eleventyConfig.addPassthroughCopy("src/images");
-  eleventyConfig.addPassthroughCopy({ "src/static": "/" }); // CNAME, llms.txt, googleXXXX.html 等
+eleventyConfig.addPassthroughCopy({ "src/souzoku/images": "images" });
 
   // 日付を「2026年7月3日」のような表示に変換するフィルタ
   eleventyConfig.addFilter("readableDate", (dateObj) => {
@@ -52,14 +50,14 @@ eleventyConfig.addPassthroughCopy("src/images");
 
   // 記事コレクション：articles/ 配下のMarkdownを日付の新しい順に自動収集
   eleventyConfig.addCollection("articles", (collectionApi) => {
-    return collectionApi.getFilteredByGlob("src/articles/*.md").sort((a, b) => {
+    return collectionApi.getFilteredByGlob("src/souzoku/articles/*.md").sort((a, b) => {
       return new Date(b.data.datePublished) - new Date(a.data.datePublished);
     });
   });
 
   // カテゴリ自動生成：記事のcategoryフィールドから自動でカテゴリ一覧を作る
   eleventyConfig.addCollection("categories", (collectionApi) => {
-    const articles = collectionApi.getFilteredByGlob("src/articles/*.md");
+    const articles = collectionApi.getFilteredByGlob("src/souzoku/articles/*.md");
     const cats = {};
     articles.forEach((article) => {
       const cat = article.data.category;
@@ -72,8 +70,8 @@ eleventyConfig.addPassthroughCopy("src/images");
 eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
   return {
     dir: {
-      input: "src",
-      output: "_site/gyosei",
+      input: "src/souzoku",
+      output: "_site/souzoku",
      includes: "_includes",
       data: "_data",
     },
