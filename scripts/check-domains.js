@@ -22,7 +22,6 @@ const BLOCKED_HOSTS = [
 // リンクしてよいドメイン
 const ALLOWED_HOSTS = [
   "haruka-legal.com",
-  "haruka-legal.github.io", // English / Español サイト（support リポジトリ）
   "lin.ee", // 公式LINE
   "wa.me", // WhatsApp
   "www.linkedin.com",
