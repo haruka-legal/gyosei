@@ -1325,7 +1325,7 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   border-bottom: none;
 }
 .fees-table td:last-child {
-  text-align: right;
+  text-align: left;
   font-weight: 700;
   color: var(--navy);
   white-space: nowrap;
@@ -2138,3 +2138,7 @@ footer p {
   .article-hero-title { font-size: 22px; }
   .check-block { padding: 22px 18px; }
 }
+
+/* 料金の列：頭（左端）をそろえ、どの表でも同じ位置に */
+.fees-table th:last-child,
+.fees-table td:last-child { width: 10em; white-space: nowrap; }
