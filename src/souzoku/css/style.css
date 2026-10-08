@@ -968,12 +968,6 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   box-shadow: 0 6px 20px rgba(6,199,85,.4);
 }
 
-  font-size: 12px;
-  color: rgba(255,255,255,.2);
-  padding-top: 4px;
-  font-style: italic;
-}
-
 /* =====================
    Space Business
    ===================== */
@@ -1928,6 +1922,8 @@ footer p {
       url('bg_image_2.jpg') center top / cover no-repeat !important;
   }
   */
+} /* end of Responsive – Mobile (≤680px) */
+
 /* =====================
    Responsive – Small (≤380px)
    ===================== */
@@ -2140,3 +2136,91 @@ footer p {
   .article-hero-title { font-size: 22px; }
   .check-block { padding: 22px 18px; }
 }
+
+/* =====================================================================
+   相続サイト専用テーマ：白基調・文字と装飾は青
+   （国際業務サイトの紺地のデザインを、ここでまとめて上書きしています）
+   ===================================================================== */
+:root {
+  --navy:       #0b3a7e;   /* 濃い青（見出し・ボタン） */
+  --navy-mid:   #1556a8;
+  --blue:       #1f6fd1;   /* アクセントの青 */
+  --sky:        #3b8fe0;
+  --sky-light:  #e8f2fd;
+  --off-white:  #f6f9fe;
+  --text-dark:  #12305e;
+  --text-mid:   #2a4f86;
+  --text-light: #5876a3;
+  --gold:       #1f6fd1;   /* 金色の装飾も青に */
+  --gold-light: #e8f2fd;
+  --line-soft:  #dbe7f7;
+}
+
+/* ヘッダー */
+header, header.scrolled {
+  background: rgba(255,255,255,.96);
+  border-bottom: 1px solid var(--line-soft);
+  box-shadow: 0 2px 14px rgba(11,58,126,.06);
+}
+.logo-img-wrap { box-shadow: 0 0 0 1px var(--line-soft); }
+.logo-text { color: var(--navy); }
+.logo-sub { color: var(--text-light); }
+nav { border-top: 1px solid var(--line-soft); }
+.nav-links a { color: var(--text-mid); }
+.nav-links a:hover, .nav-links a.active { color: var(--blue); border-bottom-color: var(--blue); }
+.nav-addr { color: var(--text-light); }
+.nav-addr svg { stroke: var(--text-light); }
+.header-cta-form { border-color: var(--blue); color: var(--blue); }
+.header-cta-form:hover { background: var(--sky-light); }
+.hamburger span { background: var(--navy); }
+.mobile-menu { background: #fff; }
+.mobile-menu-close { color: var(--navy); }
+.mobile-menu a { color: var(--navy); border-bottom-color: var(--line-soft); }
+
+/* ファーストビュー */
+.hero { background: linear-gradient(180deg, #ffffff 0%, var(--sky-light) 100%); }
+.hero::before, .hero::after { display: none; }
+.hero-title { color: var(--navy); text-shadow: none; }
+.hero-title em { color: var(--blue); }
+.hero-desc { color: var(--text-mid); }
+.hero-foreign-link { color: var(--blue); border-bottom-color: rgba(31,111,209,.35); }
+.hero-foreign-link:hover { color: var(--navy); border-color: var(--navy); }
+.btn-secondary { border-color: var(--blue); color: var(--blue); background: #fff; }
+.btn-secondary:hover { background: var(--sky-light); border-color: var(--navy); }
+.btn-secondary-main { background: var(--blue); border-color: var(--blue); color: #fff; }
+.btn-secondary-main:hover { background: var(--navy); border-color: var(--navy); }
+.btn-secondary-main .btn-sub { color: rgba(255,255,255,.8); }
+.btn-sub { color: var(--text-light); }
+.hero-services-link { color: var(--navy); border-color: rgba(11,58,126,.3); }
+.hero-services-link:hover { border-color: var(--navy); background: #fff; }
+.hero-services-icon { background: var(--blue); }
+
+/* 代表挨拶 */
+.profile-section { background: #fff; border-top: 1px solid var(--line-soft); }
+.profile-section::before { display: none; }
+.profile-img-wrap { box-shadow: 0 10px 30px rgba(11,58,126,.12); }
+.profile-content .label-eyebrow { color: var(--blue); }
+.profile-content .label-eyebrow::before { background: var(--blue); }
+.profile-content .section-title, .profile-name { color: var(--navy); }
+.profile-role { color: var(--text-light); }
+.profile-desc { color: var(--text-dark); }
+.profile-quote { background: var(--off-white); border-left-color: var(--blue); }
+.profile-quote-label { color: var(--blue); }
+.profile-quote-text { color: var(--text-mid); }
+
+/* お問い合わせ帯・フッター */
+.info-bar { background: var(--sky-light); border-top: 1px solid var(--line-soft); }
+.info-item { color: var(--text-mid); }
+.info-item strong { color: var(--navy); }
+.info-item-icon { stroke: var(--blue); }
+.info-item a { color: var(--blue) !important; }
+footer { background: #fff; border-top: 1px solid var(--line-soft); }
+footer p { color: var(--text-light); }
+
+/* 記事ページの見出し部分 */
+.article-hero { background: linear-gradient(180deg, #fff 0%, var(--sky-light) 100%); }
+.article-hero::before { display: none; }
+.breadcrumb, .breadcrumb a { color: var(--text-light); }
+.breadcrumb a:hover { color: var(--blue); }
+.article-hero-title { color: var(--navy); }
+.article-hero-meta { color: var(--text-light); }
