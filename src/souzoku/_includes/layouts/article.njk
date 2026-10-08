@@ -13,8 +13,8 @@ ogType: article
     <p class="label-eyebrow" style="color:rgba(196,161,94,.8)">{{ category }}</p>
     <h1 class="article-hero-title">{{ title }}</h1>
     <div class="article-hero-meta">
-      <span>公開日：{{ datePublished | readableDate }}</span>
-      <span>執筆：{{ site.name }}</span>
+      <span>公開日：{{ datePublished | readableDate }}</span>{% if dateModified %}<span>更新日：{{ dateModified | readableDate }}</span>{% endif %}
+      <span>執筆：{{ site.representative.jobTitle }} {{ site.representative.name }}（{{ site.name }}）</span>
     </div>
   </div>
 </div>
@@ -69,9 +69,26 @@ ogType: article
     </div>
     {% endif %}
 
+    {% set related = collections.articles | relatedArticles(page) %}
+    {% if related.length %}
+    <h2 class="article-h2">関連記事</h2>
+    <div class="articles-grid" style="margin-top:16px;margin-bottom:32px;">
+      {% for article in related %}
+      <a href="{{ root }}{{ article.url | noLeadSlash }}" class="article-card">
+        {% if article.data.image %}<img src="{{ root }}{{ article.data.image | noLeadSlash }}" alt="{{ article.data.imageAlt or article.data.title }}" style="width:100%;height:140px;object-fit:cover;display:block;" loading="lazy">{% endif %}
+        <div class="article-body">
+          <span class="article-cat">{{ article.data.category }}</span>
+          <div class="article-title">{{ article.data.title }}</div>
+          <div class="article-date">{{ article.data.datePublished | cardDate }}</div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
     <div class="article-disclaimer">
       本記事は{{ datePublished | readableDate }}時点の情報に基づいています。{% if sourceUrl %}最新情報は<a href="{{ sourceUrl }}" target="_blank" rel="noopener" style="color:var(--blue);text-decoration:underline;">{{ sourceName }}</a>をご確認ください。{% else %}最新の運用状況は、関係省庁の公表情報をご確認ください。{% endif %}
-      <div class="article-author">{{ site.name }}</div>
+      <div class="article-author">執筆：{{ site.representative.jobTitle }} {{ site.representative.name }}（{{ site.name }}）</div>
     </div>
 
   </div>

@@ -7,10 +7,10 @@
 <meta name="description" content="{{ description }}">
 <link rel="canonical" href="{{ site.url }}{{ page.url | url }}">
 {% if altUrls %}
-<link rel="alternate" hreflang="en" href="{{ site.url }}{{ altUrls.en | url }}">
-<link rel="alternate" hreflang="es" href="{{ site.url }}{{ altUrls.es | url }}">
-<link rel="alternate" hreflang="ja" href="{{ site.url }}{{ altUrls.ja | url }}">
-<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ altUrls.en | url }}">
+{% if altUrls.en %}<link rel="alternate" hreflang="en" href="{{ site.url }}{{ altUrls.en | url }}">{% endif %}
+{% if altUrls.es %}<link rel="alternate" hreflang="es" href="{{ site.url }}{{ altUrls.es | url }}">{% endif %}
+{% if altUrls.ja %}<link rel="alternate" hreflang="ja" href="{{ site.url }}{{ altUrls.ja | url }}">{% endif %}
+{% if altUrls.en and (altUrls.es or altUrls.ja) %}<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ altUrls.en | url }}">{% endif %}
 {% endif %}
 <meta property="og:type" content="{% if isGuide %}article{% else %}website{% endif %}">
 <meta property="og:title" content="{{ title }}">
@@ -30,11 +30,12 @@
   "@type": "LegalService",
   "name": "{{ site.brandName }}",
   "alternateName": "{{ site.brandNameJa }}",
-  "url": "{{ site.url }}/",
-  "description": "{{ description }}",
+  "url": "{{ site.url }}{{ '/' | url }}",
+  "description": {{ description | dump | safe }},
   "areaServed": "JP",
   "priceRange": "¥¥",
-  "address": { "@type": "PostalAddress", "addressLocality": "{{ site.author.location }}", "addressCountry": "JP" }
+  "address": { "@type": "PostalAddress", "streetAddress": "神田錦町3-6-4", "addressLocality": "千代田区", "addressRegion": "東京都", "postalCode": "101-0054", "addressCountry": "JP" },
+  "founder": { "@type": "Person", "name": "Haruka Kishi", "alternateName": "岸 はるか", "jobTitle": "Gyoseishoshi Lawyer (行政書士)", "sameAs": ["https://www.linkedin.com/in/haruka-kishi"] }
 }
 </script>
 {% block head %}{% endblock %}
@@ -74,9 +75,9 @@
 </nav>
 <div class="hdr-right">
 <div class="lang-switch">
-<a href="{{ (altUrls.en if altUrls else '/') | url }}" class="{% if lang == 'en' %}active{% endif %}">EN</a>
-<a href="{{ (altUrls.es if altUrls else '/es/') | url }}" class="{% if lang == 'es' %}active{% endif %}">ES</a>
-<a href="{{ (altUrls.ja if altUrls else '/ja/') | url }}" class="{% if lang == 'ja' %}active{% endif %}">JP</a>
+<a href="{{ ((altUrls.en if (altUrls and altUrls.en) else '/')) | url }}" class="{% if lang == 'en' %}active{% endif %}">EN</a>
+<a href="{{ ((altUrls.es if (altUrls and altUrls.es) else '/es/')) | url }}" class="{% if lang == 'es' %}active{% endif %}">ES</a>
+<a href="{{ ((altUrls.ja if (altUrls and altUrls.ja) else '/ja/')) | url }}" class="{% if lang == 'ja' %}active{% endif %}">JP</a>
 </div>
 <button aria-label="Menu" class="hamburger" onclick="openMobileNav()"><span></span><span></span><span></span></button>
 </div>
@@ -105,9 +106,9 @@
   <a href="{{ '/ja/#info' | url }}" onclick="closeMobileNav()">事務所案内</a>
 {% endif %}
 <div class="mobile-nav-langs">
-<a href="{{ (altUrls.en if altUrls else '/') | url }}" class="{% if lang == 'en' %}active{% endif %}">EN</a>
-<a href="{{ (altUrls.es if altUrls else '/es/') | url }}" class="{% if lang == 'es' %}active{% endif %}">ES</a>
-<a href="{{ (altUrls.ja if altUrls else '/ja/') | url }}" class="{% if lang == 'ja' %}active{% endif %}">JP</a>
+<a href="{{ ((altUrls.en if (altUrls and altUrls.en) else '/')) | url }}" class="{% if lang == 'en' %}active{% endif %}">EN</a>
+<a href="{{ ((altUrls.es if (altUrls and altUrls.es) else '/es/')) | url }}" class="{% if lang == 'es' %}active{% endif %}">ES</a>
+<a href="{{ ((altUrls.ja if (altUrls and altUrls.ja) else '/ja/')) | url }}" class="{% if lang == 'ja' %}active{% endif %}">JP</a>
 </div>
 </div>
 

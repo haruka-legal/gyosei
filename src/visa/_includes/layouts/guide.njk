@@ -11,9 +11,9 @@ isGuide: true
   "description": "{{ description }}",
   "datePublished": "{{ date | dateISO }}",
   "dateModified": "{{ (updated or date) | dateISO }}",
-  "author": { "@type": "Organization", "name": "{{ site.brandName }}" },
-  "publisher": { "@type": "Organization", "name": "{{ site.brandName }}", "logo": { "@type": "ImageObject", "url": "{{ site.url }}{{ site.logo }}" } },
-  "mainEntityOfPage": "{{ site.url }}{{ page.url }}"
+  "author": { "@type": "Person", "name": "Haruka Kishi", "alternateName": "岸 はるか", "jobTitle": "Gyoseishoshi Lawyer (行政書士)", "worksFor": { "@type": "LegalService", "name": "{{ site.brandName }}" }, "sameAs": ["https://www.linkedin.com/in/haruka-kishi"] },
+  "publisher": { "@type": "Organization", "name": "{{ site.brandName }}", "logo": { "@type": "ImageObject", "url": "{{ site.url }}{{ site.logo | url }}" } },
+  "mainEntityOfPage": "{{ site.url }}{{ page.url | url }}"
 }
 </script>
 {% if faq %}

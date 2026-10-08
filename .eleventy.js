@@ -69,6 +69,13 @@ eleventyConfig.addPassthroughCopy("src/images");
     });
     return cats;
   });
+  // 関連記事：同じカテゴリの記事を優先し、足りなければ新しい順で補う（自分自身は除く）
+  eleventyConfig.addFilter("relatedArticles", (articles, current, limit = 3) => {
+    const others = (articles || []).filter((a) => a.url !== current.url);
+    const same = others.filter((a) => current.data && a.data.category && a.data.category === current.data.category);
+    const rest = others.filter((a) => !same.includes(a));
+    return same.concat(rest).slice(0, limit);
+  });
 eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
   return {
     dir: {

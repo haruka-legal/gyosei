@@ -11,6 +11,7 @@ pagination:
   data: collections.guidesEs
   size: 20
   alias: guides
+  generatePageOnEmptyData: true
 ---
 <section class="guides-list">
   <div class="wrap">
@@ -18,7 +19,7 @@ pagination:
     <h1 class="sec-title">Guías prácticas para vivir en Japón</h1>
     <div class="guide-cards">
       {% for g in guides %}
-      <a class="guide-card" href="{{ g.url }}">
+      <a class="guide-card" href="{{ g.url | url }}">
         <span class="guide-card-date">{{ g.data.date | dateEs }}</span>
         <h2>{{ g.data.title }}</h2>
         <p>{{ g.data.description }}</p>

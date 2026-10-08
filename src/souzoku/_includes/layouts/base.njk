@@ -4,7 +4,7 @@
 {% set root = page.url | relRoot %}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ title }}{% if title != site.name %} | {{ site.name }}{% endif %}</title>
+<title>{{ title }}{% if site.name not in title %} | {{ site.name }}{% endif %}</title>
 
 <meta name="description" content="{{ description }}">
 {% if keywords %}<meta name="keywords" content="{{ keywords }}">{% endif %}
@@ -37,13 +37,55 @@
   "dateModified": "{{ (dateModified or datePublished) | isoDate }}",
   "inLanguage": "ja",
   "url": "{{ site.url }}{{ page.url }}",
-  "author": { "@type": "Organization", "name": "{{ site.name }}", "url": "{{ site.url }}/" },
+  "author": { "@type": "Person", "name": "{{ site.representative.name }}", "jobTitle": "{{ site.representative.jobTitle }}", "url": "{{ site.url }}/#profile", "worksFor": { "@type": "LegalService", "name": "{{ site.name }}" } },
   "publisher": {
     "@type": "LegalService",
     "name": "{{ site.name }}",
     "logo": { "@type": "ImageObject", "url": "{{ site.url }}{{ site.logo }}" }
   },
   "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ site.url }}{{ page.url }}" }
+}
+</script>
+{% endif %}
+
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "@id": "{{ site.url }}/#office",
+  "name": "{{ site.name }}",
+  "alternateName": "{{ site.nameEn }}",
+  "url": "{{ site.url }}/",
+  "logo": "{{ site.url }}{{ site.logo }}",
+  "image": "{{ site.url }}{{ site.logo }}",
+  "description": {{ description | dump | safe }},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ site.addressStreet }}",
+    "addressLocality": "千代田区",
+    "addressRegion": "東京都",
+    "postalCode": "{{ site.postalCode }}",
+    "addressCountry": "JP"
+  },
+  "areaServed": [{ "@type": "City", "name": "千代田区" }, { "@type": "AdministrativeArea", "name": "東京都" }, { "@type": "Country", "name": "日本" }],
+  "knowsAbout": {{ site.knowsAbout | dump | safe }},
+  "contactPoint": { "@type": "ContactPoint", "contactType": "customer service", "url": "{{ site.lineUrl }}", "availableLanguage": ["ja"] },
+  "founder": { "@id": "{{ site.url }}/#representative" },
+  "employee": { "@id": "{{ site.url }}/#representative" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ site.url }}/#representative",
+  "name": "{{ site.representative.name }}",
+  "jobTitle": "{{ site.representative.jobTitle }}",
+  "worksFor": { "@id": "{{ site.url }}/#office" },
+  "image": "{{ site.url }}/images/profile_main.jpg",
+  "url": "{{ site.url }}/#profile"{% if site.representative.sameAs %},
+  "sameAs": {{ site.representative.sameAs | dump | safe }}{% endif %}
 }
 </script>
 {% endif %}

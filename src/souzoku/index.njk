@@ -1,9 +1,20 @@
 ---
 layout: layouts/base.njk
-title: "遥か行政書士事務所 | 千代田区・神保町｜相続手続き・遺言書作成サポート"
+title: "千代田区の相続手続き・遺言書作成｜遥か行政書士事務所"
 description: "相続人調査・戸籍収集、遺産分割協議書の作成、預貯金や自動車の名義変更、遺言書作成まで、相続の手続きを丁寧にサポートします。東京都千代田区の行政書士事務所です。"
 permalink: /
 navActive: top
+faq:
+  - q: "相談受付は無料ですか？"
+    a: "お問い合わせ・内容確認は無料です。その後、必要な手続きや書類を整理してご回答する「調査・回答プラン」は5,000円〜（税込）となります。LINEにて24時間365日受け付けており、24時間以内にご返信いたします。"
+  - q: "不動産の名義変更（相続登記）や相続税の申告もお願いできますか？"
+    a: "相続登記は司法書士、相続税の申告は税理士の業務のため、当事務所では行えません。必要な場合はその旨をお伝えし、専門家へご相談いただけるようご案内します。戸籍の収集や遺産分割協議書など、その前段階の準備は当事務所でお手伝いできます。"
+  - q: "相続人どうしで意見が分かれています。相談できますか？"
+    a: "相続人の間で争いがある場合の交渉や調停は弁護士の業務となるため、行政書士は対応できません。話し合いがまとまっている場合の書類作成や手続きであれば、当事務所でサポートいたします。"
+  - q: "相続人が海外に住んでいても手続きできますか？"
+    a: "はい、可能です。海外在住の方は印鑑証明書の代わりに、現地の日本大使館・領事館でサイン証明（署名証明）を取得していただくなどの準備が必要になります。必要書類や進め方をご案内しますので、お気軽にご相談ください。"
+  - q: "千代田区以外でも対応してもらえますか？"
+    a: "はい、オンライン相談にも対応しておりますので、全国どこからでもご相談いただけます。戸籍は郵送で全国から取り寄せることができます。"
 ---
 {% set root = page.url | relRoot %}
 
@@ -11,11 +22,10 @@ navActive: top
 <section class="hero">
   <div class="hero-content">
     <h1 class="hero-title serif">
-      大切な人から<br>受け継ぐものを、<br><em>迷わず、次へ。</em>
+      千代田区の<br>相続手続き・<wbr>遺言書作成
     </h1>
     <p class="hero-desc">
-      東京都千代田区の行政書士事務所です。<br>
-      戸籍の収集から遺産分割協議書の作成、銀行や自動車の名義変更、遺言書の作成まで、相続の手続きを一つずつ整理してサポートします。
+      戸籍の収集から銀行の手続きまで、まとめてお任せください。
     </p>
     <p style="text-align:left;max-width:460px;margin:0 auto 36px;">
       <a href="{{ site.internationalUrl }}" class="hero-foreign-link">ビザ・外国人雇用のご相談はこちら →</a>
@@ -395,51 +405,17 @@ navActive: top
       <p class="section-desc">お問い合わせ前にご確認ください。</p>
     </div>
     <div class="faq-list reveal reveal-delay-1">
+      {% for item in faq %}
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-          <span>相談受付は無料ですか？</span>
+          <span>{{ item.q }}</span>
           <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="faq-a">
-          <p>お問い合わせ・内容確認は無料です。その後、必要な手続きや書類を整理してご回答する「調査・回答プラン」は5,000円〜（税込）となります。LINEにて24時間365日受け付けており、24時間以内にご返信いたします。</p>
+          <p>{{ item.a }}</p>
         </div>
       </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-          <span>不動産の名義変更（相続登記）や相続税の申告もお願いできますか？</span>
-          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
-        </button>
-        <div class="faq-a">
-          <p>相続登記は司法書士、相続税の申告は税理士の業務のため、当事務所では行えません。必要な場合はその旨をお伝えし、専門家へご相談いただけるようご案内します。戸籍の収集や遺産分割協議書など、その前段階の準備は当事務所でお手伝いできます。</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-          <span>相続人どうしで意見が分かれています。相談できますか？</span>
-          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
-        </button>
-        <div class="faq-a">
-          <p>相続人の間で争いがある場合の交渉や調停は弁護士の業務となるため、行政書士は対応できません。話し合いがまとまっている場合の書類作成や手続きであれば、当事務所でサポートいたします。</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-          <span>相続人が海外に住んでいても手続きできますか？</span>
-          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
-        </button>
-        <div class="faq-a">
-          <p>はい、可能です。海外在住の方は印鑑証明書の代わりに、現地の日本大使館・領事館でサイン証明（署名証明）を取得していただくなどの準備が必要になります。必要書類や進め方をご案内しますので、お気軽にご相談ください。</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-          <span>千代田区以外でも対応してもらえますか？</span>
-          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
-        </button>
-        <div class="faq-a">
-          <p>はい、オンライン相談にも対応しておりますので、全国どこからでもご相談いただけます。戸籍は郵送で全国から取り寄せることができます。</p>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </div>

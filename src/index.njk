@@ -4,6 +4,19 @@ title: "遥か行政書士事務所 | 千代田区・神保町｜ビザ・在留
 description: "外国人雇用サポートを軸に、ビザ・在留資格・帰化・国際結婚まで、国際業務を幅広くサポートします。東京都千代田区の行政書士事務所です。"
 permalink: /
 navActive: top
+faq:
+  - q: "相談受付は無料ですか？"
+    a: "お問い合わせ・内容確認は無料です。その後、制度や必要書類を調査してご回答する「調査・回答プラン」は5,000円〜（税込）となります。LINEにて24時間365日受け付けており、24時間以内にご返信いたします。"
+  - q: "日本語が不安でも相談できますか？"
+    a: "日本語でのご相談が難しい場合もお気軽にご連絡ください。できる限り対応いたします。"
+  - q: "ビザ申請の費用はいくらですか？"
+    a: "就労ビザ（技人国）は66,000円〜、配偶者ビザは66,000円〜、永住許可申請は165,000円〜、帰化申請は209,000円〜（いずれも税込）です。内容によって変動しますので、まずはお気軽にご連絡ください。"
+  - q: "着手金はいつ支払いますか？"
+    a: "ご依頼確定後、着手金として報酬額の50%をお支払いいただきます。残金は許可が下りた時点でお支払いください。"
+  - q: "不許可になった場合はどうなりますか？"
+    a: "当事務所が申請した案件で不許可となった場合は、理由を確認のうえ、不許可から6か月以内に1回無料で再申請を行います。最終的に許可が得られなかった場合、残金はいただきません。ただし、事実と異なる申告・税金等の未納・申請後の事情の変化（転職・離婚等）・お客様のご都合による取り下げなど、お客様側の事情による場合は対象外となります。"
+  - q: "千代田区以外でも対応してもらえますか？"
+    a: "はい、オンライン相談にも対応しておりますので、全国どこからでもご相談いただけます。お気軽にLINEまたはお問い合わせフォームよりご連絡ください。"
 ---
 {% set root = page.url | relRoot %}
 
@@ -530,60 +543,17 @@ navActive: top
       <p class="section-desc">お問い合わせ前にご確認ください。</p>
     </div>
     <div class="faq-list reveal reveal-delay-1">
+      {% for item in faq %}
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-          <span>相談受付は無料ですか？</span>
+          <span>{{ item.q }}</span>
           <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="faq-a">
-          <p>お問い合わせ・内容確認は無料です。その後、制度や必要書類を調査してご回答する「調査・回答プラン」は5,000円〜（税込）となります。LINEにて24時間365日受け付けており、24時間以内にご返信いたします。</p>
+          <p>{{ item.a }}</p>
         </div>
       </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-          <span>日本語が不安でも相談できますか？</span>
-          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
-        </button>
-        <div class="faq-a">
-          <p>日本語でのご相談が難しい場合もお気軽にご連絡ください。できる限り対応いたします。</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-          <span>ビザ申請の費用はいくらですか？</span>
-          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
-        </button>
-        <div class="faq-a">
-         <p>就労ビザ（技人国）は66,000円〜、配偶者ビザは66,000円〜、永住許可申請は165,000円〜、帰化申請は209,000円〜（いずれも税込）です。内容によって変動しますので、まずはお気軽にご連絡ください。</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-          <span>着手金はいつ支払いますか？</span>
-          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
-        </button>
-        <div class="faq-a">
-          <p>ご依頼確定後、着手金として報酬額の50%をお支払いいただきます。残金は許可が下りた時点でお支払いください。</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-          <span>不許可になった場合はどうなりますか？</span>
-          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
-        </button>
-        <div class="faq-a">
-          <p>当事務所が申請した案件で不許可となった場合は、理由を確認のうえ、不許可から6か月以内に1回無料で再申請を行います。最終的に許可が得られなかった場合、残金はいただきません。ただし、事実と異なる申告・税金等の未納・申請後の事情の変化（転職・離婚等）・お客様のご都合による取り下げなど、お客様側の事情による場合は対象外となります。</p>
-        </div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
-          <span>千代田区以外でも対応してもらえますか？</span>
-          <svg class="faq-icon" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
-        </button>
-        <div class="faq-a">
-          <p>はい、オンライン相談にも対応しておりますので、全国どこからでもご相談いただけます。お気軽にLINEまたはお問い合わせフォームよりご連絡ください。</p>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </div>
