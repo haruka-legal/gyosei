@@ -970,12 +970,6 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   box-shadow: 0 6px 20px rgba(6,199,85,.4);
 }
 
-  font-size: 12px;
-  color: rgba(255,255,255,.2);
-  padding-top: 4px;
-  font-style: italic;
-}
-
 /* =====================
    Space Business
    ===================== */
@@ -1930,6 +1924,8 @@ footer p {
       url('bg_image_2.jpg') center top / cover no-repeat !important;
   }
   */
+} /* end of Responsive – Mobile (≤680px) */
+
 /* =====================
    Responsive – Small (≤380px)
    ===================== */
