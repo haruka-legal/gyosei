@@ -2224,3 +2224,18 @@ footer p { color: var(--text-light); }
 .breadcrumb a:hover { color: var(--blue); }
 .article-hero-title { color: var(--navy); }
 .article-hero-meta { color: var(--text-light); }
+
+/* 代表挨拶：写真を左、文章を右に（スマホでは縦に並べる） */
+.profile-split {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 36px;
+  align-items: start;
+  margin: 28px 0 32px;
+}
+.profile-split .profile-img-wrap { margin: 0; }
+.profile-split .profile-desc { margin: 0; }
+@media (max-width: 680px) {
+  .profile-split { grid-template-columns: 1fr; gap: 20px; }
+  .profile-split .profile-img-wrap.single { max-width: 180px; }
+}
