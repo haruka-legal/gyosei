@@ -496,45 +496,28 @@ navActive: top
 </section>
 
 <!-- ===================== ACCESS ===================== -->
-<div class="access-section" id="access">
+<div class="access-section" id="access" style="padding-top:56px;padding-bottom:56px;">
   <div class="container">
     <div class="reveal">
       <p class="label-eyebrow">Access</p>
-      <h2 class="section-title">事務所案内・アクセス</h2>
-      <p class="section-desc">東京都千代田区神田錦町3−6−4</p>
+      <h2 class="section-title">事務所案内</h2>
     </div>
-    <div class="access-grid">
-      <div class="reveal reveal-delay-1">
-        <p class="access-label">最寄り駅</p>
-        <ul class="station-list">
-          <li><span class="station-badge">東京メトロ丸ノ内線</span>淡路町駅　徒歩4分</li>
-          <li><span class="station-badge">都営新宿線</span>小川町駅　徒歩4分</li>
-          <li><span class="station-badge">東京メトロ千代田線</span>新御茶ノ水駅　徒歩4分</li>
-          <li><span class="station-badge">都営三田線・半蔵門線</span>神保町駅　徒歩5分</li>
-          <li><span class="station-badge">東京メトロ東西線</span>竹橋駅　徒歩6分</li>
-        </ul>
-        <p class="access-label">営業時間・連絡先</p>
-        <p class="access-hours">
-          LINE：24時間365日受付<br>
-          <span style="font-size:12px;color:var(--text-light)">（24時間以内に返信いたします）</span>
-        </p>
-        <a href="https://lin.ee/Sgysu6a" class="btn-navy" target="_blank" rel="noopener" style="display:inline-flex;margin-top:8px">
-          無料でお問い合わせ
-          <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-        </a>
-      </div>
-      <div class="map-wrap reveal reveal-delay-2">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.3242788744565!2d139.7623664!3d35.69363690000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d7e4e4c5311%3A0x999aaae76f3a4f5f!2z44CQOOaciOOBlOOCjemWi-alreS6iOWumuOAkemBpeOBi-ihjOaUv-abuOWjq-S6i-WLmeaJgCAvIEhBUlVLQSBMRUdBTCBTVVBQT1JU44CQT3BlbmluZyBpbiBBdWd1c3TjgJE!5e0!3m2!1sja!2sjp!4v1780048808308!5m2!1sja!2sjp"
-          width="100%"
-          height="400"
-          style="border:0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          title="遥か行政書士事務所 地図">
-        </iframe>
-      </div>
+    <div class="reveal reveal-delay-1" style="max-width:640px;">
+      <p class="access-label">所在地</p>
+      <p class="access-hours">{{ site.address }}</p>
+      <p class="access-label">営業時間・連絡先</p>
+      <p class="access-hours">
+        LINE：24時間365日受付<br>
+        <span style="font-size:12px;color:var(--text-light)">（24時間以内に返信いたします）</span>
+      </p>
+      <p style="font-size:13px;line-height:1.9;color:var(--text-light);margin-top:4px;">
+        ※ 対面でのご相談は、永田町駅近くの事務所にて承ります（事前予約制）。<br>
+        東京メトロ南北線「永田町」駅 徒歩3分／有楽町線「麹町」駅 徒歩6分／半蔵門線「半蔵門」駅 徒歩7分
+      </p>
+      <a href="{{ site.lineUrl }}" class="btn-navy" target="_blank" rel="noopener" style="display:inline-flex;margin-top:16px">
+        無料でお問い合わせ
+        <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+      </a>
     </div>
   </div>
 </div>
