@@ -31,7 +31,7 @@ html {
   width: 100%;
 }
 body {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic', 'Meiryo', sans-serif;
   color: var(--text-dark);
   background: var(--white);
   overflow-x: clip;
@@ -2208,3 +2208,5 @@ footer p {
   box-shadow: 0 4px 16px rgba(6,199,85,.3);
 }
 .article-contact-or { font-size: 13.5px; color: var(--text-mid); margin: 28px 0 12px; }
+.article-contact-note { display: inline-block; margin-top: 6px; font-size: 12.5px; line-height: 1.8; color: var(--text-light); }
+.article-inner > p a, .article-inner > ul a, .article-inner > ol a, .article-inner > table a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
