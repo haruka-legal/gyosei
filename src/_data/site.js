@@ -12,6 +12,7 @@ module.exports = {
   },
   knowsAbout: ["外国人雇用","在留資格","就労ビザ","技術・人文知識・国際業務","特定技能","育成就労","配偶者ビザ","永住許可申請","帰化許可申請","国際結婚"],
   lineUrl: "https://lin.ee/Sgysu6a",
+  formUrl: "https://docs.google.com/forms/d/e/1FAIpQLScSlVq7Fiao-6JQXSTVyVt4e4Q6z7YZc7XxGRsk_4u2O7o0zg/viewform?embedded=true",
   logo: "/images/logo.jpg",
   navLinks: [
     { href: "", label: "トップ", key: "top" },

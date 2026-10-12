@@ -2272,3 +2272,49 @@ footer p { color: var(--text-light); }
 .article-toc a { color: var(--blue); text-decoration: none; }
 .article-toc a:hover { text-decoration: underline; }
 .article-inner h2[id] { scroll-margin-top: 96px; }
+
+/* 記事本文の読みやすさ（段落・箇条書き・表・小見出しの余白） */
+.article-inner > p { line-height: 1.95; margin: 0 0 18px; }
+.article-inner > ul:not(.check-list),
+.article-inner > ol { padding-left: 1.5em; margin: 0 0 20px; }
+.article-inner > ul:not(.check-list) li,
+.article-inner > ol li { line-height: 1.85; margin-bottom: 6px; }
+.article-inner > h3 { font-size: 17px; font-weight: 700; color: var(--navy); margin: 32px 0 12px; }
+.article-inner > blockquote {
+  border-left: 3px solid var(--gold);
+  background: var(--off-white);
+  padding: 14px 18px;
+  margin: 0 0 20px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.article-inner > blockquote p { margin: 0; }
+.article-inner > table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0 0 24px;
+}
+.article-inner > table th,
+.article-inner > table td {
+  border: 1px solid rgba(26,106,181,.15);
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+  min-width: 7em;
+}
+.article-inner > table th { background: var(--off-white); color: var(--navy); font-weight: 700; }
+
+/* 記事の下の問い合わせ（LINE＋フォーム） */
+.article-contact { margin: 48px 0 8px; }
+.article-contact-lead { line-height: 1.9; margin: 0 0 18px; }
+.article-contact-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #06c755, #00a040);
+  box-shadow: 0 4px 16px rgba(6,199,85,.3);
+}
+.article-contact-or { font-size: 13.5px; color: var(--text-mid); margin: 28px 0 12px; }

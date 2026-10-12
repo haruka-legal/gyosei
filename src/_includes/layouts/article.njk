@@ -46,13 +46,6 @@ ogType: article
     </ul>
     {% endif %}
 
-    <div class="mid-cta reveal">
-      <p>{{ ctaMessage or "自社の状況について相談したい、という場合はお気軽にご相談ください。" }}</p>
-      <a href="{{ site.lineUrl }}" class="btn-navy" target="_blank" rel="noopener" style="display:inline-flex">
-        LINEで無料相談
-        <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-      </a>
-    </div>
 
     {% if faq %}
     <h2 class="article-h2">よくある質問</h2>
@@ -68,6 +61,8 @@ ogType: article
       {% endfor %}
     </div>
     {% endif %}
+
+    {% include "partials/article-contact.njk" %}
 
     {% set related = collections.articles | relatedArticles(page) %}
     {% if related.length %}

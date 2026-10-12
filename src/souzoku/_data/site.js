@@ -15,6 +15,7 @@ module.exports = {
   },
   knowsAbout: ["相続手続き","相続人調査","戸籍収集","法定相続情報一覧図","遺産分割協議書","財産目録","預貯金の相続手続き","遺言書作成","公正証書遺言","自筆証書遺言"],
   lineUrl: "https://lin.ee/Sgysu6a",
+  formUrl: "https://docs.google.com/forms/d/e/1FAIpQLScSlVq7Fiao-6JQXSTVyVt4e4Q6z7YZc7XxGRsk_4u2O7o0zg/viewform?embedded=true",
   logo: "/images/logo.jpg",
   internationalUrl: "https://haruka-legal.com/gyosei/",
   navLinks: [

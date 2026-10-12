@@ -43,6 +43,7 @@ const ALLOWED_HOSTS = [
   "elaws.e-gov.go.jp",
   "www.courts.go.jp",
   "www.nta.go.jp",
+  "www.mofa.go.jp", // 外務省（ビザ・査証の案内）
   "houmukyoku.moj.go.jp",
   "www.gyosei.or.jp",
   "www.tokyo-gyosei.or.jp",
