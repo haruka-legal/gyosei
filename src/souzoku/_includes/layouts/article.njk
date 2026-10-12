@@ -35,7 +35,7 @@ ogType: article
     </div>
     {% endif %}
 
-    {{ content | safe }}
+    {{ content | withToc | safe }}
 
     {% if checklist %}
     <h2 class="article-h2">{{ checklistTitle or "確認しておきたいこと" }}</h2>

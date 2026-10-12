@@ -2252,3 +2252,23 @@ footer p { color: var(--text-light); }
 @media (min-width: 420px) { .hero .hero-desc .hero-line { white-space: nowrap; } }
 .hero-foreign-link { display: inline-block; }
 .hero-content > p[style] { text-align: center !important; }
+
+/* 目次（記事の結論・導入文のあと、最初の見出しの前に自動で入る） */
+.article-toc {
+  background: var(--off-white);
+  border: 1px solid rgba(26,106,181,.12);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin: 28px 0 8px;
+}
+.article-toc-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 10px;
+}
+.article-toc ol { margin: 0; padding-left: 1.4em; }
+.article-toc li { font-size: 14px; line-height: 1.8; margin-bottom: 4px; }
+.article-toc a { color: var(--blue); text-decoration: none; }
+.article-toc a:hover { text-decoration: underline; }
+.article-inner h2[id] { scroll-margin-top: 96px; }
