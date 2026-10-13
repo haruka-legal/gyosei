@@ -93,7 +93,7 @@ eleventyConfig.addPassthroughCopy("src/images");
     });
     if (items.length < 3) return out;
     const nav =
-      '<div class="article-toc" role="navigation" aria-label="目次"><p class="article-toc-title">この記事の内容</p><ol>' +
+      '<div class="article-toc" role="navigation" aria-label="目次"><p class="article-toc-title">目次</p><ol>' +
       items.map((it) => `<li><a href="#${it.id}">${it.text}</a></li>`).join("") +
       "</ol></div>";
     return out.replace(/<h2[\s>]/, (m) => nav + m);
