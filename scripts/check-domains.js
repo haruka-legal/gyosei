@@ -36,6 +36,8 @@ const ALLOWED_HOSTS = [
   "www.sitemaps.org",
   // 記事で一次情報として引用する公的機関
   "www.moj.go.jp",
+  "www.shugiin.go.jp", // 衆議院（法律の原文）
+  "www.city.kasama.lg.jp", // 笠間市
   "tir-navicenter.metro.tokyo.lg.jp", // 東京外国人材採用ナビセンター（東京都）
   "www.isa.go.jp",
   "www.mhlw.go.jp",
