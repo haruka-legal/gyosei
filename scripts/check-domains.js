@@ -36,6 +36,7 @@ const ALLOWED_HOSTS = [
   "www.sitemaps.org",
   // 記事で一次情報として引用する公的機関
   "www.moj.go.jp",
+  "tir-navicenter.metro.tokyo.lg.jp", // 東京外国人材採用ナビセンター（東京都）
   "www.isa.go.jp",
   "www.mhlw.go.jp",
   "www.e-gov.go.jp",
@@ -43,6 +44,7 @@ const ALLOWED_HOSTS = [
   "elaws.e-gov.go.jp",
   "www.courts.go.jp",
   "www.nta.go.jp",
+  "www.mofa.go.jp", // 外務省（ビザ・査証の案内）
   "houmukyoku.moj.go.jp",
   "www.gyosei.or.jp",
   "www.tokyo-gyosei.or.jp",

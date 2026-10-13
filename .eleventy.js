@@ -76,6 +76,28 @@ eleventyConfig.addPassthroughCopy("src/images");
     const rest = others.filter((a) => !same.includes(a));
     return same.concat(rest).slice(0, limit);
   });
+  // 目次：本文のh2に番号付きのidを振り、最初のh2の直前（結論・導入文のあと）に目次を差し込む。h2が3つ未満なら目次は出さない
+  eleventyConfig.addFilter("withToc", (html) => {
+    if (!html) return html;
+    const items = [];
+    let n = 0;
+    const out = html.replace(/<h2(\s[^>]*)?>([\s\S]*?)<\/h2>/g, (m, attrs, inner) => {
+      n += 1;
+      let a = attrs || "";
+      const idMatch = a.match(/\sid="([^"]+)"/);
+      const id = idMatch ? idMatch[1] : `sec-${n}`;
+      if (!idMatch) a += ` id="${id}"`;
+      if (!/\sclass="/.test(a)) a += ' class="article-h2"';
+      items.push({ id, text: inner.replace(/<[^>]+>/g, "").trim() });
+      return `<h2${a}>${inner}</h2>`;
+    });
+    if (items.length < 3) return out;
+    const nav =
+      '<div class="article-toc" role="navigation" aria-label="目次"><p class="article-toc-title">この記事の内容</p><ol>' +
+      items.map((it) => `<li><a href="#${it.id}">${it.text}</a></li>`).join("") +
+      "</ol></div>";
+    return out.replace(/<h2[\s>]/, (m) => nav + m);
+  });
 eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
   return {
     dir: {

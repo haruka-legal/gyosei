@@ -14,7 +14,7 @@ ogType: article
     <h1 class="article-hero-title">{{ title }}</h1>
     <div class="article-hero-meta">
       <span>公開日：{{ datePublished | readableDate }}</span>{% if dateModified %}<span>更新日：{{ dateModified | readableDate }}</span>{% endif %}
-      <span>執筆：{{ site.representative.jobTitle }} {{ site.representative.name }}（{{ site.name }}）</span>
+      <span>執筆：<a href="{{ root }}#profile" class="byline-link">{{ site.representative.jobTitle }} {{ site.representative.name }}</a>（{{ site.name }}）</span>
     </div>
   </div>
 </div>
@@ -35,7 +35,7 @@ ogType: article
     </div>
     {% endif %}
 
-    {{ content | safe }}
+    {{ content | withToc | safe }}
 
     {% if checklist %}
     <h2 class="article-h2">{{ checklistTitle or "確認しておきたいこと" }}</h2>
@@ -46,13 +46,6 @@ ogType: article
     </ul>
     {% endif %}
 
-    <div class="mid-cta reveal">
-      <p>{{ ctaMessage or "ご家族の状況について相談したい、という場合はお気軽にご相談ください。" }}</p>
-      <a href="{{ site.lineUrl }}" class="btn-navy" target="_blank" rel="noopener" style="display:inline-flex">
-        LINEで無料相談
-        <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-      </a>
-    </div>
 
     {% if faq %}
     <h2 class="article-h2">よくある質問</h2>
@@ -68,6 +61,8 @@ ogType: article
       {% endfor %}
     </div>
     {% endif %}
+
+    {% include "partials/article-contact.njk" %}
 
     {% set related = collections.articles | relatedArticles(page) %}
     {% if related.length %}
@@ -88,7 +83,7 @@ ogType: article
 
     <div class="article-disclaimer">
       本記事は{{ datePublished | readableDate }}時点の情報に基づいています。{% if sourceUrl %}最新情報は<a href="{{ sourceUrl }}" target="_blank" rel="noopener" style="color:var(--blue);text-decoration:underline;">{{ sourceName }}</a>をご確認ください。{% else %}最新の運用状況は、関係省庁の公表情報をご確認ください。{% endif %}
-      <div class="article-author">執筆：{{ site.representative.jobTitle }} {{ site.representative.name }}（{{ site.name }}）</div>
+      <div class="article-author">執筆：<a href="{{ root }}#profile" class="byline-link">{{ site.representative.jobTitle }} {{ site.representative.name }}</a>（{{ site.name }}）</div>
     </div>
 
   </div>
