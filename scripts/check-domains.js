@@ -53,6 +53,8 @@ const ALLOWED_HOSTS = [
   "houmukyoku.moj.go.jp",
   "www.gyosei.or.jp",
   "www.tokyo-gyosei.or.jp",
+  "www.nenkin.go.jp", // 日本年金機構
+  "www.city.shinjuku.lg.jp", // 新宿区（戸籍の届出の案内）
 ];
 
 const TEXT_EXT = new Set([".html", ".xml", ".txt", ".css", ".js", ".json", ".webmanifest"]);
