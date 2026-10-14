@@ -10,7 +10,7 @@ ogType: article
     <div class="breadcrumb">
       {% for crumb in breadcrumbs %}<a href="{{ root }}{{ crumb.url | noLeadSlash }}">{{ crumb.name }}</a>{% if not loop.last %} ／ {% endif %}{% endfor %}
     </div>
-    <p class="label-eyebrow" style="color:rgba(196,161,94,.8)">{{ category }}</p>
+    <p class="label-eyebrow" style="color:var(--blue)">{{ category }}</p>
     <h1 class="article-hero-title">{{ title }}</h1>
     <div class="article-hero-meta">
       <span>公開日：{{ datePublished | readableDate }}</span>{% if dateModified %}<span>更新日：{{ dateModified | readableDate }}</span>{% endif %}
