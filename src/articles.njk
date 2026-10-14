@@ -21,9 +21,16 @@ navActive: articles
 
 <div class="services-section" id="articles">
   <div class="container">
-    <ul class="post-list post-list--full">
+    {% set cats = collections.articles | categoryCounts %}
+    {% if cats.length > 1 %}
+    <div class="post-filter" role="group" aria-label="カテゴリで絞り込む">
+      <button type="button" class="post-filter-btn" data-cat="all" aria-pressed="true">すべて<span class="post-filter-count">{{ collections.articles.length }}</span></button>
+      {% for c in cats %}<button type="button" class="post-filter-btn" data-cat="{{ c.name }}" aria-pressed="false">{{ c.name }}<span class="post-filter-count">{{ c.count }}</span></button>{% endfor %}
+    </div>
+    {% endif %}
+    <ul class="post-list post-list--full" id="post-list">
       {% for article in collections.articles %}
-      <li class="post-item">
+      <li class="post-item" data-cat="{{ article.data.category }}">
         <a href="{{ root }}{{ article.url | noLeadSlash }}">
           <span class="post-meta"><time datetime="{{ article.data.datePublished | isoDate }}">{{ article.data.datePublished | cardDate }}</time>{% if article.data.category %}<span class="post-cat">{{ article.data.category }}</span>{% endif %}</span>
           <span class="post-title">{{ article.data.title }}</span>
@@ -34,3 +41,21 @@ navActive: articles
     </ul>
   </div>
 </div>
+
+<script>
+(function(){
+  var btns = document.querySelectorAll('.post-filter-btn');
+  if (!btns.length) return;
+  var items = document.querySelectorAll('#post-list .post-item');
+  function apply(cat){
+    btns.forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.cat === cat ? 'true' : 'false'); });
+    items.forEach(function(li){ li.hidden = !(cat === 'all' || li.dataset.cat === cat); });
+  }
+  btns.forEach(function(b){ b.addEventListener('click', function(){
+    apply(b.dataset.cat);
+    try { history.replaceState(null, '', b.dataset.cat === 'all' ? location.pathname : '#' + encodeURIComponent(b.dataset.cat)); } catch(e) {}
+  }); });
+  var h = decodeURIComponent(location.hash.slice(1));
+  if (h) { var ok = Array.prototype.some.call(btns, function(b){ return b.dataset.cat === h; }); if (ok) apply(h); }
+})();
+</script>
