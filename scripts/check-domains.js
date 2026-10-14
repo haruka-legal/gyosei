@@ -36,6 +36,9 @@ const ALLOWED_HOSTS = [
   "www.sitemaps.org",
   // 記事で一次情報として引用する公的機関
   "www.moj.go.jp",
+  "www.vn.emb-japan.go.jp", // 在ベトナム日本国大使館（政府資料の掲載）
+  "sp.m.jiji.com", // 時事通信
+  "www.dir.co.jp", // 大和総研
   "www.shugiin.go.jp", // 衆議院（法律の原文）
   "www.city.kasama.lg.jp", // 笠間市
   "tir-navicenter.metro.tokyo.lg.jp", // 東京外国人材採用ナビセンター（東京都）
