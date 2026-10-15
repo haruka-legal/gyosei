@@ -2356,3 +2356,10 @@ footer p { color: var(--text-light); }
 /* 相続サイト：記事ページ・記事一覧の上部も白で統一（水色の帯をなくす） */
 .article-hero { background: #fff; padding-bottom: 24px; }
 #articles.services-section { padding-top: 16px; }
+
+/* 記事の締めの一文：上に長い線を引いて区切る（目次には出ない） */
+.article-closing { margin-top: 3.5em; padding-top: 2.5em; border-top: 1px solid #b9cbe6; }
+.article-closing p { line-height: 1.95; margin: 0 0 18px; }
+.article-closing a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+/* 参考リンクの上の線：線と「参考」の間を広めに */
+.article-inner hr { margin: 3.5em 0 2.5em; border: 0; border-top: 1px solid #b9cbe6; }
