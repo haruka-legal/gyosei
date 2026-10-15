@@ -38,7 +38,9 @@ breadcrumbs:
 
 死亡届は、**死亡の事実を知った日から7日以内**に市区町村へ提出します。国外で亡くなった場合は3か月以内です。
 
-死亡届を出すと火葬許可証が交付されます。実際の提出は、葬儀社が代わりに行うことが多い手続きです。
+死亡届を出すと火葬許可証が交付されます。実際の死亡届の提出は、葬儀社が代わりに行うことが多いです。
+
+死亡届の書き方や、亡くなった直後の1週間にやることは、「[家族が亡くなったら最初の7日間にやること](../first-7-days-after-death/)」で詳しく説明しています。
 
 ## 10日・14日以内：年金の届出、世帯主の変更
 
@@ -129,6 +131,7 @@ breadcrumbs:
 
 **参考（法令・公的機関の情報）**
 
+- [死亡届（神戸市）](https://www.city.kobe.lg.jp/a53715/kurashi/registration/koseki/05_shibou.html)
 - [相続税の申告と納税（国税庁）](https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm)
 - [相続税の計算・基礎控除（国税庁）](https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm)
 - [遺産が分割されていないときの相続税の申告（国税庁）](https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4208.htm)
