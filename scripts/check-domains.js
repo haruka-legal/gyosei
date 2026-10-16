@@ -44,6 +44,7 @@ const ALLOWED_HOSTS = [
   "tir-navicenter.metro.tokyo.lg.jp", // 東京外国人材採用ナビセンター（東京都）
   "www.isa.go.jp",
   "www.mhlw.go.jp",
+  "www.otit.go.jp", // 外国人技能実習機構（送出機関の一覧など）
   "www.e-gov.go.jp",
   "laws.e-gov.go.jp",
   "elaws.e-gov.go.jp",
