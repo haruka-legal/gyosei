@@ -10,56 +10,55 @@
 <meta property="og:title" content="遥か行政書士事務所">
 <meta property="og:url" content="https://haruka-legal.com/">
 <meta property="og:image" content="https://haruka-legal.com/gyosei/images/logo.jpg">
-<meta name="theme-color" content="#071832">
+<meta name="theme-color" content="#ffffff">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-  :root { --navy:#071832; --navy2:#0a2540; --gold:#C4A15E; --text:#1c2330; --muted:#5b6578; --bg:#f6f4ef; }
+  :root { --blue:#1f5fae; --blue-dark:#173e72; --sky:#e8f3fb; --line:#d6e4f0; --text:#1f2a37; --muted:#5b6b7d; }
   * { box-sizing:border-box; margin:0; padding:0; }
-  body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--text); min-height:100vh; display:flex; flex-direction:column; }
-  header { background:linear-gradient(165deg,var(--navy) 0%,var(--navy2) 100%); color:#fff; padding:56px 16px 64px; text-align:center; }
-  .logo { width:72px; height:72px; border-radius:50%; background:#fff; object-fit:contain; margin-bottom:20px; }
-  h1 { font-family:'Noto Serif JP',serif; font-weight:600; font-size:clamp(24px,5vw,32px); letter-spacing:.06em; }
-  .en { color:var(--gold); font-size:12px; letter-spacing:.25em; margin-top:8px; }
-  .addr { opacity:.7; font-size:13px; margin-top:18px; }
-  main { flex:1; max-width:880px; width:100%; margin:-36px auto 0; padding:0 16px 56px; display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); align-content:start; align-items:start; }
-  a.card { display:block; background:#fff; border-radius:14px; padding:28px 24px; text-decoration:none; color:inherit; box-shadow:0 6px 24px rgba(7,24,50,.10); border-top:3px solid var(--gold); transition:transform .15s, box-shadow .15s; }
-  a.card:hover { transform:translateY(-2px); box-shadow:0 10px 30px rgba(7,24,50,.16); }
-  .eyebrow { color:var(--gold); font-size:11px; letter-spacing:.2em; font-weight:700; }
-  .title { font-family:'Noto Serif JP',serif; font-size:20px; font-weight:600; color:var(--navy); margin:8px 0 10px; }
-  .desc { font-size:14px; line-height:1.8; color:var(--muted); }
-  .go { margin-top:16px; font-size:13px; font-weight:700; color:var(--navy2); }
-  footer { text-align:center; font-size:12px; color:var(--muted); padding:20px 16px 28px; }
+  body { font-family:'Noto Sans JP',sans-serif; color:var(--text); min-height:100vh; display:flex; flex-direction:column; line-height:1.7; }
+  .wrap { max-width:760px; width:100%; margin:0 auto; padding:0 16px; }
+  .logo { width:52px; height:52px; border-radius:50%; object-fit:contain; border:1px solid var(--line); background:#fff; flex:none; }
+  .name { font-size:20px; font-weight:700; color:var(--blue-dark); }
+  .sub { font-size:12px; color:var(--muted); }
+  footer .wrap { padding-top:20px; padding-bottom:28px; font-size:13px; color:var(--muted); }
+  footer .copy { margin-top:6px; font-size:12px; }
+ body { background:var(--sky); }
+  header { background:#fff; border-bottom:1px solid var(--line); }
+  .hd { display:flex; align-items:center; gap:14px; padding-top:20px; padding-bottom:20px; }
+  main { flex:1; } main .wrap { padding-top:36px; padding-bottom:48px; }
+  h1 { font-size:clamp(22px,4.5vw,28px); font-weight:700; color:var(--blue-dark); line-height:1.5; }
+  .lead { margin-top:8px; font-size:15px; }
+  .menu { list-style:none; display:grid; gap:14px; margin-top:28px; }
+  .menu a { display:flex; align-items:center; gap:16px; background:#fff; border:1px solid var(--line); border-radius:12px; padding:22px 20px; text-decoration:none; color:inherit; transition:border-color .15s, box-shadow .15s; }
+  .menu a:hover,.menu a:focus-visible { border-color:var(--blue); box-shadow:0 0 0 3px rgba(31,95,174,.12); outline:none; }
+  .txt { flex:1; min-width:0; } .title { display:block; font-size:19px; font-weight:700; color:var(--blue-dark); } .desc { display:block; font-size:14px; color:var(--muted); margin-top:2px; }
+  .arrow { flex:none; width:36px; height:36px; border-radius:50%; background:var(--blue); color:#fff; display:grid; place-items:center; font-size:16px; }
+  footer { border-top:1px solid var(--line); background:#fff; }
 </style>
 </head>
 <body>
 <header>
-  <img class="logo" src="gyosei/images/logo.jpg" alt="遥か行政書士事務所ロゴ" width="72" height="72">
-  <h1>遥か行政書士事務所</h1>
-  <p class="en">HARUKA LEGAL SUPPORT</p>
-  <p class="addr">東京都千代田区神田錦町3−6−4</p>
+  <div class="wrap hd">
+    <img class="logo" src="gyosei/images/logo.jpg" alt="遥か行政書士事務所ロゴ" width="52" height="52">
+    <div><p class="name">遥か行政書士事務所</p><p class="sub">東京都千代田区</p></div>
+  </div>
 </header>
-<main>
-  <a class="card" href="gyosei/">
-    <p class="eyebrow">INTERNATIONAL</p>
-    <p class="title">ビザ・外国人雇用</p>
-    <p class="desc">外国人雇用サポート、在留資格・各種ビザ、配偶者ビザ・国際結婚、永住・帰化。</p>
-    <p class="go">国際業務のサイトへ →</p>
-  </a>
-  <a class="card" href="souzoku/">
-    <p class="eyebrow">INHERITANCE</p>
-    <p class="title">相続・遺言</p>
-    <p class="desc">戸籍収集・相続人調査、遺産分割協議書、名義変更の手続き、遺言書の作成。</p>
-    <p class="go">相続のサイトへ →</p>
-  </a>
-  <a class="card" href="visa/">
-    <p class="eyebrow">ENGLISH · ESPAÑOL</p>
-    <p class="title">For foreigners</p>
-    <p class="desc">Visa and immigration support for individuals and companies coming to Japan.</p>
-    <p class="go">English &amp; Español →</p>
-  </a>
-</main>
-<footer>© 2026 遥か行政書士事務所 All Rights Reserved.</footer>
+<main><div class="wrap">
+  <h1>千代田区の行政書士事務所です</h1>
+  <p class="lead">ビザ・外国人雇用などの国際業務と、相続手続き・遺言書作成をお手伝いしています。</p>
+  <ul class="menu">
+<li><a href="gyosei/"><span class="txt"><span class="title">ビザ・外国人雇用</span><span class="desc">外国人を採用する企業の方、ビザの手続きが必要な方へ</span></span><span class="arrow" aria-hidden="true">→</span></a></li>
+<li><a href="souzoku/"><span class="txt"><span class="title">相続・遺言</span><span class="desc">ご家族の相続手続きや、遺言書の準備をお考えの方へ</span></span><span class="arrow" aria-hidden="true">→</span></a></li>
+<li><a href="visa/" lang="en"><span class="txt"><span class="title">For international clients — English / Español</span><span class="desc">Visa and immigration support for individuals and companies coming to Japan.</span></span><span class="arrow" aria-hidden="true">→</span></a></li>
+  </ul>
+</div></main>
+<footer>
+  <div class="wrap">
+    <p>遥か行政書士事務所　東京都千代田区神田錦町3−6−4</p>
+    <p class="copy">© 2026 遥か行政書士事務所</p>
+  </div>
+</footer>
 </body>
 </html>
