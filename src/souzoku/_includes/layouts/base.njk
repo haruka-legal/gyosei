@@ -68,7 +68,7 @@
     "postalCode": "{{ site.postalCode }}",
     "addressCountry": "JP"
   },
-  "areaServed": [{ "@type": "City", "name": "千代田区" }, { "@type": "AdministrativeArea", "name": "東京都" }, { "@type": "Country", "name": "日本" }],
+  "areaServed": [{% for a in site.serviceAreas %}{ "@type": "City", "name": "{{ a }}" }, {% endfor %}{ "@type": "AdministrativeArea", "name": "東京都" }, { "@type": "Country", "name": "日本" }],
   "knowsAbout": {{ site.knowsAbout | dump | safe }},
   "contactPoint": { "@type": "ContactPoint", "contactType": "customer service", "url": "{{ site.lineUrl }}", "availableLanguage": ["ja"] },
   "founder": { "@id": "{{ site.url }}/#representative" },
