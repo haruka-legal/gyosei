@@ -886,6 +886,26 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   color: rgba(255,255,255,.75);
   line-height: 2.1;
 }
+.profile-private-item {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: rgba(255,255,255,.85);
+  margin-bottom: 10px;
+}
+.profile-private-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.profile-private-tag {
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: rgba(255,255,255,.85);
+  border: 1px solid rgba(196,161,94,.45);
+  border-radius: 999px;
+  padding: 4px 12px;
+}
 .profile-private-hobbies {
   margin-top: 18px;
   padding-top: 18px;
