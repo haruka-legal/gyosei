@@ -1,0 +1,60 @@
+---
+layout: layouts/base.njk
+title: "お役立ち記事一覧"
+description: "風俗営業の許可や深夜酒類提供飲食店営業の届出について、開業を考えている方に向けて解説した記事一覧です。"
+permalink: /articles/
+navActive: articles
+---
+{% set root = page.url | relRoot %}
+<div class="article-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="{{ root }}">トップ</a> ／ お役立ち記事一覧
+    </div>
+    <h1 class="article-hero-title">お役立ち記事一覧</h1>
+    <div class="article-hero-meta">
+      <span>風俗営業の許可や深夜営業の届出について、開業を考えている方に向けて解説します。</span>
+    </div>
+  </div>
+</div>
+
+<div class="services-section" id="articles">
+  <div class="container">
+    {% set cats = collections.articles | categoryCounts %}
+    {% if cats.length > 1 %}
+    <div class="post-filter" role="group" aria-label="カテゴリで絞り込む">
+      <button type="button" class="post-filter-btn" data-cat="all" aria-pressed="true">すべて<span class="post-filter-count">{{ collections.articles.length }}</span></button>
+      {% for c in cats %}<button type="button" class="post-filter-btn" data-cat="{{ c.name }}" aria-pressed="false">{{ c.name }}<span class="post-filter-count">{{ c.count }}</span></button>{% endfor %}
+    </div>
+    {% endif %}
+    <ul class="post-list post-list--full" id="post-list">
+      {% for article in collections.articles %}
+      <li class="post-item" data-cat="{{ article.data.category }}">
+        <a href="{{ root }}{{ article.url | noLeadSlash }}">
+          <span class="post-meta"><time datetime="{{ article.data.datePublished | isoDate }}">{{ article.data.datePublished | cardDate }}</time>{% if article.data.category %}<span class="post-cat">{{ article.data.category }}</span>{% endif %}</span>
+          <span class="post-title">{{ article.data.title }}</span>
+          {% if article.data.description %}<span class="post-desc">{{ article.data.description }}</span>{% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<script>
+(function(){
+  var btns = document.querySelectorAll('.post-filter-btn');
+  if (!btns.length) return;
+  var items = document.querySelectorAll('#post-list .post-item');
+  function apply(cat){
+    btns.forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.cat === cat ? 'true' : 'false'); });
+    items.forEach(function(li){ li.hidden = !(cat === 'all' || li.dataset.cat === cat); });
+  }
+  btns.forEach(function(b){ b.addEventListener('click', function(){
+    apply(b.dataset.cat);
+    try { history.replaceState(null, '', b.dataset.cat === 'all' ? location.pathname : '#' + encodeURIComponent(b.dataset.cat)); } catch(e) {}
+  }); });
+  var h = decodeURIComponent(location.hash.slice(1));
+  if (h) { var ok = Array.prototype.some.call(btns, function(b){ return b.dataset.cat === h; }); if (ok) apply(h); }
+})();
+</script>

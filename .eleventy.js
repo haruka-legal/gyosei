@@ -3,6 +3,7 @@ const { DateTime } = require("luxon");
 module.exports = function (eleventyConfig) {
 eleventyConfig.ignores.add("src/visa/**");
 eleventyConfig.ignores.add("src/souzoku/**");
+eleventyConfig.ignores.add("src/fuei/**");
 eleventyConfig.ignores.add("src/root/**");
   // 静的ファイルはそのままコピー
 eleventyConfig.addPassthroughCopy("src/css");
