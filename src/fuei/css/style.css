@@ -76,7 +76,8 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   padding: 96px 0;
 }
 .worries-section, .services-section, .articles-section, .faq-section { background: var(--paper); }
-.flow-section, .fees-section, .access-section { background: var(--mist); }
+.flow-section, .fees-section, .access-section, .steps-section { background: var(--mist); }
+.steps-section { padding: 96px 0; }
 
 /* ---------- ボタン ---------- */
 .btn-navy, .btn-outline-navy, .btn-secondary, .btn-cta-large {
@@ -145,12 +146,19 @@ nav { border-top: 1px solid var(--line-soft); }
 /* ---------- ヒーロー（黒） ---------- */
 .hero {
   background: var(--ink); color: var(--paper);
-  padding: 200px 40px 120px;
+  padding: 176px 40px 96px;
 }
-.hero-content { max-width: 1000px; margin: 0 auto; }
+.hero-content {
+  max-width: 1080px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 340px; gap: 64px; align-items: end;
+}
+.hero-eyebrow { font-size: 12px; letter-spacing: .18em; color: #9a9a9a; margin-bottom: 24px; }
+.hero-photo { margin: 0; }
+.hero-photo img { width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; filter: grayscale(1) contrast(1.05); }
+.hero-photo figcaption { margin-top: 12px; font-size: 12px; letter-spacing: .12em; color: #9a9a9a; text-align: right; }
 .hero-title {
   font-family: 'Noto Serif JP', serif;
-  font-size: clamp(30px, 5vw, 54px);
+  font-size: clamp(30px, 4.2vw, 48px);
   font-weight: 400; letter-spacing: .06em; line-height: 1.55;
   margin-bottom: 28px;
 }
@@ -176,6 +184,46 @@ nav { border-top: 1px solid var(--line-soft); }
 .hero-services-icon svg { stroke: currentColor; }
 .hero-services-link:hover { color: var(--paper); }
 .hero-services-link:hover .hero-services-icon { border-color: var(--paper); }
+
+/* ---------- 開店までの段取り ---------- */
+.steps-line {
+  display: grid; grid-template-columns: repeat(7, 1fr);
+  margin-top: 56px; position: relative;
+}
+.steps-line::before {
+  content: ''; position: absolute; left: 7%; right: 7%; top: 22px;
+  height: 1px; background: var(--ink);
+}
+.step { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 0 6px; }
+.step-no {
+  position: relative; z-index: 1;
+  width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
+  font-family: 'Noto Serif JP', serif; font-size: 15px;
+  background: var(--mist); border: 1px solid var(--ink);
+}
+.step-name { margin-top: 14px; font-size: 14.5px; font-weight: 500; line-height: 1.5; }
+.step-note .br { display: block; }
+.step-note { margin-top: 6px; font-size: 12px; color: var(--mute); line-height: 1.7; }
+.step-key .step-no { background: var(--ink); color: var(--paper); }
+.step-flag {
+  order: -1; margin-bottom: 10px; padding: 3px 10px;
+  font-size: 11px; letter-spacing: .1em; background: var(--ink); color: var(--paper);
+}
+.step:not(.step-key) { padding-top: 33px; }
+.steps-line::before { top: 55px; }
+.steps-foot { margin-top: 40px; font-size: 12.5px; color: var(--mute); line-height: 1.9; }
+
+/* ---------- 物件をご紹介される方へ（黒の帯） ---------- */
+.partner-section { background: var(--ink); color: var(--paper); padding: 96px 0; }
+.partner-inner { display: grid; grid-template-columns: 1fr 1.4fr; gap: 64px; }
+.partner-section .section-title::before { background: var(--paper); }
+.partner-lead { font-size: 14px; line-height: 2; color: #bdbdbd; }
+.partner-text { font-size: 14.5px; line-height: 2.1; color: #e2e2e2; margin-bottom: 24px; }
+.partner-list { border-top: 1px solid #444; margin-bottom: 32px; }
+.partner-list li { position: relative; padding: 14px 0 14px 24px; font-size: 14px; border-bottom: 1px solid #444; }
+.partner-list li::before { content: ''; position: absolute; left: 4px; top: 27px; width: 10px; height: 1px; background: var(--paper); }
+.partner-btn { color: var(--paper); border-color: var(--paper); }
+.partner-btn:hover { background: var(--paper); color: var(--ink); }
 
 /* ---------- お悩み（タブ） ---------- */
 .tab-buttons { display: flex; flex-wrap: wrap; border-bottom: 1px solid var(--line); margin-bottom: 32px; }
@@ -377,6 +425,19 @@ footer { background: var(--ink); color: #8a8a8a; text-align: center; font-size: 
 
 /* ---------- タブレット ---------- */
 @media (max-width: 900px) {
+  .hero-content { grid-template-columns: 1fr 240px; gap: 40px; }
+  .steps-line { grid-template-columns: 1fr; gap: 0; margin-top: 40px; }
+  .steps-line::before { left: 21px; right: auto; top: 22px; bottom: 22px; width: 1px; height: auto; }
+  .step, .step:not(.step-key) { flex-direction: row; flex-wrap: wrap; align-items: center; text-align: left; padding: 0 0 22px; gap: 0 16px; }
+  .step-name { margin-top: 0; }
+  .step-note { flex-basis: 100%; margin: 4px 0 0 60px; }
+  .step-note .br { display: inline; }
+  .step-note .br::before { content: '／'; }
+  .step-no { order: 0; }
+  .step-name { order: 1; }
+  .step-flag { order: 2; margin: 0; }
+  .step-note { order: 3; }
+  .partner-inner { grid-template-columns: 1fr; gap: 24px; }
   .services-grid { grid-template-columns: repeat(2, 1fr); }
   .profile-split { grid-template-columns: 220px 1fr; gap: 32px; }
   .nav-addr { display: none; }
@@ -390,7 +451,11 @@ footer { background: var(--ink); color: #8a8a8a; text-align: center; font-size: 
   .hamburger { display: flex; }
   .logo-text { font-size: 15px; }
   .hero { padding: 128px 16px 80px; }
-  .hero-title { font-size: 24px; letter-spacing: .03em; }
+  .hero-title { font-size: 25px; letter-spacing: 0; }
+  .hero-content { grid-template-columns: 1fr; gap: 40px; }
+  .hero-photo { max-width: 220px; }
+  .hero-photo figcaption { text-align: left; }
+  .steps-section, .partner-section { padding: 64px 0; }
   .hero-desc { font-size: 14px; }
   .hero-btns .btn-secondary { width: 100%; }
   .worries-section, .flow-section, .services-section, .fees-section,

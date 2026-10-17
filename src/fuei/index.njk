@@ -23,27 +23,54 @@ faq:
 <!-- ===================== HERO ===================== -->
 <section class="hero">
   <div class="hero-content">
-    <h1 class="hero-title">
-      <span class="hero-line">スナック・ラウンジ・バーの</span><br><span class="hero-line">風俗営業許可・深夜営業の届出</span>
-    </h1>
-    <p class="hero-desc">
-      物件の契約や内装工事の前に、場所と構造の確認から。<br>開店までの手続きを、行政書士がまとめてお手伝いします。
-    </p>
-    <div class="hero-btns">
-      <a href="{{ site.lineUrl }}" class="btn-secondary btn-secondary-main" target="_blank" rel="noopener">
-        LINEで無料相談
-        <span class="btn-sub">24時間受付</span>
+    <div class="hero-text">
+      <p class="hero-eyebrow">風俗営業許可・深夜酒類提供飲食店営業</p>
+      <h1 class="hero-title">
+        <span class="hero-line">スナック・ラウンジ・バーの</span><br><span class="hero-line">開店手続きを、</span><br><span class="hero-line">契約の前から。</span>
+      </h1>
+      <p class="hero-desc">
+        許可が取れるかどうかは、場所と店内の構造で決まります。<br>物件の契約や内装工事の前に確認し、開店までの手続きをまとめてお手伝いします。
+      </p>
+      <div class="hero-btns">
+        <a href="{{ site.lineUrl }}" class="btn-secondary btn-secondary-main" target="_blank" rel="noopener">
+          LINEで無料相談
+          <span class="btn-sub">24時間受付</span>
+        </a>
+        <a href="#contact" class="btn-secondary">フォームで相談</a>
+      </div>
+      <a href="#steps" class="hero-services-link">
+        開店までの段取りを見る
+        <span class="hero-services-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </span>
       </a>
-      <a href="#contact" class="btn-secondary">フォームで相談</a>
     </div>
-    <a href="#services" class="hero-services-link">
-      業務内容を見る
-      <span class="hero-services-icon">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </span>
-    </a>
+    <figure class="hero-photo">
+      <img src="{{ root }}images/profile_main.jpg" alt="代表行政書士 岸はるか" width="600" height="800" loading="eager" decoding="async">
+      <figcaption>代表行政書士　岸 はるか</figcaption>
+    </figure>
   </div>
 </section>
+
+<!-- ===================== STEPS（開店までの段取り） ===================== -->
+<div class="steps-section" id="steps">
+  <div class="container">
+    <div class="reveal">
+      <h2 class="section-title">開店までの段取り</h2>
+      <p class="section-desc">許可の可否は、物件の場所と店内の構造で決まります。契約や内装工事のあとに基準に合わないとわかると、やり直しが難しくなります。確認はその前に。</p>
+    </div>
+    <ol class="steps-line reveal">
+      <li class="step"><span class="step-no">1</span><span class="step-name">物件探し</span></li>
+      <li class="step step-key"><span class="step-no">2</span><span class="step-name">事前調査</span><span class="step-note">用途地域・周辺施設<span class="br"></span>客室の広さ・見通し</span><span class="step-flag">ここで確認</span></li>
+      <li class="step"><span class="step-no">3</span><span class="step-name">物件の契約</span></li>
+      <li class="step"><span class="step-no">4</span><span class="step-name">内装工事</span><span class="step-note">保健所の飲食店営業許可</span></li>
+      <li class="step"><span class="step-no">5</span><span class="step-name">警察署へ申請</span><span class="step-note">図面・書類一式</span></li>
+      <li class="step"><span class="step-no">6</span><span class="step-name">審査</span><span class="step-note">標準処理期間 55日以内</span></li>
+      <li class="step"><span class="step-no">7</span><span class="step-name">許可・開店</span></li>
+    </ol>
+    <p class="steps-foot reveal">※ 深夜酒類提供飲食店営業は許可ではなく届出です。届出の場合も、場所と構造の確認が必要です。</p>
+  </div>
+</div>
 
 <!-- ===================== WORRIES ===================== -->
 <div class="worries-section" id="worries">
@@ -54,7 +81,6 @@ faq:
     <div class="tab-buttons" role="tablist">
       <button class="tab-btn active" onclick="switchTab('after')" id="tab-after" role="tab" aria-selected="true">これから開業する方</button>
       <button class="tab-btn" onclick="switchTab('before')" id="tab-before" role="tab" aria-selected="false">営業中の方</button>
-      <button class="tab-btn" onclick="switchTab('abroad')" id="tab-abroad" role="tab" aria-selected="false">不動産・内装・税理士の方</button>
     </div>
 
     <div id="panel-after" class="tab-panel active" role="tabpanel">
@@ -77,19 +103,31 @@ faq:
         <div class="worry-item">2店舗目を出すにあたって、手続きを整理したい</div>
       </div>
     </div>
-    <div id="panel-abroad" class="tab-panel" role="tabpanel">
-      <div class="worries-grid">
-        <div class="worry-item">飲食店向けの居抜き物件を扱っていて、風営の条件を事前に確認したい</div>
-        <div class="worry-item">内装の設計段階で、客室の面積や照明の基準を押さえておきたい</div>
-        <div class="worry-item">顧問先の飲食店から、許可や届出について相談を受けている</div>
-        <div class="worry-item">お客様に安心して紹介できる、手続きの相談先を探している</div>
-      </div>
-    </div>
-
     <div class="section-cta-wrap">
       <a href="{{ site.lineUrl }}" class="btn-navy" target="_blank" rel="noopener">
         まずは無料でお問い合わせ
         <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== PARTNERS ===================== -->
+<div class="partner-section" id="partners">
+  <div class="container partner-inner reveal">
+    <div>
+      <h2 class="section-title">物件をご紹介される方へ</h2>
+      <p class="partner-lead">飲食店向けの物件を扱う不動産会社、内装・設計会社、飲食店を顧問先に持つ税理士の皆さまへ。</p>
+    </div>
+    <div>
+      <p class="partner-text">お客様が物件を決める前、内装の設計に入る前の段階で、その場所と間取りで許可・届出が可能かを確認します。契約後や工事後に基準に合わないとわかる事態を防ぐことが、お客様にとっても、ご紹介くださる皆さまにとっても安心につながると考えています。</p>
+      <ul class="partner-list">
+        <li>用途地域・保全対象施設との距離の確認</li>
+        <li>客室の面積・見通し・照明など構造基準の確認</li>
+        <li>開店予定日から逆算したスケジュールのご案内</li>
+      </ul>
+      <a href="#contact" class="btn-outline-navy partner-btn">ご相談・お問い合わせ
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
       </a>
     </div>
   </div>
