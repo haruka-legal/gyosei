@@ -9,7 +9,7 @@ module.exports = {
     name: "岸 はるか",
     jobTitle: "行政書士",
     association: "東京都行政書士会",
-    registrationNumber: "", // 行政書士の登録番号（例: "26081234"）。入れるとプロフィールに表示される
+    registrationNumber: "26083037", // 行政書士の登録番号。プロフィールに表示される
     sameAs: ["https://www.linkedin.com/in/haruka-kishi"]
   },
   knowsAbout: ["外国人雇用","在留資格","就労ビザ","技術・人文知識・国際業務","特定技能","育成就労","配偶者ビザ","永住許可申請","帰化許可申請","国際結婚"],
