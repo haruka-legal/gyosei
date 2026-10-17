@@ -78,3 +78,10 @@ npm run serve
 - 執筆者（行政書士 岸はるか）の表示と構造化データ
 - 「関連記事」（同じ `category` の記事を優先して3件）
 - トップ・記事一覧・サイトマップ・llms.txt への追加
+
+## 風営サイト（haruka-legal.com/fuei/）
+
+- 中身はすべて `src/fuei/` にあります。記事は `src/fuei/articles/` に Markdown を追加します（書き方は上と同じ）。
+- サイトのURLは `src/fuei/_data/site.js` の `url` だけで管理しています。テンプレートや記事にサイトURLを直接書かないでください。
+- 見た目は `src/fuei/css/style.css`（白と黒が基調）。色は先頭の `:root` にまとめてあります。
+- 手元で確認するとき：`npm run serve:fuei`

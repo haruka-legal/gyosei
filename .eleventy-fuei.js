@@ -1,0 +1,116 @@
+// 風営サイト（haruka-legal.com/fuei/）のビルド設定。日本語版(.eleventy.js)と同じ型。
+const { DateTime } = require("luxon");
+
+module.exports = function (eleventyConfig) {
+
+  // 静的ファイルはそのままコピー
+eleventyConfig.addPassthroughCopy({ "src/fuei/css": "css" });
+
+eleventyConfig.addFilter("dateISO", (dateObj) => {
+  return new Date(dateObj).toISOString();
+});
+
+eleventyConfig.addPassthroughCopy({ "src/fuei/images": "images" });
+
+  // 日付を「2026年7月3日」のような表示に変換するフィルタ
+  eleventyConfig.addFilter("readableDate", (dateObj) => {
+    let dt = typeof dateObj === "string" ? DateTime.fromISO(dateObj) : DateTime.fromJSDate(dateObj);
+    return dt.setZone("Asia/Tokyo").toFormat("yyyy'年'M'月'd'日'");
+  });
+
+  // カード用の短い日付「2026.07.03」
+  // 記事一覧の絞り込みボタン用：カテゴリを記事数の多い順に並べる
+  eleventyConfig.addFilter("categoryCounts", (articles) => {
+    const m = new Map();
+    (articles || []).forEach((a) => { const c = a.data.category; if (c) m.set(c, (m.get(c) || 0) + 1); });
+    return [...m.entries()].sort((a, b) => b[1] - a[1]).map(([name, count]) => ({ name, count }));
+  });
+  eleventyConfig.addFilter("cardDate", (dateObj) => {
+    let dt = typeof dateObj === "string" ? DateTime.fromISO(dateObj) : DateTime.fromJSDate(dateObj);
+    return dt.setZone("Asia/Tokyo").toFormat("yyyy.LL.dd");
+  });
+
+  // ISO形式の日付「2026-07-03」（JSON-LD用）
+  eleventyConfig.addFilter("isoDate", (dateObj) => {
+    let dt = typeof dateObj === "string" ? DateTime.fromISO(dateObj) : DateTime.fromJSDate(dateObj);
+    return dt.toFormat("yyyy-LL-dd");
+  });
+
+  // JSON埋め込み用（ダブルクォート等を安全にエスケープ）
+  eleventyConfig.addFilter("dump", (obj) => JSON.stringify(obj));
+
+  // 配列スライス（先頭からn件取得など）
+  eleventyConfig.addFilter("slice", (arr, start, end) => arr.slice(start, end));
+
+  // 指定した項目(fileSlug等)を除外
+  eleventyConfig.addFilter("whereNot", (arr, key, value) => arr.filter((item) => item[key] !== value));
+
+  // ページの深さに応じた相対パスの起点を計算(例: /articles/foo/ なら "../../")
+  eleventyConfig.addFilter("relRoot", (url) => {
+    const depth = url.split("/").filter(Boolean).length;
+    return depth === 0 ? "./" : "../".repeat(depth);
+  });
+
+  // 先頭の "/" を除去(絶対パス表記のフロントマター値を相対パス化する際に使用)
+  eleventyConfig.addFilter("noLeadSlash", (str) => (str && str.startsWith("/") ? str.slice(1) : str));
+
+  // 記事コレクション：articles/ 配下のMarkdownを日付の新しい順に自動収集
+  eleventyConfig.addCollection("articles", (collectionApi) => {
+    return collectionApi.getFilteredByGlob("src/fuei/articles/*.md").sort((a, b) => {
+      return new Date(b.data.datePublished) - new Date(a.data.datePublished);
+    });
+  });
+
+  // カテゴリ自動生成：記事のcategoryフィールドから自動でカテゴリ一覧を作る
+  eleventyConfig.addCollection("categories", (collectionApi) => {
+    const articles = collectionApi.getFilteredByGlob("src/fuei/articles/*.md");
+    const cats = {};
+    articles.forEach((article) => {
+      const cat = article.data.category;
+      if (!cat) return;
+      if (!cats[cat]) cats[cat] = [];
+      cats[cat].push(article);
+    });
+    return cats;
+  });
+  // 関連記事：同じカテゴリの記事を優先し、足りなければ新しい順で補う（自分自身は除く）
+  eleventyConfig.addFilter("relatedArticles", (articles, current, limit = 3) => {
+    const others = (articles || []).filter((a) => a.url !== current.url);
+    const same = others.filter((a) => current.data && a.data.category && a.data.category === current.data.category);
+    const rest = others.filter((a) => !same.includes(a));
+    return same.concat(rest).slice(0, limit);
+  });
+  // 目次：本文のh2に番号付きのidを振り、最初のh2の直前（結論・導入文のあと）に目次を差し込む。h2が3つ未満なら目次は出さない
+  eleventyConfig.addFilter("withToc", (html) => {
+    if (!html) return html;
+    const items = [];
+    let n = 0;
+    const out = html.replace(/<h2(\s[^>]*)?>([\s\S]*?)<\/h2>/g, (m, attrs, inner) => {
+      n += 1;
+      let a = attrs || "";
+      const idMatch = a.match(/\sid="([^"]+)"/);
+      const id = idMatch ? idMatch[1] : `sec-${n}`;
+      if (!idMatch) a += ` id="${id}"`;
+      if (!/\sclass="/.test(a)) a += ' class="article-h2"';
+      items.push({ id, text: inner.replace(/<[^>]+>/g, "").trim() });
+      return `<h2${a}>${inner}</h2>`;
+    });
+    if (items.length < 3) return out;
+    const nav =
+      '<div class="article-toc" role="navigation" aria-label="目次"><p class="article-toc-title">目次</p><ol>' +
+      items.map((it) => `<li><a href="#${it.id}">${it.text}</a></li>`).join("") +
+      "</ol></div>";
+    return out.replace(/<h2[\s>]/, (m) => nav + m);
+  });
+eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
+  return {
+    dir: {
+      input: "src/fuei",
+      output: "_site/fuei",
+     includes: "_includes",
+      data: "_data",
+    },
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
+  };
+};

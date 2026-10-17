@@ -38,6 +38,9 @@ jobs:
       - name: Build Souzoku site
         run: npx @11ty/eleventy --config=.eleventy-souzoku.js
 
+      - name: Build Fuei site
+        run: npx @11ty/eleventy --config=.eleventy-fuei.js
+
       - name: Copy root entrance page
         run: cp -r src/root/. _site/
 
