@@ -55,6 +55,7 @@ const ALLOWED_HOSTS = [
   "www.gyosei.or.jp",
   "www.tokyo-gyosei.or.jp",
   "www.nenkin.go.jp", // 日本年金機構
+  "www.kyoukaikenpo.or.jp", // 協会けんぽ
   "www.city.shinjuku.lg.jp", // 新宿区（戸籍の届出の案内）
   "www.city.chiba.jp", // 千葉市（農地の相続届出の案内）
   "www.city.chiyoda.lg.jp", // 千代田区
