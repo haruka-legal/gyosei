@@ -8,7 +8,7 @@ faq:
   - q: "物件を契約する前に相談できますか？"
     a: "はい。むしろ契約前のご相談をおすすめしています。風俗営業の許可は、営業所の場所（用途地域や、学校・病院などの保全対象施設との距離）と、店内の構造で決まります。契約や内装工事のあとで基準に合わないとわかると、やり直しが難しくなるため、先に確認しておくことが大切です。"
   - q: "申請から許可までどのくらいかかりますか？"
-    a: "警察署に申請してから許可が出るまで、標準処理期間として55日以内が目安とされています。その前に、物件の調査や図面の作成、書類の準備に時間がかかります。開店の予定日から逆算して、早めにご相談ください。"
+    a: "警察署に申請してから許可が出るまで、警視庁では55日以内（土日祝日などを除く）が目安とされています。その前に、物件の調査や図面の作成、書類の準備に時間がかかります。開店の予定日から逆算して、早めにご相談ください。"
   - q: "カウンター越しの接客なら、風俗営業の許可はいりませんか？"
     a: "カウンター越しかどうかではなく、お客様に対して「接待」にあたる行為をするかどうかで判断されます。特定のお客様の近くに座って継続して談笑の相手をする、お酌をするといった行為は接待にあたるとされています。お店の営業スタイルを伺ったうえで、必要な手続きをご案内します。"
   - q: "深夜0時以降も営業し、接客もしたいのですが。"
@@ -61,7 +61,7 @@ faq:
       <li class="step"><span class="step-no">3</span><span class="step-name">物件の契約</span></li>
       <li class="step"><span class="step-no">4</span><span class="step-name">内装工事</span><span class="step-note">保健所の営業許可</span></li>
       <li class="step"><span class="step-no">5</span><span class="step-name">警察署へ申請</span><span class="step-note">図面・書類一式</span></li>
-      <li class="step"><span class="step-no">6</span><span class="step-name">審査</span><span class="step-note">標準処理期間 55日以内</span></li>
+      <li class="step"><span class="step-no">6</span><span class="step-name">審査</span><span class="step-note">目安 55日以内<span class="br br-plain"></span>（休日を除く）</span></li>
       <li class="step"><span class="step-no">7</span><span class="step-name">許可・開店</span></li>
     </ol>
     <p class="steps-foot reveal">※ 深夜酒類提供飲食店営業は許可ではなく届出です。届出の場合も、場所と構造の確認が必要です。</p>
@@ -370,37 +370,21 @@ faq:
   </div>
 </div>
 
-<!-- ===================== PROFILE ===================== -->
-<!-- 【要書き換え】代表挨拶はたたき台です。公開前にご自身の言葉で書き直してください。 -->
+<!-- ===================== PROFILE（事務所の考え） ===================== -->
+<!-- このサイトでは代表者の氏名・写真は載せない。文章は公開後に本人の言葉で書き直す前提のたたき台。 -->
 <section class="profile-section" id="profile">
   <div class="profile-inner">
     <div class="profile-content reveal">
-      <h2 class="section-title">代表挨拶</h2>
-      <div class="profile-name">岸 はるか</div>
-      <div class="profile-role">遥か行政書士事務所 代表行政書士</div>
-      <div class="profile-reg">{{ site.representative.association }} 所属{% if site.representative.registrationNumber %}　登録番号 第{{ site.representative.registrationNumber }}号{% endif %}</div>
-
-      <div class="profile-split">
-        <div class="profile-img-wrap single reveal reveal-delay-1">
-          <div class="profile-photo-item main">
-            <img src="{{ root }}images/profile_main.jpg" alt="岸はるか 代表行政書士 遥か行政書士事務所" width="600" height="800" loading="eager" decoding="async">
-          </div>
+      <h2 class="section-title">事務所の考え</h2>
+      <div class="profile-role">遥か行政書士事務所</div>
+      <div class="profile-reg">{{ site.representative.association }} 所属</div>
+      <div class="belief">
+        <p class="belief-lead"><span class="nw">お店を始めたいという思いを、</span><br><span class="nw">確かな手続きで</span><span class="nw">形にする。</span></p>
+        <div class="belief-body">
+          <p>代表は、長く夜のお店で働いてきました。お客様との会話、お店を切り盛りする方の苦労、一軒のお店が街の中で果たしている役割を、働く側として間近に見てきました。</p>
+          <p>一方で、お店を開くための手続きは複雑です。場所の条件、店内の構造、警察署とのやりとり。物件を契約したあとで許可が取れないとわかれば、大きな損失になります。</p>
+          <p>ルールを守って営業することが、お店と、そこで働く人を守ることにつながる。夜の仕事を知る立場と法律の専門家の立場の両方から、開店までの道のりを丁寧にお手伝いします。</p>
         </div>
-        <p class="profile-desc">
-          はじめまして。遥か行政書士事務所代表の岸はるかです。<br><br>
-          私は長く夜のお店で働いてきました。お客様との会話、お店を切り盛りする方の苦労、一軒のお店が街の中で果たしている役割を、働く側として間近に見てきました。<br><br>
-          一方で、お店を開くための手続きは複雑です。場所の条件、店内の構造、警察署とのやりとり。物件を契約したあとで許可が取れないとわかれば、大きな損失になります。<br><br>
-          警察官として勤務した経験から、ルールを守ることがお店とそこで働く人を守ることにつながると考えています。夜の仕事を知る立場と、法律の専門家の立場の両方から、開店までの道のりを丁寧にお手伝いします。<br><br>
-          お店を始めたいという思いを、確かな手続きで形にする。そのための相談相手でありたいと考えています。
-        </p>
-      </div>
-
-      <div class="profile-quote">
-        <p class="profile-quote-label">— 事務所名「遥か」に込めた思い</p>
-        <p class="profile-quote-text">
-          「はるか」は、私自身の名前でもあります。<em>両親から「広い心を持った子に」という願いを込めてつけてもらいました。</em>遠くまで広がる海や大地、そして宇宙。「遥か」という言葉には、果てしない広がりを感じさせるものがあり、私はこの言葉をとても気に入っています。<br><br>
-          受け継いだものを大切にしながら、人と人、過去と未来をつなぐ。受け継ぎ、つなぎ、遥か未来へ。それが、遥か行政書士事務所の理念です。
-        </p>
       </div>
     </div>
   </div>

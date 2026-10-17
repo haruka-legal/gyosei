@@ -10,7 +10,7 @@
 {% if keywords %}<meta name="keywords" content="{{ keywords }}">{% endif %}
 <meta name="author" content="{{ site.name }}">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#111111">
+<meta name="theme-color" content="#18181a">
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
 <meta property="og:type" content="{{ ogType or 'website' }}">
@@ -37,7 +37,7 @@
   "dateModified": "{{ (dateModified or datePublished) | isoDate }}",
   "inLanguage": "ja",
   "url": "{{ site.url }}{{ page.url }}",
-  "author": { "@type": "Person", "name": "{{ site.representative.name }}", "jobTitle": "{{ site.representative.jobTitle }}", "url": "{{ site.url }}/#profile", "worksFor": { "@type": "LegalService", "name": "{{ site.name }}" } },
+  "author": { "@type": "LegalService", "name": "{{ site.name }}", "url": "{{ site.url }}/" },
   "publisher": {
     "@type": "LegalService",
     "name": "{{ site.name }}",
@@ -70,22 +70,7 @@
   },
   "areaServed": [{% for a in site.serviceAreas %}{ "@type": "City", "name": "{{ a }}" }, {% endfor %}{ "@type": "AdministrativeArea", "name": "東京都" }, { "@type": "Country", "name": "日本" }],
   "knowsAbout": {{ site.knowsAbout | dump | safe }},
-  "contactPoint": { "@type": "ContactPoint", "contactType": "customer service", "url": "{{ site.lineUrl }}", "availableLanguage": ["ja"] },
-  "founder": { "@id": "{{ site.url }}/#representative" },
-  "employee": { "@id": "{{ site.url }}/#representative" }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "@id": "{{ site.url }}/#representative",
-  "name": "{{ site.representative.name }}",
-  "jobTitle": "{{ site.representative.jobTitle }}",
-  "worksFor": { "@id": "{{ site.url }}/#office" },
-  "image": "{{ site.url }}/images/profile_main.jpg",
-  "url": "{{ site.url }}/#profile"{% if site.representative.sameAs %},
-  "sameAs": {{ site.representative.sameAs | dump | safe }}{% endif %}
+  "contactPoint": { "@type": "ContactPoint", "contactType": "customer service", "url": "{{ site.lineUrl }}", "availableLanguage": ["ja"] }
 }
 </script>
 {% endif %}

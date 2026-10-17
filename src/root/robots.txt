@@ -4,3 +4,4 @@ Allow: /
 Sitemap: https://haruka-legal.com/gyosei/sitemap.xml
 Sitemap: https://haruka-legal.com/souzoku/sitemap.xml
 Sitemap: https://haruka-legal.com/visa/sitemap.xml
+Sitemap: https://haruka-legal.com/fuei/sitemap.xml
