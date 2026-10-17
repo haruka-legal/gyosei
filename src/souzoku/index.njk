@@ -337,7 +337,7 @@ faq:
       <h2 class="section-title">代表挨拶</h2>
       <div class="profile-name">岸 はるか</div>
       <div class="profile-role">遥か行政書士事務所 代表行政書士</div>
-      <div class="profile-reg">{{ site.representative.association }} 所属{% if site.representative.registrationNumber %}　登録番号 第{{ site.representative.registrationNumber }}号（<a href="https://www.gyosei.or.jp/members-search/" target="_blank" rel="noopener">日本行政書士会連合会の会員検索で確認できます</a>）{% endif %}</div>
+      <div class="profile-reg">{{ site.representative.association }} 所属{% if site.representative.registrationNumber %}　登録番号 第{{ site.representative.registrationNumber }}号{% endif %}</div>
 
       <div class="profile-split">
         <div class="profile-img-wrap single reveal reveal-delay-1">
@@ -379,7 +379,7 @@ faq:
       <p class="access-hours">千代田区（神保町・御茶ノ水）を中心に、{% for a in site.serviceAreas %}{% if not loop.first %}{{ a }}{% if not loop.last %}・{% endif %}{% endif %}{% endfor %}など東京23区<br><span style="font-size:12px;color:var(--text-light)">オンラインと郵送で、全国からのご相談にも対応しています</span></p>
       <p class="access-label">営業時間・連絡先</p>
       <p class="access-hours">
-        LINE：24時間365日受付<br>
+        LINE・お問い合わせフォーム：24時間365日受付<br>
         <span style="font-size:12px;color:var(--text-light)">（24時間以内に返信いたします）</span>
       </p>
       <p style="font-size:13px;line-height:1.9;color:var(--text-light);margin-top:4px;">
