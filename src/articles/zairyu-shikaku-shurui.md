@@ -2,7 +2,7 @@
 layout: layouts/article.njk
 title: "在留資格の種類とは？29種類を4つのグループで分かりやすく整理"
 description: "在留資格は29種類あり、就労資格・非就労資格・特定活動・居住資格の4つのグループに分けられます。グループごとに、どんな在留資格があり、働けるかどうかがどう違うのかを、はじめての会社向けに整理します。"
-keywords: "在留資格,種類,29種類,一覧,就労資格,居住資格,非就労資格,特定活動"
+keywords: "在留資格,種類,29種類,一覧,身分系,就労系,就労資格,居住資格,非就労資格,特定活動"
 category: "在留資格の基礎"
 datePublished: 2026-10-17
 conclusion: "在留資格は29種類あり、日本で行う活動にもとづく「活動資格」と、身分や地位にもとづく「居住資格」に大きく分かれます。活動資格はさらに、就労資格・非就労資格・特定活動に分かれるため、全体では4つのグループで整理できます。働けるかどうかや働ける仕事の範囲はグループによって違うため、外国人を雇う会社は、本人の在留資格がどれにあたり、任せる仕事がその範囲に入るかを見極めることが大切です。"
@@ -16,14 +16,22 @@ breadcrumbs:
 
 外国人を雇う会社にとって大切なのは、本人の在留資格がどのグループにあたり、会社で任せる仕事がその在留資格で認められた活動の範囲に入るかを見極めることです。この記事では、29種類の在留資格を4つのグループに分けて説明します。
 
-## 在留資格は大きく2つに分かれる
+<div role="img" aria-label="在留資格29種類の分類図：活動資格（就労資格19種類、非就労資格5種類、特定活動1種類）と居住資格（身分系）4種類" style="margin:24px 0;padding:16px;border-radius:10px;background:#f7edcc;overflow-x:auto">
+<div style="display:inline-block;padding:8px 12px;border:2px solid #0a1f40;border-radius:8px;background:#0a1f40;color:#ffffff;font-weight:700;line-height:1.4">在留資格（29種類）<span style="display:block;font-size:12px;font-weight:400">入管法の別表第一・第二</span></div><div style="margin-left:14px"><div style="position:relative;padding:8px 0 0 18px"><span aria-hidden="true" style="position:absolute;left:0;top:30px;bottom:0;border-left:2px solid #1a3f7a"></span><span aria-hidden="true" style="position:absolute;left:0;top:0;width:16px;height:30px;border-left:2px solid #1a3f7a;border-bottom:2px solid #1a3f7a"></span><div style="display:inline-block;padding:8px 12px;border:2px solid #1a3f7a;border-radius:8px;background:#1a3f7a;color:#ffffff;font-weight:700;line-height:1.4">活動資格（25種類）・活動系<span style="display:block;font-size:12px;font-weight:400">別表第一：決められた活動ができる</span></div><div style="margin-left:14px"><div style="position:relative;padding:8px 0 0 18px"><span aria-hidden="true" style="position:absolute;left:0;top:30px;bottom:0;border-left:2px solid #1a3f7a"></span><span aria-hidden="true" style="position:absolute;left:0;top:0;width:16px;height:30px;border-left:2px solid #1a3f7a;border-bottom:2px solid #1a3f7a"></span><div style="display:inline-block;padding:8px 12px;border:2px solid #1a3f7a;border-radius:8px;background:#ffffff;color:#0a1f40;font-weight:700;line-height:1.4">就労資格（19種類）<span style="display:block;font-size:12px;font-weight:400">決められた範囲の仕事ができる</span></div></div><div style="position:relative;padding:8px 0 0 18px"><span aria-hidden="true" style="position:absolute;left:0;top:30px;bottom:0;border-left:2px solid #1a3f7a"></span><span aria-hidden="true" style="position:absolute;left:0;top:0;width:16px;height:30px;border-left:2px solid #1a3f7a;border-bottom:2px solid #1a3f7a"></span><div style="display:inline-block;padding:8px 12px;border:2px solid #1a3f7a;border-radius:8px;background:#ffffff;color:#0a1f40;font-weight:700;line-height:1.4">非就労資格（5種類）<span style="display:block;font-size:12px;font-weight:400">原則として働けない</span></div></div><div style="position:relative;padding:8px 0 0 18px"><span aria-hidden="true" style="position:absolute;left:0;top:0;width:16px;height:30px;border-left:2px solid #1a3f7a;border-bottom:2px solid #1a3f7a"></span><div style="display:inline-block;padding:8px 12px;border:2px solid #1a3f7a;border-radius:8px;background:#ffffff;color:#0a1f40;font-weight:700;line-height:1.4">特定活動（1種類）<span style="display:block;font-size:12px;font-weight:400">指定された活動による</span></div></div></div></div><div style="position:relative;padding:8px 0 0 18px"><span aria-hidden="true" style="position:absolute;left:0;top:0;width:16px;height:30px;border-left:2px solid #1a3f7a;border-bottom:2px solid #1a3f7a"></span><div style="display:inline-block;padding:8px 12px;border:2px solid #1a3f7a;border-radius:8px;background:#1a3f7a;color:#ffffff;font-weight:700;line-height:1.4">居住資格（4種類）・身分系<span style="display:block;font-size:12px;font-weight:400">別表第二：活動の制限がない</span></div></div></div><p style="margin:12px 0 0;font-size:12px;line-height:1.6;color:#334e7a">※「身分系」「活動系」は分かりやすくするための呼び方で、入管法・出入国在留管理庁の資料での正式な名前は「居住資格」「活動資格」です。</p>
+</div>
+
+## 在留資格は「身分系」と「活動系」の2つに分かれる
 
 在留資格は、出入国管理及び難民認定法（入管法）の2つの表に定められています。出入国在留管理庁の在留資格一覧表でも、この2つの表で大きく分けています。
 
 | 大きな分け方 | 入管法の表 | どんな在留資格か |
 |---|---|---|
-| 活動資格 | 別表第一 | 日本で何をするか（活動）にもとづく在留資格。認められた活動しかできない |
-| 居住資格 | 別表第二 | 身分や地位にもとづく在留資格。日本での活動に制限がない |
+| 活動資格（活動系） | 別表第一 | 日本で何をするか（活動）にもとづく在留資格。認められた活動しかできない |
+| 居住資格（身分系） | 別表第二 | 身分や地位にもとづく在留資格。日本での活動に制限がない |
+
+入管法の条文でも、別表第一の在留資格は表に掲げる「活動」を、別表第二の在留資格は「身分若しくは地位を有する者としての活動」を行うことができると、書き分けられています。別表第二の居住資格が、いわゆる「身分系」の在留資格です。
+
+なお、一般に「就労系」と呼ばれるのは、活動資格のうちの就労資格のことです。活動資格には、留学や家族滞在のような、働くことを目的としない在留資格も含まれています。
 
 活動資格は、さらに「就労資格」「非就労資格」「特定活動」の3つに分かれます。そのため、全体では次の4つのグループで整理できます。
 
@@ -88,6 +96,7 @@ breadcrumbs:
 **参考**
 
 - [在留資格一覧表（出入国在留管理庁）](https://www.moj.go.jp/isa/applications/status/qaq5.html)
+- [出入国管理及び難民認定法 第2条の2（e-Gov法令検索）](https://laws.e-gov.go.jp/law/326CO0000000319)
 - [資格外活動許可について（出入国在留管理庁）](https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri07_00045.html)
 - [「留学」の在留資格に係る資格外活動許可について（出入国在留管理庁）](https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri07_00003.html)
 - [永住許可に関するガイドライン（令和8年10月1日改定）（出入国在留管理庁）](https://www.moj.go.jp/isa/10_00279.html)
