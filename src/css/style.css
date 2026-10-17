@@ -2251,6 +2251,7 @@ footer p.footer-souzoku a {
 .article-contact-note { display: inline-block; margin-top: 6px; font-size: 12.5px; line-height: 1.8; color: var(--text-light); }
 .article-inner > p a, .article-inner > ul a, .article-inner > ol a, .article-inner > table a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
 .profile-reg { font-size: 12.5px; color: var(--text-light); margin-top: 4px; }
+.profile-reg a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .byline-link { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 
 /* 記事本文の箇条書き：黒丸を表示し、入れ子の箇条書きは一段下げて白丸に */
