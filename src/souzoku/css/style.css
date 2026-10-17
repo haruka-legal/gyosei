@@ -2363,3 +2363,18 @@ footer p { color: var(--text-light); }
 .article-closing a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
 /* 参考リンクの上の線：線と「参考」の間を広めに */
 .article-inner hr { margin: 3.5em 0 2.5em; border: 0; border-top: 1px solid #b9cbe6; }
+
+/* =====================
+   余白の調整（2026-10 デザイン案）
+   セクションの上下の余白を大きくする。書体・色は変えない。
+   ===================== */
+.worries-section, .fees-section, .articles-section, .access-section,
+.contact-section, .flow-section, .faq-section, .profile-section { padding-top: 112px; padding-bottom: 112px; }
+.services-section { padding-top: 112px; }
+.worries-section { padding-bottom: 64px; }
+.flow-section { padding-top: 64px; }
+@media (max-width: 680px) {
+  .worries-section, .fees-section, .articles-section, .access-section,
+  .contact-section, .flow-section, .faq-section, .profile-section { padding-top: 72px; padding-bottom: 72px; }
+  .services-section { padding-top: 72px; }
+}

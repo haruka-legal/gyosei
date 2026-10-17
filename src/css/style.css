@@ -2282,3 +2282,18 @@ footer p.footer-souzoku a {
 .post-filter-count { font-size: 11.5px; opacity: .75; }
 .post-filter-btn:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
 .post-item[hidden] { display: none; }
+
+/* =====================
+   余白の調整（2026-10 デザイン案）
+   セクションの上下の余白を大きくする。書体・色は変えない。
+   ===================== */
+.worries-section, .fees-section, .articles-section, .access-section,
+.contact-section, .flow-section, .faq-section, .profile-section { padding-top: 112px; padding-bottom: 112px; }
+.services-section { padding-top: 112px; }
+.worries-section { padding-bottom: 64px; }
+.flow-section { padding-top: 64px; }
+@media (max-width: 680px) {
+  .worries-section, .fees-section, .articles-section, .access-section,
+  .contact-section, .flow-section, .faq-section, .profile-section { padding-top: 72px; padding-bottom: 72px; }
+  .services-section { padding-top: 72px; }
+}
