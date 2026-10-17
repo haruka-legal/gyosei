@@ -2,7 +2,7 @@
 layout: layouts/article.njk
 title: "在留資格の種類とは？29種類を4つのグループで分かりやすく整理"
 description: "在留資格は29種類あり、就労資格・非就労資格・特定活動・居住資格の4つのグループに分けられます。グループごとに、どんな在留資格があり、働けるかどうかがどう違うのかを、はじめての会社向けに整理します。"
-keywords: "在留資格,種類,29種類,一覧,身分系,就労系,就労資格,居住資格,非就労資格,特定活動"
+keywords: "在留資格,種類,29種類,一覧,就労資格,居住資格,非就労資格,特定活動"
 category: "在留資格の基礎"
 datePublished: 2026-10-17
 conclusion: "在留資格は29種類あり、日本で行う活動にもとづく「活動資格」と、身分や地位にもとづく「居住資格」に大きく分かれます。活動資格はさらに、就労資格・非就労資格・特定活動に分かれるため、全体では4つのグループで整理できます。働けるかどうかや働ける仕事の範囲はグループによって違うため、外国人を雇う会社は、本人の在留資格がどれにあたり、任せる仕事がその範囲に入るかを見極めることが大切です。"
@@ -16,33 +16,226 @@ breadcrumbs:
 
 外国人を雇う会社にとって大切なのは、本人の在留資格がどのグループにあたり、会社で任せる仕事がその在留資格で認められた活動の範囲に入るかを見極めることです。この記事では、29種類の在留資格を4つのグループに分けて説明します。
 
-<div role="img" aria-label="在留資格29種類の分類図：活動資格（就労資格19種類、非就労資格5種類、特定活動1種類）と居住資格（身分系）4種類" style="margin:24px 0;padding:16px;border-radius:10px;background:#f7edcc;overflow-x:auto">
-<div style="display:inline-block;padding:8px 12px;border:2px solid #0a1f40;border-radius:8px;background:#0a1f40;color:#ffffff;font-weight:700;line-height:1.4">在留資格（29種類）<span style="display:block;font-size:12px;font-weight:400">入管法の別表第一・第二</span></div><div style="margin-left:14px"><div style="position:relative;padding:8px 0 0 18px"><span aria-hidden="true" style="position:absolute;left:0;top:30px;bottom:0;border-left:2px solid #1a3f7a"></span><span aria-hidden="true" style="position:absolute;left:0;top:0;width:16px;height:30px;border-left:2px solid #1a3f7a;border-bottom:2px solid #1a3f7a"></span><div style="display:inline-block;padding:8px 12px;border:2px solid #1a3f7a;border-radius:8px;background:#1a3f7a;color:#ffffff;font-weight:700;line-height:1.4">活動資格（25種類）・活動系<span style="display:block;font-size:12px;font-weight:400">別表第一：決められた活動ができる</span></div><div style="margin-left:14px"><div style="position:relative;padding:8px 0 0 18px"><span aria-hidden="true" style="position:absolute;left:0;top:30px;bottom:0;border-left:2px solid #1a3f7a"></span><span aria-hidden="true" style="position:absolute;left:0;top:0;width:16px;height:30px;border-left:2px solid #1a3f7a;border-bottom:2px solid #1a3f7a"></span><div style="display:inline-block;padding:8px 12px;border:2px solid #1a3f7a;border-radius:8px;background:#ffffff;color:#0a1f40;font-weight:700;line-height:1.4">就労資格（19種類）<span style="display:block;font-size:12px;font-weight:400">決められた範囲の仕事ができる</span></div></div><div style="position:relative;padding:8px 0 0 18px"><span aria-hidden="true" style="position:absolute;left:0;top:30px;bottom:0;border-left:2px solid #1a3f7a"></span><span aria-hidden="true" style="position:absolute;left:0;top:0;width:16px;height:30px;border-left:2px solid #1a3f7a;border-bottom:2px solid #1a3f7a"></span><div style="display:inline-block;padding:8px 12px;border:2px solid #1a3f7a;border-radius:8px;background:#ffffff;color:#0a1f40;font-weight:700;line-height:1.4">非就労資格（5種類）<span style="display:block;font-size:12px;font-weight:400">原則として働けない</span></div></div><div style="position:relative;padding:8px 0 0 18px"><span aria-hidden="true" style="position:absolute;left:0;top:0;width:16px;height:30px;border-left:2px solid #1a3f7a;border-bottom:2px solid #1a3f7a"></span><div style="display:inline-block;padding:8px 12px;border:2px solid #1a3f7a;border-radius:8px;background:#ffffff;color:#0a1f40;font-weight:700;line-height:1.4">特定活動（1種類）<span style="display:block;font-size:12px;font-weight:400">指定された活動による</span></div></div></div></div><div style="position:relative;padding:8px 0 0 18px"><span aria-hidden="true" style="position:absolute;left:0;top:0;width:16px;height:30px;border-left:2px solid #1a3f7a;border-bottom:2px solid #1a3f7a"></span><div style="display:inline-block;padding:8px 12px;border:2px solid #1a3f7a;border-radius:8px;background:#1a3f7a;color:#ffffff;font-weight:700;line-height:1.4">居住資格（4種類）・身分系<span style="display:block;font-size:12px;font-weight:400">別表第二：活動の制限がない</span></div></div></div><p style="margin:12px 0 0;font-size:12px;line-height:1.6;color:#334e7a">※「身分系」「活動系」は分かりやすくするための呼び方で、入管法・出入国在留管理庁の資料での正式な名前は「居住資格」「活動資格」です。</p>
-</div>
+<style>
+/* 既存サイトへの影響を避けるため、図の中だけに適用 */
+.zr29 {
+  --zr-navy: #203b55;
+  --zr-pale: #eef4f8;
+  --zr-line: #b9cbd8;
+  container: zr29 / inline-size;
+  width: 100%;
+  margin: 32px 0;
+  color: var(--zr-navy);
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.zr29 *, .zr29 *::before, .zr29 *::after { box-sizing: border-box; }
+.zr29 .zr-root {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 12px 32px;
+  background: var(--zr-navy);
+  color: #fff;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 700;
+}
+.zr29 .zr-count { margin-left: .6em; font-size: .85em; font-weight: 400; white-space: nowrap; }
+.zr29 .zr-branches {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
+  gap: 24px;
+  position: relative;
+  padding-top: 32px;
+}
+.zr29 .zr-branches::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 50%; height: 16px;
+  border-left: 1px solid var(--zr-line);
+}
+.zr29 .zr-group { position: relative; min-width: 0; }
+.zr29 .zr-group::before {
+  content: "";
+  position: absolute;
+  top: -16px; height: 16px;
+  border-top: 1px solid var(--zr-line);
+}
+.zr29 .zr-group:first-child::before {
+  left: 50%; right: -12px; border-left: 1px solid var(--zr-line);
+}
+.zr29 .zr-group:last-child::before {
+  left: -12px; right: 50%; border-right: 1px solid var(--zr-line);
+}
+.zr29 .zr-heading {
+  margin: 0;
+  padding: 12px 10px;
+  border: 1px solid var(--zr-line);
+  background: var(--zr-pale);
+  color: var(--zr-navy);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+}
+.zr29 .zr-categories {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  padding-top: 28px;
+  position: relative;
+}
+.zr29 .zr-categories::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 50%; height: 14px;
+  border-left: 1px solid var(--zr-line);
+}
+.zr29 .zr-card { position: relative; min-width: 0; }
+.zr29 .zr-card::before {
+  content: "";
+  position: absolute;
+  top: -14px; left: -7px; right: -7px;
+  border-top: 1px solid var(--zr-line);
+}
+.zr29 .zr-card:first-child::before { left: 50%; }
+.zr29 .zr-card:last-child::before { right: 50%; }
+.zr29 .zr-card::after {
+  content: "";
+  position: absolute;
+  top: -14px; left: 50%; height: 14px;
+  border-left: 1px solid var(--zr-line);
+}
+.zr29 .zr-subheading {
+  margin: 0;
+  padding: 10px 6px;
+  border: 1px solid var(--zr-line);
+  background: var(--zr-pale);
+  color: var(--zr-navy);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+}
+.zr29 .zr-subheading .zr-count { display: block; margin-left: 0; }
+.zr29 .zr-list {
+  list-style: none;
+  margin: 0;
+  padding: 6px 12px;
+  border: 1px solid var(--zr-line);
+  border-top: 0;
+  background: #fff;
+}
+.zr29 .zr-list > li {
+  margin: 0;
+  padding: 7px 0;
+  border: 0;
+  font-size: inherit;
+  overflow-wrap: anywhere;
+}
+.zr29 .zr-list > li + li { border-top: 1px solid #e4ecf1; }
+.zr29 .zr-list > li::before, .zr29 .zr-list > li::after { content: none; }
+.zr29 .zr-note { margin: 18px 0 0; color: #52616e; font-size: 12px; line-height: 1.8; }
+@container zr29 (max-width: 600px) {
+  .zr29 .zr-branches, .zr29 .zr-categories { display: block; padding-top: 18px; }
+  .zr29 .zr-group + .zr-group, .zr29 .zr-card + .zr-card { margin-top: 16px; }
+  .zr29 .zr-branches::before, .zr29 .zr-categories::before,
+  .zr29 .zr-group::before, .zr29 .zr-card::before, .zr29 .zr-card::after { content: none; }
+  .zr29 .zr-categories { padding: 12px 0 0 14px; border-left: 2px solid var(--zr-line); }
+  .zr29 .zr-subheading .zr-count { display: inline; margin-left: .6em; }
+  .zr29 .zr-subheading { padding: 10px 14px; text-align: left; }
+  .zr29 .zr-list { padding: 6px 14px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 16px; }
+  .zr29 .zr-list > li { padding: 5px 0; }
+  .zr29 .zr-list > li + li { border-top: 0; }
+}
+/* コンテナクエリ非対応ブラウザー向け */
+@supports not (container-type: inline-size) {
+  .zr29 .zr-branches, .zr29 .zr-categories { display: block; padding-top: 18px; }
+  .zr29 .zr-group + .zr-group, .zr29 .zr-card + .zr-card { margin-top: 16px; }
+  .zr29 .zr-branches::before, .zr29 .zr-categories::before,
+  .zr29 .zr-group::before, .zr29 .zr-card::before, .zr29 .zr-card::after { content: none; }
+}
+</style>
 
-## 在留資格は「身分系」と「活動系」の2つに分かれる
+<figure class="zr29" aria-label="在留資格29種類の分類図">
+  <div class="zr-root">在留資格<span class="zr-count">29種類</span></div>
+  <div class="zr-branches">
+    <section class="zr-group" aria-label="活動資格25種類">
+      <h3 class="zr-heading">活動資格<span class="zr-count">25種類</span></h3>
+      <div class="zr-categories">
+        <section class="zr-card" aria-label="就労資格19種類">
+          <h4 class="zr-subheading">就労資格<span class="zr-count">19種類</span></h4>
+          <ul class="zr-list" role="list">
+              <li>外交</li>
+              <li>公用</li>
+              <li>教授</li>
+              <li>芸術</li>
+              <li>宗教</li>
+              <li>報道</li>
+              <li>高度専門職</li>
+              <li>経営・管理</li>
+              <li>法律・会計業務</li>
+              <li>医療</li>
+              <li>研究</li>
+              <li>教育</li>
+              <li>技術・人文知識・国際業務</li>
+              <li>企業内転勤</li>
+              <li>介護</li>
+              <li>興行</li>
+              <li>技能</li>
+              <li>特定技能</li>
+              <li>技能実習</li>
+          </ul>
+        </section>
+        <section class="zr-card" aria-label="非就労資格5種類">
+          <h4 class="zr-subheading">非就労資格<span class="zr-count">5種類</span></h4>
+          <ul class="zr-list" role="list">
+              <li>文化活動</li>
+              <li>短期滞在</li>
+              <li>留学</li>
+              <li>研修</li>
+              <li>家族滞在</li>
+          </ul>
+        </section>
+        <section class="zr-card" aria-label="特定活動1種類">
+          <h4 class="zr-subheading">特定活動<span class="zr-count">1種類</span></h4>
+          <ul class="zr-list" role="list">
+            <li>特定活動</li>
+          </ul>
+        </section>
+      </div>
+    </section>
+    <section class="zr-group" aria-label="居住資格4種類">
+      <h3 class="zr-heading">居住資格<span class="zr-count">4種類</span></h3>
+      <ul class="zr-list" role="list">
+              <li>永住者</li>
+              <li>日本人の配偶者等</li>
+              <li>永住者の配偶者等</li>
+              <li>定住者</li>
+      </ul>
+    </section>
+  </div>
+  <figcaption class="zr-note">
+    ※特定活動の就労の可否は、個々に指定された活動によって異なります。<br>
+    ※非就労資格でも、資格外活動の許可を受けた場合は、その範囲内で就労できます。
+  </figcaption>
+</figure>
+
+## 在留資格は「活動資格」と「居住資格」の2つに分かれる
 
 在留資格は、出入国管理及び難民認定法（入管法）の2つの表に定められています。出入国在留管理庁の在留資格一覧表でも、この2つの表で大きく分けています。
 
 | 大きな分け方 | 入管法の表 | どんな在留資格か |
 |---|---|---|
-| 活動資格（活動系） | 別表第一 | 日本で何をするか（活動）にもとづく在留資格。認められた活動しかできない |
-| 居住資格（身分系） | 別表第二 | 身分や地位にもとづく在留資格。日本での活動に制限がない |
+| 活動資格 | 別表第一 | 日本で何をするか（活動）にもとづく在留資格。認められた活動しかできない |
+| 居住資格 | 別表第二 | 身分や地位にもとづく在留資格。日本での活動に制限がない |
 
-入管法の条文でも、別表第一の在留資格は表に掲げる「活動」を、別表第二の在留資格は「身分若しくは地位を有する者としての活動」を行うことができると、書き分けられています。別表第二の居住資格が、いわゆる「身分系」の在留資格です。
+入管法の条文でも、別表第一の在留資格は表に掲げる「活動」を、別表第二の在留資格は「身分若しくは地位を有する者としての活動」を行うことができると、書き分けられています。
 
 なお、一般に「就労系」と呼ばれるのは、活動資格のうちの就労資格のことです。活動資格には、留学や家族滞在のような、働くことを目的としない在留資格も含まれています。
 
-活動資格は、さらに「就労資格」「非就労資格」「特定活動」の3つに分かれます。そのため、全体では次の4つのグループで整理できます。
-
-## 4つのグループと29種類の在留資格
-
-| グループ | 働けるか | 在留資格 |
-|---|---|---|
-| 就労資格（19種類） | 在留資格で決められた範囲の仕事だけできる | 外交、公用、教授、芸術、宗教、報道、高度専門職、経営・管理、法律・会計業務、医療、研究、教育、技術・人文知識・国際業務、企業内転勤、介護、興行、技能、特定技能、技能実習 |
-| 非就労資格（5種類） | 原則として働けない | 文化活動、短期滞在、留学、研修、家族滞在 |
-| 特定活動（1種類） | 一人ひとりに指定された活動の内容による | 特定活動 |
-| 居住資格（4種類） | 仕事の内容に制限がない | 永住者、日本人の配偶者等、永住者の配偶者等、定住者 |
+活動資格は、さらに「就労資格」「非就労資格」「特定活動」の3つに分かれます。そのため、全体では上の図のとおり、4つのグループで整理できます。
 
 出入国在留管理庁の一覧表では、高度専門職（1号・2号）、特定技能（1号・2号）、技能実習（1号〜3号）は、それぞれ1種類として数えています。また、就労資格のうち「外交」「公用」は、外国政府の外交官や公務員などのための在留資格で、一般の会社が雇う対象にはなりません。
 
@@ -72,7 +265,7 @@ breadcrumbs:
 
 ## 居住資格：仕事の内容に制限がない
 
-居住資格は、日本人の配偶者であることや、永住の許可を受けたことなど、本人の身分や地位にもとづく在留資格です。いわゆる「身分系」の在留資格とも呼ばれます。
+居住資格は、日本人の配偶者であることや、永住の許可を受けたことなど、本人の身分や地位にもとづく在留資格です。
 
 居住資格を持つ人は、日本での活動に制限がありません。<u>**日本人と同じように、仕事の内容を問わず働くことができます**</u>。会社が、学歴や仕事の内容の要件を確認する必要もありません。
 
