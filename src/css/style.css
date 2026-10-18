@@ -2298,3 +2298,41 @@ footer p.footer-souzoku a {
   .contact-section, .flow-section, .faq-section, .profile-section { padding-top: 72px; padding-bottom: 72px; }
   .services-section { padding-top: 72px; }
 }
+
+/* =====================
+   スマホ用：右下に固定する問い合わせボタン
+   ===================== */
+.fab-contact { display: none; }
+@media (max-width: 900px) {
+  .fab-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    right: 14px;
+    bottom: calc(16px + env(safe-area-inset-bottom));
+    z-index: 250;
+  }
+  .fab-btn {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(0,0,0,.22);
+  }
+  .fab-btn svg { width: 22px; height: 22px; }
+  .fab-line { background: #06c755; }
+  .fab-line svg { fill: #fff; }
+  .fab-form { background: var(--navy); }
+  .fab-form svg { fill: none; stroke: #fff; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  footer { padding-bottom: calc(150px + env(safe-area-inset-bottom)); }
+}
