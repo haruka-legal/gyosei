@@ -73,7 +73,9 @@
     .name{background-position:left bottom;background-size:100% 2px;animation-name:lineh}
     @keyframes lineh{from{background-size:0 2px}to{background-size:100% 2px}}
     .name small{margin:10px 0 0;font-size:13px;letter-spacing:.12em;white-space:nowrap}
-    .left{flex-direction:row;align-items:flex-start;justify-content:flex-start;gap:14px}
+    .left{flex-direction:row;align-items:flex-start;justify-content:flex-start;gap:14px;width:max-content;max-width:100%;padding-bottom:14px;background:linear-gradient(var(--blue),var(--blue)) left bottom/100% 2px no-repeat;animation:lineh 2.8s cubic-bezier(.33,0,.2,1) both}
+    .name{background:none;padding-bottom:0;animation:none}
+    @media (prefers-reduced-motion:reduce){.left{animation:none}}
     .seal{order:0;flex:none;width:48px;height:48px;margin-top:-6px}
     .cbtn{flex:1 1 100%}
     .area .nl{display:inline}
@@ -87,7 +89,7 @@
   <img class="seal" src="gyosei/images/logo.jpg" alt="遥か行政書士事務所ロゴ" width="92" height="92">
   </div>
   <div class="side">
-    <p class="lead"><span class="ph" style="--j:0">国境を越える「はじめて」と、</span><span class="ph" style="--j:1">ご家族の「これから」を、</span><span class="ph" style="--j:2">書類で支えます。</span></p>
+    <p class="lead"><span class="ph" style="--j:0">国境を越える「はじめて」と、</span><span class="ph" style="--j:1">ご家族の「これから」を、</span><span class="ph" style="--j:2">確かな手続きで支えます。</span></p>
     <ul class="routes">
       <li><a href="gyosei/"><span><span class="t">ビザ・外国人雇用</span><span class="d">外国人を採用する企業の方、ビザの手続きが必要な方へ</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
       <li><a href="souzoku/"><span><span class="t">相続・遺言</span><span class="d">ご家族の相続手続きや、遺言書の準備をお考えの方へ</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
