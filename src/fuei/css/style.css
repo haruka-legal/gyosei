@@ -469,6 +469,8 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
   .btn-cta-large { width: 100%; }
   .article-hero { padding-top: 104px; }
   .articles-grid { grid-template-columns: 1fr; }
+  .article-inner > table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; font-size: 13px; }
+  .article-inner > table th, .article-inner > table td { min-width: 8.5em; }
 }
 
 /* =====================
@@ -520,3 +522,8 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
   text-decoration: none;
 }
 .form-open-note { margin: -8px 0 16px; font-size: 12px; color: var(--text-light); text-align: center; line-height: 1.7; }
+
+/* 記事の締め（事務所の姿勢の一文） */
+.article-closing { margin-top: 3.5em; padding-top: 2.5em; border-top: 1px solid var(--line); }
+.article-closing p { font-size: 15.5px; line-height: 2; margin: 0 0 18px; }
+.article-closing a { text-decoration: underline; text-underline-offset: 3px; }

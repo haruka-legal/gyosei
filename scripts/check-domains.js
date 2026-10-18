@@ -59,6 +59,10 @@ const ALLOWED_HOSTS = [
   "www.city.shinjuku.lg.jp", // 新宿区（戸籍の届出の案内）
   "www.city.chiba.jp", // 千葉市（農地の相続届出の案内）
   "www.city.chiyoda.lg.jp", // 千代田区
+  "www.keishicho.metro.tokyo.lg.jp", // 警視庁（風営法の手続き・審査基準・条例）
+  "www.npa.go.jp", // 警察庁（風営法の解釈運用基準）
+  "www.tfd.metro.tokyo.lg.jp", // 東京消防庁（使用開始届・防火管理者）
+  "www.police.pref.kanagawa.jp", // 神奈川県警察（2025年の風営法改正の概要）
   "www.city.kobe.lg.jp", // 神戸市（死亡届の案内）
 ];
 
