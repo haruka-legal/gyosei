@@ -470,3 +470,53 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
   .article-hero { padding-top: 104px; }
   .articles-grid { grid-template-columns: 1fr; }
 }
+
+/* =====================
+   スマホ用：右下に固定する問い合わせボタン／フォームを開くボタン
+   ===================== */
+.fab-contact { display: none; }
+@media (max-width: 900px) {
+  .fab-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    right: 18px;
+    bottom: calc(32px + env(safe-area-inset-bottom));
+    z-index: 250;
+  }
+  .fab-btn {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(0,0,0,.22);
+  }
+  .fab-btn svg { width: 22px; height: 22px; }
+  .fab-line { background: #06c755; }
+  .fab-line svg { fill: #fff; }
+  .fab-form { background: var(--navy); }
+  .fab-form svg { fill: none; stroke: #fff; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  footer { padding-bottom: calc(160px + env(safe-area-inset-bottom)); }
+}
+.form-open {
+  display: block;
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  border-radius: 8px;
+  background: var(--navy);
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+}
+.form-open-note { margin: -8px 0 16px; font-size: 12px; color: var(--text-light); text-align: center; line-height: 1.7; }
