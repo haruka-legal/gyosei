@@ -64,6 +64,7 @@ const ALLOWED_HOSTS = [
   "www.npa.go.jp", // 警察庁（風営法の解釈運用基準）
   "www.tfd.metro.tokyo.lg.jp", // 東京消防庁（使用開始届・防火管理者）
   "www.police.pref.kanagawa.jp", // 神奈川県警察（2025年の風営法改正の概要）
+  "www.police.pref.kochi.lg.jp", // 高知県警察（深夜酒類提供飲食店営業の手引）
   "www.city.kobe.lg.jp", // 神戸市（死亡届の案内）
 ];
 
