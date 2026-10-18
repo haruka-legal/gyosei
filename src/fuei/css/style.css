@@ -481,8 +481,8 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
     flex-direction: column;
     gap: 10px;
     position: fixed;
-    right: 18px;
-    bottom: calc(32px + env(safe-area-inset-bottom));
+    right: 22px;
+    bottom: calc(96px + env(safe-area-inset-bottom));
     z-index: 250;
   }
   .fab-btn {
@@ -506,7 +506,7 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
   .fab-line svg { fill: #fff; }
   .fab-form { background: var(--navy); }
   .fab-form svg { fill: none; stroke: #fff; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-  footer { padding-bottom: calc(160px + env(safe-area-inset-bottom)); }
+  footer { padding-bottom: calc(220px + env(safe-area-inset-bottom)); }
 }
 .form-open {
   display: block;
