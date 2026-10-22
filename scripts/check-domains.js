@@ -69,6 +69,7 @@ const ALLOWED_HOSTS = [
   "www.reiki.metro.tokyo.lg.jp", // 東京都例規集（警視庁関係手数料条例など）
   "www.city.kobe.lg.jp", // 神戸市（死亡届の案内）
   "www.city.fukuoka.lg.jp", // 福岡市（死亡届の案内）
+  "www.city.chuo.lg.jp", // 中央区（世帯主変更）
 ];
 
 const TEXT_EXT = new Set([".html", ".xml", ".txt", ".css", ".js", ".json", ".webmanifest"]);
