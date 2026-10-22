@@ -2429,3 +2429,10 @@ footer p { color: var(--text-light); }
   text-decoration: none;
 }
 .form-open-note { margin: -8px 0 16px; font-size: 12px; color: var(--text-light); text-align: center; line-height: 1.7; }
+
+/* 記事本文の文字の大きさ：箇条書き・結論・表を本文（16px）にそろえて読みやすくする */
+.conclusion-box { font-size: 16px; }
+.article-inner > ul:not(.check-list) li,
+.article-inner > ol li { font-size: 16px; }
+.article-inner > table th,
+.article-inner > table td { font-size: 15px; }

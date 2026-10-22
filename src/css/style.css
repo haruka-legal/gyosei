@@ -2348,3 +2348,10 @@ footer p.footer-souzoku a {
   .fab-form svg { fill: none; stroke: #fff; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
   footer { padding-bottom: calc(220px + env(safe-area-inset-bottom)); }
 }
+
+/* 記事本文の文字の大きさ：箇条書き・結論・表を本文（16px）にそろえて読みやすくする */
+.conclusion-box { font-size: 16px; }
+.article-inner > ul:not(.check-list) li,
+.article-inner > ol li { font-size: 16px; }
+.article-inner > table th,
+.article-inner > table td { font-size: 15px; }
