@@ -22,6 +22,7 @@ const BLOCKED_HOSTS = [
 // リンクしてよいドメイン
 const ALLOWED_HOSTS = [
   "haruka-legal.com",
+  "jsite.mhlw.go.jp",
   "lin.ee", // 公式LINE
   "wa.me", // WhatsApp
   "www.linkedin.com",
