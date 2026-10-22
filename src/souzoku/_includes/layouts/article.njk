@@ -83,7 +83,6 @@ ogType: article
 
     <div class="article-disclaimer">
       本記事は{{ (dateModified or datePublished) | readableDate }}時点の情報に基づいています。{% if sourceUrl %}最新情報は<a href="{{ sourceUrl }}" target="_blank" rel="noopener" style="color:var(--blue);text-decoration:underline;">{{ sourceName }}</a>をご確認ください。{% else %}最新の運用状況は、関係省庁の公表情報をご確認ください。{% endif %}
-      <div class="article-author">執筆：<a href="{{ root }}#profile" class="byline-link">{{ site.representative.jobTitle }} {{ site.representative.name }}</a>（{{ site.name }}）</div>
     </div>
 
   </div>
