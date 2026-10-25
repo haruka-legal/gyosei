@@ -14,9 +14,17 @@ module.exports = {
     jobTitle: "行政書士",
     association: "東京都行政書士会"
   },
-  knowsAbout: ["風俗営業許可","接待飲食等営業","社交飲食店","深夜酒類提供飲食店営業の届出","用途地域の調査","保全対象施設の調査","営業所の平面図・求積図","飲食店営業許可"],
+  knowsAbout: ["風俗営業許可","接待飲食等営業","社交飲食店","深夜酒類提供飲食店営業の届出","用途地域の調査","保全対象施設の調査","営業所の平面図・求積図","飲食店営業許可","性風俗関連特殊営業の届出"],
   // 主な対応エリア（構造化データ・事務所案内・FAQに使う）
   serviceAreas: ["千代田区","中央区","港区","新宿区","文京区","台東区","荒川区"],
+  // 事務所案内の「主な対応地域」と構造化データに使う街の名前
+  serviceTownGroups: [
+    { ward: "千代田区", towns: ["神田","神保町","御茶ノ水","水道橋"] },
+    { ward: "中央区", towns: ["銀座"] },
+    { ward: "港区", towns: ["新橋"] },
+    { ward: "台東区・文京区", towns: ["上野","湯島","千束（吉原）","三ノ輪"] },
+    { ward: "荒川区", towns: ["日暮里","三河島"] }
+  ],
   lineUrl: "https://lin.ee/Sgysu6a",
   formUrl: "https://docs.google.com/forms/d/e/1FAIpQLScSlVq7Fiao-6JQXSTVyVt4e4Q6z7YZc7XxGRsk_4u2O7o0zg/viewform?embedded=true",
   logo: "/images/logo.jpg",

@@ -68,7 +68,7 @@
     "postalCode": "{{ site.postalCode }}",
     "addressCountry": "JP"
   },
-  "areaServed": [{% for a in site.serviceAreas %}{ "@type": "City", "name": "{{ a }}" }, {% endfor %}{ "@type": "AdministrativeArea", "name": "東京都" }, { "@type": "Country", "name": "日本" }],
+  "areaServed": [{% for a in site.serviceAreas %}{ "@type": "City", "name": "{{ a }}" }, {% endfor %}{% for g in site.serviceTownGroups %}{% for t in g.towns %}{ "@type": "Place", "name": {{ t | dump | safe }} }, {% endfor %}{% endfor %}{ "@type": "AdministrativeArea", "name": "東京都" }, { "@type": "Country", "name": "日本" }],
   "knowsAbout": {{ site.knowsAbout | dump | safe }},
   "contactPoint": { "@type": "ContactPoint", "contactType": "customer service", "url": "{{ site.lineUrl }}", "availableLanguage": ["ja"] }
 }

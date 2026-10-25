@@ -527,3 +527,8 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
 .article-closing { margin-top: 3.5em; padding-top: 2.5em; border-top: 1px solid var(--line); }
 .article-closing p { font-size: 15.5px; line-height: 2; margin: 0 0 18px; }
 .article-closing a { text-decoration: underline; text-underline-offset: 3px; }
+
+/* 事務所案内：主な対応地域 */
+.area-list { margin-top: 8px; }
+.area-list li { font-size: 14px; line-height: 1.9; padding: 6px 0; border-bottom: 1px solid var(--line-soft); }
+.area-ward { display: inline-block; min-width: 8.5em; color: var(--mute); font-size: 13px; }

@@ -1,11 +1,12 @@
 # 遥か行政書士事務所 (HARUKA LEGAL SUPPORT)
 
-> 東京都千代田区神田錦町の行政書士事務所。代表は行政書士 岸はるか。外国人雇用・在留資格などの国際業務と、相続手続き・遺言書作成を取り扱う。分野ごとに次の3つのサイトがある。
+> 東京都千代田区神田錦町の行政書士事務所。代表は行政書士 岸はるか。外国人雇用・在留資格などの国際業務、相続手続き・遺言書作成、夜のお店（風俗営業・深夜酒類提供飲食店・性風俗関連特殊営業）の許可と届出を取り扱う。分野ごとに次の4つのサイトがある。
 
 ## サイト
 
 - [国際業務（日本語）](https://haruka-legal.com/gyosei/): 外国人を雇用する企業の在留資格・コンプライアンス支援（技術・人文知識・国際業務、特定技能、育成就労）、配偶者ビザ、永住・帰化。詳細: https://haruka-legal.com/gyosei/llms.txt
 - [相続・遺言（日本語）](https://haruka-legal.com/souzoku/): 相続人調査・戸籍収集、法定相続情報一覧図、遺産分割協議書、預貯金等の名義変更、遺言書作成。詳細: https://haruka-legal.com/souzoku/llms.txt
+- [風俗営業・夜のお店の許可（日本語）](https://haruka-legal.com/fuei/): スナック・ラウンジ・バーの風俗営業許可（1号）、深夜酒類提供飲食店営業の届出、性風俗関連特殊営業の届出、物件の事前調査、営業所の図面作成。詳細: https://haruka-legal.com/fuei/llms.txt
 - [For foreigners（English / Español / 日本語）](https://haruka-legal.com/visa/): Visa and residence status support for individuals and companies. Details: https://haruka-legal.com/visa/llms.txt
 
 ## 事務所情報
