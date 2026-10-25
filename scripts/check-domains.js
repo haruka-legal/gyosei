@@ -68,6 +68,7 @@ const ALLOWED_HOSTS = [
   "www.police.pref.kochi.lg.jp", // 高知県警察（深夜酒類提供飲食店営業の手引）
   "www.reiki.metro.tokyo.lg.jp", // 東京都例規集（警視庁関係手数料条例など）
   "www.metro.tokyo.lg.jp", // 東京都（公安委員会などの都の仕組み）
+  "www.soumu.go.jp", // 総務省（行政書士制度）
   "www.city.kobe.lg.jp", // 神戸市（死亡届の案内）
   "www.city.fukuoka.lg.jp", // 福岡市（死亡届の案内）
   "www.city.chuo.lg.jp", // 中央区（世帯主変更）
