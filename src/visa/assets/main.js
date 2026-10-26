@@ -104,10 +104,11 @@ function selectCase(id) {
     return null;
   }
 
+  // 毎日更新される open.er-api.com を先に使い、取れなければ欧州中央銀行の参考レート（Frankfurter）
   var SOURCES = [
+    'https://open.er-api.com/v6/latest/JPY',
     'https://api.frankfurter.dev/v1/latest?base=JPY&symbols=USD',
-    'https://api.frankfurter.dev/v2/rates?base=JPY&quotes=USD',
-    'https://open.er-api.com/v6/latest/JPY'
+    'https://api.frankfurter.dev/v2/rates?base=JPY&quotes=USD'
   ];
 
   function fetchRate(i) {
