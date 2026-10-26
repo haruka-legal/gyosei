@@ -63,7 +63,6 @@
 .cur-btn:focus-visible{outline:2px solid var(--sky);outline-offset:2px;}
 .cur-note{flex-basis:100%;font-size:12px;color:var(--mid);line-height:1.6;margin:0;}
 .cur-note:empty{display:none;}
-#cases .cur-bar{margin-top:-8px;}
 
 /* ── Fee tables ── */
 .fee-group{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:28px 32px;margin-bottom:20px;}
