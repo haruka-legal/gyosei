@@ -393,6 +393,9 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
 .article-inner > table { width: 100%; border-collapse: collapse; margin: 0 0 24px; font-size: 14px; }
 .article-inner > table th, .article-inner > table td { border: 1px solid var(--line); padding: 10px 14px; text-align: left; line-height: 1.7; }
 .article-inner > table th { background: var(--mist); }
+/* 3列以上の表は、左端の列を細めに固定し、残りの列を同じ幅にそろえる */
+.article-inner > table:has(th:nth-child(3)) { table-layout: fixed; }
+.article-inner > table:has(th:nth-child(3)) th:first-child { width: 22%; }
 .article-inner > p a, .article-inner > ul a, .article-inner > ol a, .article-inner > table a { text-decoration: underline; text-underline-offset: 3px; }
 .article-inner hr { margin: 3.5em 0 2.5em; border: 0; border-top: 1px solid var(--line); }
 .check-list li { border-bottom: 1px solid var(--line-soft); }
