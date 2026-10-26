@@ -11,6 +11,8 @@
 
 当てはまる状況を選んでください。必要な手続きと料金の目安をご案内します。
 </p>
+{% include "partials/currency-toggle.njk" %}
+
 <div class="case-grid">
 <button class="case-btn" id="btn-employer" onclick="selectCase('employer')">
 <span style="display:block;color:var(--sky);margin-bottom:10px;line-height:1;"><svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="20"><path d="M2 20h20M5 20V8l6 4V8l6 4V4h3v16"></path></svg></span>
@@ -61,9 +63,9 @@
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">料金目安</div>
-<div class="cd-fee-val">¥209,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="330000" data-from="1">¥330,000〜</span></div>
 <div class="cd-fee-sub">税込・案件により異なります</div>
-<div class="cd-fee-note">会社設立費用は別途。無料見積り対応。</div>
+<div class="cd-fee-note">更新は<span class="px" data-jpy="132000" data-from="1">¥132,000〜</span>。会社設立費用は別途です。まず2025年10月改正後の許可基準（資本金3,000万円以上など）を満たすかを確認します。</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">お支払いの流れ</div>
@@ -74,7 +76,7 @@
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">LINEで相談</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsAppで相談</a>
 </div>
-<div class="cd-note">ご連絡〜内容確認まで無料。初期調査は¥5,000〜。24時間以内にご返信します。</div>
+<div class="cd-note">ご連絡〜内容確認まで無料。初期調査は<span class="px" data-jpy="5000">¥5,000</span>〜。24時間以内にご返信します。</div>
 </div>
 </div>
 </div>
@@ -95,9 +97,9 @@
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">料金目安</div>
-<div class="cd-fee-val">¥99,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="66000" data-from="1">¥66,000〜</span></div>
 <div class="cd-fee-sub">税込</div>
-<div class="cd-fee-note">新規・変更・更新。内容により異なります。</div>
+<div class="cd-fee-note">更新（転職なし）<span class="px" data-jpy="66000">¥66,000</span>・在留資格変更<span class="px" data-jpy="121000">¥121,000</span>・特定技能は<span class="px" data-jpy="88000" data-from="1">¥88,000〜</span>。詳しくは料金表をご覧ください。</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">お支払いの流れ</div>
@@ -108,7 +110,7 @@
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">LINEで相談</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsAppで相談</a>
 </div>
-<div class="cd-note">ご連絡〜内容確認まで無料。初期調査は¥5,000〜。24時間以内にご返信します。</div>
+<div class="cd-note">ご連絡〜内容確認まで無料。初期調査は<span class="px" data-jpy="5000">¥5,000</span>〜。24時間以内にご返信します。</div>
 </div>
 </div>
 </div>
@@ -129,9 +131,9 @@
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">料金目安</div>
-<div class="cd-fee-val">¥55,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="55000" data-from="1">¥55,000〜</span></div>
 <div class="cd-fee-sub">税込</div>
-<div class="cd-fee-note">出身国・案件内容により異なります。</div>
+<div class="cd-fee-note">国際結婚手続きサポート<span class="px" data-jpy="55000" data-from="1">¥55,000〜</span>。配偶者ビザは更新<span class="px" data-jpy="66000">¥66,000</span>・変更<span class="px" data-jpy="110000">¥110,000</span>・認定証明書<span class="px" data-jpy="132000">¥132,000</span>。</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">お支払いの流れ</div>
@@ -142,7 +144,7 @@
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">LINEで相談</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsAppで相談</a>
 </div>
-<div class="cd-note">ご連絡〜内容確認まで無料。初期調査は¥5,000〜。24時間以内にご返信します。</div>
+<div class="cd-note">ご連絡〜内容確認まで無料。初期調査は<span class="px" data-jpy="5000">¥5,000</span>〜。24時間以内にご返信します。</div>
 </div>
 </div>
 </div>
@@ -163,9 +165,9 @@
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">料金目安</div>
-<div class="cd-fee-val">¥143,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="165000" data-from="1">¥165,000〜</span></div>
 <div class="cd-fee-sub">税込</div>
-<div class="cd-fee-note">書類一式作成込み。帰化は内容により異なります。</div>
+<div class="cd-fee-note">永住<span class="px" data-jpy="165000" data-from="1">¥165,000〜</span>・帰化<span class="px" data-jpy="209000" data-from="1">¥209,000〜</span>。経営者・個人事業主の方は料金が異なります（料金表をご覧ください）。</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">お支払いの流れ</div>
@@ -176,7 +178,7 @@
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">LINEで相談</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsAppで相談</a>
 </div>
-<div class="cd-note">ご連絡〜内容確認まで無料。初期調査は¥5,000〜。24時間以内にご返信します。</div>
+<div class="cd-note">ご連絡〜内容確認まで無料。初期調査は<span class="px" data-jpy="5000">¥5,000</span>〜。24時間以内にご返信します。</div>
 </div>
 </div>
 </div>
@@ -196,9 +198,9 @@
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">料金目安</div>
-<div class="cd-fee-val">¥66,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="66000" data-from="1">¥66,000〜</span></div>
 <div class="cd-fee-sub">税込</div>
-<div class="cd-fee-note">お一人様ごと。内容により異なります。</div>
+<div class="cd-fee-note">家族滞在<span class="px" data-jpy="66000">¥66,000</span>・定住者<span class="px" data-jpy="88000" data-from="1">¥88,000〜</span>。</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">お支払いの流れ</div>
@@ -209,7 +211,7 @@
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">LINEで相談</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsAppで相談</a>
 </div>
-<div class="cd-note">ご連絡〜内容確認まで無料。初期調査は¥5,000〜。24時間以内にご返信します。</div>
+<div class="cd-note">ご連絡〜内容確認まで無料。初期調査は<span class="px" data-jpy="5000">¥5,000</span>〜。24時間以内にご返信します。</div>
 </div>
 </div>
 </div>
@@ -224,15 +226,15 @@
 <div class="cd-item"><div class="cd-dot"></div>特定技能1号・2号</div>
 <div class="cd-item"><div class="cd-dot"></div>社員ビザ更新・変更手続き</div>
 <div class="cd-item"><div class="cd-dot"></div>外国人雇用コンプライアンス相談</div>
-<div class="cd-item"><div class="cd-dot"></div>複数名の場合はご相談ください</div>
+<div class="cd-item"><div class="cd-dot"></div>外国人社員が複数名の会社向けの顧問プラン</div>
 </div>
 </div>
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">料金目安</div>
-<div class="cd-fee-val">¥121,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="66000" data-from="1">¥66,000〜</span></div>
 <div class="cd-fee-sub">お一人様ごと・税込</div>
-<div class="cd-fee-note">法人請求可能。複数名は無料見積り。</div>
+<div class="cd-fee-note">認定証明書は技人国<span class="px" data-jpy="132000">¥132,000</span>・特定技能<span class="px" data-jpy="154000">¥154,000</span>。法人請求・顧問プランに対応しています。</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">お支払いの流れ</div>
@@ -243,7 +245,7 @@
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">LINEで相談</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsAppで相談</a>
 </div>
-<div class="cd-note">ご連絡〜内容確認まで無料。初期調査は¥5,000〜。24時間以内にご返信します。</div>
+<div class="cd-note">ご連絡〜内容確認まで無料。初期調査は<span class="px" data-jpy="5000">¥5,000</span>〜。24時間以内にご返信します。</div>
 </div>
 </div>
 </div>

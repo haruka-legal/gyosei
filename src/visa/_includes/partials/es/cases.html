@@ -11,6 +11,8 @@
 Selecciona tu situación para ver exactamente qué podemos hacer por ti, cuánto cuesta y cómo empezar.
 
 </p>
+{% include "partials/currency-toggle.njk" %}
+
 <div class="case-grid">
 <button class="case-btn" id="btn-employer" onclick="selectCase('employer')">
 <span style="display:block;color:var(--sky);margin-bottom:10px;line-height:1;"><svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="20"><path d="M2 20h20M5 20V8l6 4V8l6 4V4h3v16"></path></svg></span>
@@ -61,9 +63,9 @@ Selecciona tu situación para ver exactamente qué podemos hacer por ti, cuánto
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">Desde</div>
-<div class="cd-fee-val">¥209,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="330000" data-from="1">¥330,000〜</span></div>
 <div class="cd-fee-sub">impuesto incluido · varía según el caso</div>
-<div class="cd-fee-note">Los costos de constitución de empresa son adicionales. Presupuesto gratuito disponible.</div>
+<div class="cd-fee-note">Renovación desde <span class="px" data-jpy="132000">¥132,000</span>. Los costos de constitución de la empresa son aparte. Primero verificamos su plan con los criterios revisados en octubre de 2025 (p. ej., capital de ¥30 millones o más).</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">Cómo Funciona el Pago</div>
@@ -74,7 +76,7 @@ Selecciona tu situación para ver exactamente qué podemos hacer por ti, cuánto
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">Consultar por LINE</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">Consultar por WhatsApp</a>
 </div>
-<div class="cd-note">El contacto inicial y la revisión son gratuitos. Plan de investigación desde ¥5,000. Respondemos en 24 horas.</div>
+<div class="cd-note">El contacto inicial y la revisión son gratuitos. Plan de investigación desde <span class="px" data-jpy="5000">¥5,000</span>. Respondemos en 24 horas.</div>
 </div>
 </div>
 </div>
@@ -95,9 +97,9 @@ Selecciona tu situación para ver exactamente qué podemos hacer por ti, cuánto
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">Desde</div>
-<div class="cd-fee-val">¥99,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="66000" data-from="1">¥66,000〜</span></div>
 <div class="cd-fee-sub">impuesto incluido</div>
-<div class="cd-fee-note">Nueva solicitud / Cambio / Renovación. Varía según complejidad.</div>
+<div class="cd-fee-note">Renovación (mismo empleador) <span class="px" data-jpy="66000">¥66,000</span> · Cambio de estatus <span class="px" data-jpy="121000">¥121,000</span> · Trabajador con Habilidades Específicas desde <span class="px" data-jpy="88000">¥88,000</span>. Ver la tabla de honorarios.</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">Cómo Funciona el Pago</div>
@@ -108,7 +110,7 @@ Selecciona tu situación para ver exactamente qué podemos hacer por ti, cuánto
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">Consultar por LINE</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">Consultar por WhatsApp</a>
 </div>
-<div class="cd-note">El contacto inicial y la revisión son gratuitos. Plan de investigación desde ¥5,000. Respondemos en 24 horas.</div>
+<div class="cd-note">El contacto inicial y la revisión son gratuitos. Plan de investigación desde <span class="px" data-jpy="5000">¥5,000</span>. Respondemos en 24 horas.</div>
 </div>
 </div>
 </div>
@@ -129,9 +131,9 @@ Selecciona tu situación para ver exactamente qué podemos hacer por ti, cuánto
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">Desde</div>
-<div class="cd-fee-val">¥55,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="55000" data-from="1">¥55,000〜</span></div>
 <div class="cd-fee-sub">impuesto incluido</div>
-<div class="cd-fee-note">Varía según el país de origen y la complejidad del caso.</div>
+<div class="cd-fee-note">Apoyo con el matrimonio desde <span class="px" data-jpy="55000">¥55,000</span>. Visa de cónyuge: renovación <span class="px" data-jpy="66000">¥66,000</span> · cambio de estatus <span class="px" data-jpy="110000">¥110,000</span> · Certificado de Elegibilidad <span class="px" data-jpy="132000">¥132,000</span>.</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">Cómo Funciona el Pago</div>
@@ -142,7 +144,7 @@ Selecciona tu situación para ver exactamente qué podemos hacer por ti, cuánto
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">Consultar por LINE</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">Consultar por WhatsApp</a>
 </div>
-<div class="cd-note">El contacto inicial y la revisión son gratuitos. Plan de investigación desde ¥5,000. Respondemos en 24 horas.</div>
+<div class="cd-note">El contacto inicial y la revisión son gratuitos. Plan de investigación desde <span class="px" data-jpy="5000">¥5,000</span>. Respondemos en 24 horas.</div>
 </div>
 </div>
 </div>
@@ -163,9 +165,9 @@ Selecciona tu situación para ver exactamente qué podemos hacer por ti, cuánto
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">Desde</div>
-<div class="cd-fee-val">¥143,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="165000" data-from="1">¥165,000〜</span></div>
 <div class="cd-fee-sub">impuesto incluido</div>
-<div class="cd-fee-note">Preparación completa de documentos incluida. Naturalización varía.</div>
+<div class="cd-fee-note">Residencia permanente desde <span class="px" data-jpy="165000">¥165,000</span> · Naturalización desde <span class="px" data-jpy="209000">¥209,000</span>. Para empresarios y autónomos el honorario es mayor; ver la tabla.</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">Cómo Funciona el Pago</div>
@@ -176,7 +178,7 @@ Selecciona tu situación para ver exactamente qué podemos hacer por ti, cuánto
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">Consultar por LINE</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">Consultar por WhatsApp</a>
 </div>
-<div class="cd-note">El contacto inicial y la revisión son gratuitos. Plan de investigación desde ¥5,000. Respondemos en 24 horas.</div>
+<div class="cd-note">El contacto inicial y la revisión son gratuitos. Plan de investigación desde <span class="px" data-jpy="5000">¥5,000</span>. Respondemos en 24 horas.</div>
 </div>
 </div>
 </div>
@@ -196,9 +198,9 @@ Selecciona tu situación para ver exactamente qué podemos hacer por ti, cuánto
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">Desde</div>
-<div class="cd-fee-val">¥66,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="66000" data-from="1">¥66,000〜</span></div>
 <div class="cd-fee-sub">impuesto incluido</div>
-<div class="cd-fee-note">Por miembro de la familia. Varía según la complejidad del caso.</div>
+<div class="cd-fee-note">Dependiente (Estancia Familiar) <span class="px" data-jpy="66000">¥66,000</span> · Residente de Largo Plazo desde <span class="px" data-jpy="88000">¥88,000</span>.</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">Cómo Funciona el Pago</div>
@@ -209,7 +211,7 @@ Selecciona tu situación para ver exactamente qué podemos hacer por ti, cuánto
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">Consultar por LINE</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">Consultar por WhatsApp</a>
 </div>
-<div class="cd-note">El contacto inicial y la revisión son gratuitos. Plan de investigación desde ¥5,000. Respondemos en 24 horas.</div>
+<div class="cd-note">El contacto inicial y la revisión son gratuitos. Plan de investigación desde <span class="px" data-jpy="5000">¥5,000</span>. Respondemos en 24 horas.</div>
 </div>
 </div>
 </div>
@@ -224,15 +226,15 @@ Selecciona tu situación para ver exactamente qué podemos hacer por ti, cuánto
 <div class="cd-item"><div class="cd-dot"></div>Trabajador Calificado Específico (SSW) Tipo 1 y 2</div>
 <div class="cd-item"><div class="cd-dot"></div>Renovaciones de visa y cambios de estatus de empleados</div>
 <div class="cd-item"><div class="cd-dot"></div>Consultoría de cumplimiento de RRHH</div>
-<div class="cd-item"><div class="cd-dot"></div>Múltiples empleados · descuento por volumen disponible</div>
+<div class="cd-item"><div class="cd-dot"></div>Planes mensuales para empresas con varios empleados extranjeros</div>
 </div>
 </div>
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">Desde</div>
-<div class="cd-fee-val">¥121,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="66000" data-from="1">¥66,000〜</span></div>
 <div class="cd-fee-sub">por empleado · impuesto incluido</div>
-<div class="cd-fee-note">Facturación corporativa disponible. Presupuesto gratuito para múltiples empleados.</div>
+<div class="cd-fee-note">Certificado de Elegibilidad: <span class="px" data-jpy="132000">¥132,000</span> (Ingeniero / Humanidades) · <span class="px" data-jpy="154000">¥154,000</span> (SSW). Facturación corporativa y planes mensuales disponibles.</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">Cómo Funciona el Pago</div>
@@ -243,7 +245,7 @@ Selecciona tu situación para ver exactamente qué podemos hacer por ti, cuánto
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">Consultar por LINE</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">Consultar por WhatsApp</a>
 </div>
-<div class="cd-note">El contacto inicial y la revisión son gratuitos. Plan de investigación desde ¥5,000. Respondemos en 24 horas.</div>
+<div class="cd-note">El contacto inicial y la revisión son gratuitos. Plan de investigación desde <span class="px" data-jpy="5000">¥5,000</span>. Respondemos en 24 horas.</div>
 </div>
 </div>
 </div>

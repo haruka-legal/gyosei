@@ -52,3 +52,39 @@
 @media(max-width:380px){
   .lang-switch a{padding:5px 5px;font-size:9.5px;}
 }
+
+/* ── Currency toggle ── */
+.cur-bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin:0 0 28px;}
+.cur-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--light);font-weight:600;}
+.cur-toggle{display:inline-flex;background:var(--white);border:1px solid var(--border);border-radius:999px;padding:3px;}
+.cur-btn{appearance:none;border:0;background:transparent;font:inherit;font-size:12.5px;font-weight:600;color:var(--mid);padding:7px 16px;border-radius:999px;cursor:pointer;transition:.15s;}
+.cur-btn:hover{color:var(--navy);}
+.cur-btn.active{background:var(--navy);color:#fff;}
+.cur-btn:focus-visible{outline:2px solid var(--sky);outline-offset:2px;}
+.cur-note{flex-basis:100%;font-size:12px;color:var(--mid);line-height:1.6;margin:0;}
+.cur-note:empty{display:none;}
+#cases .cur-bar{margin-top:-8px;}
+
+/* ── Fee tables ── */
+.fee-group{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:28px 32px;margin-bottom:20px;}
+.fee-group-title{font-size:18px;font-weight:600;color:var(--navy);margin-bottom:6px;line-height:1.4;}
+.fee-tbl-cap{font-size:13.5px;font-weight:600;color:var(--blue);margin:22px 0 8px;}
+.fee-tbl{width:100%;border-collapse:collapse;font-size:15px;margin-top:10px;}
+.fee-tbl th{text-align:left;font-size:11px;letter-spacing:.06em;color:var(--light);font-weight:600;padding:8px 0;border-bottom:1px solid var(--border);}
+.fee-tbl th:last-child,.fee-tbl td.fee-amt{text-align:right;white-space:nowrap;padding-left:16px;}
+.fee-tbl td{padding:11px 0;border-bottom:1px solid var(--border);color:var(--ink);line-height:1.5;vertical-align:top;}
+.fee-tbl td.fee-amt{font-weight:600;color:var(--navy);}
+.fee-tbl tr:last-child td{border-bottom:0;}
+.fee-tbl-extra td.fee-amt{color:var(--mid);}
+.fee-tbl-note{font-size:13px;color:var(--mid);margin-top:8px;line-height:1.7;}
+.fee-box{background:var(--light-bg);border-radius:var(--radius);padding:20px 24px;border-left:3px solid var(--sky);margin-top:16px;font-size:14px;color:var(--mid);line-height:1.8;}
+.fee-box-title{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);font-weight:600;margin-bottom:10px;}
+.fee-box ul{padding-left:18px;margin:6px 0 0;}
+.fee-box li{margin-bottom:4px;}
+#fees .free-banner{margin-top:24px;}
+@media(max-width:640px){
+  .fee-group{padding:20px 16px;}
+  .fee-tbl{font-size:14px;}
+  .fee-tbl td.fee-amt{padding-left:10px;}
+  .cur-btn{padding:7px 13px;}
+}

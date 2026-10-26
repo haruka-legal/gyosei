@@ -55,6 +55,8 @@ module.exports = function (eleventyConfig) {
       .map((item) => item.item);
   });
 
+  eleventyConfig.addFilter("yen", (n) => Number(n).toLocaleString("en-US"));
+
   eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
 
   eleventyConfig.addFilter("excerpt", (content, len = 140) => {

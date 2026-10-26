@@ -1,0 +1,15 @@
+{# 円／ドル表示の切り替え。lang はページの front matter から。動作は assets/main.js #}
+{% set ct = {
+  en: { label: "Show prices in", loading: "Getting today's exchange rate…", fail: "The exchange rate is not available right now, so prices are shown in Japanese yen.", note: "US dollar amounts are approximate, converted at the reference rate published on {date} (1 USD ≈ ¥{rate}). Fees are charged and paid in Japanese yen." },
+  es: { label: "Mostrar precios en", loading: "Obteniendo el tipo de cambio de hoy…", fail: "El tipo de cambio no está disponible en este momento, por lo que los precios se muestran en yenes japoneses.", note: "Los importes en dólares son aproximados, convertidos con el tipo de referencia publicado el {date} (1 USD ≈ ¥{rate}). Los honorarios se cobran y se pagan en yenes japoneses." },
+  ja: { label: "表示通貨", loading: "本日の為替レートを取得しています…", fail: "現在、為替レートを取得できないため、円で表示しています。", note: "ドル表示は {date} 公表の参考レート（1ドル ≈ {rate}円）で換算した目安です。ご請求・お支払いは日本円となります。" }
+} %}
+{% set t = ct[lang] %}
+<div class="cur-bar" data-msg-loading="{{ t.loading }}" data-msg-fail="{{ t.fail }}" data-msg-note="{{ t.note }}" data-lang-code="{{ lang }}">
+  <span class="cur-label">{{ t.label }}</span>
+  <div class="cur-toggle" role="group" aria-label="{{ t.label }}">
+    <button type="button" class="cur-btn active" data-cur="JPY" aria-pressed="true">¥ JPY</button>
+    <button type="button" class="cur-btn" data-cur="USD" aria-pressed="false">$ USD</button>
+  </div>
+  <p class="cur-note" aria-live="polite"></p>
+</div>

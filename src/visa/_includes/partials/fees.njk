@@ -1,0 +1,78 @@
+{# 料金セクション（EN・ES・JA共通）。金額は _data/fees.js から。 #}
+{% macro price(row) -%}
+{%- if row.text -%}{{ row.text[lang] }}{%- else -%}
+<span class="px" data-jpy="{{ row.jpy }}"{% if row.from %} data-from="1"{% endif %}{% if row.plus %} data-plus="1"{% endif %}>{% if row.plus %}+{% endif %}¥{{ row.jpy | yen }}{% if row.from %}〜{% endif %}</span>
+{%- endif -%}
+{%- endmacro %}
+{% set fx = {
+  en: { eyebrow: "Transparent Pricing", title: "Our <em>Fees</em>", lead: "All fees include consumption tax. We give you a written quote before any work begins.",
+        deniedTitle: "If Your Application Is Denied",
+        denied: "For cases we handle, if the result is a denial we will review the reason and reapply once free of charge within 6 months of the decision. If approval is ultimately not granted, the remaining 50% is not charged.",
+        exTitle: "This does not apply in the following cases:",
+        ex: ["Information provided was untrue, or unfavorable facts were not disclosed", "Unpaid taxes or social insurance premiums", "Required documents or additional materials requested by Immigration are not provided", "Circumstances changed after filing (e.g. job change, divorce, legal violation)", "The application is withdrawn for your own reasons before a decision"],
+        bannerTitle: "Contacting Us Is Free", bannerText: "Initial contact and review are free. Detailed research and guidance start from the Initial Research Plan." },
+  es: { eyebrow: "Precios Transparentes", title: "Nuestros <em>Honorarios</em>", lead: "Todos los honorarios incluyen el impuesto al consumo. Le entregamos un presupuesto por escrito antes de empezar.",
+        deniedTitle: "Si su solicitud es denegada",
+        denied: "En los casos que gestionamos, si el resultado es una denegación, revisaremos el motivo y volveremos a presentar la solicitud una vez sin costo dentro de los 6 meses posteriores a la decisión. Si finalmente no se obtiene la aprobación, no se cobra el 50% restante.",
+        exTitle: "No aplica en los siguientes casos:",
+        ex: ["La información proporcionada no era verdadera o no se declararon hechos desfavorables", "Impuestos o cuotas del seguro social impagos", "No se entregan los documentos requeridos o los materiales adicionales solicitados por Inmigración", "Cambio de circunstancias después de la presentación (cambio de empleo, divorcio, infracción legal, etc.)", "Retiro de la solicitud por motivos propios antes de la decisión"],
+        bannerTitle: "Contactarnos es Gratis", bannerText: "El contacto inicial y la revisión son gratuitos. La investigación detallada comienza con el Plan de Investigación Inicial." },
+  ja: { eyebrow: "料金のご案内", title: "<em>料金</em>のご案内", lead: "すべて税込み表示です。着手前にお見積りをご提示します。",
+        deniedTitle: "不許可となった場合",
+        denied: "当事務所がお受けした案件で不許可となった場合は、理由を確認のうえ、不許可から6か月以内に1回、無料で再申請を行います。最終的に許可が得られなかった場合、残金50%はいただきません。",
+        exTitle: "ただし、次の場合は対象外となります。",
+        ex: ["事実と異なる申告や、不利な事実を申告していなかった場合", "税金・社会保険料の未納がある場合", "必要書類のご提出や、入管からの追加資料の求めにご協力いただけない場合", "申請後に転職・離婚・法令違反など、事情の変化があった場合", "結果が出る前に、お客様のご都合で申請を取り下げた場合"],
+        bannerTitle: "ご連絡・内容確認は無料です", bannerText: "制度や必要書類の調査・ご回答は、初期調査・回答プランからとなります。" }
+} %}
+{% set f = fx[lang] %}
+<section id="fees">
+<div class="fees-inner">
+<div class="sec-eyebrow">{{ f.eyebrow }}</div>
+<h2 class="sec-title">{{ f.title | safe }}</h2>
+<p class="sec-lead" style="margin-bottom:20px">{{ f.lead }}</p>
+{% include "partials/currency-toggle.njk" %}
+
+{% for g in fees.groups %}
+<div class="fee-group">
+<h3 class="fee-group-title">{{ g.title[lang] }}</h3>
+{% for tb in g.tables %}
+{% if tb.caption %}<h4 class="fee-tbl-cap">{{ tb.caption[lang] }}</h4>{% endif %}
+<table class="fee-tbl{% if tb.kind == 'extra' %} fee-tbl-extra{% endif %}">
+<thead><tr>
+<th scope="col">{% if tb.kind == 'extra' %}{{ fees.labels.condition[lang] }}{% elif tb.kind == 'monthly' %}{{ fees.labels.size[lang] }}{% else %}{{ fees.labels.service[lang] }}{% endif %}</th>
+<th scope="col">{% if tb.kind == 'extra' %}{{ fees.labels.extra[lang] }}{% elif tb.kind == 'monthly' %}{{ fees.labels.monthly[lang] }}{% else %}{{ fees.labels.fee[lang] }}{% endif %}</th>
+</tr></thead>
+<tbody>
+{% for r in tb.rows %}<tr><td>{{ r.label[lang] }}</td><td class="fee-amt">{{ price(r) }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
+{% if tb.note %}<p class="fee-tbl-note">※ {{ tb.note[lang] }}</p>{% endif %}
+{% endfor %}
+</div>
+{% endfor %}
+
+<div class="fee-box">
+<p class="fee-box-title">{{ fees.terms.title[lang] }}</p>
+<ul>{% for it in fees.terms.items[lang] %}<li>{{ it }}</li>{% endfor %}</ul>
+</div>
+
+<div class="fee-box">
+<p class="fee-box-title">{{ f.deniedTitle }}</p>
+<p>{{ f.denied }}</p>
+<p style="margin-top:8px">{{ f.exTitle }}</p>
+<ul>{% for it in f.ex %}<li>{{ it }}</li>{% endfor %}</ul>
+</div>
+
+<div class="free-banner">
+<div>
+<h3>{{ f.bannerTitle }}</h3>
+<p>{{ f.bannerText }}</p>
+</div>
+<div class="fb-btns">
+<a class="btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">LINE</a>
+<a class="btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
+</div>
+</div>
+</div>
+</section>

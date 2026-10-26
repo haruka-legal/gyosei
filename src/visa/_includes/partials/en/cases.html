@@ -11,6 +11,8 @@ Select your situation below to see exactly what we can do for you, how much it c
 
 
 </p>
+{% include "partials/currency-toggle.njk" %}
+
 <div class="case-grid">
 <button class="case-btn" id="btn-employer" onclick="selectCase('employer')">
 <span style="display:block;color:var(--sky);margin-bottom:10px;line-height:1;"><svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="20"><path d="M2 20h20M5 20V8l6 4V8l6 4V4h3v16"></path></svg></span>
@@ -61,9 +63,9 @@ Select your situation below to see exactly what we can do for you, how much it c
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">Starting From</div>
-<div class="cd-fee-val">¥209,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="330000" data-from="1">¥330,000〜</span></div>
 <div class="cd-fee-sub">tax included · varies by case</div>
-<div class="cd-fee-note">Company setup fees are separate. Free quote available.</div>
+<div class="cd-fee-note">Renewal from <span class="px" data-jpy="132000">¥132,000</span>. Company setup costs are separate. We first check your plan against the permit criteria revised in October 2025 (e.g. capital of ¥30 million or more).</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">How Payment Works</div>
@@ -74,7 +76,7 @@ Select your situation below to see exactly what we can do for you, how much it c
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">Consult via LINE</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">Consult via WhatsApp</a>
 </div>
-<div class="cd-note">Initial contact &amp; review are free. Research plan from ¥5,000. We respond within 24 hours.</div>
+<div class="cd-note">Initial contact &amp; review are free. Research plan from <span class="px" data-jpy="5000">¥5,000</span>. We respond within 24 hours.</div>
 </div>
 </div>
 </div>
@@ -95,9 +97,9 @@ Select your situation below to see exactly what we can do for you, how much it c
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">Starting From</div>
-<div class="cd-fee-val">¥99,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="66000" data-from="1">¥66,000〜</span></div>
 <div class="cd-fee-sub">tax included</div>
-<div class="cd-fee-note">New application / Change / Renewal. Varies by complexity.</div>
+<div class="cd-fee-note">Extension (same employer) <span class="px" data-jpy="66000">¥66,000</span> · Change of status <span class="px" data-jpy="121000">¥121,000</span> · Specified Skilled Worker from <span class="px" data-jpy="88000">¥88,000</span>. See the fee table for details.</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">How Payment Works</div>
@@ -108,7 +110,7 @@ Select your situation below to see exactly what we can do for you, how much it c
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">Consult via LINE</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">Consult via WhatsApp</a>
 </div>
-<div class="cd-note">Initial contact &amp; review are free. Research plan from ¥5,000. We respond within 24 hours.</div>
+<div class="cd-note">Initial contact &amp; review are free. Research plan from <span class="px" data-jpy="5000">¥5,000</span>. We respond within 24 hours.</div>
 </div>
 </div>
 </div>
@@ -129,9 +131,9 @@ Select your situation below to see exactly what we can do for you, how much it c
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">Starting From</div>
-<div class="cd-fee-val">¥55,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="55000" data-from="1">¥55,000〜</span></div>
 <div class="cd-fee-sub">tax included</div>
-<div class="cd-fee-note">Varies by country of origin and complexity of case.</div>
+<div class="cd-fee-note">Marriage procedure support from <span class="px" data-jpy="55000">¥55,000</span>. Spouse visa: extension <span class="px" data-jpy="66000">¥66,000</span> · change of status <span class="px" data-jpy="110000">¥110,000</span> · Certificate of Eligibility <span class="px" data-jpy="132000">¥132,000</span>.</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">How Payment Works</div>
@@ -142,7 +144,7 @@ Select your situation below to see exactly what we can do for you, how much it c
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">Consult via LINE</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">Consult via WhatsApp</a>
 </div>
-<div class="cd-note">Initial contact &amp; review are free. Research plan from ¥5,000. We respond within 24 hours.</div>
+<div class="cd-note">Initial contact &amp; review are free. Research plan from <span class="px" data-jpy="5000">¥5,000</span>. We respond within 24 hours.</div>
 </div>
 </div>
 </div>
@@ -163,9 +165,9 @@ Select your situation below to see exactly what we can do for you, how much it c
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">Starting From</div>
-<div class="cd-fee-val">¥143,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="165000" data-from="1">¥165,000〜</span></div>
 <div class="cd-fee-sub">tax included</div>
-<div class="cd-fee-note">Full document preparation included. Naturalization varies.</div>
+<div class="cd-fee-note">Permanent residency from <span class="px" data-jpy="165000">¥165,000</span> · Naturalization from <span class="px" data-jpy="209000">¥209,000</span>. Fees are higher for business owners and the self-employed — see the fee table.</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">How Payment Works</div>
@@ -176,7 +178,7 @@ Select your situation below to see exactly what we can do for you, how much it c
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">Consult via LINE</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">Consult via WhatsApp</a>
 </div>
-<div class="cd-note">Initial contact &amp; review are free. Research plan from ¥5,000. We respond within 24 hours.</div>
+<div class="cd-note">Initial contact &amp; review are free. Research plan from <span class="px" data-jpy="5000">¥5,000</span>. We respond within 24 hours.</div>
 </div>
 </div>
 </div>
@@ -196,9 +198,9 @@ Select your situation below to see exactly what we can do for you, how much it c
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">Starting From</div>
-<div class="cd-fee-val">¥66,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="66000" data-from="1">¥66,000〜</span></div>
 <div class="cd-fee-sub">tax included</div>
-<div class="cd-fee-note">Per family member. Varies by case complexity.</div>
+<div class="cd-fee-note">Dependent (Family Stay) <span class="px" data-jpy="66000">¥66,000</span> · Long-Term Resident from <span class="px" data-jpy="88000">¥88,000</span>.</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">How Payment Works</div>
@@ -209,7 +211,7 @@ Select your situation below to see exactly what we can do for you, how much it c
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">Consult via LINE</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">Consult via WhatsApp</a>
 </div>
-<div class="cd-note">Initial contact &amp; review are free. Research plan from ¥5,000. We respond within 24 hours.</div>
+<div class="cd-note">Initial contact &amp; review are free. Research plan from <span class="px" data-jpy="5000">¥5,000</span>. We respond within 24 hours.</div>
 </div>
 </div>
 </div>
@@ -224,15 +226,15 @@ Select your situation below to see exactly what we can do for you, how much it c
 <div class="cd-item"><div class="cd-dot"></div>Specified Skilled Worker (SSW) Type 1 &amp; 2</div>
 <div class="cd-item"><div class="cd-dot"></div>Employee visa renewals &amp; status changes</div>
 <div class="cd-item"><div class="cd-dot"></div>HR compliance consultation</div>
-<div class="cd-item"><div class="cd-dot"></div>Multiple employees · bulk discount available</div>
+<div class="cd-item"><div class="cd-dot"></div>Monthly support plans for companies with several foreign employees</div>
 </div>
 </div>
 <div class="cd-right">
 <div>
 <div class="cd-fee-label">Starting From</div>
-<div class="cd-fee-val">¥121,000〜</div>
+<div class="cd-fee-val"><span class="px" data-jpy="66000" data-from="1">¥66,000〜</span></div>
 <div class="cd-fee-sub">per employee · tax included</div>
-<div class="cd-fee-note">Corporate billing available. Free quote for multiple employees.</div>
+<div class="cd-fee-note">Certificate of Eligibility: <span class="px" data-jpy="132000">¥132,000</span> (Engineer / Humanities) · <span class="px" data-jpy="154000">¥154,000</span> (SSW). Corporate billing and monthly support plans available.</div>
 </div>
 <div class="cd-pay">
 <div class="cd-pay-title">How Payment Works</div>
@@ -243,7 +245,7 @@ Select your situation below to see exactly what we can do for you, how much it c
 <a class="cd-btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">Consult via LINE</a>
 <a class="cd-btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">Consult via WhatsApp</a>
 </div>
-<div class="cd-note">Initial contact &amp; review are free. Research plan from ¥5,000. We respond within 24 hours.</div>
+<div class="cd-note">Initial contact &amp; review are free. Research plan from <span class="px" data-jpy="5000">¥5,000</span>. We respond within 24 hours.</div>
 </div>
 </div>
 </div>

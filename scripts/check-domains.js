@@ -31,6 +31,9 @@ const ALLOWED_HOSTS = [
   "fonts.googleapis.com",
   "fonts.gstatic.com",
   "cdnjs.cloudflare.com",
+  // 外国人向けサイトの円／ドル切り替え（為替レートの取得先）
+  "api.frankfurter.dev",
+  "open.er-api.com",
   "images.pexels.com",
   "schema.org",
   "www.w3.org",
