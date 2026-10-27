@@ -77,6 +77,7 @@ const ALLOWED_HOSTS = [
   "www.city.fukuoka.lg.jp", // 福岡市（死亡届の案内）
   "www.city.chuo.lg.jp", // 中央区（世帯主変更）
   "www.bk.mufg.jp", // 三菱UFJ銀行（相続手続きの必要書類）
+  "www.koshonin.gr.jp", // 日本公証人連合会
 ];
 
 const TEXT_EXT = new Set([".html", ".xml", ".txt", ".css", ".js", ".json", ".webmanifest"]);
