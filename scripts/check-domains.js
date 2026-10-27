@@ -76,6 +76,7 @@ const ALLOWED_HOSTS = [
   "www.city.kobe.lg.jp", // 神戸市（死亡届の案内）
   "www.city.fukuoka.lg.jp", // 福岡市（死亡届の案内）
   "www.city.chuo.lg.jp", // 中央区（世帯主変更）
+  "www.shinkin.co.jp", // 信用金庫（預金の相続手続きの案内）
 ];
 
 const TEXT_EXT = new Set([".html", ".xml", ".txt", ".css", ".js", ".json", ".webmanifest"]);
