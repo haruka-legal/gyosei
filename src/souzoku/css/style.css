@@ -2441,3 +2441,12 @@ footer p { color: var(--text-light); }
 .article-inner > ol > li { margin-bottom: 14px; }
 .article-inner > ol > li > p { margin: 0; }
 .article-inner > ol > li > ul { margin-top: 6px; }
+
+/* 比較表（左上が空の表）は、比べる列の幅をそろえる */
+.article-inner > table:has(thead th:first-child:empty) {
+  display: table;
+  table-layout: fixed;
+}
+.article-inner > table:has(thead th:first-child:empty) th,
+.article-inner > table:has(thead th:first-child:empty) td { min-width: 0; }
+.article-inner > table:has(thead th:first-child:empty) th:first-child { width: 22%; }
