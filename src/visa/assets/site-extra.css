@@ -87,3 +87,31 @@
   .fee-tbl td.fee-amt{padding-left:10px;}
   .cur-btn{padding:7px 13px;}
 }
+
+/* ── Guide article: tables, contents, sub-headings, contact box ── */
+.guide-body h3{font-size:18px;margin:34px 0 12px;color:var(--navy);font-weight:600;}
+.guide-body ol{margin:0 0 18px 22px;}
+.guide-body a{color:var(--blue);text-decoration:underline;text-underline-offset:2px;}
+.guide-body h2[id]{scroll-margin-top:90px;}
+.guide-table-wrap{overflow-x:auto;margin:8px 0 28px;}
+.guide-table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.6;}
+.guide-table th{text-align:left;background:var(--light-bg);color:var(--navy);font-weight:600;padding:10px 14px;}
+.guide-table td{padding:11px 14px;border-bottom:1px solid var(--border);vertical-align:top;}
+.guide-toc{background:var(--pale);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;margin:0 0 36px;}
+.guide-toc-title{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);font-weight:600;margin-bottom:10px !important;}
+.guide-toc ol{margin:0 0 0 20px;}
+.guide-toc li{margin-bottom:6px;font-size:15px;}
+.guide-cta{margin-top:48px;background:var(--navy);color:#fff;border-radius:var(--radius);padding:28px;}
+.guide-cta-title{font-size:20px;font-weight:600;margin-bottom:8px;}
+.guide-cta-text{font-size:14.5px;line-height:1.75;color:rgba(255,255,255,.78);margin-bottom:18px;}
+.guide-cta-btns{display:flex;flex-wrap:wrap;gap:10px;align-items:center;}
+.guide-cta-form{color:#fff;text-decoration:underline;font-size:14px;margin-left:6px;}
+@media(max-width:640px){
+  .guide-table{font-size:14px;}
+  .guide-table th,.guide-table td{padding:9px 10px;}
+  .guide-toc{padding:16px 18px;}
+  .guide-cta{padding:22px 18px;}
+}
+/* the contents box is a <nav>; undo the header-nav link styles */
+.guide-toc a{display:inline;white-space:normal;padding:0;border-radius:0;background:none;font-size:inherit;font-weight:inherit;letter-spacing:normal;color:var(--blue);text-decoration:underline;text-underline-offset:2px;}
+.guide-toc a:hover{background:none;color:var(--navy);}

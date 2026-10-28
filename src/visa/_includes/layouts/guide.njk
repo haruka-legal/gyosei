@@ -42,5 +42,20 @@ isGuide: true
     <div class="guide-body">
       {{ content | safe }}
     </div>
+    {% set cta = {
+      en: { title: "Contact us", text: "Initial contact and review are free. All communication is in writing — by chat (LINE, WhatsApp) or email through our contact form. We reply within 24 hours.", form: "Contact form", formUrl: "/#info" },
+      es: { title: "Contáctenos", text: "El contacto inicial y la revisión son gratuitos. Toda la comunicación es por escrito: por chat (LINE, WhatsApp) o por correo electrónico mediante nuestro formulario. Respondemos en 24 horas.", form: "Formulario de contacto", formUrl: "/es/#info" },
+      ja: { title: "お問い合わせ", text: "ご連絡・内容確認は無料です。やり取りはすべて、チャット（LINE・WhatsApp）またはお問い合わせフォームからのメールで行います。24時間以内にご返信します。", form: "お問い合わせフォーム", formUrl: "/ja/#info" }
+    } %}
+    {% set c = cta[lang] %}
+    <aside class="guide-cta">
+      <p class="guide-cta-title">{{ c.title }}</p>
+      <p class="guide-cta-text">{{ c.text }}</p>
+      <div class="guide-cta-btns">
+        <a class="btn-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">LINE</a>
+        <a class="btn-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
+        <a class="guide-cta-form" href="{{ c.formUrl | url }}">{{ c.form }} →</a>
+      </div>
+    </aside>
   </div>
 </article>
