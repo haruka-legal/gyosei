@@ -24,6 +24,9 @@ const ALLOWED_HOSTS = [
   "haruka-legal.com",
   "jsite.mhlw.go.jp",
   "www.bunka.go.jp",
+  "www.jpf.go.jp",
+  "www.kanken.or.jp",
+  "www.jasso.go.jp",
   "lin.ee", // 公式LINE
   "wa.me", // WhatsApp
   "www.linkedin.com",
