@@ -21,6 +21,15 @@ navActive: articles
 
 <div class="services-section" id="articles">
   <div class="container">
+    <div class="post-start">
+      <p class="post-start-title">はじめての方は、この順番で読むのがおすすめです</p>
+      <ol class="post-start-list">
+        <li><a href="{{ root }}articles/zairyu-shikaku-visa-difference/"><span class="post-start-label">まずは基本から</span>パスポート・ビザ・在留資格の違いとは？</a></li>
+        <li><a href="{{ root }}articles/zairyu-shikaku-shurui/"><span class="post-start-label">全体を知る</span>在留資格の種類とは？29種類を4つのグループで整理</a></li>
+        <li><a href="{{ root }}articles/gijinkoku/"><span class="post-start-label">専門的な仕事で雇うなら</span>技人国とは？雇える仕事と要件</a></li>
+        <li><a href="{{ root }}articles/tokutei-ginou-1-2-difference/"><span class="post-start-label">現場の仕事で雇うなら</span>特定技能1号と2号の違いとは？</a></li>
+      </ol>
+    </div>
     {% set cats = collections.articles | categoryCounts %}
     {% if cats.length > 1 %}
     <div class="post-filter" role="group" aria-label="カテゴリで絞り込む">
