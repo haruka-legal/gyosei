@@ -80,9 +80,19 @@
     .cbtn{flex:1 1 100%}
     .area .nl{display:inline}
   }
+  .intro{font-size:15px;max-width:34em;word-break:auto-phrase;margin-top:-12px}
+  .office{display:flex;flex-direction:column;gap:6px;max-width:34em}
+  .office h2{font-family:var(--mincho);font-weight:700;font-size:17px}
+  .office dl{display:grid;grid-template-columns:5.5em 1fr;font-size:14.5px;border-top:1px solid var(--line)}
+  .office dt,.office dd{padding:10px 0;border-bottom:1px solid var(--line)}
+  .office dt{color:var(--muted);font-size:13.5px}
+  .office dd{word-break:auto-phrase}
+  .office .bio{display:block;font-size:13.5px;color:var(--muted);margin-top:2px}
+  .office a{color:var(--blue)}
+  @media (max-width:720px){.intro{margin-top:-8px}}
 </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"LegalService","@id":"https://haruka-legal.com/#office","name":"遥か行政書士事務所","alternateName":["はるか行政書士事務所","Haruka Legal"],"url":"https://haruka-legal.com/","description":"東京都千代田区の行政書士事務所。ビザ・外国人雇用などの国際業務、相続手続き・遺言書作成、風俗営業許可をサポートします。","address":{"@type":"PostalAddress","addressRegion":"東京都","addressLocality":"千代田区","addressCountry":"JP"},"areaServed":"JP","knowsAbout":["在留資格","外国人雇用","相続","遺言","風俗営業許可"]}
+{"@context":"https://schema.org","@type":"LegalService","@id":"https://haruka-legal.com/#office","name":"遥か行政書士事務所","alternateName":["はるか行政書士事務所","Haruka Legal"],"url":"https://haruka-legal.com/","description":"東京都千代田区の行政書士事務所。ビザ・外国人雇用などの国際業務、相続手続き・遺言書作成、風俗営業許可をサポートします。","address":{"@type":"PostalAddress","addressRegion":"東京都","addressLocality":"千代田区","addressCountry":"JP"},"email":"info@haruka-legal.com","founder":{"@type":"Person","name":"岸 はるか","jobTitle":"行政書士"},"areaServed":"JP","knowsAbout":["在留資格","外国人雇用","相続","遺言","風俗営業許可"]}
 </script>
 </head>
 <body>
@@ -92,6 +102,8 @@
   <img class="seal" src="gyosei/images/logo-mark.png" alt="遥か行政書士事務所ロゴ" width="92" height="92">
   </div>
   <div class="side">
+    <p class="lead"><span class="ph" style="--j:0">受け継ぎ、</span><span class="ph" style="--j:1">つなぎ、</span><span class="ph" style="--j:2">遥か未来へ。</span></p>
+    <p class="intro">東京・千代田区の行政書士事務所です。外国人の雇用とビザ、相続と遺言、お店の営業許可の手続きをお手伝いしています。</p>
     <ul class="routes">
       <li><a href="gyosei/"><span><span class="t">ビザ・外国人雇用</span><span class="d">外国人を採用する企業の方、ビザの手続きが必要な方へ</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
       <li><a href="souzoku/"><span><span class="t">相続・遺言</span><span class="d">ご家族の相続手続きや、遺言書の準備をお考えの方へ</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
@@ -101,6 +113,16 @@
     <section class="area" aria-labelledby="area-h">
       <h2 id="area-h">対応エリア</h2>
       <p>千代田区の神保町・御茶ノ水エリアをはじめ、中央区・文京区・台東区・荒川区・墨田区などの周辺地域、東京23区を中心に対応しております。<span class="nl">オンラインで、全国・海外からのご相談にも対応しています。</span></p>
+    </section>
+    <section class="office" aria-labelledby="office-h">
+      <h2 id="office-h">事務所概要</h2>
+      <dl>
+        <dt>名称</dt><dd>遥か行政書士事務所</dd>
+        <dt>代表者</dt><dd>行政書士　岸 はるか<span class="bio">マルタ留学とヨーロッパでの生活を経て、警視庁に勤務。国や言葉の違いで手続きに困る方と、その方を雇う会社を支えています。<a href="gyosei/#profile">代表挨拶を読む</a></span></dd>
+        <dt>登録</dt><dd>東京都行政書士会所属　登録番号 第26083037号</dd>
+        <dt>所在地</dt><dd>東京都千代田区神田錦町3−6−4<span class="bio">対面でのご相談は、永田町駅近くの相談室で承ります（事前予約制）。</span></dd>
+        <dt>メール</dt><dd><a href="mailto:info@haruka-legal.com">info@haruka-legal.com</a></dd>
+      </dl>
     </section>
     <section class="contact" aria-labelledby="contact-h">
       <h2 id="contact-h">お問い合わせ</h2>
