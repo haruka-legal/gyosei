@@ -81,6 +81,7 @@ const ALLOWED_HOSTS = [
   "www.city.kobe.lg.jp", // 神戸市（死亡届の案内）
   "www.city.fukuoka.lg.jp", // 福岡市（死亡届の案内）
   "www.city.chuo.lg.jp", // 中央区（世帯主変更）
+  "www.city.bunkyo.lg.jp", // 文京区（外国人住民の住民票）
   "www.bk.mufg.jp", // 三菱UFJ銀行（相続手続きの必要書類）
   "www.koshonin.gr.jp", // 日本公証人連合会
 ];
