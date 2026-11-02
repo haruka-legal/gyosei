@@ -2370,3 +2370,7 @@ footer p.footer-souzoku a {
 .post-start-list a { color: var(--navy); text-decoration: underline; text-decoration-color: rgba(0,0,0,.2); text-underline-offset: 4px; }
 .post-start-list a:hover { color: var(--blue); text-decoration-color: currentColor; }
 .post-all-title { margin-bottom: 14px; }
+
+/* 記事の表：列の幅をそろえる */
+.article-inner > table.table-cols-equal { display: table; table-layout: fixed; width: 100%; }
+.article-inner > table.table-cols-equal th, .article-inner > table.table-cols-equal td { min-width: 0; overflow-wrap: anywhere; }
