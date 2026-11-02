@@ -65,13 +65,6 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   line-height: 1.5;
   margin-bottom: 14px;
 }
-.section-title::before {
-  content: '';
-  display: block;
-  width: 32px; height: 1px;
-  background: var(--ink);
-  margin-bottom: 20px;
-}
 .section-desc { font-size: 14px; color: var(--mute); line-height: 2; max-width: 560px; }
 .label-eyebrow { font-size: 12px; letter-spacing: .12em; color: var(--mute) !important; margin-bottom: 10px; }
 
@@ -215,7 +208,6 @@ nav { border-top: 1px solid var(--line-soft); }
 /* ---------- 物件をご紹介される方へ（黒の帯） ---------- */
 .partner-section { background: var(--char); color: var(--paper); padding: 128px 0; }
 .partner-inner { display: grid; grid-template-columns: 1fr 1.4fr; gap: 64px; }
-.partner-section .section-title::before { background: var(--paper); }
 .partner-lead { font-size: 14px; line-height: 2; color: #bdbdbd; }
 .partner-text { font-size: 14.5px; line-height: 2.1; color: #e2e2e2; margin-bottom: 24px; }
 .partner-list { border-top: 1px solid #434347; margin-bottom: 32px; }
@@ -318,7 +310,6 @@ nav { border-top: 1px solid var(--line-soft); }
 /* ---------- 代表挨拶 ---------- */
 .profile-section { padding: 128px 0; background: var(--ink); color: var(--paper); }
 .profile-inner { max-width: 1080px; margin: 0 auto; padding: 0 40px; }
-.profile-section .section-title::before { background: var(--paper); }
 .profile-role { font-size: 13px; color: var(--gray); margin-top: 4px; }
 .profile-reg { font-size: 12px; color: var(--gray); margin-bottom: 48px; }
 .belief { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 64px; align-items: start; }
