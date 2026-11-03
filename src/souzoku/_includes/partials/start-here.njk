@@ -1,0 +1,10 @@
+<div class="start-here{% if compact %} start-here--compact{% endif %}">
+  {% for g in startHere %}
+  <section class="start-here-box start-here-box--{{ g.id }}" aria-labelledby="start-{{ g.id }}">
+    <h3 class="start-here-title" id="start-{{ g.id }}">{{ g.title }}<span class="start-here-lead">{{ g.lead }}</span></h3>
+    <ol class="start-here-list">
+      {% for it in g.items %}<li><a href="{{ root }}articles/{{ it.slug }}/">{{ it.label }}</a></li>{% endfor %}
+    </ol>
+  </section>
+  {% endfor %}
+</div>

@@ -20,6 +20,7 @@ navActive: articles
 
 <div class="services-section" id="articles">
   <div class="container">
+    {% set compact = true %}{% include "partials/start-here.njk" %}
     {% set cats = collections.articles | categoryCounts %}
     {% if cats.length > 1 %}
     <div class="post-filter" role="group" aria-label="カテゴリで絞り込む">

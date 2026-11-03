@@ -307,6 +307,8 @@ faq:
       <h2 class="section-title">お役立ち記事</h2>
       <p class="section-desc">相続の手続きや遺言書について、ご家族の立場からわかりやすく解説します。</p>
     </div>
+    {% set compact = false %}{% include "partials/start-here.njk" %}
+    <h3 class="start-here-newtitle" style="font-size:17px;color:var(--navy);margin:0 0 12px">新着記事</h3>
     {% if collections.articles.length %}
     <ul class="post-list">
       {% for article in collections.articles | slice(0, 6) %}

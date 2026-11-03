@@ -2450,3 +2450,19 @@ footer p { color: var(--text-light); }
 .article-inner > table:has(thead th:first-child:empty) th,
 .article-inner > table:has(thead th:first-child:empty) td { min-width: 0; }
 .article-inner > table:has(thead th:first-child:empty) th:first-child { width: 22%; }
+
+/* まずはこの5本（トップ・記事一覧） */
+.start-here { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 0 0 40px; }
+.start-here-box { background: #fff; border: 1px solid #b9cbe6; border-radius: 10px; padding: 22px 24px; }
+.start-here-box--prepare { background: var(--off-white); }
+.start-here-title { font-size: 17px; color: var(--navy); margin: 0 0 12px; line-height: 1.5; }
+.start-here-lead { display: block; font-size: 13px; color: var(--blue); font-weight: 700; margin-top: 2px; }
+.start-here-list { margin: 0; padding-left: 1.4em; }
+.start-here-list li { margin: 0 0 8px; line-height: 1.6; font-size: 15px; }
+.start-here-list a { color: var(--text-dark, #1b2430); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: #b9cbe6; }
+.start-here-list a:hover { color: var(--blue); }
+.start-here--compact { margin-bottom: 28px; }
+.start-here--compact .start-here-box { padding: 16px 18px; }
+.start-here--compact .start-here-title { font-size: 15px; margin-bottom: 8px; }
+.start-here--compact .start-here-list li { font-size: 14px; margin-bottom: 4px; }
+@media (max-width: 720px) { .start-here { grid-template-columns: 1fr; gap: 14px; } }
