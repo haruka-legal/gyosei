@@ -2529,3 +2529,4 @@ footer p { color: var(--text-light); }
   .hero-desc--long p { max-width: none; }
   .hero-area { font-size: 14px; }
 }
+.pc-gap { display: inline-block; width: 1em; } @media (max-width: 480px) { .pc-gap { display: none; } }
