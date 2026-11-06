@@ -422,7 +422,7 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   max-width: 680px;
   margin: 0 auto 40px;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
 }
 .hero-foreign-link {
   display: inline-block;
@@ -2375,3 +2375,6 @@ footer p.footer-souzoku a {
 /* 記事の表：列の幅をそろえる */
 .article-inner > table.table-cols-equal { display: table; table-layout: fixed; width: 100%; }
 .article-inner > table.table-cols-equal th, .article-inner > table.table-cols-equal td { min-width: 0; overflow-wrap: anywhere; }
+
+/* トップの説明文：言葉の途中で改行しない */
+.hero-desc .nb { display: inline-block; }
