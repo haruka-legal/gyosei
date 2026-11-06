@@ -2467,3 +2467,12 @@ footer p { color: var(--text-light); }
 .start-here--compact .start-here-title { font-size: 15px; margin-bottom: 8px; }
 .start-here--compact .start-here-list li { font-size: 14px; margin-bottom: 4px; }
 @media (max-width: 720px) { .start-here { grid-template-columns: 1fr; gap: 14px; } }
+
+/* トップのキャッチコピーと説明文（2026-11） */
+.hero-catch { font-family: 'Noto Serif JP', serif; font-size: clamp(18px, 2.6vw, 26px); color: var(--navy); letter-spacing: .08em; text-align: center; margin: -8px auto 24px; line-height: 1.7; }
+.sp-only { display: none; }
+@media (max-width: 480px) { .sp-only { display: inline; } }
+.hero-desc--long { margin-bottom: 28px; }
+.hero-desc--long p { margin: 0 0 14px; }
+.hero-desc--long .hero-area { font-size: 13px; margin-top: 18px; }
+@media (max-width: 480px) { .pc-only { display: none; } }
