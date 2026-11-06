@@ -162,6 +162,7 @@ header.scrolled {
   letter-spacing: .1em;
   display: block;
   margin-top: 1px;
+  text-align: right;
 }
 /* Nav */
 nav { border-top: 1px solid rgba(255,255,255,.06); }
@@ -1817,7 +1818,7 @@ footer p {
   .hamburger     { display: flex; }
   nav            { display: none; }
   .logo-text     { font-size: 13px; }
-  .logo-sub      { display: none; }
+  .logo-sub      { font-size: 9px; }
   .logo-img-wrap { width: 36px; height: 36px; }
 
   /* Hero */

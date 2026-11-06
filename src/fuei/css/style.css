@@ -107,6 +107,8 @@ header.scrolled { box-shadow: 0 1px 0 var(--ink); }
 .logo { display: flex; align-items: center; gap: 12px; }
 .logo-img-wrap { width: 40px; height: 40px; flex-shrink: 0; filter: grayscale(1); }
 .logo-text { font-family: 'Zen Kaku Gothic New', sans-serif; font-size: 17px; font-weight: 600; letter-spacing: .08em; }
+.logo-text { line-height: 1.35; }
+.logo-sub { display: block; margin-top: 2px; line-height: 1.2; font-size: 10px; font-weight: 400; letter-spacing: .1em; text-align: right; opacity: .6; }
 .header-cta-wrap { display: flex; gap: 8px; }
 .header-cta {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
