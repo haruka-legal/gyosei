@@ -13,7 +13,7 @@ breadcrumbs:
   - { name: "特定技能の支援計画とは", url: "/articles/tokutei-ginou-support-plan/" }
 ---
 
-[特定技能1号](../tokutei-ginou-1-2-difference/)の外国人を受け入れるときに、[在留資格](../zairyu-shikaku-visa-difference/#zairyu-shikaku)の申請書類と一緒に作るのが「1号特定技能外国人支援計画」です。支援を[登録支援機関](../registered-support-organization/)に任せる場合でも、計画の中身は受け入れる会社の責任になります。
+[特定技能1号](../tokutei-ginou-1-2-difference/)の外国人を受け入れるときに、[在留資格](../zairyu-shikaku-visa-difference/#zairyu-shikaku)の申請書類と一緒に作るのが「1号特定技能外国人支援計画」です。支援を[登録支援機関](../registered-support-organization/)に任せる場合でも、支援計画を作り、きちんと実施する責任は、受け入れる会社にあります。
 
 この記事では、支援計画で何を決めるのか、10項目の支援にはそれぞれどんな目安があるのかを説明します。
 
