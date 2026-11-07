@@ -2384,3 +2384,30 @@ footer p.footer-souzoku a {
 @media (max-width: 680px) {
   .hero-foreign { text-align: left; }
 }
+
+/* トップページ：本文の文字を読みやすい大きさに */
+.section-desc { font-size: 15.5px; }
+.worry-item { font-size: 15px; }
+.flow-step-title { font-size: 15.5px; }
+.flow-text, #flow li { font-size: 15px; }
+.flow-note, #flow p:not(.flow-text):not(.section-desc) { font-size: 13.5px; }
+#flow .flow-text { font-size: 15px; }
+.flow-price-badge { font-size: 13px; }
+.service-name { font-size: 15px; }
+.service-desc { font-size: 14px; }
+.services-souzoku { font-size: 15px; }
+#fees td, #fees th { font-size: 14px; }
+.fees-note { font-size: 13.5px; }
+.fee-note-box { font-size: 14px; }
+.profile-role, .profile-reg { font-size: 13.5px; }
+.profile-desc { font-size: 15.5px; }
+.profile-quote-label { font-size: 12.5px; }
+.profile-quote-text { font-size: 15.5px; }
+#profile dd { font-size: 15px; }
+.profile-private-text { font-size: 14.5px; }
+.access-hours { font-size: 15px; }
+.faq-q span { font-size: 15px; }
+.faq-a p { font-size: 15px; }
+.contact-desc { font-size: 15.5px; }
+.form-open-note, .form-footer { font-size: 13px; }
+.footer-souzoku { font-size: 13px; }
