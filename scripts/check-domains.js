@@ -45,6 +45,8 @@ const ALLOWED_HOSTS = [
   // 記事で一次情報として引用する公的機関
   "www.moj.go.jp",
   "www.vn.emb-japan.go.jp", // 在ベトナム日本国大使館（政府資料の掲載）
+  "www.chicago.us.emb-japan.go.jp", // 在シカゴ日本国総領事館（法務省のお知らせの掲載）
+  "www.scotusblog.com", // 米国連邦最高裁の判決報道（国籍の記事）
   "sp.m.jiji.com", // 時事通信
   "www.dir.co.jp", // 大和総研
   "www.shugiin.go.jp", // 衆議院（法律の原文）
