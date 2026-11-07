@@ -2419,3 +2419,6 @@ footer p.footer-souzoku a {
 .profile-fold[open] > summary::after { content: "−"; }
 .profile-fold[open] > summary { margin-bottom: 14px; }
 .profile-fold > summary { font-size: 14px; }
+.profile-fold > summary { font-family: inherit; font-size: 14px; font-weight: 700; letter-spacing: .1em; color: rgba(255,255,255,.85); }
+.profile-fold { padding: 18px 22px; border: none; border-left: 2px solid rgba(196,161,94,.4); background: rgba(255,255,255,.04); border-radius: 0 6px 6px 0; }
+.profile-fold + .profile-fold, details.profile-private-box.profile-fold { margin-top: 16px !important; }
