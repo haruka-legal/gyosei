@@ -419,10 +419,10 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   font-size: 14.5px;
   color: rgba(255,255,255,.62);
   line-height: 2.1;
-  max-width: 460px;
+  max-width: 680px;
   margin: 0 auto 40px;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
 }
 .hero-foreign-link {
   display: inline-block;
@@ -1881,7 +1881,7 @@ footer p.footer-souzoku a {
   .hero-eyebrow  { font-size: 10px; margin-bottom: 14px; }
   .hero-title    { font-size: clamp(26px, 9vw, 38px); letter-spacing: .06em; margin-bottom: 18px; }
   .hero-line-tag { font-size: 11px; padding: 4px 12px; margin-bottom: 12px; }
-  .hero-desc     { font-size: 14px; line-height: 1.9; margin-bottom: 28px; }
+  .hero-desc     { font-size: 14px; line-height: 1.9; margin-bottom: 28px; text-align: left; }
   .hero-btns     { flex-direction: column; gap: 10px; }
   .btn-primary, .btn-secondary {
     text-align: center;
@@ -2375,3 +2375,12 @@ footer p.footer-souzoku a {
 /* 記事の表：列の幅をそろえる */
 .article-inner > table.table-cols-equal { display: table; table-layout: fixed; width: 100%; }
 .article-inner > table.table-cols-equal th, .article-inner > table.table-cols-equal td { min-width: 0; overflow-wrap: anywhere; }
+
+/* トップの説明文：言葉の途中で改行しない */
+.hero-desc .nb { display: inline-block; }
+
+/* トップ：For foreigners の行 */
+.hero-foreign { text-align: center; max-width: 680px; margin: 0 auto 36px; }
+@media (max-width: 680px) {
+  .hero-foreign { text-align: left; }
+}
