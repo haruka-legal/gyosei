@@ -80,6 +80,7 @@ const ALLOWED_HOSTS = [
   "www.metro.tokyo.lg.jp", // 東京都（公安委員会などの都の仕組み）
   "www.soumu.go.jp", // 総務省（行政書士制度）
   "www.reinfolib.mlit.go.jp", // 国土交通省 不動産情報ライブラリ
+  "www.pref.aichi.jp", // 愛知県（警察の例規）
   "www.police.pref.osaka.lg.jp", // 大阪府警察
   "www.city.kobe.lg.jp", // 神戸市（死亡届の案内）
   "www.city.fukuoka.lg.jp", // 福岡市（死亡届の案内）
