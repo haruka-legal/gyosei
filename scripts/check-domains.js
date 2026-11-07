@@ -21,6 +21,7 @@ const BLOCKED_HOSTS = [
 
 // リンクしてよいドメイン
 const ALLOWED_HOSTS = [
+  "www.mlit.go.jp",
   "haruka-legal.com",
   "jsite.mhlw.go.jp",
   "www.bunka.go.jp",
