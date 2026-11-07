@@ -2411,3 +2411,11 @@ footer p.footer-souzoku a {
 .contact-desc { font-size: 15.5px; }
 .form-open-note, .form-footer { font-size: 13px; }
 .footer-souzoku { font-size: 13px; }
+
+/* 代表挨拶：「遥か」に込めた思い・プライベートを畳んで表示 */
+.profile-fold > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 0; }
+.profile-fold > summary::-webkit-details-marker { display: none; }
+.profile-fold > summary::after { content: "＋"; font-size: 16px; line-height: 1; opacity: .8; flex-shrink: 0; }
+.profile-fold[open] > summary::after { content: "−"; }
+.profile-fold[open] > summary { margin-bottom: 14px; }
+.profile-fold > summary { font-size: 14px; }
