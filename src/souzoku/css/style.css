@@ -2530,3 +2530,34 @@ footer p { color: var(--text-light); }
   .hero-area { font-size: 14px; }
 }
 .pc-gap { display: inline-block; width: 1em; } @media (max-width: 480px) { .pc-gap { display: none; } }
+
+/* トップページ全体の文字サイズを底上げ（2026-11-07） */
+body .section-desc, body .contact-desc, body .contact-desc strong { font-size: 15.5px; }
+body .worry-item { font-size: 15px; }
+body .service-name { font-size: 15px; }
+body .service-desc { font-size: 14px; line-height: 1.8; }
+body .flow-step-title { font-size: 16px; }
+body .flow-text, body .flow-list li { font-size: 15px; }
+body .flow-note, body .flow-notes p, body .fees-note p, body .form-open-note, body .form-footer, body .form-footer p { font-size: 13.5px; }
+body .fees-table th, body .fees-table td { font-size: 14.5px; }
+body .fee-note-box, body .fee-note-box strong { font-size: 14.5px; }
+body .tab-btn { font-size: 14px; }
+body .faq-q, body .faq-q span { font-size: 15.5px; }
+body .profile-desc, body .profile-desc p { font-size: 15.5px; }
+body .profile-quote-text, body .profile-quote-text p { font-size: 15.5px; }
+body .profile-role, body .profile-reg { font-size: 13.5px; }
+body .profile-quote-label { font-size: 12.5px; }
+body .access-hours p, body .access-label, body .info-item div { font-size: 14.5px; }
+body .access-hours span, body .info-item span { font-size: 13.5px; }
+body .info-item strong { font-size: 15px; }
+body .post-meta time, body .post-cat { font-size: 13px; }
+body .start-here-lead { font-size: 14px; }
+body .hero-foreign-link { font-size: 13.5px; }
+body .hero-services-link { font-size: 14.5px; }
+body .btn-navy, body .btn-secondary { font-size: 15px; }
+body .btn-sub { font-size: 11.5px; }
+body .header-cta { font-size: 13px; }
+body .nav-links a { font-size: 13.5px; }
+body .nav-addr { font-size: 12px; }
+body .footer p, body .footer a, body footer p, body footer a { font-size: 12.5px; }
+body .fees-note { font-size: 13.5px; } body .access-hours { font-size: 15px; }
