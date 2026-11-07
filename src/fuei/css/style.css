@@ -467,6 +467,19 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
   .articles-grid { grid-template-columns: 1fr; }
   .article-inner > table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; font-size: 13px; }
   .article-inner > table th, .article-inner > table td { min-width: 8.5em; }
+  /* スマホでの文字の大きさ（本文16px前後・注意書き13.5px前後） */
+  .section-desc, .hero-desc { font-size: 15.5px; }
+  .service-desc, .decline-box-lead, .flow-text, .flow-list li, .faq-a p, .partner-lead,
+  .partner-list li, .worry-item, .decline-box ul li, .decline-box { font-size: 15.5px; }
+  .partner-text, .belief-body p, .access-hours, .contact-desc, .faq-q { font-size: 16px; }
+  .steps-foot, .fees-note, .flow-note, .flow-notes p, .step-note { font-size: 13.5px; }
+  .step-name { font-size: 15.5px; }
+  .post-title { font-size: 16.5px; }
+  .post-desc { font-size: 14px; }
+  .fees-table th, .fees-table td { font-size: 14.5px; }
+  .article-inner > p { font-size: 16.5px; }
+  .article-inner > ul:not(.check-list) li, .article-inner > ol li { font-size: 16px; }
+  .article-inner > table { font-size: 14px; }
 }
 
 /* =====================
