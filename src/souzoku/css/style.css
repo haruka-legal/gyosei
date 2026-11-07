@@ -2561,3 +2561,31 @@ body .nav-links a { font-size: 13.5px; }
 body .nav-addr { font-size: 12px; }
 body .footer p, body .footer a, body footer p, body footer a { font-size: 12.5px; }
 body .fees-note { font-size: 13.5px; } body .access-hours { font-size: 15px; }
+/* 「遥か」に込めた思い：畳んで表示 */
+details.profile-quote { padding: 0; }
+details.profile-quote > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 20px; margin: 0; font-size: 15px; font-weight: 500; }
+details.profile-quote > summary::-webkit-details-marker { display: none; }
+details.profile-quote > summary::after { content: ''; flex: 0 0 auto; width: 8px; height: 8px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg); margin-top: -4px; transition: transform .2s; }
+details.profile-quote[open] > summary::after { transform: rotate(-135deg); margin-top: 4px; }
+details.profile-quote > .profile-quote-text { padding: 0 20px 18px; margin: 0; }
+body .section-desc { font-size: 16px; }
+body .article-hero-meta, body .article-hero-meta span { font-size: 15px; }
+/* サイト全体の小さい文字の底上げ（2026-11-07 第2弾） */
+body .faq-a, body .faq-a p { font-size: 15.5px; line-height: 1.9; }
+body .post-desc { font-size: 15px; }
+body .post-filter-btn { font-size: 14px; }
+body .post-filter-count { font-size: 12.5px; }
+body .article-disclaimer { font-size: 13px; }
+body .article-contact-note, body .article-contact-note p { font-size: 14px; }
+body .breadcrumb, body .breadcrumb a { font-size: 13px; }
+body .article-date, body .article-cat, body .label-eyebrow { font-size: 12.5px; }
+body .info-item span { font-size: 13.5px; }
+body .flow-price-badge { font-size: 13px; }
+body .flow-infobox-label { font-size: 12.5px; }
+body .logo-sub { font-size: 11px; }
+body .header-cta-sub, body .fab-btn span { font-size: 11px; }
+body .nav-addr { font-size: 12.5px; }
+body footer p, body footer a, body .footer p, body .footer a { font-size: 13px; }
+body .hero-area .hero-line { font-size: inherit; }
+@media (max-width: 680px) { body .hero-area { font-size: 14px; } body .logo-text { font-size: 14px; } }
+body .start-here-list, body .start-here-list li, body .start-here-list a { font-size: 15px; line-height: 1.8; }
