@@ -28,6 +28,7 @@ const ALLOWED_HOSTS = [
   "www.jpf.go.jp",
   "www.kanken.or.jp",
   "www.jasso.go.jp",
+  "home-affairs.ec.europa.eu",
   "lin.ee", // 公式LINE
   "wa.me", // WhatsApp
   "www.linkedin.com",
