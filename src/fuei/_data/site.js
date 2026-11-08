@@ -12,7 +12,8 @@ module.exports = {
   // 記事の執筆者は事務所名で表示する。
   representative: {
     jobTitle: "行政書士",
-    association: "東京都行政書士会"
+    association: "東京都行政書士会",
+    registrationNumber: "26083037", // 行政書士の登録番号
   },
   knowsAbout: ["風俗営業許可","接待飲食等営業","社交飲食店","深夜酒類提供飲食店営業の届出","用途地域の調査","保全対象施設の調査","営業所の平面図・求積図","飲食店営業許可","性風俗関連特殊営業の届出"],
   // 主な対応エリア（構造化データ・事務所案内・FAQに使う）
@@ -37,7 +38,7 @@ module.exports = {
     { href: "articles/", label: "お役立ち記事", key: "articles" },
     { href: "#profile", label: "ご挨拶", key: "profile" },
     { href: "#faq", label: "よくある質問", key: "faq" },
-    { href: "#access", label: "アクセス", key: "access" },
+    { href: "#access", label: "事務所案内", key: "access" },
     { href: "#contact", label: "お問い合わせ", key: "contact" }
   ]
 };
