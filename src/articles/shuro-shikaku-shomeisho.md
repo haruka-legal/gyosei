@@ -92,6 +92,6 @@ breadcrumbs:
 
 - [就労資格証明書交付申請（出入国在留管理庁）](https://www.moj.go.jp/isa/applications/procedures/16-9.html)
 - [就労資格証明書について（出入国在留管理庁）](https://www.moj.go.jp/isa/applications/procedures/syuurou_00001.html)
-- [オンライン申請の手数料の納付方法の変更について（出入国在留管理庁）](https://www.moj.go.jp/isa/11_00107.html)
+- [オンライン申請における手数料額及び手数料納付方法について（出入国在留管理庁）](https://www.moj.go.jp/isa/11_00107.html)
 
 最終確認日：2026年11月8日
