@@ -2422,3 +2422,6 @@ footer p.footer-souzoku a {
 .profile-fold > summary { font-family: inherit; font-size: 14px; font-weight: 700; letter-spacing: .1em; color: rgba(255,255,255,.85); }
 .profile-fold { padding: 18px 22px; border: none; border-left: 2px solid rgba(196,161,94,.4); background: rgba(255,255,255,.04); border-radius: 0 6px 6px 0; }
 .profile-fold + .profile-fold, details.profile-private-box.profile-fold { margin-top: 16px !important; }
+@media (max-width: 680px) {
+  .article-inner > table.table-cols-equal th, .article-inner > table.table-cols-equal td { font-size: 13.5px; padding: 10px 7px; line-height: 1.6; overflow-wrap: normal; word-break: normal; line-break: strict; }
+}
