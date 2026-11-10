@@ -4,6 +4,7 @@ lang: es
 title: "Cómo mudarse a Japón: 5 vías de visa para trabajar, estudiar, vivir en familia y más"
 description: "Para vivir en Japón a largo plazo, necesita un estatus de residencia acorde con lo que hará aquí. Guía para principiantes sobre las 5 vías principales: trabajo, estudios, familia, negocio y opciones temporales como el Working Holiday."
 date: 2026-10-29
+updated: 2026-11-10
 tags: ["moving-to-japan", "status-of-residence", "work-visa", "student-visa", "spouse-visa", "business-manager-visa", "permanent-residency"]
 excerptText: "Para vivir en Japón a largo plazo, necesita un estatus de residencia acorde con lo que hará aquí. Una estancia turística no sirve. Esta guía explica las 5 vías principales para mudarse a Japón, para que encuentre la que se ajusta a su situación."
 faq:
@@ -26,9 +27,9 @@ altUrls:
 <tbody>
 <tr><td>Tiene una oferta de trabajo de una empresa en Japón</td><td><a href="#work">Vía 1: Trabajar en una empresa en Japón</a></td></tr>
 <tr><td>Quiere matricularse en un centro educativo en Japón</td><td><a href="#study">Vía 2: Estudiar en Japón</a></td></tr>
-<tr><td>Quiere vivir con su pareja japonesa o con familia que vive en Japón</td><td><a href="#family">Vía 3: Vivir con su familia</a></td></tr>
+<tr><td>Quiere vivir con su cónyuge japonés o con familia que vive en Japón</td><td><a href="#family">Vía 3: Vivir con su familia</a></td></tr>
 <tr><td>Quiere dirigir un negocio en Japón</td><td><a href="#business">Vía 4: Dirigir un negocio en Japón</a></td></tr>
-<tr><td>Quiere vivir la experiencia de Japón por un tiempo limitado</td><td><a href="#short-term">Vía 5: Working Holiday y nómada digital</a></td></tr>
+<tr><td>Quiere vivir la experiencia de Japón por un tiempo limitado</td><td><a href="#short-term">Vía 5: Working Holiday y estancias de nómada digital</a></td></tr>
 </tbody>
 </table>
 </div>
@@ -41,7 +42,7 @@ altUrls:
 <li><a href="#study">Vía 2: Estudiar en Japón</a></li>
 <li><a href="#family">Vía 3: Vivir con su familia</a></li>
 <li><a href="#business">Vía 4: Dirigir un negocio en Japón</a></li>
-<li><a href="#short-term">Vía 5: Working Holiday y nómada digital</a></li>
+<li><a href="#short-term">Vía 5: Working Holiday y estancias de nómada digital</a></li>
 <li><a href="#stay-longer">Cómo seguir viviendo en Japón: renovación y residencia permanente</a></li>
 <li><a href="#steps">Cómo venir a Japón para trabajar: los pasos habituales</a></li>
 <li><a href="#choose">¿No sabe qué vía le conviene?</a></li>
@@ -59,16 +60,16 @@ El estatus de **Visitante Temporal (短期滞在)**, que se usa para turismo y v
 Consiste en conseguir un empleo en una empresa en Japón y vivir aquí como trabajador. Hay 3 estatus de residencia principales:
 
 - **Ingeniero / Especialista en Humanidades / Servicios Internacionales (技術・人文知識・国際業務):** Para trabajos que aprovechan los conocimientos especializados adquiridos en la universidad u otros estudios, o cierta experiencia laboral; por ejemplo, ingeniería, interpretación y traducción, o comercio internacional. Inmigración también revisa si el trabajo se corresponde con sus estudios o su experiencia, por lo que este estatus no sirve para cualquier tipo de empleo.
-- **Trabajador con Habilidades Específicas (特定技能):** Para trabajar en sectores con falta de personal, como cuidados de enfermería, restauración y construcción. En principio, debe aprobar un examen de habilidades del puesto y un examen de japonés.
+- **Trabajador con Habilidades Específicas (特定技能):** Para trabajar en sectores con falta de personal, como el cuidado de personas mayores o dependientes, la restauración y la construcción. En principio, debe aprobar un examen de habilidades del puesto y un examen de japonés.
 - **Profesional Altamente Calificado (高度専門職):** Sus estudios, experiencia laboral, ingresos y otros factores se puntúan con un sistema de puntos. Quienes superan cierta puntuación reciben un trato preferente.
 
-En todos los casos, normalmente necesitará primero una oferta de trabajo de una empresa en Japón.
+Si va a trabajar en una empresa en Japón, normalmente primero decide su empleador y después inicia los trámites del estatus de residencia. Sin embargo, las condiciones varían según el estatus de residencia.
 
 <h2 id="study">Vía 2: Estudiar en Japón</h2>
 
 Consiste en matricularse en una escuela de japonés, una escuela técnica, una universidad u otro centro, y vivir en Japón como estudiante. El estatus de residencia es **Estudiante (留学)**.
 
-Para trabajar a tiempo parcial, necesita el **Permiso para Realizar Actividades Distintas de las Permitidas (資格外活動許可)**. En principio, puede trabajar hasta 28 horas por semana, y hasta 8 horas al día durante las vacaciones largas de su centro, como las de verano. Aun con este permiso, no puede trabajar en negocios de entretenimiento para adultos (風俗営業等).
+Para trabajar a tiempo parcial, necesita el **Permiso para Realizar Actividades Distintas de las Permitidas (資格外活動許可)**. En principio, puede trabajar hasta 28 horas por semana, y hasta 8 horas al día durante las vacaciones largas de su centro, como las de verano. Aun con el permiso general habitual (包括許可), no puede trabajar en negocios regulados como fūzoku eigyō (風俗営業) por la ley japonesa, como los bares y clubes donde el personal entretiene a los clientes.
 
 Muchos estudiantes cambian a un estatus de trabajo después de graduarse y encontrar empleo en Japón.
 
@@ -84,34 +85,34 @@ Solo las personas con determinados estatus de residencia pueden traer a su famil
 
 <h2 id="business">Vía 4: Dirigir un negocio en Japón</h2>
 
-Si quiere crear o dirigir una empresa en Japón, el estatus de residencia es **Gestión Empresarial (経営・管理)**.
+Si va a participar en la dirección o la gestión de un negocio en Japón, el estatus de residencia a considerar es **Gestión Empresarial (経営・管理)**.
 
-Los criterios se endurecieron el 16 de octubre de 2025. En principio, ahora necesita un capital u otros activos de ¥30 millones o más, y además debe cumplir otras condiciones, como contratar a un empleado a tiempo completo, tener capacidad en japonés y contar con experiencia en gestión o un título relacionado. No es un estatus que se obtenga solo por crear una empresa, por lo que es importante planificar con tiempo.
+Los criterios se endurecieron el 16 de octubre de 2025. En principio, ahora necesita un capital (o una inversión total) de al menos ¥30 millones, y además debe cumplir otras condiciones, como contratar a un empleado a tiempo completo, tener capacidad en japonés y contar con experiencia en gestión o un título relacionado. No es un estatus que se obtenga solo por crear una empresa, por lo que es importante planificar con tiempo.
 
-<h2 id="short-term">Vía 5: Working Holiday y nómada digital</h2>
+<h2 id="short-term">Vía 5: Working Holiday y estancias de nómada digital</h2>
 
-- **Working Holiday:** Los jóvenes de países y regiones que tienen un acuerdo con Japón pueden quedarse en Japón principalmente para disfrutar de unas vacaciones. Pueden trabajar para complementar sus fondos de viaje. A 1 de abril de 2026, el programa cubre 32 países y regiones, entre ellos España, Argentina, Chile y Uruguay. En principio, la edad es de 18 a 30 años, pero las condiciones varían según la nacionalidad. Para Australia, Canadá, Corea del Sur e Irlanda, el límite es de 25 años en principio, y puede ampliarse hasta 30 en determinadas condiciones.
+- **Working Holiday:** Los jóvenes de países y regiones que tienen un acuerdo con Japón pueden quedarse en Japón principalmente para disfrutar de unas vacaciones. Pueden trabajar para complementar sus fondos de viaje. A 1 de noviembre de 2026, el programa cubre 33 países y regiones, entre ellos España, Argentina, Chile y Uruguay. En principio, la edad es de 18 a 30 años, pero las condiciones varían según la nacionalidad. Para Australia, Canadá y Corea del Sur, el límite es de 25 años en principio, pero se puede solicitar hasta los 30 si las autoridades de cada país lo permiten.
 - **Nómada Digital:** Las personas que siguen trabajando a distancia para una empresa del extranjero pueden quedarse en Japón hasta 6 meses. Hay condiciones, como unos ingresos anuales de ¥10 millones o más y un seguro médico. La estancia no puede renovarse y no se emite tarjeta de residencia.
 
 Ninguna de estas dos opciones está pensada para conseguir empleo en Japón ni para vivir aquí de forma permanente.
 
 <h2 id="stay-longer">Cómo seguir viviendo en Japón: renovación y residencia permanente</h2>
 
-Todo estatus de residencia tiene un período de estancia. Para seguir viviendo en Japón, debe solicitar la **Renovación del Período de Estancia** antes de que venza el actual.
+La mayoría de los estatus de residencia tienen un período de estancia determinado. Para seguir viviendo en Japón, debe solicitar el permiso de **Renovación del Período de Estancia** antes de que venza el actual.
 
-Si quiere vivir en Japón a largo plazo, puede aspirar al estatus de **Residente Permanente (永住者)**. En principio, debe haber vivido en Japón de forma continuada durante 10 años o más, de los cuales al menos 5 con un estatus de trabajo u otro similar. Además de los años, Inmigración revisa, por ejemplo, si ha pagado correctamente sus impuestos, la pensión y el seguro de salud, y si su forma de vida es estable.
+Si quiere vivir en Japón a largo plazo, puede aspirar al estatus de **Residente Permanente (永住者)**. En principio, debe haber vivido en Japón de forma continuada durante 10 años o más, de los cuales al menos 5 con un estatus de residencia que permita trabajar (excepto Prácticas Técnicas y Trabajador con Habilidades Específicas (i)) o con un estatus basado en la situación personal. Además de los años, Inmigración revisa, por ejemplo, si ha pagado correctamente sus impuestos, la pensión y el seguro de salud, y si su forma de vida es estable.
 
-Para algunas personas, los años exigidos son menos. Por ejemplo, el cónyuge de una persona japonesa puede cumplir los requisitos si su vida matrimonial real dura 3 años o más y ha vivido en Japón de forma continuada durante 1 año o más.
+Los cónyuges de personas japonesas, de residentes permanentes y de residentes permanentes especiales, entre otras personas, tienen una regla especial con menos años exigidos. Para las solicitudes presentadas hasta el 31 de marzo de 2027, la referencia es que la vida matrimonial real dure 3 años o más y que haya vivido en Japón de forma continuada durante 1 año o más. Para las **solicitudes presentadas a partir del 1 de abril de 2027**, las nuevas directrices cambian esto a 5 años o más de vida matrimonial y 3 años o más en Japón. Con las nuevas directrices, también se tiene en cuenta la capacidad en japonés (nivel B1 aproximadamente), entre otros factores. Sin embargo, en algunos casos no se tiene en cuenta la capacidad en japonés; por ejemplo, para los Profesionales Altamente Calificados o para quienes han cursado cierto período de estudios escolares en Japón.
 
 <h2 id="steps">Cómo venir a Japón para trabajar: los pasos habituales</h2>
 
 El trámite varía según el estatus de residencia. Estos son los pasos habituales para alguien que está en el extranjero y va a incorporarse a una empresa en Japón:
 
 1. La empresa u otra parte en Japón solicita un **Certificado de Elegibilidad (在留資格認定証明書)**.
-2. Cuando se emite, usted solicita la visa en la embajada o el consulado de Japón en su país.
-3. Entra en Japón y recibe su **Tarjeta de Residencia (在留カード)** en el aeropuerto u otro lugar similar.
+2. Cuando se emite, usted solicita la visa, en principio en la embajada o el consulado general de Japón que corresponda al país o la región donde vive.
+3. Entra en Japón y recibe el permiso de desembarco en el control de inmigración. En algunos aeropuertos recibe su **Tarjeta de Residencia (在留カード)** en ese momento; en los demás casos, se la envían por correo después de registrar su domicilio en la oficina municipal.
 
-El plazo estándar de tramitación del Certificado de Elegibilidad es de 1 a 3 meses aproximadamente.
+La Agencia de Servicios de Inmigración indica un plazo estándar de 1 a 3 meses para el Certificado de Elegibilidad, pero según el caso puede tardar más.
 
 <h2 id="choose">¿No sabe qué vía le conviene?</h2>
 
@@ -123,7 +124,7 @@ Aunque quiera vivir en Japón, los tipos y condiciones de los estatus de residen
 - [Dependiente — Agencia de Servicios de Inmigración de Japón (en japonés)](https://www.moj.go.jp/isa/applications/status/dependent.html)
 - [Permiso para Realizar Actividades Distintas de las Permitidas — Agencia de Servicios de Inmigración de Japón (en japonés)](https://www.moj.go.jp/isa/applications/procedures/16-8.html)
 - [Modificación de los criterios de Gestión Empresarial — Agencia de Servicios de Inmigración de Japón (en japonés)](https://www.moj.go.jp/isa/applications/resources/10_00237.html)
-- [Working Holiday Programmes in Japan — Ministerio de Asuntos Exteriores de Japón (en inglés)](https://www.mofa.go.jp/j_info/visit/w_holiday/index.html)
+- [Programa Working Holiday — Ministerio de Asuntos Exteriores de Japón (en japonés)](https://www.mofa.go.jp/mofaj/toko/visa/working_h.html)
 - [Actividades Designadas (Nómada Digital) — Agencia de Servicios de Inmigración de Japón (en japonés)](https://www.moj.go.jp/isa/applications/status/designatedactivities10_00001.html)
-- [Directrices para la Residencia Permanente (revisadas el 24 de febrero de 2026) — Agencia de Servicios de Inmigración de Japón (en japonés)](https://www.moj.go.jp/isa/applications/resources/nyukan_nyukan50.html)
+- [Directrices para la Residencia Permanente (revisadas el 1 de octubre de 2026) — Agencia de Servicios de Inmigración de Japón (en japonés)](https://www.moj.go.jp/isa/10_00279.html)
 - [Solicitud del Certificado de Elegibilidad — Agencia de Servicios de Inmigración de Japón (en japonés)](https://www.moj.go.jp/isa/applications/procedures/16-1.html)
