@@ -2,7 +2,7 @@
 // サイトのURLはここ1か所だけに書きます。
 module.exports = {
   name: "遥か行政書士事務所",
-  nameEn: "HARUKA LEGAL SUPPORT",
+  nameEn: "HARUKA Gyoseishoshi Office",
   url: "https://haruka-legal.com/minpaku",
   address: "東京都千代田区神田錦町3−6−4",
   postalCode: "101-0054",

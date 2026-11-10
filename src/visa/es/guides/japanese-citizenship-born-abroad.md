@@ -4,7 +4,7 @@ lang: es
 title: "¿Perdió su hijo la nacionalidad japonesa al nacer? Lo que deben saber los padres japoneses que crían a sus hijos en EE. UU."
 description: "Los padres japoneses que tienen un bebé en EE. UU. deben presentar la reserva de nacionalidad dentro de los 3 meses siguientes al nacimiento. Si no se presenta, la ley japonesa considera que el niño perdió la nacionalidad japonesa desde su nacimiento."
 date: 2026-07-14
-updated: 2026-11-10
+updated: 2026-11-11
 tags: ["nationality", "dual-citizenship", "family-register", "united-states"]
 excerptText: "Si usted es de nacionalidad japonesa y tuvo un hijo en Estados Unidos, tiene un plazo de 3 meses para presentar la reserva de nacionalidad. Si se pasa el plazo, la ley japonesa considera que su hijo perdió la nacionalidad japonesa desde su nacimiento."
 faq:
@@ -64,7 +64,7 @@ No es un caso de visa habitual. Se trata de aclarar la situación de nacionalida
 - Preparar los documentos de solicitud del estatus de Cónyuge o Hijo de Nacional Japonés si su hijo piensa mudarse a Japón como extranjero
 - Revisar los registros familiares. Si una corrección requiere un procedimiento ante el tribunal de familia, se lo indicaremos y le derivaremos a un especialista adecuado.
 
-Los registros de cada familia son distintos, por lo que el primer paso es confirmar qué se presentó realmente. HARUKA LEGAL SUPPORT revisa su situación y le explica qué trámites puede realizar, todo por correo electrónico o chat. Le entregamos un presupuesto por escrito antes de empezar.
+Los registros de cada familia son distintos, por lo que el primer paso es confirmar qué se presentó realmente. HARUKA Gyoseishoshi Office revisa su situación y le explica qué trámites puede realizar, todo por correo electrónico o chat. Le entregamos un presupuesto por escrito antes de empezar.
 
 ### Referencias
 

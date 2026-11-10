@@ -4,6 +4,7 @@ lang: en
 title: "Japan Visa Types: All 29 Statuses of Residence Explained in 4 Groups"
 description: "Japan has 29 statuses of residence, often called visa types. A beginner's guide to the 4 groups, which ones allow you to work, and how to check what your residence card allows."
 date: 2026-11-10
+updated: 2026-11-11
 tags: ["status-of-residence", "visa-types", "work-visa", "residence-card", "part-time-work"]
 excerptText: "Japan has 29 statuses of residence, often called visa types. Whether you can work, and what kind of work you can do, depends on which of 4 groups your status belongs to."
 faq:
@@ -150,7 +151,7 @@ If you work beyond what is permitted without permission, your extension of perio
 
 <h2 id="help">Not sure about your situation?</h2>
 
-There are many statuses of residence, and it can be hard to tell which one fits your situation, or what your current status allows. What matters most is checking the scope of your status before your work or life changes. HARUKA LEGAL SUPPORT helps you check your status of residence and handle change-of-status procedures — all by email or chat. For our fees, see [Our Fees](https://haruka-legal.com/visa/#fees).
+There are many statuses of residence, and it can be hard to tell which one fits your situation, or what your current status allows. What matters most is checking the scope of your status before your work or life changes. HARUKA Gyoseishoshi Office helps you check your status of residence and handle change-of-status procedures — all by email or chat. For our fees, see [Our Fees](https://haruka-legal.com/visa/#fees).
 
 ### References
 

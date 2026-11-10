@@ -115,3 +115,8 @@
 /* the contents box is a <nav>; undo the header-nav link styles */
 .guide-toc a{display:inline;white-space:normal;padding:0;border-radius:0;background:none;font-size:inherit;font-weight:inherit;letter-spacing:normal;color:var(--blue);text-decoration:underline;text-underline-offset:2px;}
 .guide-toc a:hover{background:none;color:var(--navy);}
+
+/* office name (HARUKA Gyoseishoshi Office) fits on small phones */
+@media(max-width:400px){
+  .logo-name{max-width:none;overflow:visible;text-overflow:clip;}
+}

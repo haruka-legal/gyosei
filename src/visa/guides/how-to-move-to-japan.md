@@ -4,7 +4,7 @@ lang: en
 title: "How to Move to Japan: 5 Visa Pathways for Work, Study, Family and More"
 description: "To live in Japan long-term, you need a status of residence that matches what you will do here. A beginner's guide to the 5 main ways to move to Japan — work, study, family, business, and short-term options like the working holiday."
 date: 2026-10-29
-updated: 2026-11-10
+updated: 2026-11-11
 tags: ["moving-to-japan", "status-of-residence", "work-visa", "student-visa", "spouse-visa", "business-manager-visa", "permanent-residency"]
 excerptText: "To live in Japan long-term, you need a status of residence that fits what you will do here. Tourist status does not allow you to settle in Japan long-term. This guide explains the 5 main ways to move to Japan, so you can find the one that fits your situation."
 faq:
@@ -116,7 +116,7 @@ The Immigration Services Agency gives a standard processing period of 1 to 3 mon
 
 <h2 id="choose">Not sure which option fits you?</h2>
 
-Japan's residence status categories and eligibility requirements can be complicated, and it can be hard to tell which option is open to you. What matters most is choosing the status of residence that fits your situation from the start. HARUKA LEGAL SUPPORT reviews each person's situation and helps you choose a status of residence and prepare your documents for life in Japan — all by email or chat. For our fees, see [Our Fees](https://haruka-legal.com/visa/#fees).
+Japan's residence status categories and eligibility requirements can be complicated, and it can be hard to tell which option is open to you. What matters most is choosing the status of residence that fits your situation from the start. HARUKA Gyoseishoshi Office reviews each person's situation and helps you choose a status of residence and prepare your documents for life in Japan — all by email or chat. For our fees, see [Our Fees](https://haruka-legal.com/visa/#fees).
 
 ### References
 

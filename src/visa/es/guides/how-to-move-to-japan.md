@@ -4,7 +4,7 @@ lang: es
 title: "Cómo mudarse a Japón: 5 vías de visa para trabajar, estudiar, vivir en familia y más"
 description: "Para vivir en Japón a largo plazo, necesita un estatus de residencia acorde con lo que hará aquí. Guía para principiantes sobre las 5 vías principales: trabajo, estudios, familia, negocio y opciones temporales como el Working Holiday."
 date: 2026-10-29
-updated: 2026-11-10
+updated: 2026-11-11
 tags: ["moving-to-japan", "status-of-residence", "work-visa", "student-visa", "spouse-visa", "business-manager-visa", "permanent-residency"]
 excerptText: "Para vivir en Japón a largo plazo, necesita un estatus de residencia acorde con lo que hará aquí. Una estancia turística no sirve. Esta guía explica las 5 vías principales para mudarse a Japón, para que encuentre la que se ajusta a su situación."
 faq:
@@ -116,7 +116,7 @@ La Agencia de Servicios de Inmigración indica un plazo estándar de 1 a 3 meses
 
 <h2 id="choose">¿No sabe qué vía le conviene?</h2>
 
-Aunque quiera vivir en Japón, los tipos y condiciones de los estatus de residencia son complejos, y puede ser difícil saber qué vía tiene a su alcance. Lo más importante es elegir desde el principio el estatus de residencia que se ajusta a su situación. HARUKA LEGAL SUPPORT revisa la situación de cada persona y le ayuda a elegir su estatus de residencia y a preparar sus documentos para vivir en Japón, todo por correo electrónico o chat. Para conocer nuestros honorarios, consulte [Nuestros Honorarios](https://haruka-legal.com/visa/es/#fees).
+Aunque quiera vivir en Japón, los tipos y condiciones de los estatus de residencia son complejos, y puede ser difícil saber qué vía tiene a su alcance. Lo más importante es elegir desde el principio el estatus de residencia que se ajusta a su situación. HARUKA Gyoseishoshi Office revisa la situación de cada persona y le ayuda a elegir su estatus de residencia y a preparar sus documentos para vivir en Japón, todo por correo electrónico o chat. Para conocer nuestros honorarios, consulte [Nuestros Honorarios](https://haruka-legal.com/visa/es/#fees).
 
 ### Referencias
 

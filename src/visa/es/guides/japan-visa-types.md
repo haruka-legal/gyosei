@@ -4,6 +4,7 @@ lang: es
 title: "Tipos de visa en Japón: los 29 estatus de residencia explicados en 4 grupos"
 description: "Japón tiene 29 estatus de residencia, a menudo llamados tipos de visa. Guía para principiantes sobre los 4 grupos, cuáles permiten trabajar y cómo comprobar lo que permite su tarjeta de residencia."
 date: 2026-11-10
+updated: 2026-11-11
 tags: ["status-of-residence", "visa-types", "work-visa", "residence-card", "part-time-work"]
 excerptText: "Japón tiene 29 estatus de residencia, a menudo llamados tipos de visa. Si puede trabajar, y qué tipo de trabajo puede hacer, depende de a cuál de los 4 grupos pertenece su estatus."
 faq:
@@ -152,7 +153,7 @@ Los nombres en español de esta tabla son traducciones explicativas, no nombres 
 
 <h2 id="help">¿Tiene dudas sobre su situación?</h2>
 
-Hay muchos estatus de residencia, y puede ser difícil saber cuál se ajusta a su situación o qué permite su estatus actual. Lo más importante es comprobar el alcance de su estatus antes de que cambien su trabajo o su vida. HARUKA LEGAL SUPPORT le ayuda a comprobar su estatus de residencia y a realizar los trámites de cambio de estatus, todo por correo electrónico o chat. Para conocer nuestros honorarios, consulte [Nuestros Honorarios](https://haruka-legal.com/visa/es/#fees).
+Hay muchos estatus de residencia, y puede ser difícil saber cuál se ajusta a su situación o qué permite su estatus actual. Lo más importante es comprobar el alcance de su estatus antes de que cambien su trabajo o su vida. HARUKA Gyoseishoshi Office le ayuda a comprobar su estatus de residencia y a realizar los trámites de cambio de estatus, todo por correo electrónico o chat. Para conocer nuestros honorarios, consulte [Nuestros Honorarios](https://haruka-legal.com/visa/es/#fees).
 
 ### Referencias
 

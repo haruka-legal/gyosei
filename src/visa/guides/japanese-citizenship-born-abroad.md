@@ -4,7 +4,7 @@ lang: en
 title: "Did Your Child Lose Japanese Citizenship at Birth? What Japanese Parents Raising Kids in the U.S. Need to Know"
 description: "Japanese parents who have a baby in the U.S. must file a nationality reservation within 3 months of birth. If it is not filed, Japanese law treats the child as having lost Japanese nationality from birth."
 date: 2026-07-14
-updated: 2026-11-10
+updated: 2026-11-11
 tags: ["nationality", "dual-citizenship", "family-register", "united-states"]
 excerptText: "If you are a Japanese national with a child born in the United States, there is a 3-month deadline to file a nationality reservation. If it is missed, Japanese law treats your child as having lost Japanese nationality from birth."
 faq:
@@ -62,7 +62,7 @@ This is not a typical visa case. It involves clarifying nationality status and f
 - Prepare the application documents for the Spouse or Child of Japanese National status if your child plans to move to Japan as a foreign national
 - Review family register records. If a correction requires a family court procedure, we will tell you and refer you to an appropriate specialist.
 
-Every family's records are different, so the first step is to confirm what was actually filed. HARUKA LEGAL SUPPORT reviews your situation and explains which procedures may be available to you — all by email or chat. We give you a written quote before any work begins.
+Every family's records are different, so the first step is to confirm what was actually filed. HARUKA Gyoseishoshi Office reviews your situation and explains which procedures may be available to you — all by email or chat. We give you a written quote before any work begins.
 
 ### References
 
