@@ -61,7 +61,7 @@ Haber reservado o no la nacionalidad puede cambiar mucho los trámites que su fa
 No es un caso de visa habitual. Se trata de aclarar la situación de nacionalidad y los registros familiares. Podemos ayudarle a:
 
 - Comprobar, con el registro familiar, si se reservó la nacionalidad de su hijo, y ordenar los trámites necesarios
-- Preparar los documentos necesarios para la notificación de adquisición de nacionalidad o la solicitud de naturalización ante la Oficina de Asuntos Jurídicos (la notificación o la solicitud la presenta en persona el interesado o su representante)
+- Preparar los documentos necesarios para la notificación de adquisición de nacionalidad o la solicitud de naturalización ante la Oficina de Asuntos Jurídicos (la notificación o la solicitud la presenta en persona el interesado o, cuando la ley lo permita, su representante legal)
 - Preparar los documentos de la declaración de elección de nacionalidad (国籍選択届) si su hijo adulto tiene dos nacionalidades
 - Preparar los documentos de solicitud del estatus de Cónyuge o Hijo de Nacional Japonés si su hijo piensa mudarse a Japón como extranjero
 - Revisar los registros familiares. Si una corrección requiere un procedimiento ante el tribunal de familia, se lo indicaremos y le derivaremos a un especialista adecuado.

@@ -14,7 +14,7 @@ faq:
   - q: "Is a visa the same as a status of residence in Japan?"
     a: "No. A visa is issued by a Japanese embassy or consulate for travel to Japan. A status of residence is the legal status that allows a foreign national to stay in Japan, and it sets what activities they can do here. It is usually granted at the immigration check when you land in Japan."
   - q: "Can I work part-time on a Student or Dependent status?"
-    a: "You may be able to, if you receive Permission to Engage in Activity Other Than That Permitted. Under the standard blanket permission, you can work up to 28 hours a week in total across all jobs. Students can work up to 8 hours a day during long vacations set by their school. Work at adult entertainment businesses is not allowed, even with permission."
+    a: "You may be able to, if you receive Permission to Engage in Activity Other Than That Permitted. Under the standard blanket permission, you can work up to 28 hours a week in total across all jobs. Students can work up to 8 hours a day during long vacations set by their school. Work at businesses regulated as fūzoku eigyō (風俗営業) under Japanese law is not allowed, even with permission."
 altUrls:
   en: /guides/japan-visa-types/
   es: /es/guides/japan-visa-types/
@@ -76,7 +76,7 @@ These statuses are for purposes other than work, such as studying or living with
 
 However, if you have a **Student** or **Dependent** status, you may be able to work part-time once you receive **Permission to Engage in Activity Other Than That Permitted (資格外活動許可)**. Under the standard blanket permission (包括許可), you can work up to **28 hours a week**. If you have more than one part-time job, the hours at all your jobs are added together. Students can work up to 8 hours a day, but only during long vacations set by their school, such as summer break.
 
-Even if you have a Student or Dependent status and this permission, you cannot work at businesses defined by law, such as adult entertainment businesses (風俗営業) and sex-related businesses (性風俗関連特殊営業). At bars and clubs where staff entertain customers, this applies not only to customer service but also to jobs such as dishwashing and cleaning. At ordinary bars and izakaya where staff do not entertain customers, you may be able to work within the limits of your permission. However, you need to check the type of business and the details of your permission.
+Even if you have a Student or Dependent status and this permission, you cannot work at businesses defined by law, such as businesses regulated as fūzoku eigyō (風俗営業) under Japanese law and sex-related businesses (性風俗関連特殊営業). At bars and clubs where staff entertain customers, this applies not only to customer service but also to jobs such as dishwashing and cleaning. At ordinary bars and izakaya where staff do not entertain customers, you may be able to work within the limits of your permission. However, you need to check the type of business and the details of your permission.
 
 <h2 id="designated">Designated Activities: what you can do is set for each person</h2>
 

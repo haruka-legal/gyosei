@@ -14,7 +14,7 @@ faq:
   - q: "¿Una visa es lo mismo que un estatus de residencia en Japón?"
     a: "No. La visa la emite una embajada o un consulado de Japón para viajar a Japón. El estatus de residencia es la condición legal que permite a una persona extranjera quedarse en Japón y determina las actividades que puede realizar aquí. Normalmente se concede en el control de inmigración al llegar a Japón."
   - q: "¿Puedo trabajar a tiempo parcial con el estatus de Estudiante o Dependiente?"
-    a: "Puede que sí, si obtiene el Permiso para Realizar Actividades Distintas de las Permitidas. Con el permiso general habitual, puede trabajar hasta 28 horas por semana en total, sumando todos sus empleos. Los estudiantes pueden trabajar hasta 8 horas al día durante las vacaciones largas fijadas por su centro. Aun con el permiso, no se permite trabajar en negocios de entretenimiento para adultos."
+    a: "Puede que sí, si obtiene el Permiso para Realizar Actividades Distintas de las Permitidas. Con el permiso general habitual, puede trabajar hasta 28 horas por semana en total, sumando todos sus empleos. Los estudiantes pueden trabajar hasta 8 horas al día durante las vacaciones largas fijadas por su centro. Aun con el permiso, no se permite trabajar en negocios regulados como fūzoku eigyō (風俗営業) por la ley japonesa."
 altUrls:
   en: /guides/japan-visa-types/
   es: /es/guides/japan-visa-types/
@@ -50,8 +50,8 @@ El estatus de residencia y el período de estancia normalmente se conceden en el
 <table class="guide-table">
 <thead><tr><th>Grupo</th><th>Estatus principales</th><th>¿Puede trabajar?</th></tr></thead>
 <tbody>
-<tr><td><a href="#work">Estatus que permiten trabajar (19)</a></td><td>Ingeniero / Especialista en Humanidades / Servicios Internacionales, Trabajador con Habilidades Específicas, Gestión Empresarial, Profesional Altamente Calificado, Traslado Intraempresarial, Trabajo Especializado, Cuidados de Enfermería, Prácticas Técnicas, entre otros</td><td>Solo el trabajo que cubre su estatus</td></tr>
-<tr><td><a href="#non-work">Estatus que en principio no permiten trabajar (5)</a></td><td>Estudiante, Dependiente, Visitante Temporal, Actividades Culturales, Aprendiz</td><td>En principio, no. Estudiante, Dependiente y algunos otros pueden trabajar con permiso</td></tr>
+<tr><td><a href="#work">Estatus que permiten trabajar (19)</a></td><td>Ingeniero / Especialista en Humanidades / Servicios Internacionales, Trabajador con Habilidades Específicas, Gestión Empresarial, Profesional Altamente Calificado, Traslado Intraempresarial, Trabajo Especializado, Cuidado de Personas Mayores o Dependientes, Prácticas Técnicas, entre otros</td><td>Solo el trabajo que cubre su estatus</td></tr>
+<tr><td><a href="#non-work">Estatus que en principio no permiten trabajar (5)</a></td><td>Estudiante, Dependiente, Visitante Temporal, Actividades Culturales, Formación Práctica</td><td>En principio, no. Estudiante, Dependiente y algunos otros pueden trabajar con permiso</td></tr>
 <tr><td><a href="#designated">Actividades Designadas (1)</a></td><td>Working Holiday, Nómada Digital, entre otros</td><td>Depende de lo designado para usted</td></tr>
 <tr><td><a href="#personal">Estatus basados en la situación personal o la posición (4)</a></td><td>Residente Permanente, Cónyuge o Hijo de Nacional Japonés, Cónyuge o Hijo de Residente Permanente, Residente de Largo Plazo</td><td>Sí, sin límites</td></tr>
 </tbody>
@@ -76,7 +76,7 @@ Estos estatus son para fines distintos del trabajo, como estudiar o vivir con la
 
 Sin embargo, si tiene el estatus de **Estudiante** o **Dependiente**, puede que pueda trabajar a tiempo parcial si obtiene el **Permiso para Realizar Actividades Distintas de las Permitidas (資格外活動許可)**. Con el permiso general habitual (包括許可), puede trabajar hasta **28 horas por semana**. Si tiene más de un empleo a tiempo parcial, se suman las horas de todos ellos. Los estudiantes pueden trabajar hasta 8 horas al día, pero solo durante las vacaciones largas fijadas por su centro, como las de verano.
 
-Aunque tenga el estatus de Estudiante o Dependiente y este permiso, no puede trabajar en negocios definidos por la ley, como los negocios de entretenimiento para adultos (風俗営業) y los negocios de carácter sexual (性風俗関連特殊営業). En bares y clubes donde el personal entretiene a los clientes, esto se aplica no solo a la atención al público, sino también a trabajos como lavar platos o limpiar. En bares e izakayas comunes donde el personal no entretiene a los clientes, puede que pueda trabajar dentro de los límites de su permiso. Sin embargo, debe comprobar el tipo de negocio y el contenido de su permiso.
+Aunque tenga el estatus de Estudiante o Dependiente y este permiso, no puede trabajar en negocios definidos por la ley, como los negocios regulados como fūzoku eigyō (風俗営業) por la ley japonesa y los negocios de carácter sexual (性風俗関連特殊営業). En bares y clubes donde el personal entretiene a los clientes, esto se aplica no solo a la atención al público, sino también a trabajos como lavar platos o limpiar. En bares e izakayas comunes donde el personal no entretiene a los clientes, puede que pueda trabajar dentro de los límites de su permiso. Sin embargo, debe comprobar el tipo de negocio y el contenido de su permiso.
 
 <h2 id="designated">Actividades Designadas: lo que puede hacer se fija para cada persona</h2>
 
@@ -109,6 +109,8 @@ Si trabaja más allá de lo permitido sin autorización, puede que no se apruebe
 
 <h2 id="all-29">Los 29 estatus de residencia</h2>
 
+Los nombres en español de esta tabla son traducciones explicativas, no nombres oficiales. El nombre oficial de cada estatus es el que aparece en japonés entre paréntesis.
+
 <div class="guide-table-wrap">
 <table class="guide-table">
 <thead><tr><th>Estatus de residencia</th><th>¿Puede trabajar?</th></tr></thead>
@@ -128,7 +130,7 @@ Si trabaja más allá de lo permitido sin autorización, puede que no se apruebe
 <tr><td>Instructor (教育)</td><td>Dentro del estatus</td></tr>
 <tr><td>Ingeniero / Especialista en Humanidades / Servicios Internacionales (技術・人文知識・国際業務)</td><td>Dentro del estatus</td></tr>
 <tr><td>Traslado Intraempresarial (企業内転勤)</td><td>Dentro del estatus</td></tr>
-<tr><td>Cuidados de Enfermería (介護)</td><td>Dentro del estatus</td></tr>
+<tr><td>Cuidado de Personas Mayores o Dependientes (介護)</td><td>Dentro del estatus</td></tr>
 <tr><td>Artista del Espectáculo (興行)</td><td>Dentro del estatus</td></tr>
 <tr><td>Trabajo Especializado (技能)</td><td>Dentro del estatus</td></tr>
 <tr><td>Trabajador con Habilidades Específicas (特定技能)</td><td>Dentro del estatus</td></tr>
@@ -137,7 +139,7 @@ Si trabaja más allá de lo permitido sin autorización, puede que no se apruebe
 <tr><td>Actividades Culturales (文化活動)</td><td>En principio, no</td></tr>
 <tr><td>Visitante Temporal (短期滞在)</td><td>En principio, no</td></tr>
 <tr><td>Estudiante (留学)</td><td>En principio, no (trabajo a tiempo parcial posible con permiso)</td></tr>
-<tr><td>Aprendiz (研修)</td><td>En principio, no</td></tr>
+<tr><td>Formación Práctica (研修)</td><td>En principio, no</td></tr>
 <tr><td>Dependiente (家族滞在)</td><td>En principio, no (trabajo a tiempo parcial posible con permiso)</td></tr>
 <tr><td colspan="2"><strong>Actividades Designadas (1)</strong></td></tr>
 <tr><td>Actividades Designadas (特定活動)</td><td>Depende de lo designado</td></tr>

@@ -69,7 +69,7 @@ If you are joining a company in Japan, you usually decide on your employer first
 
 This means enrolling in a Japanese language school, vocational school, university, or similar, and living in Japan as a student. The status of residence is **Student (留学)**.
 
-To work part-time, you need **Permission to Engage in Activity Other Than That Permitted (資格外活動許可)**. In principle, you can work up to 28 hours a week, and up to 8 hours a day during your school's long vacations, such as summer break. Even with the standard blanket permission (包括許可), you cannot work at adult entertainment businesses (風俗営業等).
+To work part-time, you need **Permission to Engage in Activity Other Than That Permitted (資格外活動許可)**. In principle, you can work up to 28 hours a week, and up to 8 hours a day during your school's long vacations, such as summer break. Even with the standard blanket permission (包括許可), you cannot work at businesses regulated as fūzoku eigyō (風俗営業) under Japanese law, such as bars and clubs where staff entertain customers.
 
 Many students change to a work status of residence after graduating and finding a job in Japan.
 
@@ -87,7 +87,7 @@ Only people with certain statuses of residence can bring family members under th
 
 If you will be involved in running or managing a business in Japan, **Business Manager (経営・管理)** is the status of residence to consider.
 
-The eligibility requirements were tightened on October 16, 2025. In principle, you now need capital or similar assets of ¥30 million or more, and you must also meet several other conditions, such as hiring a full-time employee, Japanese language ability, and management experience or a relevant degree. This is not a status you can get just by setting up a company, so it is important to plan early.
+The eligibility requirements were tightened on October 16, 2025. In principle, you now need capital or total investment of at least ¥30 million, and you must also meet several other conditions, such as hiring a full-time employee, Japanese language ability, and management experience or a relevant degree. This is not a status you can get just by setting up a company, so it is important to plan early.
 
 <h2 id="short-term">Way 5: Working holiday and digital nomad</h2>
 

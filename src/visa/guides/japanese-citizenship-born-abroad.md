@@ -57,7 +57,7 @@ Whether nationality was reserved can significantly change the procedures your fa
 This is not a typical visa case. It involves clarifying nationality status and family register records. We can help you:
 
 - Check, using the family register, whether nationality was reserved for your child, and sort out the procedures needed
-- Help prepare the documents needed for a nationality acquisition notification or a naturalization application at the Legal Affairs Bureau (the notification or application itself is filed in person at the Legal Affairs Bureau by the person or their representative)
+- Help prepare the documents needed for a nationality acquisition notification or a naturalization application at the Legal Affairs Bureau (the notification or application itself is filed in person at the Legal Affairs Bureau by the applicant or, where permitted, their legal representative)
 - Prepare the documents for a nationality choice declaration (国籍選択届) if your adult child holds two nationalities
 - Prepare the application documents for the Spouse or Child of Japanese National status if your child plans to move to Japan as a foreign national
 - Review family register records. If a correction requires a family court procedure, we will tell you and refer you to an appropriate specialist.

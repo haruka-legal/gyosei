@@ -60,7 +60,7 @@ El estatus de **Visitante Temporal (短期滞在)**, que se usa para turismo y v
 Consiste en conseguir un empleo en una empresa en Japón y vivir aquí como trabajador. Hay 3 estatus de residencia principales:
 
 - **Ingeniero / Especialista en Humanidades / Servicios Internacionales (技術・人文知識・国際業務):** Para trabajos que aprovechan los conocimientos especializados adquiridos en la universidad u otros estudios, o cierta experiencia laboral; por ejemplo, ingeniería, interpretación y traducción, o comercio internacional. Inmigración también revisa si el trabajo se corresponde con sus estudios o su experiencia, por lo que este estatus no sirve para cualquier tipo de empleo.
-- **Trabajador con Habilidades Específicas (特定技能):** Para trabajar en sectores con falta de personal, como cuidados de enfermería, restauración y construcción. En principio, debe aprobar un examen de habilidades del puesto y un examen de japonés.
+- **Trabajador con Habilidades Específicas (特定技能):** Para trabajar en sectores con falta de personal, como el cuidado de personas mayores o dependientes, la restauración y la construcción. En principio, debe aprobar un examen de habilidades del puesto y un examen de japonés.
 - **Profesional Altamente Calificado (高度専門職):** Sus estudios, experiencia laboral, ingresos y otros factores se puntúan con un sistema de puntos. Quienes superan cierta puntuación reciben un trato preferente.
 
 Si va a trabajar en una empresa en Japón, normalmente primero decide su empleador y después inicia los trámites del estatus de residencia. Sin embargo, las condiciones varían según el estatus de residencia.
@@ -69,7 +69,7 @@ Si va a trabajar en una empresa en Japón, normalmente primero decide su emplead
 
 Consiste en matricularse en una escuela de japonés, una escuela técnica, una universidad u otro centro, y vivir en Japón como estudiante. El estatus de residencia es **Estudiante (留学)**.
 
-Para trabajar a tiempo parcial, necesita el **Permiso para Realizar Actividades Distintas de las Permitidas (資格外活動許可)**. En principio, puede trabajar hasta 28 horas por semana, y hasta 8 horas al día durante las vacaciones largas de su centro, como las de verano. Aun con el permiso general habitual (包括許可), no puede trabajar en negocios de entretenimiento para adultos (風俗営業等).
+Para trabajar a tiempo parcial, necesita el **Permiso para Realizar Actividades Distintas de las Permitidas (資格外活動許可)**. En principio, puede trabajar hasta 28 horas por semana, y hasta 8 horas al día durante las vacaciones largas de su centro, como las de verano. Aun con el permiso general habitual (包括許可), no puede trabajar en negocios regulados como fūzoku eigyō (風俗営業) por la ley japonesa, como los bares y clubes donde el personal entretiene a los clientes.
 
 Muchos estudiantes cambian a un estatus de trabajo después de graduarse y encontrar empleo en Japón.
 
@@ -87,7 +87,7 @@ Solo las personas con determinados estatus de residencia pueden traer a su famil
 
 Si va a participar en la dirección o la gestión de un negocio en Japón, el estatus de residencia a considerar es **Gestión Empresarial (経営・管理)**.
 
-Los criterios se endurecieron el 16 de octubre de 2025. En principio, ahora necesita un capital u otros activos de ¥30 millones o más, y además debe cumplir otras condiciones, como contratar a un empleado a tiempo completo, tener capacidad en japonés y contar con experiencia en gestión o un título relacionado. No es un estatus que se obtenga solo por crear una empresa, por lo que es importante planificar con tiempo.
+Los criterios se endurecieron el 16 de octubre de 2025. En principio, ahora necesita un capital (o una inversión total) de al menos ¥30 millones, y además debe cumplir otras condiciones, como contratar a un empleado a tiempo completo, tener capacidad en japonés y contar con experiencia en gestión o un título relacionado. No es un estatus que se obtenga solo por crear una empresa, por lo que es importante planificar con tiempo.
 
 <h2 id="short-term">Vía 5: Working Holiday y nómada digital</h2>
 
