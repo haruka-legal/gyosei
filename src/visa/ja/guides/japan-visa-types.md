@@ -1,4 +1,6 @@
 ---
+permalink: false
+eleventyExcludeFromCollections: true
 layout: layouts/guide.njk
 lang: ja
 title: "日本のビザ（在留資格）の種類は？29種類を4つのグループでやさしく整理"
