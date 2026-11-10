@@ -1,6 +1,4 @@
 ---
-permalink: false
-eleventyExcludeFromCollections: true
 layout: layouts/guide.njk
 lang: ja
 title: "アメリカで生まれた子どもは日本国籍を失っている？アメリカで子育てをする日本人の親が知っておきたいこと"

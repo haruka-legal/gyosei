@@ -1,6 +1,4 @@
 ---
-permalink: false
-eleventyExcludeFromCollections: true
 layout: layouts/guide.njk
 lang: es
 title: "Tipos de visa en Japón: los 29 estatus de residencia explicados en 4 grupos"

@@ -1,6 +1,4 @@
 ---
-permalink: false
-eleventyExcludeFromCollections: true
 layout: layouts/guide.njk
 lang: en
 title: "Japan Visa Types: All 29 Statuses of Residence Explained in 4 Groups"

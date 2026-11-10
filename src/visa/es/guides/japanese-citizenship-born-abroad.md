@@ -1,6 +1,4 @@
 ---
-permalink: false
-eleventyExcludeFromCollections: true
 layout: layouts/guide.njk
 lang: es
 title: "¿Perdió su hijo la nacionalidad japonesa al nacer? Lo que deben saber los padres japoneses que crían a sus hijos en EE. UU."
