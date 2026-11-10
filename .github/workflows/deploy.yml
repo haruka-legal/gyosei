@@ -44,6 +44,9 @@ jobs:
       - name: Copy root entrance page
         run: cp -r src/root/. _site/
 
+      - name: Add latest articles to the top page (新着記事)
+        run: node scripts/build-news.js _site
+
       - name: Check links (他ドメイン混入チェック)
         run: node scripts/check-domains.js _site
 
