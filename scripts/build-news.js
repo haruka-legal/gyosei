@@ -9,7 +9,7 @@ const fs = require("fs");
 const path = require("path");
 
 const SITE_DIR = process.argv[2] || "_site";
-const LIMIT = 10;
+const LIMIT = 5;
 
 const SOURCES = [
   { dir: "src/articles", base: "/gyosei/articles/", label: "ビザ" },
