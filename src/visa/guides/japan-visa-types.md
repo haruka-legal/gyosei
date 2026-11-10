@@ -97,7 +97,7 @@ First, check the **status of residence** and the **work restrictions (就労制�
 - **"就労制限なし" (No restriction on work):** There is no work restriction based on your status of residence.
 - **"在留資格に基づく就労活動のみ可" (Work permitted only within the status of residence):** You can do the work your status of residence covers. People with Specified Skilled Worker status also see this, but should also check the designation document (指定書) attached to their passport to see what work is permitted.
 - **"指定書により指定された就労活動のみ可" (Work permitted only as designated):** This mainly appears for people with Designated Activities. Check the designation document attached to your passport to see what work is permitted.
-- **"就労不可" (Employment not permitted):** Also check the **Permission for activity other than that permitted (資格外活動許可欄)** section on the back. If you have permission, you may be able to work within its limits.
+- **"就労不可" (Employment not permitted):** Also check the **Permission to Engage in Activity Other Than That Permitted (資格外活動許可欄)** section on the back. If you have permission, you may be able to work within its limits.
 
 Having a residence card does not mean you can do any kind of work. Also, residence cards are not issued to some people, such as those with Temporary Visitor status.
 

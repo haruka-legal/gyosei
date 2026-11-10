@@ -25,7 +25,7 @@ Under U.S. law, a child born in the United States is generally a U.S. citizen at
 
 Japanese nationality follows a different principle: it passes through a parent, not the place of birth. If the father or mother is a Japanese national when the child is born, the child is, in principle, also a Japanese national. However, the outcome can differ depending on factors such as the legal parent-child relationship at the time of birth. A child who is also Japanese is born holding two nationalities.
 
-This may seem straightforward, but there is an important deadline. When a Japanese child is born abroad and acquires another nationality at birth, the parents must file a **nationality reservation (国籍留保)** together with the birth report **within 3 months of the date of birth**. It can be filed at a Japanese embassy or consulate, or at a municipal office in Japan.
+This may seem straightforward, but there is an important deadline. When a Japanese child is born abroad and acquires another nationality at birth, the parents must file a **reservation of Japanese nationality (国籍留保)** together with the birth report **within 3 months of the date of birth**. It can be filed at a Japanese embassy or consulate, or at a municipal office in Japan.
 
 If the reservation is not filed in time, Japanese law treats the child as having lost Japanese nationality retroactive to birth. The deadline is extended only in limited cases — for example, when a natural disaster or another cause beyond the parents' control made filing impossible. In that case, the period becomes 14 days from the time filing becomes possible.
 
@@ -74,4 +74,5 @@ Every family's records are different, so the first step is to confirm what was a
 - [The choice of nationality (leaflet) — Ministry of Justice](https://www.moj.go.jp/content/001399971.pdf)
 - [Nationality Q&A (reacquisition) — Tokyo Legal Affairs Bureau (in Japanese)](https://houmukyoku.moj.go.jp/tokyo/table/QandA/all/q40.html)
 - [Spouse or Child of Japanese National — Immigration Services Agency of Japan](https://www.moj.go.jp/isa/applications/status/spouseorchildofjapanese.html)
+- [Trump v. Barbara, No. 25-365 (June 30, 2026) — Supreme Court of the United States](https://www.supremecourt.gov/opinions/25pdf/25-365_4hdj.pdf)
 - [Supreme Court strikes down Trump's order ending birthright citizenship — SCOTUSblog (June 30, 2026)](https://www.scotusblog.com/2026/06/supreme-court-strikes-down-trumps-order-ending-birthright-citizenship/)

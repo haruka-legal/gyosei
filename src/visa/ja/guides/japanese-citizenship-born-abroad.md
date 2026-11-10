@@ -77,4 +77,5 @@ altUrls:
 - [国籍選択は重国籍者の大切な義務です（パンフレット）｜法務省](https://www.moj.go.jp/content/001399971.pdf)
 - [令和4年4月1日からの戸籍・国籍の手続きの変更について｜在シカゴ日本国総領事館](https://www.chicago.us.emb-japan.go.jp/files/100317464.pdf)
 - [在留資格「日本人の配偶者等」｜出入国在留管理庁](https://www.moj.go.jp/isa/applications/status/spouseorchildofjapanese.html)
+- [Trump v. Barbara, No. 25-365（2026年6月30日判決）｜アメリカ連邦最高裁判所](https://www.supremecourt.gov/opinions/25pdf/25-365_4hdj.pdf)
 - [Supreme Court strikes down Trump's order ending birthright citizenship｜SCOTUSblog（2026年6月30日）](https://www.scotusblog.com/2026/06/supreme-court-strikes-down-trumps-order-ending-birthright-citizenship/)

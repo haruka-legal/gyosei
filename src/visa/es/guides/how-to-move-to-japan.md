@@ -27,9 +27,9 @@ altUrls:
 <tbody>
 <tr><td>Tiene una oferta de trabajo de una empresa en Japón</td><td><a href="#work">Vía 1: Trabajar en una empresa en Japón</a></td></tr>
 <tr><td>Quiere matricularse en un centro educativo en Japón</td><td><a href="#study">Vía 2: Estudiar en Japón</a></td></tr>
-<tr><td>Quiere vivir con su pareja japonesa o con familia que vive en Japón</td><td><a href="#family">Vía 3: Vivir con su familia</a></td></tr>
+<tr><td>Quiere vivir con su cónyuge japonés o con familia que vive en Japón</td><td><a href="#family">Vía 3: Vivir con su familia</a></td></tr>
 <tr><td>Quiere dirigir un negocio en Japón</td><td><a href="#business">Vía 4: Dirigir un negocio en Japón</a></td></tr>
-<tr><td>Quiere vivir la experiencia de Japón por un tiempo limitado</td><td><a href="#short-term">Vía 5: Working Holiday y nómada digital</a></td></tr>
+<tr><td>Quiere vivir la experiencia de Japón por un tiempo limitado</td><td><a href="#short-term">Vía 5: Working Holiday y estancias de nómada digital</a></td></tr>
 </tbody>
 </table>
 </div>
@@ -42,7 +42,7 @@ altUrls:
 <li><a href="#study">Vía 2: Estudiar en Japón</a></li>
 <li><a href="#family">Vía 3: Vivir con su familia</a></li>
 <li><a href="#business">Vía 4: Dirigir un negocio en Japón</a></li>
-<li><a href="#short-term">Vía 5: Working Holiday y nómada digital</a></li>
+<li><a href="#short-term">Vía 5: Working Holiday y estancias de nómada digital</a></li>
 <li><a href="#stay-longer">Cómo seguir viviendo en Japón: renovación y residencia permanente</a></li>
 <li><a href="#steps">Cómo venir a Japón para trabajar: los pasos habituales</a></li>
 <li><a href="#choose">¿No sabe qué vía le conviene?</a></li>
@@ -89,7 +89,7 @@ Si va a participar en la dirección o la gestión de un negocio en Japón, el es
 
 Los criterios se endurecieron el 16 de octubre de 2025. En principio, ahora necesita un capital (o una inversión total) de al menos ¥30 millones, y además debe cumplir otras condiciones, como contratar a un empleado a tiempo completo, tener capacidad en japonés y contar con experiencia en gestión o un título relacionado. No es un estatus que se obtenga solo por crear una empresa, por lo que es importante planificar con tiempo.
 
-<h2 id="short-term">Vía 5: Working Holiday y nómada digital</h2>
+<h2 id="short-term">Vía 5: Working Holiday y estancias de nómada digital</h2>
 
 - **Working Holiday:** Los jóvenes de países y regiones que tienen un acuerdo con Japón pueden quedarse en Japón principalmente para disfrutar de unas vacaciones. Pueden trabajar para complementar sus fondos de viaje. A 1 de noviembre de 2026, el programa cubre 33 países y regiones, entre ellos España, Argentina, Chile y Uruguay. En principio, la edad es de 18 a 30 años, pero las condiciones varían según la nacionalidad. Para Australia, Canadá y Corea del Sur, el límite es de 25 años en principio, pero se puede solicitar hasta los 30 si las autoridades de cada país lo permiten.
 - **Nómada Digital:** Las personas que siguen trabajando a distancia para una empresa del extranjero pueden quedarse en Japón hasta 6 meses. Hay condiciones, como unos ingresos anuales de ¥10 millones o más y un seguro médico. La estancia no puede renovarse y no se emite tarjeta de residencia.
@@ -102,7 +102,7 @@ La mayoría de los estatus de residencia tienen un período de estancia determin
 
 Si quiere vivir en Japón a largo plazo, puede aspirar al estatus de **Residente Permanente (永住者)**. En principio, debe haber vivido en Japón de forma continuada durante 10 años o más, de los cuales al menos 5 con un estatus de residencia que permita trabajar (excepto Prácticas Técnicas y Trabajador con Habilidades Específicas (i)) o con un estatus basado en la situación personal. Además de los años, Inmigración revisa, por ejemplo, si ha pagado correctamente sus impuestos, la pensión y el seguro de salud, y si su forma de vida es estable.
 
-Los cónyuges de personas japonesas y algunas otras personas tienen una regla especial con menos años exigidos. Para las solicitudes presentadas hasta el 31 de marzo de 2027, la referencia es que la vida matrimonial real dure 3 años o más y que haya vivido en Japón de forma continuada durante 1 año o más. Para las **solicitudes presentadas a partir del 1 de abril de 2027**, las nuevas directrices cambian esto a 5 años o más de vida matrimonial y 3 años o más en Japón. Con las nuevas directrices, también se tiene en cuenta la capacidad en japonés (nivel B1 aproximadamente), entre otros factores.
+Los cónyuges de personas japonesas, de residentes permanentes y de residentes permanentes especiales, entre otras personas, tienen una regla especial con menos años exigidos. Para las solicitudes presentadas hasta el 31 de marzo de 2027, la referencia es que la vida matrimonial real dure 3 años o más y que haya vivido en Japón de forma continuada durante 1 año o más. Para las **solicitudes presentadas a partir del 1 de abril de 2027**, las nuevas directrices cambian esto a 5 años o más de vida matrimonial y 3 años o más en Japón. Con las nuevas directrices, también se tiene en cuenta la capacidad en japonés (nivel B1 aproximadamente), entre otros factores. Sin embargo, en algunos casos no se tiene en cuenta la capacidad en japonés; por ejemplo, para los Profesionales Altamente Calificados o para quienes han cursado cierto período de estudios escolares en Japón.
 
 <h2 id="steps">Cómo venir a Japón para trabajar: los pasos habituales</h2>
 
@@ -112,7 +112,7 @@ El trámite varía según el estatus de residencia. Estos son los pasos habitual
 2. Cuando se emite, usted solicita la visa, en principio en la embajada o el consulado general de Japón que corresponda al país o la región donde vive.
 3. Entra en Japón y recibe el permiso de desembarco en el control de inmigración. En algunos aeropuertos recibe su **Tarjeta de Residencia (在留カード)** en ese momento; en los demás casos, se la envían por correo después de registrar su domicilio en la oficina municipal.
 
-El plazo estándar de tramitación del Certificado de Elegibilidad es de 1 a 3 meses aproximadamente.
+La Agencia de Servicios de Inmigración indica un plazo estándar de 1 a 3 meses para el Certificado de Elegibilidad, pero según el caso puede tardar más.
 
 <h2 id="choose">¿No sabe qué vía le conviene?</h2>
 

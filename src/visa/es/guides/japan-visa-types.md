@@ -97,7 +97,7 @@ Primero, mire el **estatus de residencia** y las **restricciones laborales (就�
 - **"就労制限なし" (sin restricciones laborales):** No hay restricciones laborales por su estatus de residencia.
 - **"在留資格に基づく就労活動のみ可" (solo trabajo dentro del estatus de residencia):** Puede hacer el trabajo que cubre su estatus de residencia. Las personas con el estatus de Trabajador con Habilidades Específicas también ven esta indicación, pero deben consultar además el documento de designación (指定書) adjunto a su pasaporte para ver qué trabajo está permitido.
 - **"指定書により指定された就労活動のみ可" (solo el trabajo designado):** Aparece principalmente en personas con Actividades Designadas. Consulte el documento de designación adjunto a su pasaporte para ver qué trabajo está permitido.
-- **"就労不可" (trabajo no permitido):** Mire también la sección de **permiso para actividades distintas de las permitidas (資格外活動許可欄)** en el reverso. Si tiene permiso, puede que pueda trabajar dentro de sus límites.
+- **"就労不可" (trabajo no permitido):** Mire también la sección del **Permiso para Realizar Actividades Distintas de las Permitidas (資格外活動許可欄)** en el reverso. Si tiene permiso, puede que pueda trabajar dentro de sus límites.
 
 Tener una tarjeta de residencia no significa que pueda hacer cualquier tipo de trabajo. Además, algunas personas, como las que tienen el estatus de Visitante Temporal, no reciben tarjeta de residencia.
 

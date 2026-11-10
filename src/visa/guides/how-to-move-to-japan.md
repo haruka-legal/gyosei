@@ -27,9 +27,9 @@ altUrls:
 <tbody>
 <tr><td>You have a job offer from a company in Japan</td><td><a href="#work">Way 1: Work for a company in Japan</a></td></tr>
 <tr><td>You want to enroll in a school in Japan</td><td><a href="#study">Way 2: Study at a school in Japan</a></td></tr>
-<tr><td>You want to live with a Japanese partner or family living in Japan</td><td><a href="#family">Way 3: Live with your family</a></td></tr>
+<tr><td>You want to live with your Japanese spouse or with family living in Japan</td><td><a href="#family">Way 3: Live with your family</a></td></tr>
 <tr><td>You want to run a business in Japan</td><td><a href="#business">Way 4: Run a business in Japan</a></td></tr>
-<tr><td>You want to experience life in Japan for a limited time</td><td><a href="#short-term">Way 5: Working holiday and digital nomad</a></td></tr>
+<tr><td>You want to experience life in Japan for a limited time</td><td><a href="#short-term">Way 5: Working holidays and digital nomad stays</a></td></tr>
 </tbody>
 </table>
 </div>
@@ -42,7 +42,7 @@ altUrls:
 <li><a href="#study">Way 2: Study at a school in Japan</a></li>
 <li><a href="#family">Way 3: Live with your family</a></li>
 <li><a href="#business">Way 4: Run a business in Japan</a></li>
-<li><a href="#short-term">Way 5: Working holiday and digital nomad</a></li>
+<li><a href="#short-term">Way 5: Working holidays and digital nomad stays</a></li>
 <li><a href="#stay-longer">Staying in Japan Long-Term: Extensions and Permanent Residence</a></li>
 <li><a href="#steps">How to come to Japan for a job: the usual steps</a></li>
 <li><a href="#choose">Not sure which option fits you?</a></li>
@@ -89,7 +89,7 @@ If you will be involved in running or managing a business in Japan, **Business M
 
 The eligibility requirements were tightened on October 16, 2025. In principle, you now need capital or total investment of at least ¥30 million, and you must also meet several other conditions, such as hiring a full-time employee, Japanese language ability, and management experience or a relevant degree. This is not a status you can get just by setting up a company, so it is important to plan early.
 
-<h2 id="short-term">Way 5: Working holiday and digital nomad</h2>
+<h2 id="short-term">Way 5: Working holidays and digital nomad stays</h2>
 
 - **Working Holiday:** Young people from countries and regions that have an agreement with Japan can stay in Japan mainly to enjoy a holiday. You can work to supplement your travel funds. As of November 1, 2026, 33 countries and regions are covered. The age limit is 18 to 30 in principle, but the conditions differ by nationality. For Australia, Canada, and South Korea, the limit is 25 in principle, but you can apply up to age 30 if that country's authorities allow it.
 - **Digital Nomad:** People who keep working remotely for a company abroad can stay in Japan for up to 6 months. There are conditions, such as an annual income of ¥10 million or more and medical insurance. The stay cannot be extended, and no residence card is issued.
@@ -102,7 +102,7 @@ Most statuses of residence have a set period of stay. To keep living in Japan, y
 
 If you want to live in Japan for the long term, you can aim for **Permanent Resident (永住者)** status. In principle, you need to have lived in Japan continuously for 10 years or more, including at least 5 years with a status of residence that allows work (excluding Technical Intern Training and Specified Skilled Worker (i)) or a status based on personal status. Besides the number of years, immigration also checks things like whether you have properly paid your taxes, pension, and health insurance, and whether your livelihood is stable.
 
-Spouses of Japanese nationals and some others have a special rule with a shorter required period. For applications filed by March 31, 2027, the guideline is that their actual married life has continued for 3 years or more and they have lived in Japan continuously for 1 year or more. For **applications filed on or after April 1, 2027**, the new guidelines change this to 5 years or more of married life and 3 years or more in Japan. Under the new guidelines, Japanese language ability (around B1 level) and other factors are also taken into account.
+Spouses of Japanese nationals, permanent residents and special permanent residents, and some others, have a special rule with a shorter required period. For applications filed by March 31, 2027, the guideline is that their actual married life has continued for 3 years or more and they have lived in Japan continuously for 1 year or more. For **applications filed on or after April 1, 2027**, the new guidelines change this to 5 years or more of married life and 3 years or more in Japan. Under the new guidelines, Japanese language ability (around B1 level) and other factors are also taken into account. However, Japanese language ability may not be considered in some cases, such as for Highly Skilled Professionals or people who have received a certain period of schooling in Japan.
 
 <h2 id="steps">How to come to Japan for a job: the usual steps</h2>
 
@@ -112,7 +112,7 @@ The application process differs by status of residence. Here are the usual steps
 2. Once it is issued, you apply for a visa, in principle at the Japanese embassy or consulate-general that covers the country or region where you live.
 3. You enter Japan and receive landing permission at the immigration check. At some airports you receive your **Residence Card (在留カード)** on the spot; otherwise, it is mailed to you after you register your address with your local municipal office.
 
-The standard processing period for a Certificate of Eligibility is about 1 to 3 months.
+The Immigration Services Agency gives a standard processing period of 1 to 3 months for a Certificate of Eligibility, but it can take longer depending on the case.
 
 <h2 id="choose">Not sure which option fits you?</h2>
 
