@@ -1,11 +1,11 @@
 /* ── Language switch (replaces old dropdown) ── */
 .lang-switch{display:flex;align-items:center;gap:2px;margin-right:14px;}
 .lang-switch a{
-  font-size:11px;font-weight:600;letter-spacing:.03em;color:rgba(255,255,255,.45);
+  font-size:11px;font-weight:600;letter-spacing:.03em;color:var(--light);
   padding:6px 9px;border-radius:5px;text-decoration:none;transition:.15s;
 }
-.lang-switch a:hover{color:#fff;}
-.lang-switch a.active{background:rgba(255,255,255,.12);color:#fff;}
+.lang-switch a:hover{color:var(--navy);}
+.lang-switch a.active{background:var(--light-bg);color:var(--navy);}
 .mobile-nav-langs{display:flex;gap:8px;margin-top:18px;}
 .mobile-nav-langs a{
   flex:1;text-align:center;padding:10px 0;border-radius:6px;
@@ -119,4 +119,12 @@
 /* office name (HARUKA Gyoseishoshi Office) fits on small phones */
 @media(max-width:400px){
   .logo-name{max-width:none;overflow:visible;text-overflow:clip;}
+}
+
+/* tagline under the office name: show on tablets and phones too */
+@media(max-width:1024px){
+  .logo-name small{display:block;font-size:8px;letter-spacing:.08em;margin-top:2px;}
+}
+@media(max-width:400px){
+  .logo-name small{font-size:7.5px;letter-spacing:.05em;}
 }
