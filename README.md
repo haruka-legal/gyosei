@@ -85,3 +85,25 @@ npm run serve
 - サイトのURLは `src/fuei/_data/site.js` の `url` だけで管理しています。テンプレートや記事にサイトURLを直接書かないでください。
 - 見た目は `src/fuei/css/style.css`（白と黒が基調）。色は先頭の `:root` にまとめてあります。
 - 手元で確認するとき：`npm run serve:fuei`
+
+## 民泊ブログ（haruka-legal.com/minpaku/）
+
+案内ページ（料金・業務内容）は作らず、記事だけのブログです。各記事の下に「民泊の届出や、旅館業の許可の手続きもお受けしています」とお問い合わせが自動で入ります。
+
+- 記事は `src/minpaku/articles/〇〇.md` に置きます。1本目を置いたときに初めてビルド・公開され、トップページの「新着記事」とサイトマップにも自動で載ります。
+- フロントマターの例：
+
+```yaml
+---
+layout: layouts/article.njk
+title: "記事のタイトル"
+description: "120字くらいの説明"
+category: "民泊の基礎"
+datePublished: 2026-11-10
+conclusion: "最初に表示する結論"
+breadcrumbs:
+  - { name: "トップ", url: "../" }
+  - { name: "民泊の記事", url: "/" }
+  - { name: "記事の短い名前", url: "/articles/〇〇/" }
+---
+```
