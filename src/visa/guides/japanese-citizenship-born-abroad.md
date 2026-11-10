@@ -48,7 +48,7 @@ The next steps depend on the situation:
 Whether nationality was reserved can significantly change the procedures your family needs to consider.
 
 - **If nationality was properly reserved,** your child is a Japanese national and does not need a visa to live, work or study in Japan.
-- **If Japanese nationality was lost,** your child needs a [status of residence](/guides/how-to-move-to-japan/) to live in Japan, as other foreign nationals do. However, a person born as the child of a Japanese national is eligible to apply for the **Spouse or Child of Japanese National (日本人の配偶者等)** status.
+- **If Japanese nationality was lost,** your child needs a [status of residence](/visa/guides/how-to-move-to-japan/) to live in Japan, as other foreign nationals do. However, a person born as the child of a Japanese national is eligible to apply for the **Spouse or Child of Japanese National (日本人の配偶者等)** status.
 
 ## What we can help with
 
