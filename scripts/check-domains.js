@@ -88,6 +88,7 @@ const ALLOWED_HOSTS = [
   "www.city.bunkyo.lg.jp", // 文京区（外国人住民の住民票）
   "www.bk.mufg.jp", // 三菱UFJ銀行（相続手続きの必要書類）
   "www.koshonin.gr.jp", // 日本公証人連合会
+  "www.mlit.go.jp", // 国土交通省
 ];
 
 const TEXT_EXT = new Set([".html", ".xml", ".txt", ".css", ".js", ".json", ".webmanifest"]);
