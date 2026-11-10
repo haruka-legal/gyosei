@@ -123,8 +123,51 @@
 
 /* tagline under the office name: show on tablets and phones too */
 @media(max-width:1024px){
-  .logo-name small{display:block;font-size:8px;letter-spacing:.08em;margin-top:2px;}
+  .logo-name{font-size:16px;}
+  .logo-name small{display:block;font-size:10px;letter-spacing:.06em;margin-top:2px;}
+}
+
+/* ── Language switch: one button (current language) + menu on tablets/phones ── */
+.lang-toggle{display:none;}
+.lang-menu{display:contents;}
+@media(max-width:1024px){
+  .lang-switch{position:relative;margin-right:6px;}
+  .lang-toggle{
+    display:inline-flex;align-items:center;gap:3px;
+    appearance:none;border:1px solid var(--border);background:#fff;border-radius:6px;
+    font:inherit;font-size:12px;font-weight:600;color:var(--navy);
+    padding:6px 8px;cursor:pointer;
+  }
+  .lang-toggle span{font-size:9px;color:var(--light);}
+  .lang-menu{
+    display:none;position:absolute;top:calc(100% + 6px);right:0;z-index:600;
+    flex-direction:column;min-width:64px;background:#fff;border:1px solid var(--border);
+    border-radius:8px;box-shadow:0 8px 24px rgba(7,24,50,.12);padding:4px;
+  }
+  .lang-switch.open .lang-menu{display:flex;}
+  .lang-menu a{font-size:13px;padding:9px 12px;border-radius:5px;text-align:center;}
+  .lang-menu a.active{display:none;}
+}
+
+/* office name sizes on phones (language switch is now a single button) */
+@media(max-width:600px){
+  .logo{gap:8px;}
+  .logo-name{font-size:17px;letter-spacing:.01em;}
+  .logo-name small{font-size:10.5px;letter-spacing:.03em;}
 }
 @media(max-width:400px){
-  .logo-name small{font-size:7.5px;letter-spacing:.05em;}
+  .logo-name{font-size:16px;letter-spacing:0;}
+  .logo-name small{font-size:10px;letter-spacing:.01em;}
+}
+@media(max-width:380px){
+  .logo-name{font-size:15.5px;}
+  .logo-name small{font-size:9.5px;}
+}
+@media(max-width:370px){
+  .logo-name{font-size:14.5px;}
+  .logo-name small{font-size:9px;letter-spacing:0;}
+}
+@media(max-width:340px){
+  .logo-name{font-size:12px;}
+  .logo-name small{font-size:7.5px;}
 }

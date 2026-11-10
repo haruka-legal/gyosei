@@ -155,3 +155,22 @@ function selectCase(id) {
     if (load(STORE_PREF) === 'USD') choose('USD');
   });
 })();
+
+
+// ── Language switch menu (tablets/phones) ──
+document.addEventListener('DOMContentLoaded', function () {
+  var sw = document.querySelector('.lang-switch');
+  var btn = sw && sw.querySelector('.lang-toggle');
+  if (!btn) return;
+  btn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    var open = sw.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  document.addEventListener('click', function (e) {
+    if (!sw.contains(e.target)) { sw.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') { sw.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); }
+  });
+});

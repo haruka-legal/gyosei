@@ -75,9 +75,12 @@
 </nav>
 <div class="hdr-right">
 <div class="lang-switch">
-<a href="{{ ((altUrls.en if (altUrls and altUrls.en) else '/')) | url }}" class="{% if lang == 'en' %}active{% endif %}">EN</a>
-<a href="{{ ((altUrls.es if (altUrls and altUrls.es) else '/es/')) | url }}" class="{% if lang == 'es' %}active{% endif %}">ES</a>
-<a href="{{ ((altUrls.ja if (altUrls and altUrls.ja) else '/ja/')) | url }}" class="{% if lang == 'ja' %}active{% endif %}">JP</a>
+<button type="button" class="lang-toggle" aria-haspopup="true" aria-expanded="false" aria-label="{% if lang == 'en' %}Language{% elif lang == 'es' %}Idioma{% else %}言語{% endif %}">{% if lang == 'en' %}EN{% elif lang == 'es' %}ES{% else %}JP{% endif %}<span aria-hidden="true">▾</span></button>
+<div class="lang-menu">
+<a href="{{ ((altUrls.en if (altUrls and altUrls.en) else '/')) | url }}" class="{% if lang == 'en' %}active{% endif %}" lang="en">EN</a>
+<a href="{{ ((altUrls.es if (altUrls and altUrls.es) else '/es/')) | url }}" class="{% if lang == 'es' %}active{% endif %}" lang="es">ES</a>
+<a href="{{ ((altUrls.ja if (altUrls and altUrls.ja) else '/ja/')) | url }}" class="{% if lang == 'ja' %}active{% endif %}" lang="ja">JP</a>
+</div>
 </div>
 <button aria-label="Menu" class="hamburger" onclick="openMobileNav()"><span></span><span></span><span></span></button>
 </div>
