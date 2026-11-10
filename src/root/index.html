@@ -6,6 +6,8 @@
 <title>遥か行政書士事務所 | 千代田区 神保町・御茶ノ水</title>
 <meta name="description" content="東京都千代田区の行政書士事務所。ビザ・外国人雇用などの国際業務、相続手続き・遺言書作成、風俗営業許可をサポートします。">
 <link rel="canonical" href="https://haruka-legal.com/">
+<link rel="icon" href="/favicon.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="遥か行政書士事務所">
 <meta property="og:url" content="https://haruka-legal.com/">
@@ -99,6 +101,18 @@
   .name small{margin:10px 0 0;font-size:13px;letter-spacing:.12em;white-space:nowrap}
   .left{justify-content:center}
   footer div{text-align:center}
+  .news{margin-top:24px;display:flex;flex-direction:column;gap:6px}
+  .news h2{font-family:var(--mincho);font-weight:700;font-size:19px;line-height:1.4;padding-left:12px;border-left:4px solid var(--blue);margin-bottom:10px}
+  .nmore{font-size:13.5px;color:var(--muted);margin-top:8px}
+  .nmore a{color:var(--blue);margin-right:4px}
+  .nlist{list-style:none;border-top:1px solid var(--line)}
+  .nlist li{border-bottom:1px solid var(--line)}
+  .nlist a{display:grid;grid-template-columns:auto auto 1fr;align-items:baseline;gap:4px 12px;padding:12px 2px;text-decoration:none;color:inherit}
+  .nlist a:hover .tt,.nlist a:focus-visible .tt{text-decoration:underline;color:var(--blue)}
+  .nlist time{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .nlist .tag{justify-self:start;font-size:12px;color:var(--blue);border:1px solid var(--line);border-radius:999px;padding:0 9px;white-space:nowrap}
+  .nlist .tt{font-size:14.5px;word-break:auto-phrase}
+  @media (max-width:720px){.nlist a{grid-template-columns:auto 1fr}.nlist .tt{grid-column:1/-1}}
   /* 対応エリア・事務所概要・お問い合わせを、見出しで区切って別のまとまりに見せる */
   .area,.office,.contact{margin-top:24px}
   .area h2,.office h2,.contact h2{font-size:19px;line-height:1.4;padding-left:12px;border-left:4px solid var(--blue);margin-bottom:10px}
@@ -130,6 +144,13 @@
       <li><a href="fuei/"><span><span class="t">風俗営業許可・深夜酒類提供の届出</span><span class="d">スナック・ラウンジ・バーなど、お店の開業をお考えの方へ</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
       <li><a href="visa/" lang="en"><span><span class="t">For international clients — English / Español</span><span class="d">Visa and immigration support for individuals and companies coming to Japan.</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
     </ul>
+    <section class="news" aria-labelledby="news-h">
+      <h2 id="news-h">新着記事</h2>
+      <ul class="nlist">
+        <!--NEWS-->
+      </ul>
+      <p class="nmore">記事一覧：<a href="gyosei/articles/">ビザ</a>　<a href="souzoku/articles/">相続</a>　<a href="fuei/articles/">風営</a></p>
+    </section>
     <section class="area" aria-labelledby="area-h">
       <h2 id="area-h">対応エリア</h2>
       <p>千代田区の神保町・御茶ノ水エリアをはじめ、中央区・文京区・台東区・荒川区・墨田区などの周辺地域、東京23区を中心に対応しております。<span class="nl">オンラインにて、全国・海外からのご相談にも対応しております。お気軽に<a href="#contact-h">お問い合わせ</a>ください。</span></p>

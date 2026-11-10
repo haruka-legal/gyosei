@@ -41,8 +41,23 @@ jobs:
       - name: Build Fuei site
         run: npx @11ty/eleventy --config=.eleventy-fuei.js
 
+      - name: Build Minpaku blog (記事が1本以上あるときだけ)
+        run: |
+          if ls src/minpaku/articles/*.md >/dev/null 2>&1; then
+            npx @11ty/eleventy --config=.eleventy-minpaku.js
+          fi
+
       - name: Copy root entrance page
         run: cp -r src/root/. _site/
+
+      - name: Add minpaku sitemap to the sitemap index (公開したときだけ)
+        run: |
+          if [ -f _site/minpaku/sitemap.xml ] && ! grep -q minpaku _site/sitemap.xml; then
+            sed -i 's#</sitemapindex>#  <sitemap><loc>https://haruka-legal.com/minpaku/sitemap.xml</loc></sitemap>\n</sitemapindex>#' _site/sitemap.xml
+          fi
+
+      - name: Add latest articles to the top page (新着記事)
+        run: node scripts/build-news.js _site
 
       - name: Check links (他ドメイン混入チェック)
         run: node scripts/check-domains.js _site

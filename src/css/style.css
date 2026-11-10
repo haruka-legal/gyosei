@@ -158,10 +158,11 @@ header.scrolled {
 .logo-sub {
   font-size: 10px;
   font-weight: 300;
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,.6);
   letter-spacing: .1em;
   display: block;
   margin-top: 1px;
+  text-align: right;
 }
 /* Nav */
 nav { border-top: 1px solid rgba(255,255,255,.06); }
@@ -418,10 +419,10 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   font-size: 14.5px;
   color: rgba(255,255,255,.62);
   line-height: 2.1;
-  max-width: 460px;
+  max-width: 680px;
   margin: 0 auto 40px;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
 }
 .hero-foreign-link {
   display: inline-block;
@@ -1871,7 +1872,7 @@ footer p.footer-souzoku a {
   .hamburger     { display: flex; }
   nav            { display: none; }
   .logo-text     { font-size: 13px; }
-  .logo-sub      { display: none; }
+  .logo-sub      { font-size: 9px; }
   .logo-img-wrap { width: 36px; height: 36px; }
 
   /* Hero */
@@ -1880,7 +1881,7 @@ footer p.footer-souzoku a {
   .hero-eyebrow  { font-size: 10px; margin-bottom: 14px; }
   .hero-title    { font-size: clamp(26px, 9vw, 38px); letter-spacing: .06em; margin-bottom: 18px; }
   .hero-line-tag { font-size: 11px; padding: 4px 12px; margin-bottom: 12px; }
-  .hero-desc     { font-size: 14px; line-height: 1.9; margin-bottom: 28px; }
+  .hero-desc     { font-size: 14px; line-height: 1.9; margin-bottom: 28px; text-align: left; }
   .hero-btns     { flex-direction: column; gap: 10px; }
   .btn-primary, .btn-secondary {
     text-align: center;
@@ -2374,3 +2375,53 @@ footer p.footer-souzoku a {
 /* 記事の表：列の幅をそろえる */
 .article-inner > table.table-cols-equal { display: table; table-layout: fixed; width: 100%; }
 .article-inner > table.table-cols-equal th, .article-inner > table.table-cols-equal td { min-width: 0; overflow-wrap: anywhere; }
+
+/* トップの説明文：言葉の途中で改行しない */
+.hero-desc .nb { display: inline-block; }
+
+/* トップ：For foreigners の行 */
+.hero-foreign { text-align: center; max-width: 680px; margin: 0 auto 36px; }
+@media (max-width: 680px) {
+  .hero-foreign { text-align: left; }
+}
+
+/* トップページ：本文の文字を読みやすい大きさに */
+.section-desc { font-size: 15.5px; }
+.worry-item { font-size: 15px; }
+.flow-step-title { font-size: 15.5px; }
+.flow-text, #flow li { font-size: 15px; }
+.flow-note, #flow p:not(.flow-text):not(.section-desc) { font-size: 13.5px; }
+#flow .flow-text { font-size: 15px; }
+.flow-price-badge { font-size: 13px; }
+.service-name { font-size: 15px; }
+.service-desc { font-size: 14px; }
+.services-souzoku { font-size: 15px; }
+#fees td, #fees th { font-size: 14px; }
+.fees-note { font-size: 13.5px; }
+.fee-note-box { font-size: 14px; }
+.profile-role, .profile-reg { font-size: 13.5px; }
+.profile-desc { font-size: 15.5px; }
+.profile-quote-label { font-size: 12.5px; }
+.profile-quote-text { font-size: 15.5px; }
+#profile dd { font-size: 15px; }
+.profile-private-text { font-size: 14.5px; }
+.access-hours { font-size: 15px; }
+.faq-q span { font-size: 15px; }
+.faq-a p { font-size: 15px; }
+.contact-desc { font-size: 15.5px; }
+.form-open-note, .form-footer { font-size: 13px; }
+.footer-souzoku { font-size: 13px; }
+
+/* 代表挨拶：「遥か」に込めた思い・プライベートを畳んで表示 */
+.profile-fold > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 0; }
+.profile-fold > summary::-webkit-details-marker { display: none; }
+.profile-fold > summary::after { content: "＋"; font-size: 16px; line-height: 1; opacity: .8; flex-shrink: 0; }
+.profile-fold[open] > summary::after { content: "−"; }
+.profile-fold[open] > summary { margin-bottom: 14px; }
+.profile-fold > summary { font-size: 14px; }
+.profile-fold > summary { font-family: inherit; font-size: 14px; font-weight: 700; letter-spacing: .1em; color: rgba(255,255,255,.85); }
+.profile-fold { padding: 18px 22px; border: none; border-left: 2px solid rgba(196,161,94,.4); background: rgba(255,255,255,.04); border-radius: 0 6px 6px 0; }
+.profile-fold + .profile-fold, details.profile-private-box.profile-fold { margin-top: 16px !important; }
+@media (max-width: 680px) {
+  .article-inner > table.table-cols-equal th, .article-inner > table.table-cols-equal td { font-size: 13.5px; padding: 10px 7px; line-height: 1.6; overflow-wrap: normal; word-break: normal; line-break: strict; }
+}

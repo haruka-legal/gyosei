@@ -1,0 +1,22 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# 遥か行政書士事務所 民泊の手続きの記事 (Haruka Gyosei Office — Minpaku / Private Lodging)
+
+> 千代田区（神保町・御茶ノ水）の行政書士事務所による、民泊（住宅宿泊事業の届出）と旅館業の許可についての解説記事。民泊の届出・旅館業の許可の手続きにも対応。
+
+## 事務所情報
+
+- 事務所名: 遥か行政書士事務所
+- 所在地: {{ site.address }}
+- 事務所トップ: https://haruka-legal.com/
+
+## 記事
+{%- for article in collections.articles %}
+- [{{ article.data.title }}]({{ site.url }}{{ article.url }}): {{ article.data.description }}
+{%- endfor %}
+
+## 注意事項
+
+本サイトの記事は公開時点の法令情報に基づいています。数値を伴う情報は、観光庁・各自治体等の一次情報でご確認ください。

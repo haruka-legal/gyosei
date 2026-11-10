@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+title: "民泊の手続きの記事"
+description: "民泊（住宅宿泊事業）の届出や、旅館業の許可について、はじめての方にも分かるように解説した記事の一覧です。"
+navActive: articles
+---
+{% set root = page.url | relRoot %}
+<div class="article-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="{{ root }}../">トップ</a> ／ 民泊の記事</div>
+    <h1 class="article-hero-title">民泊の手続きの記事</h1>
+    <div class="article-hero-meta"><span>民泊の届出や旅館業の許可について、はじめての方にも分かるように解説します。</span></div>
+  </div>
+</div>
+<div class="services-section" id="articles">
+  <div class="container">
+    <ul class="post-list post-list--full" id="post-list">
+      {% for article in collections.articles %}
+      <li class="post-item" data-cat="{{ article.data.category }}">
+        <a href="{{ root }}{{ article.url | noLeadSlash }}">
+          <span class="post-meta"><time datetime="{{ article.data.datePublished | isoDate }}">{{ article.data.datePublished | cardDate }}</time>{% if article.data.category %}<span class="post-cat">{{ article.data.category }}</span>{% endif %}</span>
+          <span class="post-title">{{ article.data.title }}</span>
+          {% if article.data.description %}<span class="post-desc">{{ article.data.description }}</span>{% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% include "partials/article-contact.njk" %}
+  </div>
+</div>

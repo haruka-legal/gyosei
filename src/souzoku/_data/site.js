@@ -30,7 +30,7 @@ module.exports = {
     { href: "articles/", label: "お役立ち記事", key: "articles" },
     { href: "#profile", label: "代表挨拶", key: "profile" },
     { href: "#faq", label: "よくある質問", key: "faq" },
-    { href: "#access", label: "アクセス", key: "access" },
+    { href: "#access", label: "事務所案内", key: "access" },
     { href: "#contact", label: "お問い合わせ", key: "contact" }
   ]
 };

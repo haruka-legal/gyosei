@@ -21,6 +21,7 @@ const BLOCKED_HOSTS = [
 
 // リンクしてよいドメイン
 const ALLOWED_HOSTS = [
+  "www.mlit.go.jp",
   "haruka-legal.com",
   "jsite.mhlw.go.jp",
   "www.bunka.go.jp",
@@ -45,6 +46,8 @@ const ALLOWED_HOSTS = [
   // 記事で一次情報として引用する公的機関
   "www.moj.go.jp",
   "www.vn.emb-japan.go.jp", // 在ベトナム日本国大使館（政府資料の掲載）
+  "www.chicago.us.emb-japan.go.jp", // 在シカゴ日本国総領事館（法務省のお知らせの掲載）
+  "www.scotusblog.com", // 米国連邦最高裁の判決報道（国籍の記事）
   "sp.m.jiji.com", // 時事通信
   "www.dir.co.jp", // 大和総研
   "www.shugiin.go.jp", // 衆議院（法律の原文）
@@ -77,6 +80,7 @@ const ALLOWED_HOSTS = [
   "www.metro.tokyo.lg.jp", // 東京都（公安委員会などの都の仕組み）
   "www.soumu.go.jp", // 総務省（行政書士制度）
   "www.reinfolib.mlit.go.jp", // 国土交通省 不動産情報ライブラリ
+  "www.pref.aichi.jp", // 愛知県（警察の例規）
   "www.police.pref.osaka.lg.jp", // 大阪府警察
   "www.city.kobe.lg.jp", // 神戸市（死亡届の案内）
   "www.city.fukuoka.lg.jp", // 福岡市（死亡届の案内）

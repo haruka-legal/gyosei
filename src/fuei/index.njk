@@ -29,7 +29,7 @@ faq:
         <span class="hero-line">夜のお店は、</span><br><span class="hero-line">誰かの大切な居場所。</span>
       </h1>
       <p class="hero-desc">
-        お店を始めるときも、続けていくときも、手続きのことはお任せください。<br>東京都内はお店に直接伺うことも、オンラインでのご相談もできます。東京以外の地域にも、出張またはオンラインで対応します。
+        お店を開くときも、営業を続けていくときも。<br>風俗営業の許可申請や深夜酒類提供飲食店営業の届出など、必要な手続きをサポートします。<br>東京23区内は訪問・オンラインのどちらでもご相談いただけます。それ以外の地域からのご相談にも、オンラインや出張で対応しています。
       </p>
       <div class="hero-btns">
         <a href="{{ site.lineUrl }}" class="btn-secondary btn-secondary-main" target="_blank" rel="noopener">
@@ -146,7 +146,7 @@ faq:
           <div class="flow-step-title">LINEまたはお問い合わせフォームよりご連絡</div>
         </div>
         <div class="flow-step-body">
-          <p class="flow-text">お問い合わせは無料です。以下よりご連絡ください。</p>
+          <p class="flow-text">お問い合わせと初回のご相談は無料です。物件の事前調査や個別のご回答は有料となります（料金は下記のとおりです）。以下よりご連絡ください。</p>
           <ul class="flow-list">
             <li><a href="{{ site.lineUrl }}" target="_blank" rel="noopener">LINE</a></li>
             <li><a href="#contact">お問い合わせフォーム</a></li>
@@ -406,6 +406,11 @@ faq:
       <h2 class="section-title">事務所案内</h2>
     </div>
     <div class="reveal reveal-delay-1" style="max-width:640px;">
+      <p class="access-label">事務所名</p>
+      <p class="access-hours">遥か行政書士事務所</p>
+      <p class="access-label">代表</p>
+      <p class="access-hours">行政書士　岸 はるか<br>
+        <span style="font-size:13px;color:var(--text-light)">{{ site.representative.association }} 所属{% if site.representative.registrationNumber %}　登録番号 第{{ site.representative.registrationNumber }}号{% endif %}</span></p>
       <p class="access-label">所在地</p>
       <p class="access-hours">{{ site.address }}</p>
       <p class="access-label">対応エリア</p>
@@ -421,6 +426,9 @@ faq:
       </p>
       <p style="font-size:13px;line-height:1.9;color:var(--text-light);margin-top:12px;">
          ※ 対面でのご相談は、永田町駅近くの面談室（他社オフィスの一室をお借りしています）にて承ります（事前予約制）。</p>
+      <p class="access-label" style="margin-top:28px">ホームページ</p>
+      <p class="access-hours"><a href="https://haruka-legal.com/" style="color:inherit;text-decoration:underline;text-underline-offset:3px">https://haruka-legal.com/</a><br>
+        <span style="font-size:13px;color:var(--text-light)">（国際業務・相続・風俗営業許可の各サイトの入口です）</span></p>
       <a href="{{ site.lineUrl }}" class="btn-navy" target="_blank" rel="noopener" style="margin-top:24px">
         無料でお問い合わせ
         <svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
@@ -457,7 +465,7 @@ faq:
   <div class="contact-inner">
     <div class="reveal">
       <h2 class="section-title">お問い合わせ</h2>
-      <p class="contact-desc"><strong>まずはLINEからお気軽にどうぞ。</strong><br>お問い合わせ・ご連絡は無料です。24時間受付。</p>
+      <p class="contact-desc"><strong>まずはLINEからお気軽にどうぞ。</strong><br>お問い合わせ・初回のご相談は無料です。24時間受付。</p>
       <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:28px">
         <a href="{{ site.lineUrl }}" target="_blank" rel="noopener" class="btn-navy">
           <svg width="18" height="18" viewBox="0 0 24 24" style="fill:currentColor;stroke:none"><path d="M12 2C6.48 2 2 5.92 2 10.72c0 3.1 1.7 5.84 4.3 7.52l-.7 2.62 2.92-1.44c1.1.3 2.27.46 3.48.46 5.52 0 10-3.92 10-8.72S17.52 2 12 2z"/></svg>

@@ -2,63 +2,71 @@
 layout: layouts/guide.njk
 lang: en
 title: "Did Your Child Lose Japanese Citizenship at Birth? What Japanese Parents Raising Kids in the U.S. Need to Know"
-description: "Japanese parents who have a baby in the U.S. have exactly 3 months to file a nationality reservation, or their child may have lost Japanese citizenship at birth without anyone knowing."
+description: "Japanese parents who have a baby in the U.S. must file a nationality reservation within 3 months of birth. If it is not filed, Japanese law treats the child as having lost Japanese nationality from birth."
 date: 2026-07-14
+updated: 2026-11-07
 tags: ["nationality", "dual-citizenship", "family-register", "united-states"]
-excerptText: "If you're a Japanese national who had a child in the United States, there's a 3-month deadline you may not have known about — and missing it can mean your child was never legally Japanese at all."
+excerptText: "If you are a Japanese national with a child born in the United States, there is a 3-month deadline to file a nationality reservation. If it is missed, Japanese law treats your child as having lost Japanese nationality from birth."
 faq:
   - q: "What is nationality reservation (国籍留保) and why does it matter?"
-    a: "It is a declaration filed together with a birth report at a Japanese consulate within 3 months of a child's birth abroad in a country with birthright citizenship, such as the United States. Without it, Japanese law treats the child as having lost Japanese nationality retroactively from birth."
+    a: "When a Japanese child is born abroad and acquires another nationality at birth, such as U.S. citizenship, the parents must declare that the child will retain Japanese nationality. The declaration is filed with the birth report within 3 months of birth. Without it, Japanese law treats the child as having lost Japanese nationality retroactive to birth."
   - q: "Can Japanese nationality be recovered if the 3-month deadline was missed?"
-    a: "In some cases it is possible to reacquire Japanese nationality by filing with the Minister of Justice, if specific conditions are met. This generally needs to happen before adulthood, so the requirements are time-sensitive and should be checked individually."
-  - q: "Does an adult with dual Japanese and U.S. nationality need to choose one?"
-    a: "Japanese law technically requires a choice of one nationality after age 22, though in current practice this is not strictly enforced. It can still matter later for a passport renewal, family register update, or a formal move to Japan."
+    a: "A person who lost Japanese nationality this way can reacquire it by notification to the Minister of Justice, but only while under 18 and living in Japan. After that, the route is generally naturalization, for which some requirements are relaxed for children of Japanese nationals who live in Japan."
+  - q: "Does an adult with both Japanese and U.S. nationality need to choose one?"
+    a: "Yes. Under the current rule, people who held more than one nationality before turning 18 must choose one by age 20. Different deadlines may apply to people who were already 18 or older on April 1, 2022. If no choice is made, the Minister of Justice may send a written notice, and Japanese nationality is lost if no choice is made within one month of receiving it."
 altUrls:
   en: /guides/japanese-citizenship-born-abroad/
 ---
-## The problem nobody tells new parents about
+## The nationality rule many parents overlook
 
-If you're a Japanese citizen and you have a baby in the United States, your child becomes a U.S. citizen automatically, the moment they're born — that's how birthright citizenship works there.
+Under U.S. law, a child born in the United States is generally a U.S. citizen at birth. In June 2026, the U.S. Supreme Court struck down the executive order that tried to limit this, so the general rule still applies.
 
-Japan, on the other hand, follows a different rule: citizenship passes through the parents, not the place of birth. So your child *also* becomes Japanese at birth, through you.
+Japanese nationality follows a different principle: it passes through a parent, not the place of birth. A child with a Japanese parent is therefore Japanese at birth as well, and is born holding two nationalities.
 
-That means your baby is born with two nationalities. Good news, right?
+This may seem straightforward, but there is an important deadline. When a Japanese child is born abroad and acquires another nationality at birth, the parents must file a **nationality reservation (国籍留保)** together with the birth report **within 3 months of the date of birth**, usually at a Japanese embassy or consulate.
 
-Here's the catch almost no one tells new parents: **you have exactly 3 months from the date of birth to file a "nationality reservation" (国籍留保) together with the birth registration at a Japanese consulate.** Miss that window, and under Japanese law, your child is treated as having lost Japanese nationality retroactively — back to the moment they were born.
+If the reservation is not filed in time, Japanese law treats the child as having lost Japanese nationality retroactive to birth. The deadline is extended only in limited cases — for example, when a natural disaster or another cause beyond the parents' control made filing impossible. In that case, the period becomes 14 days from the time filing becomes possible.
 
-No warning letter. No grace period. It simply lapses.
+## Why families may miss the deadline
 
-## Why this happens more than you'd think
+Three months can pass quickly after a birth. New parents are dealing with recovery, medical appointments and caring for a newborn, and a consulate filing called "nationality reservation" is easy to overlook.
 
-Three months sounds like plenty of time. In practice, it's the exact window when new parents are the most exhausted, the most sleep-deprived, and the least likely to be thinking about consulate paperwork. Between hospital bills, pediatrician visits, and figuring out how to keep a newborn alive, a form with a name like "nationality reservation" is easy to miss entirely — especially if nobody told you it existed.
+Some Japanese parents also assume that Japanese nationality continues automatically for any child born to a Japanese parent. For a child born abroad who acquires another nationality at birth, it does not.
 
-We've also heard from families where the Japanese parent simply didn't know the rule existed, assumed Japanese citizenship was automatic and permanent once you're born to a Japanese parent (it isn't, for children born abroad), or filed the birth report late for reasons entirely outside their control.
+## If your child is already an adult, this may still matter
 
-## If your child is now an adult — this still matters
+Some people born in the U.S. to a Japanese parent first look into their Japanese nationality in their 20s or 30s — for example, when they consider moving to Japan, apply for a Japanese passport, or check their parent's family register (戸籍).
 
-This isn't only a newborn problem. We've spoken with people in their 20s and 30s, born in the U.S. to Japanese parents, who never knew there was ever a question about their Japanese nationality — until they looked into moving to Japan, applying for a Japanese passport, or registering in their parents' family register (戸籍), and discovered the paperwork was never completed correctly.
+The next steps depend on the situation:
 
-If that's you, there are a few different situations, and they lead to different next steps:
+- **The reservation was not filed within 3 months.** A person who lost Japanese nationality this way can reacquire it by notification to the Minister of Justice, but only while under 18 and living in Japan. After that, the route is generally naturalization (帰化). Some naturalization requirements are relaxed for children of Japanese nationals who live in Japan.
+- **Nationality was properly reserved, and you still hold both Japanese and U.S. citizenship.** Japanese law requires people with more than one nationality to choose one. Under the current rule, which took effect on April 1, 2022, people who held both nationalities before turning 18 must choose by age 20. Different deadlines may apply to people who were already 18 or older on that date. If no choice is made, the Minister of Justice may send a written notice, and a person who does not choose within one month of receiving it loses Japanese nationality.
+- **The available records are incomplete or unclear.** These situations can arise when families have lived in multiple countries. Depending on the circumstances, it may be necessary to review family register records and determine whether any corrections or additional procedures are required.
 
-- **The 3-month window was missed, and nothing was filed.** In some cases, it's possible to *reacquire* Japanese nationality later by filing with the Minister of Justice, if you meet certain conditions — but this generally needs to happen before adulthood, and the requirements are specific.
-- **Nationality reservation was filed correctly, and you're still dual.** If you're over 22, Japan technically requires you to choose one nationality. In current practice, this isn't strictly enforced — but it can matter later, for a passport renewal, a family register update, or if you're formalizing a move to Japan.
-- **The paperwork trail is unclear, or your family register was never properly maintained.** This is common for families who moved between countries, and it's usually fixable, but it takes someone who knows how to reconstruct a 戸籍 correctly.
+## Why this matters
 
-## Why this matters more than it might seem
+Whether nationality was reserved can significantly change the procedures your family needs to consider.
 
-If your child *did* lose Japanese nationality at birth, and you assumed they were Japanese all along, that has real consequences: no automatic right to live or work in Japan, no Japanese passport, and if they ever want to move to Japan long-term, they'd need to go through the same visa process as any other foreign national — even though, culturally and by blood, they're as Japanese as anyone born in Tokyo.
-
-On the other hand, if nationality *was* properly reserved, your child may already be a Japanese citizen — which means no visa is needed at all to live, work, or study in Japan. That's a very different starting point than most people researching "moving to Japan" realize they might have.
+- **If nationality was properly reserved,** your child is a Japanese national and does not need a visa to live, work or study in Japan.
+- **If Japanese nationality was lost,** your child needs a [status of residence](/guides/how-to-move-to-japan/) to live in Japan, as other foreign nationals do. However, a person born as the child of a Japanese national is eligible to apply for the **Spouse or Child of Japanese National (日本人の配偶者等)** status.
 
 ## What we can help with
 
-This isn't a visa case in the traditional sense — it's about untangling nationality and family register (戸籍) status, which is its own area of Japanese administrative law. We can help you:
+This is not a typical visa case. It involves clarifying nationality status and family register records. We can help you:
 
-- Check whether nationality reservation was filed correctly for your child
-- Explore reacquisition options if the deadline was missed
-- Handle the nationality selection (国籍選択) process if your adult child is still dual and wants to formalize a choice
-- Reconstruct or correct a family register that's fallen out of order after years abroad
+- Check, using the family register, whether nationality was reserved for your child
+- Review the options if the deadline was missed, and prepare the documents for reacquisition or naturalization
+- Prepare the nationality choice declaration (国籍選択届) if your adult child holds two nationalities
+- Apply for the Spouse or Child of Japanese National status if your child plans to move to Japan as a foreign national
+- Review family register records. If a correction requires a family court procedure, we will tell you and refer you to an appropriate specialist.
 
-Since this is a Japan-side family register matter, communication is straightforward even if your child's Japanese isn't strong — in most of these cases, it's the Japanese parent who handles the process.
+Every family's records are different, so the first step is to confirm what was actually filed. HARUKA LEGAL SUPPORT reviews your situation and explains which steps may be available to you — all by email or chat. We give you a written quote before any work begins.
 
-*Get in touch via LINE or WhatsApp for a free initial review. We'll tell you honestly whether this applies to your family and what the next step looks like.*
+### References
+
+- [Nationality Act (国籍法), Articles 8, 12, 14, 15 and 17 — e-Gov (in Japanese)](https://laws.e-gov.go.jp/law/325AC0000000147)
+- [Family Register Act (戸籍法), Article 104 — e-Gov (in Japanese)](https://laws.e-gov.go.jp/law/322AC0000000224)
+- [Notification for acquisition of Japanese nationality by persons who did not reserve it — Ministry of Justice (in Japanese)](https://www.moj.go.jp/ONLINE/NATIONALITY/6-5.html)
+- [Changes to family register and nationality procedures from April 1, 2022 — Consulate-General of Japan in Chicago (in Japanese)](https://www.chicago.us.emb-japan.go.jp/files/100317464.pdf)
+- [Spouse or Child of Japanese National — Immigration Services Agency of Japan](https://www.moj.go.jp/isa/applications/status/spouseorchildofjapanese.html)
+- [Supreme Court strikes down Trump's order ending birthright citizenship — SCOTUSblog (June 30, 2026)](https://www.scotusblog.com/2026/06/supreme-court-strikes-down-trumps-order-ending-birthright-citizenship/)
