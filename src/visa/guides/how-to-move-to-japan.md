@@ -4,7 +4,7 @@ lang: en
 title: "How to Move to Japan: 5 Visa Pathways for Work, Study, Family and More"
 description: "To live in Japan long-term, you need a status of residence that matches what you will do here. A beginner's guide to the 5 main ways to move to Japan — work, study, family, business, and short-term options like the working holiday."
 date: 2026-10-29
-updated: 2026-11-07
+updated: 2026-11-10
 tags: ["moving-to-japan", "status-of-residence", "work-visa", "student-visa", "spouse-visa", "business-manager-visa", "permanent-residency"]
 excerptText: "To live in Japan long-term, you need a status of residence that fits what you will do here. Tourist status does not allow you to settle in Japan long-term. This guide explains the 5 main ways to move to Japan, so you can find the one that fits your situation."
 faq:
@@ -63,13 +63,13 @@ This means getting a job at a company in Japan and living here as an employee. T
 - **Specified Skilled Worker (特定技能):** For work in fields with labor shortages, such as nursing care, food service, and construction. In principle, you need to pass a skills test for the job and a Japanese language test.
 - **Highly Skilled Professional (高度専門職):** Your education, work history, income, and other factors are scored with a points system. Applicants who meet the required point threshold may qualify for preferential immigration treatment.
 
-For all of these, you will usually need a job offer from a company in Japan first.
+If you are joining a company in Japan, you usually decide on your employer first and then start the status of residence procedures. However, the conditions differ by status of residence.
 
 <h2 id="study">Way 2: Study at a school in Japan</h2>
 
 This means enrolling in a Japanese language school, vocational school, university, or similar, and living in Japan as a student. The status of residence is **Student (留学)**.
 
-To work part-time, you need **Permission to Engage in Activity Other Than That Permitted (資格外活動許可)**. In principle, you can work up to 28 hours a week, and up to 8 hours a day during your school's long vacations, such as summer break. Even with this permission, you cannot work at adult entertainment businesses (風俗営業等).
+To work part-time, you need **Permission to Engage in Activity Other Than That Permitted (資格外活動許可)**. In principle, you can work up to 28 hours a week, and up to 8 hours a day during your school's long vacations, such as summer break. Even with the standard blanket permission (包括許可), you cannot work at adult entertainment businesses (風俗営業等).
 
 Many students change to a work status of residence after graduating and finding a job in Japan.
 
@@ -85,32 +85,32 @@ Only people with certain statuses of residence can bring family members under th
 
 <h2 id="business">Way 4: Run a business in Japan</h2>
 
-If you want to set up or run a company in Japan, the status of residence is **Business Manager (経営・管理)**.
+If you will be involved in running or managing a business in Japan, **Business Manager (経営・管理)** is the status of residence to consider.
 
 The eligibility requirements were tightened on October 16, 2025. In principle, you now need capital or similar assets of ¥30 million or more, and you must also meet several other conditions, such as hiring a full-time employee, Japanese language ability, and management experience or a relevant degree. This is not a status you can get just by setting up a company, so it is important to plan early.
 
 <h2 id="short-term">Way 5: Working holiday and digital nomad</h2>
 
-- **Working Holiday:** Young people from countries and regions that have an agreement with Japan can stay in Japan mainly to enjoy a holiday. You can work to supplement your travel funds. As of April 1, 2026, 32 countries and regions are covered. The age limit is 18 to 30 in principle, but the conditions differ by nationality. For Australia, Canada, South Korea, and Ireland, the limit is 25 in principle, and it may be extended to 30 under certain conditions.
+- **Working Holiday:** Young people from countries and regions that have an agreement with Japan can stay in Japan mainly to enjoy a holiday. You can work to supplement your travel funds. As of November 1, 2026, 33 countries and regions are covered. The age limit is 18 to 30 in principle, but the conditions differ by nationality. For Australia, Canada, and South Korea, the limit is 25 in principle, but you can apply up to age 30 if that country's authorities allow it.
 - **Digital Nomad:** People who keep working remotely for a company abroad can stay in Japan for up to 6 months. There are conditions, such as an annual income of ¥10 million or more and medical insurance. The stay cannot be extended, and no residence card is issued.
 
 Neither option is intended for long-term settlement or regular employment with a Japanese employer.
 
 <h2 id="stay-longer">Staying in Japan Long-Term: Extensions and Permanent Residence</h2>
 
-Every status of residence has a period of stay. To keep living in Japan, you apply for an **Extension of Period of Stay** before your current period expires.
+Most statuses of residence have a set period of stay. To keep living in Japan, you apply for permission for an **Extension of Period of Stay** before your current period expires.
 
-If you want to live in Japan for the long term, you can aim for **Permanent Resident (永住者)** status. In principle, you need to have lived in Japan continuously for 10 years or more, including at least 5 years with a work status of residence or similar. Besides the number of years, immigration also checks things like whether you have properly paid your taxes, pension, and health insurance, and whether your livelihood is stable.
+If you want to live in Japan for the long term, you can aim for **Permanent Resident (永住者)** status. In principle, you need to have lived in Japan continuously for 10 years or more, including at least 5 years with a status of residence that allows work (excluding Technical Intern Training and Specified Skilled Worker (i)) or a status based on personal status. Besides the number of years, immigration also checks things like whether you have properly paid your taxes, pension, and health insurance, and whether your livelihood is stable.
 
-For some people, the required number of years is shorter. For example, the spouse of a Japanese national may qualify if their actual married life has continued for 3 years or more and they have lived in Japan continuously for 1 year or more.
+Spouses of Japanese nationals and some others have a special rule with a shorter required period. For applications filed by March 31, 2027, the guideline is that their actual married life has continued for 3 years or more and they have lived in Japan continuously for 1 year or more. For **applications filed on or after April 1, 2027**, the new guidelines change this to 5 years or more of married life and 3 years or more in Japan. Under the new guidelines, Japanese language ability (around B1 level) and other factors are also taken into account.
 
 <h2 id="steps">How to come to Japan for a job: the usual steps</h2>
 
 The application process differs by status of residence. Here are the usual steps for someone abroad who is joining a company in Japan:
 
 1. The company or another party in Japan applies for a **Certificate of Eligibility (在留資格認定証明書)**.
-2. Once it is issued, you apply for a visa at the Japanese embassy or consulate in your country.
-3. You enter Japan and receive your **Residence Card (在留カード)** at the airport or a similar place.
+2. Once it is issued, you apply for a visa, in principle at the Japanese embassy or consulate-general that covers the country or region where you live.
+3. You enter Japan and receive landing permission at the immigration check. At some airports you receive your **Residence Card (在留カード)** on the spot; otherwise, it is mailed to you after you register your address with your local municipal office.
 
 The standard processing period for a Certificate of Eligibility is about 1 to 3 months.
 
@@ -124,7 +124,7 @@ Japan's residence status categories and eligibility requirements can be complica
 - [Dependent — Immigration Services Agency of Japan](https://www.moj.go.jp/isa/applications/status/dependent.html)
 - [Permission to Engage in Activity Other Than That Permitted — Immigration Services Agency of Japan](https://www.moj.go.jp/isa/applications/procedures/16-8.html)
 - [Amendments to the landing criteria for Business Manager — Immigration Services Agency of Japan](https://www.moj.go.jp/isa/applications/resources/10_00237.html)
-- [Working Holiday Programmes in Japan — Ministry of Foreign Affairs of Japan](https://www.mofa.go.jp/j_info/visit/w_holiday/index.html)
+- [Working Holiday Programme — Ministry of Foreign Affairs of Japan (in Japanese)](https://www.mofa.go.jp/mofaj/toko/visa/working_h.html)
 - [Designated Activities (Digital Nomad) — Immigration Services Agency of Japan](https://www.moj.go.jp/isa/applications/status/designatedactivities10_00001.html)
-- [Guidelines for Permanent Residence (revised February 24, 2026) — Immigration Services Agency of Japan](https://www.moj.go.jp/isa/applications/resources/nyukan_nyukan50.html)
+- [Guidelines for Permanent Residence (revised October 1, 2026) — Immigration Services Agency of Japan (in Japanese)](https://www.moj.go.jp/isa/10_00279.html)
 - [Application for Certificate of Eligibility — Immigration Services Agency of Japan](https://www.moj.go.jp/isa/applications/procedures/16-1.html)

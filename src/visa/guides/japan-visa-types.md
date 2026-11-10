@@ -20,7 +20,7 @@ altUrls:
   es: /es/guides/japan-visa-types/
   ja: /ja/guides/japan-visa-types/
 ---
-**In short:** Japan has **29 statuses of residence**. They are often called "visas," but officially a visa and a status of residence are different things. Statuses of residence fall into 4 main groups: **statuses that allow work**, **statuses that in principle do not allow work**, **Designated Activities**, where the permitted activities are set for each person, and **statuses based on personal status or position**. Whether you can work, and what kind of work you can do, depends on your status. Before you start a job or change jobs, check your status of residence and your work restrictions.
+**In short:** Japan has **29 statuses of residence**. They are often called "visas," but officially a visa and a status of residence are different things. Statuses of residence fall into 4 main groups: **statuses that allow work**, **statuses that in principle do not allow work**, **Designated Activities**, where the permitted activities are designated individually, and **statuses based on personal status or position**. Whether you can work, and what kind of work you can do, depends on your status. Before you start a job or change jobs, check your status of residence and your work restrictions.
 
 <nav class="guide-toc" aria-label="Contents">
 <p class="guide-toc-title">Contents</p>
@@ -28,7 +28,7 @@ altUrls:
 <li><a href="#visa-vs-status">What is the difference between a visa and a status of residence?</a></li>
 <li><a href="#groups">The 4 groups at a glance: which one are you?</a></li>
 <li><a href="#work">Statuses that allow work: only the jobs your status covers</a></li>
-<li><a href="#non-work">Statuses that do not allow work: part-time jobs need permission</a></li>
+<li><a href="#non-work">Statuses that do not allow work: exceptions where you may work</a></li>
 <li><a href="#designated">Designated Activities: what you can do is set for each person</a></li>
 <li><a href="#personal">Statuses based on personal status: no limits on the type of work</a></li>
 <li><a href="#residence-card">Can you work? What to check on your residence card</a></li>
@@ -51,7 +51,7 @@ Your status of residence and period of stay are usually granted at the immigrati
 <thead><tr><th>Group</th><th>Main statuses</th><th>Can you work?</th></tr></thead>
 <tbody>
 <tr><td><a href="#work">Statuses that allow work (19)</a></td><td>Engineer / Specialist in Humanities / International Services, Specified Skilled Worker, Business Manager, Highly Skilled Professional, Intra-company Transferee, Skilled Labor, Nursing Care, Technical Intern Training, and others</td><td>Only the work your status covers</td></tr>
-<tr><td><a href="#non-work">Statuses that in principle do not allow work (5)</a></td><td>Student, Dependent, Temporary Visitor, Cultural Activities, Trainee</td><td>In principle, no (you may be able to work with permission)</td></tr>
+<tr><td><a href="#non-work">Statuses that in principle do not allow work (5)</a></td><td>Student, Dependent, Temporary Visitor, Cultural Activities, Trainee</td><td>In principle, no. Student, Dependent and some others may work with permission</td></tr>
 <tr><td><a href="#designated">Designated Activities (1)</a></td><td>Working Holiday, Digital Nomad, and others</td><td>Depends on what is designated for you</td></tr>
 <tr><td><a href="#personal">Statuses based on personal status or position (4)</a></td><td>Permanent Resident, Spouse or Child of Japanese National, Spouse or Child of Permanent Resident, Long-Term Resident</td><td>Yes, no limits</td></tr>
 </tbody>
@@ -60,23 +60,23 @@ Your status of residence and period of stay are usually granted at the immigrati
 
 The 19 statuses that allow work include **Diplomat** and **Official**, which are for diplomats and officials of foreign governments. These 4 groups are a simple way to understand whether you can work; they are not the exact categories used in Japanese law.
 
-From April 1, 2027, a new system called **Employment for Skill Development (育成就労)** will start, replacing the Technical Intern Training system. People who are already in Technical Intern Training on that date can continue it.
+From April 1, 2027, a new system called **Employment for Skill Development (育成就労)** will start, replacing the Technical Intern Training system. However, transitional measures apply to people already in Technical Intern Training before it starts, and they can continue under certain conditions.
 
 <h2 id="work">Statuses that allow work: only the jobs your status covers</h2>
 
 With a status that allows work, you can only do the work that your status covers.
 
-For example, **Engineer / Specialist in Humanities / International Services** is for jobs that use specialized knowledge from university or similar education. So you cannot work mainly on a factory production line with this status. On the other hand, **Specified Skilled Worker** allows hands-on work in specific fields, but not work outside those fields.
+For example, **Engineer / Specialist in Humanities / International Services** is for jobs that use specialized knowledge from university or similar education. So you cannot work mainly on a factory production line with this status. On the other hand, **Specified Skilled Worker** allows you to work in the designated field, but not outside it.
 
 Even among statuses that allow work, the jobs you can do differ by status. When you change jobs, check whether the new job is covered by your current status.
 
-<h2 id="non-work">Statuses that do not allow work: part-time jobs need permission</h2>
+<h2 id="non-work">Statuses that do not allow work: exceptions where you may work</h2>
 
 These statuses are for purposes other than work, such as studying or living with family. In principle, you cannot earn money from work.
 
 However, if you have a **Student** or **Dependent** status, you may be able to work part-time once you receive **Permission to Engage in Activity Other Than That Permitted (資格外活動許可)**. Under the standard blanket permission (包括許可), you can work up to **28 hours a week**. If you have more than one part-time job, the hours at all your jobs are added together. Students can work up to 8 hours a day, but only during long vacations set by their school, such as summer break.
 
-Even with this permission, you cannot work at adult entertainment businesses (風俗営業) or sex-related businesses defined by law. For example, at bars and clubs where staff entertain customers, you cannot work as a dishwasher or cleaner either, not just in customer service.
+Even if you have a Student or Dependent status and this permission, you cannot work at businesses defined by law, such as adult entertainment businesses (風俗営業) and sex-related businesses (性風俗関連特殊営業). At bars and clubs where staff entertain customers, this applies not only to customer service but also to jobs such as dishwashing and cleaning. At ordinary bars and izakaya where staff do not entertain customers, you may be able to work within the limits of your permission. However, you need to check the type of business and the details of your permission.
 
 <h2 id="designated">Designated Activities: what you can do is set for each person</h2>
 
@@ -95,15 +95,15 @@ People with these statuses can do any kind of work, just like Japanese nationals
 First, check the **status of residence** and the **work restrictions (就労制限の有無)** on the front of your **Residence Card (在留カード)**.
 
 - **"就労制限なし" (No restriction on work):** There is no work restriction based on your status of residence.
-- **"在留資格に基づく就労活動のみ可" (Work permitted only within the status of residence):** You can do the work your status of residence covers.
-- **"指定書により指定された就労活動のみ可" (Work permitted only as designated):** Check the designation document (指定書) attached to your passport to see what work is permitted. This applies to people with Designated Activities, Specified Skilled Worker, and some other statuses.
+- **"在留資格に基づく就労活動のみ可" (Work permitted only within the status of residence):** You can do the work your status of residence covers. People with Specified Skilled Worker status also see this, but should also check the designation document (指定書) attached to their passport to see what work is permitted.
+- **"指定書により指定された就労活動のみ可" (Work permitted only as designated):** This mainly appears for people with Designated Activities. Check the designation document attached to your passport to see what work is permitted.
 - **"就労不可" (Employment not permitted):** Also check the **Permission for activity other than that permitted (資格外活動許可欄)** section on the back. If you have permission, you may be able to work within its limits.
 
 Having a residence card does not mean you can do any kind of work. Also, residence cards are not issued to some people, such as those with Temporary Visitor status.
 
 <h2 id="change">Can you change your status of residence?</h2>
 
-If the activities you do in Japan change, you can apply to change to another status of residence through an **Application for Change of Status of Residence (在留資格変更許可申請)**. For example, when a student joins a Japanese company, they apply to change from Student to a status that allows work. However, the change requires permission from the Immigration Services Agency, and an application is not always approved. To become a Permanent Resident, you do not change your status this way; you file a separate **Application for Permission for Permanent Residence (永住許可申請)**.
+If the activities you do in Japan change, you can apply to change to another status of residence through an **Application for Change of Status of Residence (在留資格変更許可申請)**. For example, when a student joins a Japanese company, they apply to change from Student to a status that allows work. However, the change requires permission from the Immigration Services Agency, and an application is not always approved. To become a Permanent Resident, you file a separate procedure, the **Application for Permission for Permanent Residence (永住許可申請)**, instead of the normal change-of-status application.
 
 If you work beyond what is permitted without permission, your extension of period of stay may not be approved. Depending on the violation, you may also become subject to deportation.
 
@@ -114,8 +114,8 @@ If you work beyond what is permitted without permission, your extension of perio
 <thead><tr><th>Status of residence</th><th>Can you work?</th></tr></thead>
 <tbody>
 <tr><td colspan="2"><strong>Statuses that allow work (19)</strong></td></tr>
-<tr><td>Diplomat (外交)</td><td>Within the status</td></tr>
-<tr><td>Official (公用)</td><td>Within the status</td></tr>
+<tr><td>Diplomat (外交)</td><td>Diplomatic and official activities</td></tr>
+<tr><td>Official (公用)</td><td>Diplomatic and official activities</td></tr>
 <tr><td>Professor (教授)</td><td>Within the status</td></tr>
 <tr><td>Artist (芸術)</td><td>Within the status</td></tr>
 <tr><td>Religious Activities (宗教)</td><td>Within the status</td></tr>

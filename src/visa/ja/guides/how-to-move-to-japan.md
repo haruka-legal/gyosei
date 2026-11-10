@@ -4,6 +4,7 @@ lang: ja
 title: "日本に移住するには？仕事・留学・家族など5つの方法をやさしく解説"
 description: "日本に長く住むには、目的に合った在留資格が必要です。働く・学ぶ・家族と暮らす・事業を経営する・一定期間だけ暮らす、の5つの方法を、はじめての方向けにやさしく解説します。"
 date: 2026-10-29
+updated: 2026-11-10
 tags: ["moving-to-japan", "status-of-residence", "work-visa", "student-visa", "spouse-visa", "business-manager-visa", "permanent-residency"]
 excerptText: "日本に長く住むには、目的に合った「在留資格」が必要です。観光での滞在では住めません。この記事では、日本に移住するための主な5つの方法を、はじめての方にも分かるように解説します。"
 faq:
