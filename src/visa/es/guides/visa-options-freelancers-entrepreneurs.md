@@ -14,7 +14,7 @@ faq:
   - q: "¿Puedo trabajar como freelancer en Japón con el estatus de Ingeniero / Especialista en Humanidades / Servicios Internacionales?"
     a: "En algunos casos, sí. Este estatus cubre actividades basadas en un contrato con una organización pública o privada en Japón, lo que puede incluir contratos de prestación de servicios además del empleo, y contratos con más de una organización. Sin embargo, el contrato debe ser continuado, la remuneración debe ser al menos igual a la que recibiría una persona japonesa por el mismo trabajo y el trabajo debe cumplir los requisitos del estatus."
   - q: "¿Cuánto tiempo puedo quedarme en Japón como nómada digital?"
-    a: "Hasta 6 meses. La estancia no puede renovarse y no se emite tarjeta de residencia. Se necesitan unos ingresos anuales de ¥10 millones o más, la nacionalidad de un país o región que cumpla los requisitos y un seguro médico que cubra tratamientos por ¥10 millones o más."
+    a: "Hasta 6 meses. La estancia no puede renovarse y no se emite tarjeta de residencia. Se necesitan unos ingresos anuales de ¥10 millones o más, la nacionalidad de un país o región que cumpla los requisitos y un seguro médico privado o de viaje que cubra toda la estancia, incluidos el fallecimiento, las lesiones y las enfermedades, con al menos ¥10 millones para gastos médicos."
 altUrls:
   en: /guides/visa-options-freelancers-entrepreneurs/
   es: /es/guides/visa-options-freelancers-entrepreneurs/
@@ -64,9 +64,9 @@ Los criterios cambiaron de forma importante el 16 de octubre de 2025. En princip
 
 - En el caso de una empresa, el capital o la inversión total debe ser de al menos ¥30 millones. En el caso de un negocio individual, el total invertido en el negocio, como la obtención de una oficina, los sueldos del personal (de un año) y el equipamiento, debe ser de al menos ¥30 millones.
 - Debe contratar al menos a un empleado a tiempo completo. Solo se pueden contar las siguientes personas: personas de nacionalidad japonesa, residentes permanentes especiales, residentes permanentes, cónyuges o hijos de personas japonesas, cónyuges o hijos de residentes permanentes y residentes de largo plazo.
-- Usted o un empleado a tiempo completo debe tener un nivel de japonés B2 o superior. Además del Examen de Aptitud en Idioma Japonés (JLPT: Japanese-Language Proficiency Test) N2 o superior, se aceptan otras formas de acreditarlo.
+- Usted o un empleado a tiempo completo debe tener un nivel de japonés equivalente a B2 o superior según el Marco de Referencia para la Enseñanza del Japonés. El Examen de Aptitud en Idioma Japonés (JLPT: Japanese-Language Proficiency Test) N2 o superior es una forma aceptada de acreditarlo, pero también pueden servir otros medios.
 - Debe tener al menos 3 años de experiencia en dirección o gestión de empresas, o un título equivalente a máster o superior en gestión empresarial o en un campo de tecnología o conocimientos necesarios para el negocio.
-- Su plan de negocio debe ser revisado por un consultor de gestión de pequeñas y medianas empresas (中小企業診断士), un contador público certificado (公認会計士) o un asesor fiscal certificado (税理士).
+- Su plan de negocio debe ser revisado por uno de los siguientes profesionales con una cualificación reconocida en Japón: un consultor de gestión de pequeñas y medianas empresas (中小企業診断士), un contador público certificado (公認会計士) o un asesor fiscal certificado (税理士).
 - Debe tener una oficina para el negocio en Japón. En principio, no se permite usar su vivienda como oficina.
 
 El empleado a tiempo completo que cumple el requisito de japonés no tiene que ser una de las personas que cuentan para el número de empleados. Por ejemplo, un empleado con el estatus de Ingeniero / Especialista en Humanidades / Servicios Internacionales también puede cumplir el requisito de japonés.
@@ -101,8 +101,8 @@ Si solo trabaja para clientes del extranjero, puede que este estatus no se apliq
 Las personas empleadas por una empresa del extranjero, o que prestan servicios a clientes del extranjero, pueden quedarse en Japón y seguir trabajando a distancia con el programa de **Nómada Digital**. Las condiciones principales son:
 
 - Sus propios ingresos anuales son de ¥10 millones o más.
-- Tiene la nacionalidad de un [país o región que cumpla los requisitos](https://www.moj.go.jp/isa/applications/status/designatedactivities10_00001.html).
-- Tiene un seguro médico que cubre tratamientos por lesiones y enfermedades de ¥10 millones o más.
+- Tiene la nacionalidad de un [país o región que cumpla los requisitos](https://www.moj.go.jp/isa/content/001416527.pdf) (consulte la lista para los propios nómadas digitales en este PDF).
+- Cuenta con un seguro médico privado o de viaje que cubra toda su estancia prevista en Japón, incluidos el fallecimiento, las lesiones y las enfermedades. La cobertura de los gastos médicos por lesiones o enfermedades debe ser de al menos ¥10 millones.
 
 Sin embargo, puede quedarse un máximo de 6 meses, la estancia no puede renovarse y no se emite tarjeta de residencia. Tampoco puede trabajar como empleado de una empresa en Japón. Este programa no es una forma de vivir en Japón a largo plazo, sino de vivir la experiencia de Japón.
 
@@ -129,6 +129,7 @@ La forma de trabajar como freelancer o de emprender en Japón depende de su trab
 - [Revisión de los criterios de autorización de Gestión Empresarial — Agencia de Servicios de Inmigración de Japón (en japonés)](https://www.moj.go.jp/isa/applications/resources/10_00237.html)
 - [Programa de Promoción del Emprendimiento de Personas Extranjeras — Agencia de Servicios de Inmigración de Japón](https://www.moj.go.jp/isa/applications/resources/03_00070.html)
 - [Notificación sobre la organización a la que pertenece — Agencia de Servicios de Inmigración de Japón](https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00015.html)
+- [Lista de países y regiones elegibles para Nómada Digital (PDF) — Agencia de Servicios de Inmigración de Japón (en japonés)](https://www.moj.go.jp/isa/content/001416527.pdf)
 - [Actividades Designadas (Nómada Digital) — Agencia de Servicios de Inmigración de Japón](https://www.moj.go.jp/isa/applications/status/designatedactivities10_00001.html)
 - [Resumen del programa de Nómada Digital (folleto) — Agencia de Servicios de Inmigración de Japón (en japonés)](https://www.moj.go.jp/isa/content/001417262.pdf)
 - [Artista — Agencia de Servicios de Inmigración de Japón](https://www.moj.go.jp/isa/applications/status/artist.html)

@@ -14,7 +14,7 @@ faq:
   - q: "Can I work as a freelancer in Japan with an Engineer / Specialist in Humanities / International Services status?"
     a: "In some cases, yes. This status covers activities based on a contract with a public or private organization in Japan, which can include outsourcing contracts as well as employment, and contracts with more than one organization. However, the contract must be continuing, the pay must be at least what a Japanese national would receive for the same work, and the work must meet the status requirements."
   - q: "How long can I stay in Japan as a digital nomad?"
-    a: "Up to 6 months. The stay cannot be extended and no residence card is issued. You need an annual income of ¥10 million or more, nationality of an eligible country or region, and medical insurance covering treatment of ¥10 million or more."
+    a: "Up to 6 months. The stay cannot be extended and no residence card is issued. You need an annual income of ¥10 million or more, nationality of an eligible country or region, and medical or travel insurance covering the entire stay, including death, injury and illness, with at least ¥10 million for medical treatment."
 altUrls:
   en: /guides/visa-options-freelancers-entrepreneurs/
   es: /es/guides/visa-options-freelancers-entrepreneurs/
@@ -64,9 +64,9 @@ The criteria changed significantly on October 16, 2025. In principle, you now ne
 
 - For a company, the capital or total investment must be at least ¥30 million. For a sole proprietorship, the total amount invested in the business, such as securing a business office, staff salaries (for one year) and equipment, must be at least ¥30 million.
 - You must hire at least one full-time employee. Only the following can be counted: Japanese nationals, special permanent residents, permanent residents, spouses or children of Japanese nationals, spouses or children of permanent residents, and long-term residents.
-- Either you or a full-time employee must have Japanese language ability at level B2 or above. Besides the Japanese-Language Proficiency Test (JLPT) N2 or higher, other forms of proof are also accepted.
+- Either you or a full-time employee must have Japanese language proficiency equivalent to B2 or higher under Japan's Framework of Reference for Japanese Language Education. The Japanese-Language Proficiency Test (JLPT) N2 or higher is one accepted way to show this, but other forms of evidence may also qualify.
 - You must have at least 3 years of experience in business management or administration, or a degree equivalent to a master's or higher in business management or in a field of technology or knowledge needed for the business.
-- Your business plan must be checked by a small and medium enterprise management consultant (中小企業診断士), a certified public accountant (公認会計士), or a certified tax accountant (税理士).
+- Your business plan must be checked by a professional holding one of the following Japanese qualifications: small and medium enterprise management consultant (中小企業診断士), certified public accountant (公認会計士), or certified tax accountant (税理士).
 - You must have a business office in Japan. In principle, using your home as your business office is not allowed.
 
 The full-time employee who meets the Japanese language requirement does not have to be one of the people listed above for the headcount. For example, an employee with Engineer / Specialist in Humanities / International Services status can also meet the Japanese language requirement.
@@ -101,8 +101,8 @@ If you only work for clients abroad, this status may not apply. Also, when a con
 People employed by a company abroad, or who provide services to clients abroad, can stay in Japan and keep working remotely under the **Digital Nomad** program. The main conditions are:
 
 - Your own annual income is ¥10 million or more.
-- You hold the nationality of an [eligible country or region](https://www.moj.go.jp/isa/applications/status/designatedactivities10_00001.html).
-- You have medical insurance that covers treatment for injury and illness of ¥10 million or more.
+- You hold the nationality of an [eligible country or region](https://www.moj.go.jp/isa/content/001416527.pdf) (see the list for digital nomads themselves in this PDF).
+- You have private medical or travel insurance covering your entire planned stay in Japan, including death, injury and illness. Coverage for medical treatment due to injury or illness must be at least ¥10 million.
 
 However, you can stay for a maximum of 6 months, the stay cannot be extended, and no residence card is issued. You also cannot work as an employee of a company in Japan. This program is not a way to live in Japan long-term; it is for experiencing life in Japan.
 
@@ -129,6 +129,7 @@ How you can freelance or start a business in Japan depends on your work, who you
 - [Revision of the permission criteria for Business Manager — Immigration Services Agency of Japan (in Japanese)](https://www.moj.go.jp/isa/applications/resources/10_00237.html)
 - [Program for Promoting Business Startups by Foreign Nationals — Immigration Services Agency of Japan](https://www.moj.go.jp/isa/applications/resources/03_00070.html)
 - [Notification regarding the organization of affiliation — Immigration Services Agency of Japan](https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00015.html)
+- [List of eligible countries and regions for Digital Nomad (PDF) — Immigration Services Agency of Japan (in Japanese)](https://www.moj.go.jp/isa/content/001416527.pdf)
 - [Designated Activities (Digital Nomad) — Immigration Services Agency of Japan](https://www.moj.go.jp/isa/applications/status/designatedactivities10_00001.html)
 - [Digital Nomad overview (leaflet) — Immigration Services Agency of Japan (in Japanese)](https://www.moj.go.jp/isa/content/001417262.pdf)
 - [Artist — Immigration Services Agency of Japan](https://www.moj.go.jp/isa/applications/status/artist.html)
