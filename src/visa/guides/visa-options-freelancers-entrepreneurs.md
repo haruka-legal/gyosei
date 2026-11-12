@@ -1,6 +1,4 @@
 ---
-permalink: false
-eleventyExcludeFromCollections: true
 layout: layouts/guide.njk
 lang: en
 title: "Visa Options for Freelancers, Entrepreneurs and Remote Workers in Japan"
@@ -101,7 +99,7 @@ If you only work for clients abroad, this status may not apply. Also, when a con
 People employed by a company abroad, or who provide services to clients abroad, can stay in Japan and keep working remotely under the **Digital Nomad** program. The main conditions are:
 
 - Your own annual income is ¥10 million or more.
-- You hold the nationality of an [eligible country or region](https://www.moj.go.jp/isa/content/001416527.pdf) (see the list for digital nomads themselves in this PDF).
+- You hold the nationality of an [eligible country or region](https://www.moj.go.jp/isa/content/001416527.pdf) (see the column "特定活動53号（デジタルノマド）" — Designated Activities No. 53, Digital Nomad — in this PDF).
 - You have private medical or travel insurance covering your entire planned stay in Japan, including death, injury and illness. Coverage for medical treatment due to injury or illness must be at least ¥10 million.
 
 However, you can stay for a maximum of 6 months, the stay cannot be extended, and no residence card is issued. You also cannot work as an employee of a company in Japan. This program is not a way to live in Japan long-term; it is for experiencing life in Japan.

@@ -1,6 +1,4 @@
 ---
-permalink: false
-eleventyExcludeFromCollections: true
 layout: layouts/guide.njk
 lang: es
 title: "Opciones de visa para freelancers, emprendedores y trabajadores remotos en Japón"
@@ -101,7 +99,7 @@ Si solo trabaja para clientes del extranjero, puede que este estatus no se apliq
 Las personas empleadas por una empresa del extranjero, o que prestan servicios a clientes del extranjero, pueden quedarse en Japón y seguir trabajando a distancia con el programa de **Nómada Digital**. Las condiciones principales son:
 
 - Sus propios ingresos anuales son de ¥10 millones o más.
-- Tiene la nacionalidad de un [país o región que cumpla los requisitos](https://www.moj.go.jp/isa/content/001416527.pdf) (consulte la lista para los propios nómadas digitales en este PDF).
+- Tiene la nacionalidad de un [país o región que cumpla los requisitos](https://www.moj.go.jp/isa/content/001416527.pdf) (consulte en este PDF la columna "特定活動53号（デジタルノマド）", es decir, Actividades Designadas n.º 53, Nómada Digital).
 - Cuenta con un seguro médico privado o de viaje que cubra toda su estancia prevista en Japón, incluidos el fallecimiento, las lesiones y las enfermedades. La cobertura de los gastos médicos por lesiones o enfermedades debe ser de al menos ¥10 millones.
 
 Sin embargo, puede quedarse un máximo de 6 meses, la estancia no puede renovarse y no se emite tarjeta de residencia. Tampoco puede trabajar como empleado de una empresa en Japón. Este programa no es una forma de vivir en Japón a largo plazo, sino de vivir la experiencia de Japón.
