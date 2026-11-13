@@ -31,7 +31,7 @@ ogType: article
 
     {% if conclusion %}
     <div class="conclusion-box reveal">
-      {{ conclusion }}
+      {{ conclusion | safe }}
     </div>
     {% endif %}
 
