@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -62,6 +64,15 @@ jobs:
       - name: Check links (他ドメイン混入チェック)
         run: node scripts/check-domains.js _site
 
+      - name: List changed pages for IndexNow (Bing へ知らせるURL)
+        run: node scripts/indexnow-urls.js "${{ github.event.before }}" "${{ github.sha }}" _site > indexnow-urls.txt; cat indexnow-urls.txt
+
+      - name: Keep the URL list for the deploy job
+        uses: actions/upload-artifact@v4
+        with:
+          name: indexnow-urls
+          path: indexnow-urls.txt
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
@@ -80,3 +91,17 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Get the URL list
+        uses: actions/download-artifact@v4
+        with:
+          name: indexnow-urls
+
+      - name: Tell Bing about new and updated pages (IndexNow)
+        continue-on-error: true
+        run: |
+          if [ ! -s indexnow-urls.txt ]; then echo "送るURLはありません"; exit 0; fi
+          KEY="127e2171bb394b14028668414462cba6"
+          URLS=$(python3 -c "import json,sys;print(json.dumps([l.strip() for l in open('indexnow-urls.txt') if l.strip()][:10000]))")
+          BODY="{\"host\":\"haruka-legal.com\",\"key\":\"$KEY\",\"keyLocation\":\"https://haruka-legal.com/$KEY.txt\",\"urlList\":$URLS}"
+          curl -sS -o /dev/null -w "IndexNow: HTTP %{http_code}\n" -X POST "https://api.indexnow.org/indexnow" -H "Content-Type: application/json; charset=utf-8" -d "$BODY"
