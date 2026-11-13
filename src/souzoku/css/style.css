@@ -2589,3 +2589,4 @@ body footer p, body footer a, body .footer p, body .footer a { font-size: 13px; 
 body .hero-area .hero-line { font-size: inherit; }
 @media (max-width: 680px) { body .hero-area { font-size: 14px; } body .logo-text { font-size: 14px; } }
 body .start-here-list, body .start-here-list li, body .start-here-list a { font-size: 15px; line-height: 1.8; }
+.conclusion-box p { margin: 0 0 .9em; } .conclusion-box p:last-child { margin-bottom: 0; }

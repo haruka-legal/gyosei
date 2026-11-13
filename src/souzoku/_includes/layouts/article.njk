@@ -31,7 +31,7 @@ ogType: article
 
     {% if conclusion %}
     <div class="conclusion-box reveal">
-      {{ conclusion }}
+      {% if conclusionParas %}{% for para in conclusionParas %}<p>{{ para }}</p>{% endfor %}{% else %}{{ conclusion }}{% endif %}
     </div>
     {% endif %}
 
