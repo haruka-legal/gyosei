@@ -2426,44 +2426,31 @@ footer p.footer-souzoku a {
   .article-inner > table.table-cols-equal th, .article-inner > table.table-cols-equal td { font-size: 13.5px; padding: 10px 7px; line-height: 1.6; overflow-wrap: normal; word-break: normal; line-break: strict; }
 }
 
-/* ===== ヒーローのオープニングアニメーション ===== */
-@keyframes heroZoom { from { transform: scale(1.12); } to { transform: scale(1); } }
-@keyframes heroLineUp { from { transform: translateY(110%); } to { transform: translateY(0); } }
-@keyframes heroFadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+/* ===== ヒーローのオープニングアニメーション（見出しだけゆっくり表示） ===== */
+@keyframes heroTitleIn { from { opacity: 0; transform: translateY(14px); filter: blur(6px); } to { opacity: 1; transform: none; filter: blur(0); } }
 @keyframes heroLine { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-@keyframes heroVeil { from { opacity: 1; } to { opacity: 0; } }
 
 .hero-anim { background-image: none; }
 .hero-anim .hero-bg {
-  position: absolute; inset: -2%;
+  position: absolute; inset: 0;
   background: url('../images/hero-earth.jpg') center 85% / cover no-repeat;
-  animation: heroZoom 3.2s cubic-bezier(.16,.84,.3,1) both;
   z-index: 0;
 }
 .hero-anim::before, .hero-anim::after { z-index: 1; }
-.hero-anim .hero-veil {
-  position: absolute; inset: 0; background: #050d1a; z-index: 1; pointer-events: none;
-  animation: heroVeil 1.4s ease-out .1s both;
-}
-.hero-title .hl { display: inline-block; overflow: hidden; vertical-align: bottom; padding-bottom: .08em; }
+.hero-anim .hero-veil { display: none; }
+.hero-title .hl { display: inline-block; vertical-align: bottom; padding-bottom: .08em; }
 .hero-title .hl-in { display: inline-block; }
-.hero-anim .hero-title .hl-in { animation: heroLineUp 1.1s cubic-bezier(.2,.8,.2,1) both; }
-.hero-anim .hero-title .hl:nth-of-type(1) .hl-in { animation-delay: .5s; }
-.hero-anim .hero-title em.hl .hl-in { animation-delay: .75s; }
+.hero-anim .hero-title .hl-in { animation: heroTitleIn 2.4s cubic-bezier(.25,.6,.3,1) both; }
+.hero-anim .hero-title .hl:nth-of-type(1) .hl-in { animation-delay: .4s; }
+.hero-anim .hero-title em.hl .hl-in { animation-delay: 1.4s; }
 .hero-anim .hero-title em.hl { position: relative; }
 .hero-anim .hero-title em.hl::after {
   content: ''; position: absolute; left: 4%; right: 4%; bottom: .02em; height: 1px;
   background: linear-gradient(90deg, transparent, rgba(207,230,251,.9), transparent);
-  transform-origin: left center; animation: heroLine 1.2s cubic-bezier(.2,.8,.2,1) 1.4s both;
+  transform-origin: left center; animation: heroLine 1.8s cubic-bezier(.2,.8,.2,1) 3.2s both;
 }
-.hero-anim .hero-desc { animation: heroFadeUp 1s ease-out 1.3s both; }
-.hero-anim .hero-foreign { animation: heroFadeUp 1s ease-out 1.5s both; }
-.hero-anim .hero-btns { animation: heroFadeUp 1s ease-out 1.65s both; }
-.hero-anim .hero-services-link { animation: heroFadeUp 1s ease-out 1.8s both; }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-anim .hero-bg, .hero-anim .hero-veil, .hero-anim .hero-title .hl-in,
-  .hero-anim .hero-title em.hl::after, .hero-anim .hero-desc, .hero-anim .hero-foreign,
-  .hero-anim .hero-btns, .hero-anim .hero-services-link { animation: none; }
-  .hero-anim .hero-veil { display: none; }
+  .hero-anim .hero-title .hl-in, .hero-anim .hero-title em.hl::after { animation: none; }
 }
+
