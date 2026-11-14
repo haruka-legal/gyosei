@@ -171,3 +171,8 @@
   .logo-name{font-size:12px;}
   .logo-name small{font-size:7.5px;}
 }
+
+/* Phone: shorter hero so the case list starts sooner */
+@media (max-width:600px){
+  .hero{min-height:auto;padding-top:56px;padding-bottom:72px}
+}
