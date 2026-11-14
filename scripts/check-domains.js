@@ -66,6 +66,7 @@ const ALLOWED_HOSTS = [
   "www.courts.go.jp",
   "www.nta.go.jp",
   "www.mofa.go.jp", // 外務省（ビザ・査証の案内）
+  "www.maff.go.jp", // 農林水産省（外食業分野の特定技能）
   "houmukyoku.moj.go.jp",
   "www.gyosei.or.jp",
   "www.tokyo-gyosei.or.jp",
