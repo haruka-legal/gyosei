@@ -19,18 +19,18 @@ module.exports = {
         {
           caption: { en: "Engineer / Specialist in Humanities / International Services", es: "Ingeniero / Especialista en Humanidades / Servicios Internacionales", ja: "技術・人文知識・国際業務（技人国）" },
           rows: [
-            { label: { en: "Certificate of Eligibility (hiring from abroad)", es: "Certificado de Elegibilidad (contratación desde el extranjero)", ja: "在留資格認定証明書（海外からの呼び寄せ）" }, jpy: 132000 },
-            { label: { en: "Change of status of residence", es: "Cambio de estatus de residencia", ja: "在留資格変更" }, jpy: 121000 },
-            { label: { en: "Extension of period of stay (same employer)", es: "Renovación del período de estancia (mismo empleador)", ja: "在留期間更新（転職なし）" }, jpy: 66000 },
-            { label: { en: "Extension of period of stay (after changing jobs)", es: "Renovación del período de estancia (tras cambiar de empleo)", ja: "在留期間更新（転職あり）" }, jpy: 121000 },
+            { label: { en: "Certificate of Eligibility (hiring from abroad)", es: "Certificado de Elegibilidad (contratación desde el extranjero)", ja: "在留資格認定証明書（海外からの呼び寄せ）" }, jpy: 121000 },
+            { label: { en: "Change of status of residence", es: "Cambio de estatus de residencia", ja: "在留資格変更" }, jpy: 99000 },
+            { label: { en: "Extension of period of stay (same employer)", es: "Renovación del período de estancia (mismo empleador)", ja: "在留期間更新（転職なし）" }, jpy: 55000 },
+            { label: { en: "Extension of period of stay (after changing jobs)", es: "Renovación del período de estancia (tras cambiar de empleo)", ja: "在留期間更新（転職あり）" }, jpy: 99000 },
           ],
         },
         {
           caption: { en: "Specified Skilled Worker (SSW) / Employment for Skill Development", es: "Trabajador con Habilidades Específicas (SSW) / Empleo para el Desarrollo de Habilidades", ja: "特定技能・育成就労" },
           rows: [
-            { label: { en: "Certificate of Eligibility", es: "Certificado de Elegibilidad", ja: "在留資格認定証明書" }, jpy: 154000 },
-            { label: { en: "Change of status of residence", es: "Cambio de estatus de residencia", ja: "在留資格変更" }, jpy: 154000 },
-            { label: { en: "Extension of period of stay", es: "Renovación del período de estancia", ja: "在留期間更新" }, jpy: 88000 },
+            { label: { en: "Certificate of Eligibility", es: "Certificado de Elegibilidad", ja: "在留資格認定証明書" }, jpy: 132000 },
+            { label: { en: "Change of status of residence", es: "Cambio de estatus de residencia", ja: "在留資格変更" }, jpy: 132000 },
+            { label: { en: "Extension of period of stay", es: "Renovación del período de estancia", ja: "在留期間更新" }, jpy: 77000 },
           ],
         },
         {
@@ -49,11 +49,12 @@ module.exports = {
           kind: "monthly",
           caption: { en: "Ongoing support (monthly retainer plan)", es: "Soporte continuo (plan mensual)", ja: "継続サポート（顧問プラン）" },
           rows: [
+            { label: { en: "1–2 foreign employees", es: "1–2 empleados extranjeros", ja: "外国人1〜2名在籍" }, jpy: 22000, from: true },
             { label: { en: "3–5 foreign employees", es: "3–5 empleados extranjeros", ja: "外国人3〜5名在籍" }, jpy: 55000, from: true },
             { label: { en: "6–10 foreign employees", es: "6–10 empleados extranjeros", ja: "外国人6〜10名在籍" }, jpy: 88000, from: true },
             { label: { en: "11 or more", es: "11 o más", ja: "外国人11名以上" }, text: { en: "Quote on request", es: "Presupuesto a medida", ja: "別途お見積り" } },
           ],
-          note: { en: "Includes: questions by chat at any time, tracking of visa expiry dates with advance reminders, updates on law changes. Visa applications for new hires are charged separately.", es: "Incluye: consultas por chat en cualquier momento, control de fechas de vencimiento con avisos previos e información sobre cambios legales. Las solicitudes de visado para nuevas contrataciones se cobran aparte.", ja: "含まれるもの：LINEでの相談対応（随時）・在留期限の管理と更新時期の事前通知・法改正情報の共有・新規採用時のビザ申請対応（別途費用）" },
+          note: { en: "Includes: questions by chat at any time, tracking of visa expiry dates with advance reminders, updates on law changes, and preparing the regular and ad-hoc notifications for Specified Skilled Workers. Visa applications (new hires, extensions, etc.) are charged separately, with a 10% discount for retainer clients.", es: "Incluye: consultas por chat en cualquier momento, control de fechas de vencimiento con avisos previos, información sobre cambios legales y preparación de las notificaciones periódicas y ocasionales del Trabajador con Habilidades Específicas. Las solicitudes de visado (nuevas contrataciones, renovaciones, etc.) se cobran aparte, con un 10% de descuento para clientes del plan mensual.", ja: "含まれるもの：LINEでの相談対応（随時）・在留期限の管理と更新時期の事前通知・法改正情報の共有・特定技能の定期届出（年1回）と随時届出の書類作成。新規採用・更新などの在留資格の申請は別料金です（顧問先は報酬から10%お引きします）。" },
         },
       ],
     },
@@ -62,10 +63,10 @@ module.exports = {
       tables: [
         {
           rows: [
-            { label: { en: "Certificate of Eligibility (bringing your spouse from abroad)", es: "Certificado de Elegibilidad (traer a su cónyuge desde el extranjero)", ja: "在留資格認定証明書（海外からの呼び寄せ）" }, jpy: 132000 },
-            { label: { en: "Change of status of residence", es: "Cambio de estatus de residencia", ja: "在留資格変更" }, jpy: 110000 },
-            { label: { en: "Extension of period of stay (standard)", es: "Renovación del período de estancia (estándar)", ja: "在留期間更新（通常）" }, jpy: 66000 },
-            { label: { en: "Extension of period of stay (remarriage after divorce / complex cases)", es: "Renovación del período de estancia (nuevo matrimonio tras divorcio / casos complejos)", ja: "在留期間更新（離婚後再婚・複雑案件）" }, jpy: 110000 },
+            { label: { en: "Certificate of Eligibility (bringing your spouse from abroad)", es: "Certificado de Elegibilidad (traer a su cónyuge desde el extranjero)", ja: "在留資格認定証明書（海外からの呼び寄せ）" }, jpy: 99000 },
+            { label: { en: "Change of status of residence", es: "Cambio de estatus de residencia", ja: "在留資格変更" }, jpy: 99000 },
+            { label: { en: "Extension of period of stay (standard)", es: "Renovación del período de estancia (estándar)", ja: "在留期間更新（通常）" }, jpy: 55000 },
+            { label: { en: "Extension of period of stay (remarriage after divorce / complex cases)", es: "Renovación del período de estancia (nuevo matrimonio tras divorcio / casos complejos)", ja: "在留期間更新（離婚後再婚・複雑案件）" }, jpy: 99000 },
             { label: { en: "International marriage procedure support", es: "Apoyo con los trámites de matrimonio internacional", ja: "国際結婚手続きサポート" }, jpy: 55000, from: true },
           ],
         },
@@ -88,8 +89,8 @@ module.exports = {
       tables: [
         {
           rows: [
-            { label: { en: "Certificate of Eligibility (from abroad)", es: "Certificado de Elegibilidad (desde el extranjero)", ja: "在留資格認定証明書（海外からの呼び寄せ）" }, jpy: 330000, from: true },
-            { label: { en: "Change of status of residence", es: "Cambio de estatus de residencia", ja: "在留資格変更" }, jpy: 330000, from: true },
+            { label: { en: "Certificate of Eligibility (from abroad)", es: "Certificado de Elegibilidad (desde el extranjero)", ja: "在留資格認定証明書（海外からの呼び寄せ）" }, jpy: 209000, from: true },
+            { label: { en: "Change of status of residence", es: "Cambio de estatus de residencia", ja: "在留資格変更" }, jpy: 209000, from: true },
             { label: { en: "Extension of period of stay", es: "Renovación del período de estancia", ja: "在留期間更新" }, jpy: 132000, from: true },
           ],
           note: { en: "Company setup costs are separate. We start by checking whether your plan meets the permit criteria revised in October 2025 (including capital of ¥30 million or more).", es: "Los costos de constitución de la empresa son aparte. Empezamos verificando si su plan cumple los criterios revisados en octubre de 2025 (incluido un capital de ¥30 millones o más).", ja: "会社設立にかかる費用は別途です。2025年10月の許可基準改正（資本金3,000万円以上など）を満たしているかの確認から承ります。" },
@@ -101,10 +102,10 @@ module.exports = {
       tables: [
         {
           rows: [
-            { label: { en: "Permanent residency (employees)", es: "Residencia permanente (empleados)", ja: "永住許可申請（会社員）" }, jpy: 165000 },
-            { label: { en: "Permanent residency (business owners / self-employed)", es: "Residencia permanente (empresarios / autónomos)", ja: "永住許可申請（経営者・個人事業主）" }, jpy: 198000 },
-            { label: { en: "Naturalization (employees)", es: "Naturalización (empleados)", ja: "帰化申請（会社員・被雇用者）" }, jpy: 209000 },
-            { label: { en: "Naturalization (business owners / self-employed)", es: "Naturalización (empresarios / autónomos)", ja: "帰化申請（経営者・個人事業主）" }, jpy: 275000 },
+            { label: { en: "Permanent residency (employees)", es: "Residencia permanente (empleados)", ja: "永住許可申請（会社員）" }, jpy: 143000 },
+            { label: { en: "Permanent residency (business owners / self-employed)", es: "Residencia permanente (empresarios / autónomos)", ja: "永住許可申請（経営者・個人事業主）" }, jpy: 176000 },
+            { label: { en: "Naturalization (employees)", es: "Naturalización (empleados)", ja: "帰化申請（会社員・被雇用者）" }, jpy: 187000 },
+            { label: { en: "Naturalization (business owners / self-employed)", es: "Naturalización (empresarios / autónomos)", ja: "帰化申請（経営者・個人事業主）" }, jpy: 264000 },
           ],
         },
       ],
