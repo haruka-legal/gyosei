@@ -53,7 +53,7 @@ window.addEventListener('scroll', () => {
 
 // Tab switching
 function switchTab(tab) {
-  ['after','before','abroad'].forEach(t => {
+  ['after','before'].forEach(t => {
     const panel = document.getElementById('panel-' + t);
     const btn   = document.getElementById('tab-' + t);
     if (!panel || !btn) return;

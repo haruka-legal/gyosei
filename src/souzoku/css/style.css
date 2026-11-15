@@ -2593,3 +2593,7 @@ body .start-here-list, body .start-here-list li, body .start-here-list a { font-
 
 /* 文字を大きくしたあと、日本語が変なところで改行されないように */
 p, li, dd, td { word-break: auto-phrase; }
+
+/* お悩みタブ：2つに整理 */
+.tab-buttons { grid-template-columns: repeat(2, 1fr); max-width: 760px; margin-left: auto; margin-right: auto; }
+@media (max-width: 480px) { body .tab-btn { font-size: 15px; padding: 10px 6px; line-height: 1.45; } }
