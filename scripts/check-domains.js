@@ -78,6 +78,9 @@ const ALLOWED_HOSTS = [
   "www.keishicho.metro.tokyo.lg.jp", // 警視庁（風営法の手続き・審査基準・条例）
   "www.npa.go.jp", // 警察庁（風営法の解釈運用基準）
   "www.tfd.metro.tokyo.lg.jp", // 東京消防庁（使用開始届・防火管理者）
+  "www.hokeniryo.metro.tokyo.lg.jp", // 東京都保健医療局（受動喫煙防止）
+  "www.mof.go.jp", // 財務省（たばこ小売販売業許可）
+  "www.city.sapporo.jp", // 札幌市（たばこの種類）
   "www.police.pref.kanagawa.jp", // 神奈川県警察（2025年の風営法改正の概要）
   "www.police.pref.kochi.lg.jp", // 高知県警察（深夜酒類提供飲食店営業の手引）
   "www.reiki.metro.tokyo.lg.jp", // 東京都例規集（警視庁関係手数料条例など）
