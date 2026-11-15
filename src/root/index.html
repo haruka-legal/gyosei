@@ -27,7 +27,7 @@
   .page{flex:1;max-width:1040px;width:100%;margin:0 auto;padding:48px 20px 56px;display:grid;grid-template-columns:auto 1fr;gap:72px;align-items:start}
   /* 左：縦書きの屋号。ここだけを大きく */
   .name{writing-mode:vertical-rl;font-family:var(--mincho);font-weight:700;font-size:64px;letter-spacing:.18em;line-height:1;color:var(--ink);padding-left:28px;border-left:2px solid var(--blue);height:max-content}
-  .name small{display:block;font-family:var(--gothic);font-weight:500;font-size:14px;letter-spacing:.2em;color:var(--muted);margin-right:18px}
+  .name small{display:block;font-family:var(--gothic);font-weight:500;font-size:16px;letter-spacing:.2em;color:var(--muted);margin-right:18px}
   .side{display:flex;flex-direction:column;gap:28px;padding-top:6px}
   .left{display:flex;flex-direction:column;align-items:flex-end;gap:28px}
   .seal{width:92px;height:92px;border-radius:50%;object-fit:contain}
@@ -40,12 +40,12 @@
   .routes a:hover,.routes a:focus-visible{background-size:100% 100%;outline:none}
   .routes a:focus-visible .t{text-decoration:underline}
   .t{display:block;font-weight:700;font-size:20px;color:var(--blue)}
-  .d{display:block;margin-top:2px;font-size:14px;color:var(--muted)}
+  .d{word-break:auto-phrase;display:block;margin-top:2px;font-size:16px;color:var(--muted)}
   .go{width:42px;height:42px;border-radius:50%;border:1.5px solid var(--blue);display:grid;place-items:center;color:var(--blue)}
   .go svg{width:16px;height:16px}
   footer{border-top:1px solid var(--line)}
-  footer div{max-width:1040px;margin:0 auto;padding:20px 20px 28px;font-size:13px;color:var(--muted)}
-  footer .copy{font-size:12px;margin-top:4px}
+  footer div{max-width:1040px;margin:0 auto;padding:20px 20px 28px;font-size:15px;color:var(--muted)}
+  footer .copy{font-size:13.5px;margin-top:4px}
   @media (prefers-reduced-motion:reduce){.routes a{transition:none}}
 
   /* 屋号の演出：線が上から伸び、文字が1字ずつ現れる */
@@ -60,22 +60,22 @@
   @media (prefers-reduced-motion:reduce){.name,.ch,.name small,.seal,.lead .ph{animation:none}}
   .area{margin-top:8px;display:flex;flex-direction:column;gap:6px;max-width:34em}
   .area h2{font-family:var(--mincho);font-weight:700;font-size:17px;color:var(--ink)}
-  .area p{font-size:14.5px;word-break:auto-phrase}
+  .area p{font-size:16.5px;word-break:auto-phrase}
   .area .nl{display:block}
   .contact{display:flex;flex-direction:column;gap:10px;margin-top:4px}
   .contact h2{font-family:var(--mincho);font-weight:700;font-size:17px}
   .cbtns{display:flex;flex-wrap:wrap;gap:12px}
-  .cbtn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border:1.5px solid var(--blue);border-radius:999px;color:var(--blue);font-weight:700;font-size:15px;text-decoration:none;transition:background .2s,color .2s}
+  .cbtn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border:1.5px solid var(--blue);border-radius:999px;color:var(--blue);font-weight:700;font-size:16.5px;text-decoration:none;transition:background .2s,color .2s}
   .cbtn:hover,.cbtn:focus-visible{background:var(--blue);color:#fff;outline:none}
-  .contact .reply{font-size:13.5px;color:var(--muted)}
+  .contact .reply{font-size:15.5px;color:var(--muted)}
   .area a{color:var(--blue);white-space:nowrap}
-  .area .wards{font-size:13px;color:var(--muted)}
+  .area .wards{font-size:15px;color:var(--muted)}
   @media (max-width:720px){
     .page{grid-template-columns:1fr;gap:32px;padding-top:32px}
     .name{writing-mode:horizontal-tb;font-size:clamp(22px,7vw,30px);letter-spacing:.04em;border-left:none;padding:0 0 14px}
     .name{background-position:left bottom;background-size:100% 2px;animation-name:lineh}
     @keyframes lineh{from{background-size:0 2px}to{background-size:100% 2px}}
-    .name small{margin:10px 0 0;font-size:13px;letter-spacing:.12em;white-space:nowrap}
+    .name small{margin:10px 0 0;font-size:15px;letter-spacing:.12em;white-space:nowrap}
     .left{flex-direction:row;align-items:center;justify-content:space-between;gap:12px;width:100%;padding-bottom:14px;background:linear-gradient(var(--blue),var(--blue)) left bottom/100% 2px no-repeat;animation:lineh 2.8s cubic-bezier(.33,0,.2,1) both}
     .name{background:none;padding-bottom:0;animation:none}
     @media (prefers-reduced-motion:reduce){.left{animation:none}}
@@ -83,14 +83,14 @@
     .cbtn{flex:1 1 100%}
     .area .nl{display:inline}
   }
-  .intro{font-size:15px;max-width:34em;word-break:auto-phrase;margin-top:-12px}
+  .intro{font-size:16.5px;max-width:34em;word-break:auto-phrase;margin-top:-12px}
   .office{display:flex;flex-direction:column;gap:6px;max-width:34em}
   .office h2{font-family:var(--mincho);font-weight:700;font-size:17px}
-  .office dl{display:grid;grid-template-columns:5.5em 1fr;font-size:14.5px;border-top:1px solid var(--line)}
+  .office dl{display:grid;grid-template-columns:5.5em 1fr;font-size:16.5px;border-top:1px solid var(--line)}
   .office dt,.office dd{padding:10px 0;border-bottom:1px solid var(--line)}
-  .office dt{color:var(--muted);font-size:13.5px}
+  .office dt{color:var(--muted);font-size:15.5px}
   .office dd{word-break:auto-phrase}
-  .office .bio{display:block;font-size:13.5px;color:var(--muted);margin-top:2px}
+  .office .bio{display:block;font-size:15.5px;color:var(--muted);margin-top:2px}
   .office a{color:var(--blue)}
   @media (max-width:720px){.intro{margin-top:-8px}}
   /* 屋号とロゴを横並びのヘッダーにする（全画面幅） */
@@ -98,20 +98,20 @@
   .left{flex-direction:row;align-items:center;justify-content:flex-start;gap:18px;width:100%;padding-bottom:18px;background:linear-gradient(var(--blue),var(--blue)) left bottom/100% 2px no-repeat;animation:lineh 2.8s cubic-bezier(.33,0,.2,1) both}
   .seal{order:-1;flex:none;width:68px;height:68px;border-radius:0}
   .name{writing-mode:horizontal-tb;font-size:clamp(24px,3.6vw,34px);letter-spacing:.06em;padding:0;border:none;background:none;animation:none}
-  .name small{margin:10px 0 0;font-size:13px;letter-spacing:.12em;white-space:nowrap}
+  .name small{margin:10px 0 0;font-size:15px;letter-spacing:.12em;white-space:nowrap}
   .left{justify-content:center}
   footer div{text-align:center}
   .news{margin-top:24px;display:flex;flex-direction:column;gap:6px}
   .news h2{font-family:var(--mincho);font-weight:700;font-size:19px;line-height:1.4;padding-left:12px;border-left:4px solid var(--blue);margin-bottom:10px}
-  .nmore{font-size:13.5px;color:var(--muted);margin-top:8px}
+  .nmore{font-size:15.5px;color:var(--muted);margin-top:8px}
   .nmore a{color:var(--blue);margin-right:4px}
   .nlist{list-style:none;border-top:1px solid var(--line)}
   .nlist li{border-bottom:1px solid var(--line)}
   .nlist a{display:grid;grid-template-columns:auto auto 1fr;align-items:baseline;gap:4px 12px;padding:12px 2px;text-decoration:none;color:inherit}
   .nlist a:hover .tt,.nlist a:focus-visible .tt{text-decoration:underline;color:var(--blue)}
-  .nlist time{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
-  .nlist .tag{justify-self:start;font-size:12px;color:var(--blue);border:1px solid var(--line);border-radius:999px;padding:0 9px;white-space:nowrap}
-  .nlist .tt{font-size:14.5px;word-break:auto-phrase}
+  .nlist time{font-size:15px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .nlist .tag{justify-self:start;font-size:13.5px;color:var(--blue);border:1px solid var(--line);border-radius:999px;padding:0 9px;white-space:nowrap}
+  .nlist .tt{font-size:16.5px;word-break:auto-phrase}
   @media (max-width:720px){.nlist a{grid-template-columns:auto 1fr}.nlist .tt{grid-column:1/-1}}
   /* 対応エリア・事務所概要・お問い合わせを、見出しで区切って別のまとまりに見せる */
   .area,.office,.contact{margin-top:24px}
@@ -139,9 +139,9 @@
     <p class="lead"><span class="ph" style="--j:0">受け継ぎ、</span><span class="ph" style="--j:1">つなぎ、</span><span class="ph" style="--j:2">遥か未来へ。</span></p>
     <p class="intro">東京・千代田区の行政書士事務所です。<br><span class="ln">外国人雇用・ビザ、相続・遺言、</span><span class="ln">夜のお店の営業手続きを代行します。</span></p>
     <ul class="routes">
-      <li><a href="gyosei/"><span><span class="t">ビザ・外国人雇用</span><span class="d">外国人を採用する企業の方、ビザの手続きが必要な方へ</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
-      <li><a href="souzoku/"><span><span class="t">相続・遺言</span><span class="d">ご家族の相続手続きや、遺言書の準備をお考えの方へ</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
-      <li><a href="fuei/"><span><span class="t">風俗営業許可・深夜酒類提供の届出</span><span class="d">スナック・ラウンジ・バーなど、お店の開業をお考えの方へ</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
+      <li><a href="gyosei/"><span><span class="t">ビザ・外国人雇用</span><span class="d">外国人を雇用する企業様、在留資格でお困りの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
+      <li><a href="souzoku/"><span><span class="t">相続・遺言</span><span class="d">ご家族の相続手続きや、遺言書の準備をお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
+      <li><a href="fuei/"><span><span class="t">風俗営業許可・深夜酒類提供の届出</span><span class="d">スナック・ラウンジ・バーなど、お店の開業をお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
       <li><a href="visa/" lang="en"><span><span class="t">For international clients — English / Español</span><span class="d">Visa and immigration support for individuals and companies coming to Japan.</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
     </ul>
     <section class="news" aria-labelledby="news-h">
