@@ -37,7 +37,7 @@
   "dateModified": "{{ (dateModified or datePublished) | isoDate }}",
   "inLanguage": "ja",
   "url": "{{ site.url }}{{ page.url }}",
-  "author": { "@type": "LegalService", "name": "{{ site.name }}", "url": "{{ site.url }}/" },
+  "author": { "@type": "Person", "name": "{{ site.representative.name }}", "jobTitle": "{{ site.representative.jobTitle }}", "url": "{{ site.url }}/#profile", "worksFor": { "@type": "LegalService", "name": "{{ site.name }}", "url": "{{ site.url }}/" } },
   "publisher": {
     "@type": "LegalService",
     "name": "{{ site.name }}",

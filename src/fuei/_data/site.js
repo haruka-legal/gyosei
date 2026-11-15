@@ -11,6 +11,7 @@ module.exports = {
   // このサイトでは代表者の氏名・写真を載せない方針（2026-10-18）。
   // 記事の執筆者は事務所名で表示する。
   representative: {
+    name: "岸 はるか",
     jobTitle: "行政書士",
     association: "東京都行政書士会",
     registrationNumber: "26083037", // 行政書士の登録番号
