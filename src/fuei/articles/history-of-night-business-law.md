@@ -84,5 +84,5 @@ breadcrumbs:
 
 - [風俗営業取締法（昭和23年法律第122号）（衆議院）](https://www.shugiin.go.jp/Internet/itdb_housei.nsf/html/houritsu/00219480710122.htm)
 - [売春防止法（昭和31年法律第118号）（衆議院）](https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/houritsu/02419560524118.htm)
-- [SCAPIN-642 日本における公娼制度の廃止（名古屋大学 日本法令外国語訳・占領期資料）](https://jahis.law.nagoya-u.ac.jp/scapindb/docs/scapin-642)
+- [SCAPIN-642 日本における公娼制度の廃止（名古屋大学 SCAPINデータベース）](https://jahis.law.nagoya-u.ac.jp/scapindb/docs/scapin-642)
 - [風俗営業等の規制及び業務の適正化等に関する法律（e-Gov法令検索）](https://laws.e-gov.go.jp/law/323AC0000000122)
