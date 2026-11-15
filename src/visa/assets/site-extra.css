@@ -176,3 +176,13 @@
 @media (max-width:600px){
   .hero{min-height:auto;padding-top:56px;padding-bottom:72px}
 }
+
+/* Readability: explanatory text at least 14px */
+.cd-fee-sub,.fee-note,.fee-sub,.flow-note,.flow-tag,.ib-sub,.ti-text{font-size:14px}
+
+/* Profile table: stack label above value on phones */
+@media (max-width:600px){
+  .prof-table{grid-template-columns:1fr !important;gap:2px !important}
+  .prof-table > span:nth-child(odd){font-size:13px;letter-spacing:.04em}
+  .prof-table > span:nth-child(even){margin-bottom:12px}
+}
