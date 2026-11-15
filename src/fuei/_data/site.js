@@ -36,7 +36,7 @@ module.exports = {
     { href: "#services", label: "業務内容", key: "services" },
     { href: "#fees", label: "料金", key: "fees" },
     { href: "articles/", label: "お役立ち記事", key: "articles" },
-    { href: "#profile", label: "ご挨拶", key: "profile" },
+    { href: "#profile", label: "代表挨拶", key: "profile" },
     { href: "#faq", label: "よくある質問", key: "faq" },
     { href: "#access", label: "事務所案内", key: "access" },
     { href: "#contact", label: "お問い合わせ", key: "contact" }
