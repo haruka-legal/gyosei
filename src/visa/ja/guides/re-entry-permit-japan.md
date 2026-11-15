@@ -6,8 +6,6 @@ description: "日本に住む外国人が一時帰国や海外旅行で日本を
 date: 2026-11-15
 tags: ["re-entry-permit", "status-of-residence", "travel"]
 excerptText: "一時帰国や海外旅行で日本を出るときの「みなし再入国許可」と「再入国許可」の違い、期限に間に合わないときの対応を解説します。"
-permalink: false
-eleventyExcludeFromCollections: true
 altUrls:
   en: /guides/re-entry-permit-japan/
   es: /es/guides/re-entry-permit-japan/

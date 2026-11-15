@@ -6,8 +6,6 @@ description: "If you live in Japan and leave for a trip or a visit home without 
 date: 2026-11-15
 tags: ["re-entry-permit", "status-of-residence", "travel"]
 excerptText: "The difference between the Special Re-entry Permit and the Re-entry Permit when you leave Japan for a trip or a visit home, and what to do if you cannot return in time."
-permalink: false
-eleventyExcludeFromCollections: true
 altUrls:
   en: /guides/re-entry-permit-japan/
   es: /es/guides/re-entry-permit-japan/

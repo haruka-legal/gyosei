@@ -6,8 +6,6 @@ description: "Si vive en Japón y sale del país de viaje o para visitar su paí
 date: 2026-11-15
 tags: ["re-entry-permit", "status-of-residence", "travel"]
 excerptText: "La diferencia entre el permiso especial de reingreso y el permiso de reingreso al salir de Japón de viaje o para visitar su país, y qué hacer si no puede volver a tiempo."
-permalink: false
-eleventyExcludeFromCollections: true
 altUrls:
   en: /guides/re-entry-permit-japan/
   es: /es/guides/re-entry-permit-japan/
