@@ -82,6 +82,10 @@ const ALLOWED_HOSTS = [
   "www.mof.go.jp", // 財務省（たばこ小売販売業許可）
   "www.city.sapporo.jp", // 札幌市（たばこの種類）
   "www.city.sendai.jp", // 仙台市（電子たばこの扱い）
+  "www.pref.tochigi.lg.jp", // 栃木県（風営法施行条例）
+  "bunshun.jp", // 文春オンライン（アダルトショップ）
+  "gendai.media", // 現代ビジネス（TSUTAYA・アダルトビデオの歴史）
+  "www.phileweb.com", // PHILE WEB（レンタル店の店舗数）
   "aichi-elcc.mhlw.go.jp", // 愛知労働局（年少者の就業制限）
   "www.police.pref.fukuoka.jp", // 福岡県警察（行政処分の基準）
   "jahis.law.nagoya-u.ac.jp", // 名古屋大学 占領期資料
