@@ -1083,7 +1083,7 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
 .space-note-icon { font-size: 22px; flex-shrink: 0; }
 .space-note-text {
   flex: 1;
-  font-size: 15px;
+  font-size: 13.5px;
   color: rgba(255,255,255,.85);
   line-height: 1.8;
   min-width: 200px;
@@ -1194,7 +1194,7 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   background: #fff;
   border: 1px solid rgba(26,106,181,.1);
   border-radius: var(--radius);
-  font-size: 15px;
+  font-size: 13.5px;
   color: var(--text-mid);
   line-height: 1.9;
 }
@@ -1487,7 +1487,7 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   margin-bottom: 8px;
 }
 .contact-note {
-  font-size: 15px;
+  font-size: 13.5px;
   color: var(--text-light);
   margin-bottom: 32px;
 }
@@ -1625,7 +1625,7 @@ footer p.footer-souzoku a {
   text-underline-offset: 3px;
 }
 .footer-preparing {
-  font-size: 15px;
+  font-size: 13.5px;
   color: rgba(255,255,255,.85);
   margin-bottom: 6px;
   letter-spacing: .05em;
@@ -2261,7 +2261,7 @@ footer p.footer-souzoku a {
   box-shadow: 0 4px 16px rgba(6,199,85,.3);
 }
 .article-contact-or { font-size: 15.5px; color: var(--text-mid); margin: 28px 0 12px; }
-.article-contact-note { display: inline-block; margin-top: 6px; font-size: 14px; line-height: 1.8; color: var(--text-light); }
+.article-contact-note { display: inline-block; margin-top: 6px; font-size: 13.5px; line-height: 1.8; color: var(--text-light); }
 .article-inner > p a, .article-inner > ul a, .article-inner > ol a, .article-inner > table a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
 .profile-reg { font-size: 14px; color: var(--text-light); margin-top: 4px; }
 .profile-reg a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
@@ -2279,14 +2279,14 @@ footer p.footer-souzoku a {
 .post-item { border-bottom: 1px solid var(--border, #e3e8ef); }
 .post-item a { display: block; padding: 18px 8px; color: inherit; text-decoration: none; transition: background .2s; }
 .post-item a:hover { background: var(--off-white); }
-.post-meta { display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--text-light); margin-bottom: 6px; }
+.post-meta { display: flex; align-items: center; gap: 10px; font-size: 13.5px; color: var(--text-light); margin-bottom: 6px; }
 .post-cat { display: inline-block; padding: 2px 10px; border-radius: 999px; background: var(--sky-light); color: var(--navy); font-size: 13.5px; }
 .post-title { display: block; font-size: 17px; font-weight: 700; line-height: 1.6; color: var(--navy); }
 .post-item a:hover .post-title { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
 .post-desc { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-top: 6px; font-size: 15.5px; line-height: 1.8; color: var(--text-mid); }
 
 /* お問い合わせ：フォーム前の注意書き（少し小さめ） */
-.article-contact > .article-contact-note { display: block; margin: 28px 0 12px; font-size: 15px; line-height: 1.8; color: var(--text-mid); }
+.article-contact > .article-contact-note { display: block; margin: 28px 0 12px; font-size: 13.5px; line-height: 1.8; color: var(--text-mid); }
 
 /* 記事一覧：カテゴリの絞り込みボタン */
 .post-filter { display: flex; flex-wrap: wrap; gap: 8px; max-width: 760px; margin: 0 auto 20px; }
@@ -2397,9 +2397,9 @@ footer p.footer-souzoku a {
 .service-desc { font-size: 16px; }
 .services-souzoku { font-size: 16.5px; }
 #fees td, #fees th { font-size: 16px; }
-.fees-note { font-size: 15.5px; }
-.fee-note-box { font-size: 16px; }
-.profile-role, .profile-reg { font-size: 15.5px; }
+.fees-note { font-size: 13.5px; }
+.fee-note-box { font-size: 13.5px; }
+.profile-role, .profile-reg { font-size: 13.5px; }
 .profile-desc { font-size: 17px; }
 .profile-quote-label { font-size: 14px; }
 .profile-quote-text { font-size: 17px; }
@@ -2409,8 +2409,8 @@ footer p.footer-souzoku a {
 .faq-q span { font-size: 16.5px; }
 .faq-a p { font-size: 16.5px; }
 .contact-desc { font-size: 17px; }
-.form-open-note, .form-footer { font-size: 15px; }
-.footer-souzoku { font-size: 15px; }
+.form-open-note, .form-footer { font-size: 13.5px; }
+.footer-souzoku { font-size: 13.5px; }
 
 /* 代表挨拶：「遥か」に込めた思い・プライベートを畳んで表示 */
 .profile-fold > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 0; }

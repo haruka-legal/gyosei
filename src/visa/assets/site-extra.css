@@ -75,7 +75,7 @@
 .fee-tbl td.fee-amt{font-weight:600;color:var(--navy);}
 .fee-tbl tr:last-child td{border-bottom:0;}
 .fee-tbl-extra td.fee-amt{color:var(--mid);}
-.fee-tbl-note{font-size:15px;color:var(--mid);margin-top:8px;line-height:1.7;}
+.fee-tbl-note{font-size:13.5px;color:var(--mid);margin-top:8px;line-height:1.7;}
 .fee-box{background:var(--light-bg);border-radius:var(--radius);padding:20px 24px;border-left:3px solid var(--sky);margin-top:16px;font-size:16px;color:var(--mid);line-height:1.8;}
 .fee-box-title{font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);font-weight:600;margin-bottom:10px;}
 .fee-box ul{padding-left:18px;margin:6px 0 0;}
