@@ -65,7 +65,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   line-height: 1.5;
   margin-bottom: 14px;
 }
-.section-desc { font-size: 14px; color: var(--mute); line-height: 2; max-width: 560px; }
+.section-desc { font-size: 15px; color: var(--mute); line-height: 2; max-width: 560px; }
 .label-eyebrow { font-size: 12px; letter-spacing: .12em; color: var(--mute) !important; margin-bottom: 10px; }
 
 .worries-section, .flow-section, .services-section, .fees-section,
@@ -196,24 +196,24 @@ nav { border-top: 1px solid var(--line-soft); }
   font-family: 'Zen Kaku Gothic New', sans-serif; font-size: 15px;
   background: var(--paper); border: 1px solid var(--ink);
 }
-.step-name { margin-top: 14px; font-size: 14.5px; font-weight: 500; line-height: 1.5; }
+.step-name { margin-top: 14px; font-size: 15px; font-weight: 500; line-height: 1.5; }
 .step-note .br { display: block; }
-.step-note { margin-top: 6px; font-size: 12px; letter-spacing: 0; color: var(--mute); line-height: 1.7; }
+.step-note { margin-top: 6px; font-size: 13px; letter-spacing: 0; color: var(--mute); line-height: 1.7; }
 .step-key .step-no { background: var(--ink); color: var(--paper); }
 .step-flag {
   position: absolute; top: -36px; left: 50%; transform: translateX(-50%); white-space: nowrap;
   padding: 3px 10px; line-height: 1.6;
   font-size: 11px; letter-spacing: .1em; background: var(--ink); color: var(--paper);
 }
-.steps-foot { margin-top: 40px; font-size: 12.5px; color: var(--mute); line-height: 1.9; }
+.steps-foot { margin-top: 40px; font-size: 13.5px; color: var(--mute); line-height: 1.9; }
 
 /* ---------- 物件をご紹介される方へ（黒の帯） ---------- */
 .partner-section { background: var(--char); color: var(--paper); padding: 128px 0; }
 .partner-inner { display: grid; grid-template-columns: 1fr 1.4fr; gap: 64px; }
-.partner-lead { font-size: 14px; line-height: 2; color: #bdbdbd; }
-.partner-text { font-size: 14.5px; line-height: 2.1; color: #e2e2e2; margin-bottom: 24px; }
+.partner-lead { font-size: 15px; line-height: 2; color: #bdbdbd; }
+.partner-text { font-size: 15.5px; line-height: 2.1; color: #e2e2e2; margin-bottom: 24px; }
 .partner-list { border-top: 1px solid #434347; margin-bottom: 32px; }
-.partner-list li { position: relative; padding: 14px 0 14px 24px; font-size: 14px; border-bottom: 1px solid #434347; }
+.partner-list li { position: relative; padding: 14px 0 14px 24px; font-size: 15px; border-bottom: 1px solid #434347; }
 .partner-list li::before { content: ''; position: absolute; left: 4px; top: 27px; width: 10px; height: 1px; background: var(--paper); }
 .partner-btn { color: var(--paper); border-color: var(--paper); }
 .partner-btn:hover { background: var(--paper); color: var(--ink); }
@@ -229,7 +229,7 @@ nav { border-top: 1px solid var(--line-soft); }
 .tab-panel.active { display: block; }
 .worries-grid { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line); }
 .worry-item {
-  position: relative; padding: 20px 20px 20px 40px; font-size: 14.5px; line-height: 1.8;
+  position: relative; padding: 20px 20px 20px 40px; font-size: 15.5px; line-height: 1.8;
   border-bottom: 1px solid var(--line);
 }
 .worries-grid .worry-item:nth-child(odd) { border-right: 1px solid var(--line); }
@@ -251,12 +251,12 @@ nav { border-top: 1px solid var(--line-soft); }
 .flow-step-title { font-size: 16px; font-weight: 500; flex: 1; min-width: 180px; }
 .flow-price-badge { font-size: 13px; padding: 4px 12px; border: 1px solid var(--ink); }
 .flow-step-body { padding: 20px 24px 24px; }
-.flow-text { font-size: 14px; line-height: 2; color: var(--text-mid); margin-bottom: 10px; }
+.flow-text { font-size: 15px; line-height: 2; color: var(--text-mid); margin-bottom: 10px; }
 .flow-list { margin: 4px 0 12px; }
-.flow-list li { position: relative; padding-left: 18px; font-size: 14px; line-height: 1.9; }
+.flow-list li { position: relative; padding-left: 18px; font-size: 15px; line-height: 1.9; }
 .flow-list li::before { content: ''; position: absolute; left: 2px; top: 13px; width: 6px; height: 1px; background: var(--ink); }
 .flow-list a { text-decoration: underline; text-underline-offset: 3px; }
-.flow-note, .flow-notes p { font-size: 12.5px; color: var(--mute); line-height: 1.9; }
+.flow-note, .flow-notes p { font-size: 13.5px; color: var(--mute); line-height: 1.9; }
 .flow-connector { width: 1px; height: 28px; background: var(--ink); margin-left: 46px; }
 .flow-step-final { border-color: var(--ink); }
 .flow-infobox { margin-top: 16px; padding: 16px 20px; background: var(--mist); }
@@ -271,10 +271,10 @@ nav { border-top: 1px solid var(--line-soft); }
 .service-icon { width: 36px; height: 36px; margin-bottom: 20px; }
 .service-icon svg { width: 100%; height: 100%; fill: none; stroke: var(--ink); stroke-width: 1.3; }
 .service-name { font-family: 'Zen Kaku Gothic New', sans-serif; font-size: 17px; font-weight: 600; margin-bottom: 10px; line-height: 1.6; }
-.service-desc { font-size: 13.5px; line-height: 2; color: var(--text-mid); }
+.service-desc { font-size: 15px; line-height: 2; color: var(--text-mid); }
 
 .fee-note-box {
-  margin-top: 32px; padding: 24px 28px; font-size: 13.5px; line-height: 2;
+  margin-top: 32px; padding: 24px 28px; font-size: 15px; line-height: 2;
   border: 1px solid var(--line); background: var(--paper); color: var(--text-mid);
 }
 .fee-note-box strong { color: var(--ink); }
@@ -282,18 +282,18 @@ nav { border-top: 1px solid var(--line-soft); }
 /* お受けできないご相談 */
 .decline-box { margin-top: 32px; padding: 28px; border: 1px solid var(--ink); background: var(--paper); }
 .decline-box-title { font-family: 'Zen Kaku Gothic New', sans-serif; font-size: 17px; font-weight: 600; margin-bottom: 8px; }
-.decline-box-lead { font-size: 13.5px; line-height: 2; color: var(--text-mid); margin-bottom: 12px; }
-.decline-box ul li { position: relative; padding: 8px 0 8px 22px; font-size: 14px; line-height: 1.8; border-top: 1px solid var(--line-soft); }
+.decline-box-lead { font-size: 15px; line-height: 2; color: var(--text-mid); margin-bottom: 12px; }
+.decline-box ul li { position: relative; padding: 8px 0 8px 22px; font-size: 15px; line-height: 1.8; border-top: 1px solid var(--line-soft); }
 .decline-box ul li::before { content: '×'; position: absolute; left: 2px; top: 8px; font-size: 13px; }
 
 /* ---------- 料金 ---------- */
 .fees-category { margin-top: 44px; }
 .fees-cat-title { font-family: 'Zen Kaku Gothic New', sans-serif; font-size: 18px; font-weight: 600; margin-bottom: 14px; }
-.fees-table { width: 100%; border-collapse: collapse; background: var(--paper); font-size: 14px; }
+.fees-table { width: 100%; border-collapse: collapse; background: var(--paper); font-size: 15px; }
 .fees-table th, .fees-table td { padding: 15px 20px; border-bottom: 1px solid var(--line); text-align: left; line-height: 1.7; }
 .fees-table thead th { background: var(--char); color: var(--paper); font-weight: 500; font-size: 13px; letter-spacing: .06em; }
 .fees-table td:last-child, .fees-table th:last-child { text-align: right; white-space: nowrap; }
-.fees-note { margin-top: 18px; font-size: 12.5px; color: var(--mute); line-height: 1.9; }
+.fees-note { margin-top: 18px; font-size: 13.5px; color: var(--mute); line-height: 1.9; }
 
 /* ---------- 記事一覧（タイトルを縦に並べる） ---------- */
 .post-list { margin-top: 40px; border-top: 1px solid var(--ink); }
@@ -302,8 +302,8 @@ nav { border-top: 1px solid var(--line-soft); }
 .post-item a:hover { background: var(--mist); }
 .post-meta { display: flex; align-items: center; gap: 14px; font-size: 12px; color: var(--mute); margin-bottom: 4px; }
 .post-cat { padding: 1px 8px; border: 1px solid var(--line); font-size: 11px; }
-.post-title { display: block; font-size: 15.5px; font-weight: 500; line-height: 1.7; }
-.post-desc { display: block; margin-top: 4px; font-size: 13px; color: var(--mute); line-height: 1.8; }
+.post-title { display: block; font-size: 16px; font-weight: 500; line-height: 1.7; }
+.post-desc { display: block; margin-top: 4px; font-size: 14px; color: var(--mute); line-height: 1.8; }
 .post-filter { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
 .post-filter-btn { padding: 6px 14px; font-size: 13px; border: 1px solid var(--line); }
 .post-filter-btn[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
@@ -316,13 +316,13 @@ nav { border-top: 1px solid var(--line-soft); }
 .profile-reg { font-size: 12px; color: var(--gray); margin-bottom: 48px; }
 .belief { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 64px; align-items: start; }
 .belief-lead { font-size: clamp(19px, 2.1vw, 25px); font-weight: 300; line-height: 1.9; letter-spacing: .06em; }
-.belief-body p { font-size: 14.5px; line-height: 2.2; color: #c9c9cc; margin-bottom: 20px; }
+.belief-body p { font-size: 15.5px; line-height: 2.2; color: #c9c9cc; margin-bottom: 20px; }
 .belief-body p:last-child { margin-bottom: 0; }
 .belief-lead .nw { display: inline-block; }
 
 /* ---------- 事務所案内 ---------- */
 .access-label { font-size: 12px; letter-spacing: .1em; color: var(--mute); margin-top: 28px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
-.access-hours { font-size: 14.5px; line-height: 1.9; margin-top: 10px; }
+.access-hours { font-size: 15.5px; line-height: 1.9; margin-top: 10px; }
 
 /* ---------- よくある質問 ---------- */
 .faq-list { margin-top: 40px; border-top: 1px solid var(--ink); max-width: 820px; }
@@ -336,14 +336,14 @@ nav { border-top: 1px solid var(--line-soft); }
 .faq-q[aria-expanded="true"] .faq-icon { transform: rotate(180deg); }
 .faq-a { display: none; padding: 0 4px 22px 32px; }
 .faq-a.open { display: block; }
-.faq-a p { font-size: 14px; line-height: 2; color: var(--text-mid); }
+.faq-a p { font-size: 15px; line-height: 2; color: var(--text-mid); }
 
 /* ---------- お問い合わせ ---------- */
 .contact-section { padding: 128px 0; background: var(--mist); }
 .contact-inner { max-width: 820px; margin: 0 auto; padding: 0 40px; }
-.contact-desc { font-size: 14.5px; line-height: 2; margin-bottom: 24px; }
+.contact-desc { font-size: 15.5px; line-height: 2; margin-bottom: 24px; }
 .form-wrap { background: var(--paper); border: 1px solid var(--line); padding: 8px; }
-.form-footer { font-size: 12.5px; color: var(--mute); padding: 12px 8px 4px; }
+.form-footer { font-size: 13.5px; color: var(--mute); padding: 12px 8px 4px; }
 
 /* ---------- 下部の情報バー・フッター ---------- */
 .info-bar { background: var(--char); color: #d6d6d6; padding: 56px 40px; }
@@ -366,24 +366,24 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
 .byline-link { text-decoration: underline; text-underline-offset: 3px; }
 .article-main { background: var(--paper); padding: 56px 0 80px; }
 .article-inner { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-.conclusion-box { padding: 22px 24px; margin-bottom: 36px; border-left: 3px solid var(--ink); background: var(--mist); font-size: 15px; line-height: 2; }
+.conclusion-box { padding: 22px 24px; margin-bottom: 36px; border-left: 3px solid var(--ink); background: var(--mist); font-size: 16px; line-height: 2; }
 .article-toc { margin: 8px 0 44px; padding: 22px 26px; border: 1px solid var(--line); }
 .article-toc-title { font-size: 13px; font-weight: 700; letter-spacing: .1em; margin-bottom: 8px; }
 .article-toc ol { list-style: decimal; padding-left: 1.4em; }
-.article-toc li { font-size: 14px; line-height: 1.9; }
+.article-toc li { font-size: 15px; line-height: 1.9; }
 .article-toc a { text-decoration: underline; text-underline-offset: 3px; }
 .article-h2, .article-inner > h2 {
   font-family: 'Zen Kaku Gothic New', sans-serif; font-size: 21px; font-weight: 600; line-height: 1.6;
   margin: 56px 0 20px; padding-bottom: 12px; border-bottom: 1px solid var(--ink);
 }
 .article-inner h2[id] { scroll-margin-top: 120px; }
-.article-inner > p { font-size: 15.5px; line-height: 2; margin: 0 0 20px; }
+.article-inner > p { font-size: 16.5px; line-height: 2; margin: 0 0 20px; }
 .article-inner > h3 { font-size: 17px; font-weight: 700; margin: 36px 0 12px; }
 .article-inner > ul:not(.check-list) { list-style: disc; padding-left: 1.5em; margin: 0 0 22px; }
 .article-inner > ol { list-style: decimal; padding-left: 1.5em; margin: 0 0 22px; }
-.article-inner > ul:not(.check-list) li, .article-inner > ol li { font-size: 15px; line-height: 1.9; margin-bottom: 6px; }
+.article-inner > ul:not(.check-list) li, .article-inner > ol li { font-size: 16px; line-height: 1.9; margin-bottom: 6px; }
 .article-inner > blockquote { margin: 0 0 22px; padding: 16px 20px; border-left: 2px solid var(--line); color: var(--text-mid); }
-.article-inner > table { width: 100%; border-collapse: collapse; margin: 0 0 24px; font-size: 14px; }
+.article-inner > table { width: 100%; border-collapse: collapse; margin: 0 0 24px; font-size: 14.5px; }
 .article-inner > table th, .article-inner > table td { border: 1px solid var(--line); padding: 10px 14px; text-align: left; line-height: 1.7; }
 .article-inner > table th { background: var(--mist); }
 /* 3列以上の表は、左端の列を細めに固定し、残りの列を同じ幅にそろえる */
@@ -392,12 +392,12 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
 .article-inner > p a, .article-inner > ul a, .article-inner > ol a, .article-inner > table a { text-decoration: underline; text-underline-offset: 3px; }
 .article-inner hr { margin: 3.5em 0 2.5em; border: 0; border-top: 1px solid var(--line); }
 .check-list li { border-bottom: 1px solid var(--line-soft); }
-.check-label { display: flex; gap: 12px; padding: 12px 4px; font-size: 14.5px; line-height: 1.8; cursor: pointer; }
+.check-label { display: flex; gap: 12px; padding: 12px 4px; font-size: 15.5px; line-height: 1.8; cursor: pointer; }
 .check-input { accent-color: var(--ink); width: 17px; height: 17px; margin-top: 5px; flex-shrink: 0; }
-.article-contact-lead { font-size: 14.5px; line-height: 2; margin-bottom: 20px; }
+.article-contact-lead { font-size: 15.5px; line-height: 2; margin-bottom: 20px; }
 .article-contact-line { margin-bottom: 20px; }
 .article-contact-line svg { fill: currentColor !important; stroke: none !important; }
-.article-contact-note { font-size: 12.5px; color: var(--mute); line-height: 1.9; margin-bottom: 14px; }
+.article-contact-note { font-size: 13.5px; color: var(--mute); line-height: 1.9; margin-bottom: 14px; }
 .articles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .article-card { display: block; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); transition: background var(--transition); }
 .article-card:hover { background: var(--mist); }
@@ -405,7 +405,7 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
 .article-cat { font-size: 11px; color: var(--mute); }
 .article-title { font-size: 14px; font-weight: 500; line-height: 1.7; margin: 4px 0; }
 .article-date { font-size: 11.5px; color: var(--mute); }
-.article-disclaimer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--mute); line-height: 1.9; }
+.article-disclaimer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 13.5px; color: var(--mute); line-height: 1.9; }
 .article-author { margin-top: 6px; }
 
 /* ---------- 表示アニメーション（控えめ） ---------- */
@@ -534,7 +534,7 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
 
 /* 記事の締め（事務所の姿勢の一文） */
 .article-closing { margin-top: 3.5em; padding-top: 2.5em; border-top: 1px solid var(--line); }
-.article-closing p { font-size: 15.5px; line-height: 2; margin: 0 0 18px; }
+.article-closing p { font-size: 16.5px; line-height: 2; margin: 0 0 18px; }
 .article-closing a { text-decoration: underline; text-underline-offset: 3px; }
 
 /* 事務所案内：主な対応地域 */
