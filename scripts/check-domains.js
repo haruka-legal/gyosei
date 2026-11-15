@@ -82,6 +82,7 @@ const ALLOWED_HOSTS = [
   "www.mof.go.jp", // 財務省（たばこ小売販売業許可）
   "www.city.sapporo.jp", // 札幌市（たばこの種類）
   "www.city.sendai.jp", // 仙台市（電子たばこの扱い）
+  "www.pref.tochigi.lg.jp", // 栃木県（風営法施行条例）
   "bunshun.jp", // 文春オンライン（アダルトショップ）
   "gendai.media", // 現代ビジネス（TSUTAYA・アダルトビデオの歴史）
   "www.phileweb.com", // PHILE WEB（レンタル店の店舗数）
