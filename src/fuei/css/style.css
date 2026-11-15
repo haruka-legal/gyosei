@@ -569,3 +569,14 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
 
 /* 文字を大きくしたあと、日本語が変なところで改行されないように */
 p, li, dd, td { word-break: auto-phrase; }
+
+/* ===== 当事務所の特徴 ===== */
+.features-section{padding:64px 0}
+.ft-list{list-style:none;display:grid;gap:14px;max-width:820px;margin:28px auto 0;padding:0}
+.ft-item{display:grid;grid-template-columns:auto 1fr;gap:4px 16px;padding:20px 22px;border:1px solid rgba(10,31,64,.1);border-radius:12px;background:#fff;text-align:left}
+.ft-num{grid-row:span 2;font-family:'Shippori Mincho B1','Hiragino Mincho ProN',serif;font-size:26px;line-height:1.1;color:var(--ft-accent,#2478cc)}
+.ft-title{margin:0;font-size:18px;font-weight:700;line-height:1.5;color:var(--ft-ink,#0a1f40);word-break:auto-phrase}
+.ft-body{margin:0;font-size:16px;line-height:1.9;color:var(--ft-body,#2d4a78)}
+@media (max-width:600px){.features-section{padding:48px 0}.ft-item{padding:16px 16px;gap:4px 12px}.ft-num{font-size:22px}}
+.features-section{--ft-accent:#18181a;--ft-ink:#18181a;--ft-body:#3c3c3c}.ft-item{border-color:#d4d4d1;border-radius:4px}
+.ft-list .ft-body{word-break:normal}
