@@ -39,7 +39,7 @@ Para volver a vivir en Japón, tendría que hacer de nuevo los trámites del est
 
 <h2 id="minashi">Si vuelve dentro del plazo de un año: el permiso especial de reingreso</h2>
 
-Los residentes de mediano a largo plazo que tienen un pasaporte válido y una tarjeta de residencia pueden, en principio, usar el **permiso especial de reingreso (みなし再入国許可)** si vuelven dentro del plazo de un año desde la salida. Los residentes permanentes especiales pueden usarlo si tienen un pasaporte válido y el certificado de residente permanente especial, y vuelven dentro del plazo de dos años desde la salida. No necesita solicitarlo a inmigración con antelación y no tiene costo.
+Los residentes de mediano a largo plazo que tienen un pasaporte válido y una tarjeta de residencia pueden, en principio, usar el **permiso especial de reingreso (みなし再入国許可)** si vuelven dentro del plazo de un año desde la salida. Los residentes permanentes especiales pueden usarlo si tienen un pasaporte válido y el certificado de residente permanente especial, y vuelven dentro del plazo de dos años desde la salida. No es necesario solicitar este permiso ante las autoridades de inmigración con antelación y el trámite es gratuito.
 
 - **Fecha límite:** dentro del plazo de un año desde la salida (dos años para los residentes permanentes especiales). Si su período de estancia termina antes, la fecha límite es el final de su período de estancia
 - **Qué hacer al salir:** en la tarjeta ED para reingreso (la tarjeta de registro de salida y entrada), marque la casilla que indica que sale temporalmente y que piensa volver. Muéstrela al inspector de inmigración al salir y dígale que desea salir con el permiso especial de reingreso
