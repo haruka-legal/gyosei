@@ -82,6 +82,8 @@ const ALLOWED_HOSTS = [
   "www.mof.go.jp", // 財務省（たばこ小売販売業許可）
   "www.city.sapporo.jp", // 札幌市（たばこの種類）
   "www.city.sendai.jp", // 仙台市（電子たばこの扱い）
+  "aichi-elcc.mhlw.go.jp", // 愛知労働局（年少者の就業制限）
+  "www.police.pref.fukuoka.jp", // 福岡県警察（行政処分の基準）
   "jahis.law.nagoya-u.ac.jp", // 名古屋大学 占領期資料
   "www.police.pref.kanagawa.jp", // 神奈川県警察（2025年の風営法改正の概要）
   "www.police.pref.kochi.lg.jp", // 高知県警察（深夜酒類提供飲食店営業の手引）
