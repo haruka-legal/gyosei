@@ -51,6 +51,10 @@ breadcrumbs:
 
 審査の期間は申請によって違うので、公演や撮影の日程から逆算して、早めに準備を始めることが大切です。
 
+### 国によって違うこと
+
+入管への申請は国籍に関係なく同じ流れですが、ビザの申請に必要な書類は国籍によって違います。たとえば、ロシアなどの国籍の人は申請書と写真が2通ずつ必要で、中国籍の人は戸口簿の写しなども求められます。また、フィリピンのように、自国の芸能人が海外で働く際に本国での手続きを求める国もあります。招く人の国籍が決まったら、その国にある日本大使館の案内と、本国のルールを早めに確認しましょう。
+
 ## どのくらい滞在できる？
 
 在留期間は、3年、1年、6か月、3か月、30日のいずれかです。公演や撮影の予定に合わせて、入管が決めます。
@@ -102,6 +106,7 @@ breadcrumbs:
 - [在留資格「興行」に係る上陸基準省令等の改正について（出入国在留管理庁）](https://www.moj.go.jp/isa/applications/resources/10_00150.html)
 - [法務省令改正の概要（人身取引対策）（出入国在留管理庁）](https://www.moj.go.jp/isa/publications/others/torikumi03_02.html)
 - [在留資格一覧表（出入国在留管理庁）](https://www.moj.go.jp/isa/applications/status/qaq5.html)
+- [就労や長期滞在を目的とする場合（外務省）](https://www.mofa.go.jp/mofaj/toko/visa/chouki/visa1.html)
 - [契約機関に関する届出（出入国在留管理庁）](https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00015.html)
 - [出入国管理及び難民認定法施行規則（e-Gov法令検索）](https://laws.e-gov.go.jp/law/356M50000010054)
 
