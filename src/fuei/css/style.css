@@ -549,3 +549,20 @@ footer { background: #121213; color: var(--gray); text-align: center; font-size:
 .area-list { margin-top: 8px; }
 .area-list li { font-size: 14px; line-height: 1.9; padding: 6px 0; border-bottom: 1px solid var(--line-soft); }
 .area-ward { display: inline-block; min-width: 8.5em; color: var(--mute); font-size: 13px; }
+
+/* ---------- リンクの下線：ふだんは薄いグレー、マウスを乗せると黒く濃く ---------- */
+.flow-list a, .breadcrumb a, .byline-link, .article-toc a,
+.article-inner > p a, .article-inner > ul a, .article-inner > ol a, .article-inner > table a,
+.article-closing a {
+  text-decoration-line: underline;
+  text-decoration-color: #b4b4b1;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  transition: text-decoration-color var(--transition);
+}
+.flow-list a:hover, .breadcrumb a:hover, .byline-link:hover, .article-toc a:hover,
+.article-inner > p a:hover, .article-inner > ul a:hover, .article-inner > ol a:hover, .article-inner > table a:hover,
+.article-closing a:hover {
+  text-decoration-color: var(--ink);
+  text-decoration-thickness: 2px;
+}
