@@ -21,6 +21,7 @@ const BLOCKED_HOSTS = [
 
 // リンクしてよいドメイン
 const ALLOWED_HOSTS = [
+  "www.ph.emb-japan.go.jp",
   "guardianship.mhlw.go.jp",
   "www.jri.co.jp",
   "www.mlit.go.jp",
