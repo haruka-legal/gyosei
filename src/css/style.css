@@ -16,8 +16,8 @@
   --text-dark:  #0c1e3c;
   --text-mid:   #2d4a78;
   --text-light: #44608c;
-  --gold:       #c9a84c;
-  --gold-light: #f7edcc;
+  --gold:       #2478cc;
+  --gold-light: #e8f1fb;
   --shadow-sm:  0 2px 12px rgba(10,31,64,.08);
   --shadow-md:  0 8px 32px rgba(10,31,64,.13);
   --shadow-lg:  0 20px 60px rgba(10,31,64,.20);
@@ -715,7 +715,7 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 3px;
-  background: linear-gradient(90deg, var(--sky), var(--teal));
+  background: linear-gradient(90deg, var(--sky), var(--blue));
   transform: scaleX(0);
   transform-origin: left;
   transition: transform var(--transition);
@@ -864,21 +864,21 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
 .profile-quote {
   margin-top: 32px;
   padding: 20px 24px;
-  border-left: 2px solid rgba(196,161,94,.4);
+  border-left: 2px solid rgba(36,120,204,.4);
   background: rgba(255,255,255,.04);
   border-radius: 0 6px 6px 0;
 }
 .profile-private-box {
   margin-top: 32px;
   padding: 26px 28px;
-  border: 1px solid rgba(196,161,94,.35);
+  border: 1px solid rgba(36,120,204,.35);
   border-radius: var(--radius);
-  background: rgba(196,161,94,.09);
+  background: rgba(36,120,204,.09);
 }
 .profile-private-label {
   font-size: 13.5px;
   font-weight: 700;
-  color: rgba(196,161,94,.95);
+  color: rgba(36,120,204,.95);
   letter-spacing: .1em;
   margin-bottom: 14px;
 }
@@ -896,7 +896,7 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   line-height: 1.8;
 }
 .profile-private-list dt {
-  color: rgba(196,161,94,.95);
+  color: rgba(36,120,204,.95);
   font-weight: 700;
 }
 .profile-private-list dd {
@@ -906,7 +906,7 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
 .profile-private-hobbies {
   margin-top: 18px;
   padding-top: 18px;
-  border-top: 1px solid rgba(196,161,94,.2);
+  border-top: 1px solid rgba(36,120,204,.2);
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -1002,10 +1002,10 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   inset: 0;
   background:
     radial-gradient(ellipse at 15% 30%, rgba(58,159,212,.12) 0%, transparent 50%),
-    radial-gradient(ellipse at 85% 70%, rgba(196,161,94,.07) 0%, transparent 50%);
+    radial-gradient(ellipse at 85% 70%, rgba(36,120,204,.07) 0%, transparent 50%);
   pointer-events: none;
 }
-.space-section .label-eyebrow { color: rgba(196,161,94,.8); }
+.space-section .label-eyebrow { color: rgba(36,120,204,.8); }
 .space-section .section-title { color: #fff; }
 .space-section .section-desc  { color: rgba(255,255,255,.85); }
 .space-inner { margin-top: 40px; }
@@ -1019,9 +1019,9 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   display: inline-block;
   padding: 4px 12px;
   border-radius: 3px;
-  background: rgba(196,161,94,.15);
-  border: 1px solid rgba(196,161,94,.3);
-  color: rgba(196,161,94,.9);
+  background: rgba(36,120,204,.15);
+  border: 1px solid rgba(36,120,204,.3);
+  color: rgba(36,120,204,.9);
   font-size: 12.5px;
   letter-spacing: .08em;
 }
@@ -1074,7 +1074,7 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   align-items: center;
   gap: 16px;
   background: rgba(255,255,255,.04);
-  border: 1px solid rgba(196,161,94,.2);
+  border: 1px solid rgba(36,120,204,.2);
   border-radius: var(--radius);
   padding: 20px 24px;
   flex-wrap: wrap;
@@ -1092,8 +1092,8 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   display: inline-block;
   padding: 10px 22px;
   background: transparent;
-  border: 1px solid rgba(196,161,94,.5);
-  color: rgba(196,161,94,.9);
+  border: 1px solid rgba(36,120,204,.5);
+  color: rgba(36,120,204,.9);
   border-radius: 4px;
   font-size: 15px;
   font-weight: 600;
@@ -1103,8 +1103,8 @@ nav { border-top: 1px solid rgba(255,255,255,.06); }
   white-space: nowrap;
 }
 .btn-space:hover {
-  background: rgba(196,161,94,.1);
-  border-color: rgba(196,161,94,.8);
+  background: rgba(36,120,204,.1);
+  border-color: rgba(36,120,204,.8);
 }
 
 /* =====================
@@ -1652,7 +1652,7 @@ footer p.footer-souzoku a {
   transition: box-shadow var(--transition);
 }
 .flow-step:hover { box-shadow: var(--shadow-md); }
-.flow-step-final { border-color: rgba(196,161,94,.35); }
+.flow-step-final { border-color: rgba(36,120,204,.35); }
 .flow-step-header {
   display: flex;
   align-items: center;
@@ -1663,7 +1663,7 @@ footer p.footer-souzoku a {
   flex-wrap: wrap;
 }
 .flow-step-final .flow-step-header {
-  background: linear-gradient(90deg, rgba(196,161,94,.06) 0%, transparent 100%);
+  background: linear-gradient(90deg, rgba(36,120,204,.06) 0%, transparent 100%);
 }
 .flow-num {
   font-family: 'Noto Serif JP', serif;
@@ -2420,7 +2420,7 @@ footer p.footer-souzoku a {
 .profile-fold[open] > summary { margin-bottom: 14px; }
 .profile-fold > summary { font-size: 16px; }
 .profile-fold > summary { font-family: inherit; font-size: 16px; font-weight: 700; letter-spacing: .1em; color: rgba(255,255,255,.85); }
-.profile-fold { padding: 18px 22px; border: none; border-left: 2px solid rgba(196,161,94,.4); background: rgba(255,255,255,.04); border-radius: 0 6px 6px 0; }
+.profile-fold { padding: 18px 22px; border: none; border-left: 2px solid rgba(36,120,204,.4); background: rgba(255,255,255,.04); border-radius: 0 6px 6px 0; }
 .profile-fold + .profile-fold, details.profile-private-box.profile-fold { margin-top: 16px !important; }
 @media (max-width: 680px) {
   .article-inner > table.table-cols-equal th, .article-inner > table.table-cols-equal td { font-size: 15.5px; padding: 10px 7px; line-height: 1.6; overflow-wrap: normal; word-break: normal; line-break: strict; }
@@ -2520,3 +2520,9 @@ footer p, footer a { color: var(--text-light); }
 .breadcrumb a:hover { color: var(--blue); }
 .article-hero-title { color: var(--navy); }
 .article-hero-meta, .article-hero-meta a { color: var(--text-light); }
+
+/* 代表挨拶の折りたたみ（白背景で見えるように） */
+.profile-fold { background: #f2f7fd; border-left: 3px solid var(--blue); }
+.profile-fold > summary { color: var(--navy); }
+.profile-private-list dt { color: var(--blue); }
+.profile-private-list dd, .profile-private-text, .profile-quote-text { color: var(--text-dark); }
