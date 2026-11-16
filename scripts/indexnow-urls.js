@@ -17,6 +17,7 @@ const MAP = [
   [/^src\/minpaku\/articles\/([^/]+)\.md$/, "/minpaku/articles/$1/", "/minpaku/"],
   [/^src\/visa\/((?:ja|es)\/)?guides\/([^/]+)\.md$/, "/visa/$1guides/$2/", null],
   [/^src\/root\/index\.html$/, "/", null],
+  [/^src\/root\/erabikata\/index\.html$/, "/erabikata/", null],
 ];
 
 let files = [];

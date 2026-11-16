@@ -580,3 +580,17 @@ p, li, dd, td { word-break: auto-phrase; }
 @media (max-width:600px){.features-section{padding:48px 0}.ft-item{padding:16px 16px;gap:4px 12px}.ft-num{font-size:22px}}
 .features-section{--ft-accent:#18181a;--ft-ink:#18181a;--ft-body:#3c3c3c}.ft-item{border-color:#d4d4d1;border-radius:4px}
 .ft-list .ft-body{word-break:normal}
+
+/* メニューの「行政書士の選び方」：下に小さなメニューを出す */
+.nav-dd{position:relative;display:inline-block}
+.nav-dd > a{display:inline-flex;align-items:center;gap:4px}
+.nav-dd-arrow{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2}
+.nav-dd-menu{display:none;position:absolute;top:100%;left:0;min-width:200px;background:#fff;border:1px solid #d4d4d1;border-radius:4px;box-shadow:0 10px 30px rgba(0,0,0,.12);padding:6px;z-index:50}
+.nav-dd-menu a{display:block;padding:10px 14px!important;border-radius:6px;border-bottom:none!important;color:#18181a!important;white-space:nowrap}
+.nav-dd-menu a:hover{background:#efefed}
+.nav-dd:hover .nav-dd-menu,.nav-dd:focus-within .nav-dd-menu{display:block}
+@media (min-width:901px){ .nav-inner{overflow:visible;} }
+#features{scroll-margin-top:150px}
+.features-section .ch-more{max-width:820px;margin:20px auto 0}
+.ch-more a{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:#18181a;border-bottom:1.5px solid currentColor;padding-bottom:2px}
+.ch-more svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2}
