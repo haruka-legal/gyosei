@@ -6,8 +6,6 @@ description: "日本に住む外国人が、母国の親を日本に呼んで一
 date: 2026-11-16
 tags: ["parents", "family", "designated-activities", "status-of-residence"]
 excerptText: "親を呼んで一緒に暮らすための一般的な在留資格はありません。高度専門職の人が親を呼べる条件と、高齢の親を呼ぶ「老親扶養」の考え方を解説します。"
-permalink: false
-eleventyExcludeFromCollections: true
 altUrls:
   en: /guides/bringing-parents-to-japan/
   es: /es/guides/bringing-parents-to-japan/

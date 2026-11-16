@@ -6,8 +6,6 @@ description: "Can foreign nationals living in Japan bring their parents to live 
 date: 2026-11-16
 tags: ["parents", "family", "designated-activities", "status-of-residence"]
 excerptText: "Japan has no general status of residence for bringing your parents to live with you. Learn the rules for parents of Highly Skilled Professionals and the exceptional treatment of elderly parents."
-permalink: false
-eleventyExcludeFromCollections: true
 altUrls:
   en: /guides/bringing-parents-to-japan/
   es: /es/guides/bringing-parents-to-japan/

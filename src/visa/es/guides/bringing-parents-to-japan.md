@@ -6,8 +6,6 @@ description: "¿Pueden los extranjeros residentes en Japón traer a sus padres p
 date: 2026-11-16
 tags: ["parents", "family", "designated-activities", "status-of-residence"]
 excerptText: "Japón no cuenta con un estatus de residencia general para traer a sus padres a vivir con usted. Conozca las condiciones para los padres de profesionales altamente calificados y los casos excepcionales de padres de edad avanzada."
-permalink: false
-eleventyExcludeFromCollections: true
 altUrls:
   en: /guides/bringing-parents-to-japan/
   es: /es/guides/bringing-parents-to-japan/
