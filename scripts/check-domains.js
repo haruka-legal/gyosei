@@ -21,6 +21,8 @@ const BLOCKED_HOSTS = [
 
 // リンクしてよいドメイン
 const ALLOWED_HOSTS = [
+  "dsg.or.jp",
+  "samurai-law.com",
   "www.ph.emb-japan.go.jp",
   "guardianship.mhlw.go.jp",
   "www.jri.co.jp",

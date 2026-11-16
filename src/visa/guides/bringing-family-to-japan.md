@@ -4,6 +4,7 @@ lang: en
 title: "Can Your Family Join You When You Work in Japan? Dependent Status Requirements and Procedures"
 description: "Whether a foreign national working in Japan can bring their spouse and children depends on their own status of residence. This guide explains which family members the Dependent status covers, which statuses do not allow you to bring your family, the application steps, and the differences between company transfers and self-employment."
 date: 2026-11-15
+updated: 2026-11-16
 tags: ["dependent-visa", "family", "status-of-residence", "work-visa"]
 excerptText: "Whether you can bring your family depends on your own status of residence. This guide explains who the Dependent status covers, which statuses cannot bring family, and the application steps."
 altUrls:
@@ -47,7 +48,7 @@ The Dependent status covers a **spouse and children whom you support**. It assum
 
 "Spouse" here means a person you are legally married to. In principle, a common-law partner is not covered by the Dependent status. However, even if someone does not qualify for Dependent status, a different status of residence may be granted depending on the circumstances.
 
-Parents and siblings are also not covered by the Dependent status. Bringing a parent is only possible in very limited exceptional cases.
+Parents and siblings are also not covered by the Dependent status. [Bringing a parent](/visa/guides/bringing-parents-to-japan/) is only possible in very limited exceptional cases.
 
 The period of stay is set for each person and does not exceed 5 years.
 
