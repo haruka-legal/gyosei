@@ -4,6 +4,7 @@ lang: es
 title: "¿Puede su familia acompañarle si trabaja en Japón? Requisitos y trámites del estatus de Dependiente"
 description: "Que una persona extranjera que trabaja en Japón pueda traer a su cónyuge e hijos depende de su propio estatus de residencia. Esta guía explica qué familiares cubre el estatus de Dependiente, con qué estatus no se puede traer a la familia, los pasos del trámite y las diferencias entre un traslado de empresa y el trabajo por cuenta propia."
 date: 2026-11-15
+updated: 2026-11-16
 tags: ["dependent-visa", "family", "status-of-residence", "work-visa"]
 excerptText: "Que pueda traer a su familia depende de su propio estatus de residencia. Esta guía explica a quién cubre el estatus de Dependiente, con qué estatus no se puede traer a la familia y los pasos del trámite."
 altUrls:
@@ -47,7 +48,7 @@ El estatus de Dependiente cubre al **cónyuge y a los hijos que usted mantiene**
 
 Aquí, "cónyuge" significa la persona con la que usted está legalmente casado. En principio, la pareja de hecho no está cubierta por el estatus de Dependiente. Sin embargo, aunque una persona no pueda obtener el estatus de Dependiente, según las circunstancias se le puede conceder otro estatus de residencia.
 
-Los padres y los hermanos tampoco están cubiertos por el estatus de Dependiente. Traer a los padres solo es posible en casos excepcionales muy limitados.
+Los padres y los hermanos tampoco están cubiertos por el estatus de Dependiente. [Traer a los padres](/visa/es/guides/bringing-parents-to-japan/) solo es posible en casos excepcionales muy limitados.
 
 El período de estancia se fija para cada persona y no supera los 5 años.
 
