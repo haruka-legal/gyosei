@@ -24,7 +24,7 @@ module.exports = {
     { href: "articles/", label: "お役立ち記事", key: "articles" },
     { href: "../erabikata/", label: "行政書士の選び方", key: "choose", children: [
       { href: "../erabikata/", label: "行政書士の選び方" },
-      { href: "#features", label: "選ばれる理由" }
+      { href: "#features", label: "当事務所が選ばれる理由" }
     ] },
     { href: "#profile", label: "代表挨拶", key: "profile" },
     { href: "#faq", label: "よくある質問", key: "faq" },
