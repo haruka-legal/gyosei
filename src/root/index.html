@@ -124,6 +124,20 @@
   @keyframes lineh{from{background-size:0 2px}to{background-size:100% 2px}}
   @media (max-width:720px){.page{gap:32px}.left{gap:12px}.seal{width:clamp(52px,15vw,62px);height:clamp(52px,15vw,62px)}}
   @media (prefers-reduced-motion:reduce){.left{animation:none}}
+  /* 対応エリア：文ごとに段落を分け、行間と段落の間をあける */
+  .area{max-width:none;gap:0}
+  .area p{line-height:2;margin-bottom:12px}
+  .area p:last-child{margin-bottom:0}
+  /* スマホ：4つの案内の高さと文字の大きさをそろえる */
+  @media (max-width:720px){
+    .routes{display:grid;grid-auto-rows:1fr}
+    .routes li{border-bottom:none}
+    .routes li:last-child{border-bottom:1px solid var(--line)}
+    .routes a{height:100%;padding:20px 4px;gap:14px}
+    .t{font-size:18px;line-height:1.5}
+    .d{font-size:14.5px;line-height:1.7}
+    .go{width:38px;height:38px}
+  }
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"LegalService","@id":"https://haruka-legal.com/#office","name":"遥か行政書士事務所","alternateName":["はるか行政書士事務所","Haruka Legal"],"url":"https://haruka-legal.com/","description":"東京都千代田区の行政書士事務所。ビザ・外国人雇用などの国際業務、相続手続き・遺言書作成、風俗営業許可をサポートします。","address":{"@type":"PostalAddress","addressRegion":"東京都","addressLocality":"千代田区","addressCountry":"JP"},"email":"info@haruka-legal.com","founder":{"@type":"Person","name":"岸 はるか","jobTitle":"行政書士"},"areaServed":"JP","knowsAbout":["在留資格","外国人雇用","相続","遺言","風俗営業許可"]}
@@ -153,7 +167,10 @@
     </section>
     <section class="area" aria-labelledby="area-h">
       <h2 id="area-h">対応エリア</h2>
-      <p>千代田区の神保町・御茶ノ水エリアをはじめ、中央区・文京区・台東区・荒川区・墨田区などの周辺地域、東京23区を中心に対応しております。<span class="nl">ビザ・相続の手続きは、郵送とオンラインで全国・海外からご依頼いただけます。</span><span class="nl">お店の営業許可は、全国への出張も承ります（東京23区外は交通費の実費、東京都外は交通費の実費と日当を別途いただきます）。お気軽に<a href="#contact-h">お問い合わせ</a>ください。</span></p>
+      <p>千代田区の神保町・御茶ノ水エリアをはじめ、中央区・文京区・台東区・荒川区・墨田区などの周辺地域、東京23区を中心に対応しております。</p>
+      <p>ビザ・相続の手続きは、郵送とオンラインで全国・海外からご依頼いただけます。</p>
+      <p>お店の営業許可は、全国への出張も承ります（東京23区外は交通費の実費、東京都外は交通費の実費と日当を別途いただきます）。</p>
+      <p>お気軽に<a href="#contact-h">お問い合わせ</a>ください。</p>
     </section>
     <section class="office" aria-labelledby="office-h">
       <h2 id="office-h">事務所概要</h2>
