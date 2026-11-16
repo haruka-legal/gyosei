@@ -2639,3 +2639,6 @@ p, li, dd, td { word-break: auto-phrase; }
   .nav-inner{padding:0 12px;}
   body .nav-links a{padding-left:7px;padding-right:7px;font-size:15px;letter-spacing:0;}
 }
+
+/* 画面が狭いとき（901px未満）はメニューが横スクロールになり、下に出る小さなメニューが切れて見えなくなるため、画面に固定して表示する */
+@media (max-width:900px){ .nav-dd-menu{position:fixed;} }

@@ -2564,3 +2564,6 @@ footer p, footer a { color: var(--text-light); }
 .profile-fold > summary { color: var(--navy); }
 .profile-private-list dt { color: var(--blue); }
 .profile-private-list dd, .profile-private-text, .profile-quote-text { color: var(--text-dark); }
+
+/* 画面が狭いとき（901px未満）はメニューが横スクロールになり、下に出る小さなメニューが切れて見えなくなるため、画面に固定して表示する */
+@media (max-width:900px){ .nav-dd-menu{position:fixed;} }

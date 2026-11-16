@@ -601,3 +601,6 @@ p, li, dd, td { word-break: auto-phrase; }
 .nav-links a{padding-left:8px;padding-right:8px;white-space:nowrap;}
 @media (max-width:1080px){ .nav-links a{padding-left:7px;padding-right:7px;font-size:14px;} }
 @media (max-width:900px){ .nav-inner{overflow-x:auto;scrollbar-width:none;} .nav-inner::-webkit-scrollbar{display:none;} }
+
+/* 画面が狭いとき（901px未満）はメニューが横スクロールになり、下に出る小さなメニューが切れて見えなくなるため、画面に固定して表示する */
+@media (max-width:900px){ .nav-dd-menu{position:fixed;} }
