@@ -607,5 +607,7 @@ p, li, dd, td { word-break: auto-phrase; }
 
 /* 代表挨拶：顔写真と名前 */
 .profile-section .profile-name{font-size:22px;font-weight:600;letter-spacing:.12em;margin:6px 0 2px}
-.belief-photo{display:block;width:100%;height:auto;max-width:300px;aspect-ratio:3/4;object-fit:cover;border-radius:12px;margin-top:0}
-@media (max-width:900px){.belief-photo{max-width:240px;margin:20px auto 0}}
+.belief-photo{display:block;width:100%;height:auto;max-width:200px;aspect-ratio:3/4;object-fit:cover;border-radius:12px;margin-top:0}
+@media (max-width:900px){.belief-photo{max-width:180px;margin:20px auto 0}}
+/* 代表挨拶の写真をほかのサイトと同じ大きさにしたので、写真の列も写真の幅に合わせる */
+@media (min-width:901px){ .belief{grid-template-columns:200px minmax(0,1fr);gap:56px;} }
