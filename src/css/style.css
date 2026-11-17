@@ -2567,3 +2567,7 @@ footer p, footer a { color: var(--text-light); }
 
 /* 画面が狭いとき（901px未満）はメニューが横スクロールになり、下に出る小さなメニューが切れて見えなくなるため、画面に固定して表示する */
 @media (max-width:900px){ .nav-dd-menu{position:fixed;} }
+
+/* スマホのメニュー：「当事務所が選ばれる理由」を「行政書士の選び方」の小項目として小さく表示 */
+.mobile-menu a.mm-parent{border-bottom:none!important;padding-bottom:6px!important}
+.mobile-menu a.mm-sub{font-size:14.5px!important;padding:4px 0 16px 1em!important;opacity:.85}

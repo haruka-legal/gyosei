@@ -2,7 +2,7 @@
 <div class="mobile-menu" id="mobileMenu">
   <button class="mobile-menu-close" onclick="closeMobileMenu()">✕</button>
   {% for link in site.navLinks %}
-  {% if link.children %}{% for c in link.children %}<a href="{{ root }}{{ c.href }}" onclick="closeMobileMenu()">{{ c.label }}</a>{% endfor %}
+  {% if link.children %}{% for c in link.children %}<a href="{{ root }}{{ c.href }}" onclick="closeMobileMenu()" class="{% if loop.first %}mm-parent{% else %}mm-sub{% endif %}">{% if not loop.first %}└ {% endif %}{{ c.label }}</a>{% endfor %}
   {% else %}<a href="{{ root }}{{ link.href }}" onclick="closeMobileMenu()">{{ link.label }}</a>{% endif %}
   {% endfor %}
   <div class="mobile-cta-btn">💬 LINEで無料相談</div>
