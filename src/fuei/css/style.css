@@ -243,7 +243,7 @@ nav { border-top: 1px solid var(--line-soft); }
 }
 
 /* ---------- 流れ ---------- */
-.flow-steps { margin-top: 48px; max-width: 780px; }
+.flow-steps { margin-top: 48px; max-width: 780px; margin-left: auto; margin-right: auto; }
 .flow-step { background: var(--paper); border: 1px solid var(--line); }
 .flow-step-header { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; padding: 20px 24px; border-bottom: 1px solid var(--line-soft); }
 .flow-num {
