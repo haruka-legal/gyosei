@@ -18,7 +18,7 @@ breadcrumbs:
 
 <figure class="article-figure">
 <a href="../../images/floor-plan-sample.svg" target="_blank" rel="noopener"><img src="../../images/floor-plan-sample.svg" alt="営業所平面図の記載例。架空のスナックの間取りに、寸法、客室・調理場・トイレの区切り、カウンター・椅子・ソファの位置、照明とスピーカーの位置、面積の計算式を書き込んだ図" width="700" height="750" loading="lazy"></a>
-<figcaption>平面図の例（架空のスナック）。説明用に簡略化した模式図で、実際の申請ではさらに細かく書きます。図をタップすると大きく表示できます。</figcaption>
+<figcaption>平面図の例（架空のスナック）。説明用に簡略化した図です。実際の申請では、より詳しい寸法や設備の情報を書き込みます。図をタップすると大きく表示できます。</figcaption>
 </figure>
 
 ## 図面はいつ使うのか
