@@ -16,6 +16,11 @@ breadcrumbs:
 
 この記事では、許可申請で出す図面とはどのようなものか、どのような場面で必要になり、警察が何を確かめるのかを説明します。
 
+<figure class="article-figure">
+<a href="../../images/floor-plan-sample.svg" target="_blank" rel="noopener"><img src="../../images/floor-plan-sample.svg" alt="営業所平面図の記載例。架空のスナックの間取りに、寸法、客室・調理場・トイレの区切り、カウンター・椅子・ソファの位置、照明とスピーカーの位置、面積の計算式を書き込んだ図" width="700" height="740" loading="lazy"></a>
+<figcaption>平面図の例（架空のスナック）。寸法や面積の計算式、家具や照明の位置まで書き込みます。図をタップすると大きく表示できます。</figcaption>
+</figure>
+
 ## 図面はいつ使うのか
 
 図面を出す主な場面は次の3つです。

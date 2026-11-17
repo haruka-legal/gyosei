@@ -604,3 +604,7 @@ p, li, dd, td { word-break: auto-phrase; }
 
 /* 画面が狭いとき（901px未満）はメニューが横スクロールになり、下に出る小さなメニューが切れて見えなくなるため、画面に固定して表示する */
 @media (max-width:900px){ .nav-dd-menu{position:fixed;} }
+/* 記事内の図（図面の記載例など） */
+.article-figure{margin:28px 0 32px;}
+.article-figure img{display:block;width:100%;max-width:640px;height:auto;margin:0 auto;border:1px solid #ddd;border-radius:8px;background:#fff;}
+.article-figure figcaption{max-width:640px;margin:10px auto 0;font-size:14px;line-height:1.7;color:#666;}
