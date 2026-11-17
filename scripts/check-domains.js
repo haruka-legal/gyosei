@@ -101,6 +101,8 @@ const ALLOWED_HOSTS = [
   "jahis.law.nagoya-u.ac.jp", // 名古屋大学 占領期資料
   "www.police.pref.kanagawa.jp", // 神奈川県警察（2025年の風営法改正の概要）
   "www.police.pref.kochi.lg.jp", // 高知県警察（深夜酒類提供飲食店営業の手引）
+  "www.police.pref.akita.lg.jp", // 秋田県警察（風俗営業許可申請の必要書類・記載例）
+  "www.police.pref.miyagi.jp", // 宮城県警察（営業所平面図の記載例）
   "www.reiki.metro.tokyo.lg.jp", // 東京都例規集（警視庁関係手数料条例など）
   "www.metro.tokyo.lg.jp", // 東京都（公安委員会などの都の仕組み）
   "www.soumu.go.jp", // 総務省（行政書士制度）
