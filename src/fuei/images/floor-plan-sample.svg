@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 750" width="700" height="750" font-family="'Hiragino Sans','Noto Sans JP','Yu Gothic',sans-serif">
   <rect width="700" height="750" fill="#ffffff"/>
-  <text x="40" y="40" font-size="20" font-weight="700" fill="#222">営業所平面図（記載例）</text>
+  <text x="40" y="40" font-size="20" font-weight="700" fill="#222">平面図のイメージ（説明用）</text>
   <text x="40" y="64" font-size="13" fill="#666">架空のスナックの例です。実際の書き方は申請する警察署に確かめてください。　単位：m</text>
 
   <!-- 原点 (110,120)、1m = 70px。内寸 7.0m × 6.0m -->
@@ -25,8 +25,8 @@
     <line x1="400" y1="108" x2="400" y2="168" stroke="#999"/>
 
     <!-- カウンター（高さ1.0m以下） -->
-    <rect x="35" y="79" width="315" height="26" fill="#c9a77c" stroke="#7a5a33"/>
-    <text x="192" y="97" font-size="13" text-anchor="middle" fill="#3b2a14">カウンター</text>
+    <rect x="35" y="68" width="315" height="26" fill="#c9a77c" stroke="#7a5a33"/>
+    <text x="192" y="86" font-size="13" text-anchor="middle" fill="#3b2a14">カウンター</text>
     <!-- カウンターの椅子 6脚 -->
     <g fill="#ffffff" stroke="#444">
       <circle cx="70" cy="130" r="11"/><circle cx="118" cy="130" r="11"/><circle cx="166" cy="130" r="11"/>
