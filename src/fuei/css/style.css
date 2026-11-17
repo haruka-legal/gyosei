@@ -604,3 +604,8 @@ p, li, dd, td { word-break: auto-phrase; }
 
 /* 画面が狭いとき（901px未満）はメニューが横スクロールになり、下に出る小さなメニューが切れて見えなくなるため、画面に固定して表示する */
 @media (max-width:900px){ .nav-dd-menu{position:fixed;} }
+
+/* 代表挨拶：顔写真と名前 */
+.profile-section .profile-name{font-size:22px;font-weight:600;letter-spacing:.12em;margin:6px 0 2px}
+.belief-photo{display:block;width:100%;height:auto;max-width:300px;aspect-ratio:3/4;object-fit:cover;border-radius:12px;margin-top:28px}
+@media (max-width:900px){.belief-photo{max-width:240px;margin:20px auto 0}}
