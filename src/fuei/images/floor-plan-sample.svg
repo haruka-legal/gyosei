@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 740" width="700" height="740" font-family="'Hiragino Sans','Noto Sans JP','Yu Gothic',sans-serif">
-  <rect width="700" height="740" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 750" width="700" height="750" font-family="'Hiragino Sans','Noto Sans JP','Yu Gothic',sans-serif">
+  <rect width="700" height="750" fill="#ffffff"/>
   <text x="40" y="40" font-size="20" font-weight="700" fill="#222">営業所平面図（記載例）</text>
   <text x="40" y="64" font-size="13" fill="#666">架空のスナックの例です。実際の書き方は申請する警察署に確かめてください。　単位：m</text>
 
@@ -21,16 +21,16 @@
     <rect x="388" y="102" width="102" height="6" fill="#555"/>
     <!-- トイレの扉 -->
     <rect x="400" y="102" width="60" height="6" fill="#ffffff"/>
-    <path d="M400 108 A60 60 0 0 0 460 168" fill="none" stroke="#999" stroke-dasharray="4 3"/>
+    <path d="M460 108 A60 60 0 0 1 400 168" fill="none" stroke="#999" stroke-dasharray="4 3"/>
     <line x1="400" y1="108" x2="400" y2="168" stroke="#999"/>
 
     <!-- カウンター（高さ1.0m以下） -->
-    <rect x="35" y="92" width="315" height="26" fill="#c9a77c" stroke="#7a5a33"/>
-    <text x="192" y="110" font-size="13" text-anchor="middle" fill="#3b2a14">カウンター</text>
+    <rect x="35" y="79" width="315" height="26" fill="#c9a77c" stroke="#7a5a33"/>
+    <text x="192" y="97" font-size="13" text-anchor="middle" fill="#3b2a14">カウンター</text>
     <!-- カウンターの椅子 6脚 -->
     <g fill="#ffffff" stroke="#444">
-      <circle cx="70" cy="140" r="11"/><circle cx="118" cy="140" r="11"/><circle cx="166" cy="140" r="11"/>
-      <circle cx="214" cy="140" r="11"/><circle cx="262" cy="140" r="11"/><circle cx="310" cy="140" r="11"/>
+      <circle cx="70" cy="130" r="11"/><circle cx="118" cy="130" r="11"/><circle cx="166" cy="130" r="11"/>
+      <circle cx="214" cy="130" r="11"/><circle cx="262" cy="130" r="11"/><circle cx="310" cy="130" r="11"/>
     </g>
 
     <!-- ボックス席 -->
@@ -43,7 +43,7 @@
 
     <!-- 出入口 -->
     <rect x="35" y="414" width="70" height="12" fill="#ffffff"/>
-    <path d="M35 420 A70 70 0 0 1 105 350" fill="none" stroke="#999" stroke-dasharray="4 3"/>
+    <path d="M35 350 A70 70 0 0 1 105 420" fill="none" stroke="#999" stroke-dasharray="4 3"/>
     <line x1="35" y1="420" x2="35" y2="350" stroke="#999"/>
     <text x="70" y="452" font-size="13" text-anchor="middle" fill="#222">▲ 出入口</text>
 
@@ -57,9 +57,11 @@
     </g>
 
     <!-- 部屋の名前 -->
-    <text x="192" y="40" font-size="15" text-anchor="middle" fill="#2a4a7a">調理場</text>
+    <text x="192" y="40" font-size="15" text-anchor="middle" fill="#2a4a7a">調理場（カウンターの内側）</text>
     <text x="437" y="58" font-size="14" text-anchor="middle" fill="#2a5a2a">トイレ</text>
     <text x="150" y="275" font-size="18" font-weight="700" text-anchor="middle" fill="#b03030">客室</text>
+    <text x="150" y="296" font-size="12" text-anchor="middle" fill="#b03030">（赤い破線の内側　7.0 × 4.5）</text>
+    <rect x="3" y="108" width="484" height="309" fill="none" stroke="#d04040" stroke-width="2.5" stroke-dasharray="9 5"/>
 
     <!-- 寸法線：横 7.0 -->
     <g stroke="#333" fill="#333" font-size="13">
@@ -90,14 +92,15 @@
     <rect x="200" y="-10" width="12" height="12" fill="#333"/><text x="220" y="0">スピーカー×2</text>
     <circle cx="350" cy="-4" r="9" fill="#fff" stroke="#444"/><text x="364" y="0">椅子×6</text>
     <text x="0" y="24" fill="#666">寸法はすべて壁の内側で測った長さ（内寸）。カウンター・ソファの高さは1.0m以下。</text>
+    <text x="0" y="44" fill="#666">記事の説明用に簡略化した模式図です。</text>
   </g>
 
   <!-- 求積表 -->
-  <g transform="translate(110,660)" font-size="14" fill="#222">
+  <g transform="translate(110,672)" font-size="14" fill="#222">
     <text x="0" y="0" font-weight="700">求積表</text>
     <text x="0" y="24">営業所の面積：7.0 × 6.0 ＝ 42.00㎡</text>
-    <text x="0" y="46" fill="#b03030">客室の面積：7.0 × 4.5 ＝ 31.50㎡</text>
-    <text x="300" y="24">調理場：5.5 × 1.5 ＝ 8.25㎡</text>
-    <text x="300" y="46">トイレ：1.5 × 1.5 ＝ 2.25㎡</text>
+    <text x="0" y="46" fill="#b03030">客室の面積（赤い破線の内側）：7.0 × 4.5 ＝ 31.50㎡</text>
+    <text x="380" y="24">調理場：5.5 × 1.5 ＝ 8.25㎡</text>
+    <text x="380" y="46">トイレ：1.5 × 1.5 ＝ 2.25㎡</text>
   </g>
 </svg>
