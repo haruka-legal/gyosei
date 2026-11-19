@@ -21,6 +21,8 @@ const BLOCKED_HOSTS = [
 
 // リンクしてよいドメイン
 const ALLOWED_HOSTS = [
+  "janica.jp",
+  "www.janica.jp",
   "dsg.or.jp",
   "samurai-law.com",
   "www.ph.emb-japan.go.jp",
