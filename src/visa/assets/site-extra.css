@@ -279,7 +279,7 @@ header{background:rgba(255,255,255,.98)}
 .hero-waves path:nth-child(1){fill:rgba(26,111,224,.05)}
 .hero-waves path:nth-child(2){fill:rgba(61,142,245,.07)}
 .hero-waves path:nth-child(3){fill:rgba(255,255,255,.9)}
-.hero-inner{padding:64px 40px 96px;grid-template-columns:1fr 380px}
+.hero-inner{padding:72px 40px 110px;grid-template-columns:1fr}
 .hero-eyebrow{color:var(--blue)}
 .hero-eyebrow::before{background:var(--blue);opacity:1}
 h1.hero-title{color:var(--ink);font-weight:400}
