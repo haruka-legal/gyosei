@@ -11,7 +11,8 @@ altUrls:
   ja: /ja/gyoseishoshi/
 ---
 Un gyoseishoshi (en inglés se traduce a veces como «administrative scrivener») es un profesional jurídico que ejerce en Japón con una cualificación profesional regulada por ley. Dentro de los límites establecidos por la ley, prepara documentos para los organismos públicos y realiza trámites administrativos. Su profesión es distinta de la de un abogado.<br>
-Se dice que el trabajo de un gyoseishoshi abarca más de 10 000 tipos de documentos, por lo que cada uno suele especializarse en áreas concretas. Una de ellas es la inmigración, incluidas las solicitudes de estatus de residencia ante la Agencia de Servicios de Inmigración de Japón. Su estatus de residencia determina cuánto tiempo puede permanecer en Japón y qué actividades puede realizar, como trabajar o estudiar. En el lenguaje cotidiano se suele llamar «visa», aunque jurídicamente son dos cosas distintas.
+Se dice que el trabajo de un gyoseishoshi abarca más de 10 000 tipos de documentos, por lo que cada uno suele especializarse en áreas concretas. Una de ellas es la inmigración, incluidas las solicitudes de estatus de residencia ante la Agencia de Servicios de Inmigración de Japón. Su estatus de residencia determina cuánto tiempo puede permanecer en Japón y qué actividades puede realizar, como trabajar o estudiar. En el lenguaje cotidiano se suele llamar «visa», aunque jurídicamente son dos cosas distintas.<br>
+La federación nacional de asociaciones de gyoseishoshi de Japón también explica qué hacen los gyoseishoshi por las personas extranjeras en su [página en español](https://www.gyosei.or.jp/about/language/spanish).
 
 <h2 id="how-to-choose">Cómo elegir un gyoseishoshi</h2>
 

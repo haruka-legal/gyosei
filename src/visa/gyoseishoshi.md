@@ -11,7 +11,8 @@ altUrls:
   ja: /ja/gyoseishoshi/
 ---
 A gyoseishoshi (sometimes translated as "administrative scrivener") is a licensed legal professional in Japan. Within the scope permitted by law, a gyoseishoshi prepares documents for government offices and handles application procedures. A gyoseishoshi is not the same as an attorney.<br>
-The scope of a gyoseishoshi's work is said to cover more than 10,000 types of documents. As a result, individual gyoseishoshi tend to specialize in particular areas. One of these areas is immigration, including applications for a status of residence submitted to the Immigration Services Agency of Japan. Your status of residence determines how long you may stay in Japan and what activities you are allowed to carry out, such as working or studying. It is often informally called a "visa," although the two are legally different.
+The scope of a gyoseishoshi's work is said to cover more than 10,000 types of documents. As a result, individual gyoseishoshi tend to specialize in particular areas. One of these areas is immigration, including applications for a status of residence submitted to the Immigration Services Agency of Japan. Your status of residence determines how long you may stay in Japan and what activities you are allowed to carry out, such as working or studying. It is often informally called a "visa," although the two are legally different.<br>
+The Japan Federation of Certified Administrative Procedures Legal Specialists Associations, the national body for gyoseishoshi, also explains what gyoseishoshi do for foreign residents on its [English page](https://www.gyosei.or.jp/about/language/english).
 
 <h2 id="how-to-choose">How to Choose a Gyoseishoshi</h2>
 
@@ -23,7 +24,7 @@ There are about 56,000 gyoseishoshi in Japan, and about 8,900 in Tokyo alone (as
 - **Consider where you live now, or plan to live.** Hiring a gyoseishoshi in the area where you live, or plan to live, can make it easier to consult them about future procedures such as renewals. However, there is no rule that you must hire one in a particular area. Some offices also offer online consultations to clients anywhere in Japan or abroad.
 - **Are the fees clear?** Check whether there are costs beyond the basic fee, such as extra charges, translation costs or government fees. It is also a good idea to ask in advance what happens if your application is denied, and what the refund conditions are.
 - **Do they promise approval?** Be careful of anyone who guarantees that your application will be approved.
-- **Are they really a gyoseishoshi?** In principle, the law prohibits individuals or businesses without the required license or legal authority from preparing application documents as a paid professional service. You can check whether someone is registered in the [online directory of registered gyoseishoshi](https://www.gyosei.or.jp/members-search) on the website of the Japan Federation of Gyoseishoshi Associations (in Japanese).
+- **Are they really a gyoseishoshi?** In principle, the law prohibits individuals or businesses without the required license or legal authority from preparing application documents as a paid professional service. You can check whether someone is registered in the [online directory of registered gyoseishoshi](https://www.gyosei.or.jp/members-search) on the website of the Japan Federation of Certified Administrative Procedures Legal Specialists Associations (in Japanese).
 
 Some offices offer a free first consultation or a free initial review of your situation. Using these opportunities to compare several offices is a good idea. Compare not only the fees, but also how clearly they explain things and your impression of the gyoseishoshi, and choose someone you truly trust.
 
