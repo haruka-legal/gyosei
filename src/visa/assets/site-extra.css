@@ -512,3 +512,10 @@ html[lang="es"] .fab-form span{font-size:8.5px}
 .hero-skyline .lm-bigsight-leg{fill:rgba(140,150,168,.8)}
 .hero-skyline .lm-plane-body{fill:#fff;stroke:rgba(70,100,150,.6);stroke-width:.9}
 .hero-skyline .lm-contrail{fill:none;stroke:rgba(255,255,255,.9);stroke-width:2;stroke-dasharray:6 5;stroke-linecap:round}
+.hero-skyline .lm-ctower{fill:#fff;stroke:rgba(70,100,150,.6);stroke-width:.9}
+.hero-skyline .lm-ctower-glass{fill:rgba(120,170,230,.85);stroke:rgba(70,100,150,.6);stroke-width:.9}
+.hero-skyline .lm-ctower-light{fill:rgba(226,74,51,.9)}
+.hero-skyline .lm-ship{fill:#fff;stroke:rgba(70,100,150,.6);stroke-width:.9}
+.hero-skyline .lm-ship-cabin{fill:rgba(120,170,230,.7);stroke:rgba(70,100,150,.5);stroke-width:.6}
+.hero-skyline .lm-terminal{fill:#fff;stroke:rgba(70,100,150,.55);stroke-width:.9}
+.hero-skyline .lm-terminal-glass{fill:rgba(120,170,230,.7)}
