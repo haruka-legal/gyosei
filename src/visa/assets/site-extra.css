@@ -501,3 +501,6 @@ html[lang="es"] .fab-form span{font-size:8.5px}
 .hero-skyline .lm-deck{fill:rgba(150,165,190,.9)}
 /* phones: show more of the row (a little smaller) so more landmarks fit */
 .hero-skyline{min-height:100px}
+.hero-skyline .lm-panda-w{fill:#fff;stroke:rgba(80,90,110,.45);stroke-width:.8}
+.hero-skyline .lm-panda-k{fill:#2b2f36}
+.hero-skyline .lm-bamboo{fill:#7cc483}
