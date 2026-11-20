@@ -10,11 +10,11 @@ altUrls:
   es: /es/why-choose-us/
   ja: /ja/why-choose-us/
 ---
+<figure class="page-photo"><img src="{{ '/assets/images/founder-desk.jpg' | url }}" alt="Haruka Kishi, our founder and a licensed gyoseishoshi, at her desk" loading="eager" width="1200" height="900"></figure>
+
 <h2>Personalized support directly from our founder</h2>
 
 From your first consultation until the process is complete, our founder, a licensed gyoseishoshi, is your point of contact. You won't need to explain your situation again from the beginning. Instead of applying the same process to everyone, we plan each step around your circumstances and goals.
-
-<figure class="page-photo"><img src="{{ '/assets/images/founder-desk.jpg' | url }}" alt="Haruka Kishi, our founder and a licensed gyoseishoshi, at her desk" loading="lazy" width="1200" height="900"></figure>
 
 <h2>Support from a female gyoseishoshi</h2>
 

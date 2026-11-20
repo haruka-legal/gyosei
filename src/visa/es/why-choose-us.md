@@ -10,11 +10,11 @@ altUrls:
   es: /es/why-choose-us/
   ja: /ja/why-choose-us/
 ---
+<figure class="page-photo"><img src="{{ '/assets/images/founder-desk.jpg' | url }}" alt="Haruka Kishi, fundadora y gyoseishoshi, en su escritorio" loading="eager" width="1200" height="900"></figure>
+
 <h2>Atención directa y personalizada por la fundadora</h2>
 
 Desde la primera consulta hasta que el trámite termina, la fundadora, gyoseishoshi con cualificación oficial, será su principal contacto. No tendrá que volver a explicar su situación desde el principio. En lugar de aplicar el mismo procedimiento a todos los casos, planificamos cada paso según sus circunstancias y sus objetivos.
-
-<figure class="page-photo"><img src="{{ '/assets/images/founder-desk.jpg' | url }}" alt="Haruka Kishi, fundadora y gyoseishoshi, en su escritorio" loading="lazy" width="1200" height="900"></figure>
 
 <h2>Atención a cargo de una gyoseishoshi</h2>
 

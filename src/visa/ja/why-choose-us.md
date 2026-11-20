@@ -10,11 +10,11 @@ altUrls:
   es: /es/why-choose-us/
   ja: /ja/why-choose-us/
 ---
+<figure class="page-photo"><img src="{{ '/assets/images/founder-desk.jpg' | url }}" alt="代表の行政書士 岸 はるか" loading="eager" width="1200" height="900"></figure>
+
 <h2>代表が直接担当し、一人ひとりに合わせて対応します</h2>
 
 最初のご相談から手続きが終わるまで、代表の行政書士が窓口となって対応します。事情を一から説明し直す必要はありません。決まった流れに当てはめるのではなく、ご本人の状況やご希望に合わせて進め方を考えます。
-
-<figure class="page-photo"><img src="{{ '/assets/images/founder-desk.jpg' | url }}" alt="代表の行政書士 岸 はるか" loading="lazy" width="1200" height="900"></figure>
 
 <h2>女性の行政書士が対応します</h2>
 
