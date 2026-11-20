@@ -457,3 +457,12 @@ html[lang="es"] .fab-form span{font-size:8.5px}
   .logo-name small{font-size:clamp(8.5px,2.5vw,11px) !important;letter-spacing:.02em !important}
   .lang-switch{margin-right:2px}
 }
+/* info pages (What Is a Gyoseishoshi / Why Choose Us): clearer structure */
+.info-page .guide-title{margin-bottom:28px}
+.info-page .guide-body h2{position:relative;font-size:23px;margin:52px 0 18px;padding:12px 0 12px 18px;border-left:5px solid var(--blue);background:linear-gradient(90deg,var(--light-bg),rgba(234,243,255,0));border-radius:0 6px 6px 0;color:var(--ink)}
+.info-page .guide-body ul{list-style:none;margin:20px 0 24px;padding:0;display:grid;gap:12px}
+.info-page .guide-body li{background:#fff;border:1px solid var(--border);border-radius:10px;padding:16px 18px 16px 20px;margin:0;line-height:1.8;box-shadow:0 2px 10px rgba(26,111,224,.05)}
+.info-page .guide-body li strong{display:block;color:var(--blue);font-size:17.5px;margin-bottom:4px}
+.info-page .guide-body li strong + *{margin-top:0}
+.info-page .guide-body p{margin-bottom:16px}
+.info-page .guide-body h2{line-height:1.45}

@@ -33,21 +33,21 @@ Algunas oficinas ofrecen la primera consulta o una revisión inicial de su situa
 En principio, puede presentar por su cuenta las solicitudes relacionadas con su estatus de residencia. Contratar a un gyoseishoshi no es obligatorio. También puede limitarse a hacer una consulta y luego continuar el trámite por su cuenta.<br>
 Aun así, contratar a un gyoseishoshi tiene estas ventajas.
 
-- **Una evaluación profesional de su caso**: Antes de presentar la solicitud, el gyoseishoshi revisa su situación y los requisitos para la aprobación, y le ayuda a identificar posibles problemas y lo que debe preparar.
-- **Asesoramiento para planificar su futuro**: Puede consultar qué estatus de residencia se adapta a su trabajo y a su situación familiar actuales, y planificar futuros cambios de empleo, un matrimonio, la reunificación familiar o la residencia permanente.
-- **Los documentos adecuados para su caso**: El gyoseishoshi puede confirmar qué documentos y explicaciones necesita según su situación.
-- **Ayuda con los trámites en japonés**: Puede delegar la preparación de los formularios de solicitud en japonés y de los documentos justificativos.
-- **Menos visitas a la oficina de inmigración**: Los gyoseishoshi que han completado una formación especial y están registrados ante inmigración pueden presentar solicitudes en nombre de sus clientes. En los trámites que permiten esta modalidad, por lo general no tendrá que acudir personalmente a la oficina de inmigración, aunque podrían pedirle que acuda personalmente.
-- **Asistencia con los trámites desde el extranjero**: Si vive fuera de Japón, contactar con inmigración o reunir documentos expedidos en Japón puede ser complicado. Un gyoseishoshi puede coordinarse, cuando sea necesario, con su empresa o su familia en Japón y ayudarle a preparar su solicitud por correo electrónico o en línea.
-- **Asesoramiento confidencial**: El gyoseishoshi está legalmente obligado a mantener la confidencialidad de la información que obtiene en el ejercicio de su profesión. Por ello, usted puede hablar con tranquilidad sobre asuntos personales, como sus ingresos o su situación familiar.
+- **Una evaluación profesional de su caso** Antes de presentar la solicitud, el gyoseishoshi revisa su situación y los requisitos para la aprobación, y le ayuda a identificar posibles problemas y lo que debe preparar.
+- **Asesoramiento para planificar su futuro** Puede consultar qué estatus de residencia se adapta a su trabajo y a su situación familiar actuales, y planificar futuros cambios de empleo, un matrimonio, la reunificación familiar o la residencia permanente.
+- **Los documentos adecuados para su caso** El gyoseishoshi puede confirmar qué documentos y explicaciones necesita según su situación.
+- **Ayuda con los trámites en japonés** Puede delegar la preparación de los formularios de solicitud en japonés y de los documentos justificativos.
+- **Menos visitas a la oficina de inmigración** Los gyoseishoshi que han completado una formación especial y están registrados ante inmigración pueden presentar solicitudes en nombre de sus clientes. En los trámites que permiten esta modalidad, por lo general no tendrá que acudir personalmente a la oficina de inmigración, aunque podrían pedirle que acuda personalmente.
+- **Asistencia con los trámites desde el extranjero** Si vive fuera de Japón, contactar con inmigración o reunir documentos expedidos en Japón puede ser complicado. Un gyoseishoshi puede coordinarse, cuando sea necesario, con su empresa o su familia en Japón y ayudarle a preparar su solicitud por correo electrónico o en línea.
+- **Asesoramiento confidencial** El gyoseishoshi está legalmente obligado a mantener la confidencialidad de la información que obtiene en el ejercicio de su profesión. Por ello, usted puede hablar con tranquilidad sobre asuntos personales, como sus ingresos o su situación familiar.
 
 <h2 id="limitations">Limitaciones de contratar a un gyoseishoshi</h2>
 
-- **Tiene un costo**: Debe pagar los honorarios del gyoseishoshi. Según el trámite, las tasas oficiales y el costo de obtener documentos pueden cobrarse aparte.
-- **La aprobación no está garantizada**: Las autoridades de inmigración de Japón deciden si aprueban o deniegan su solicitud. Contratar a un gyoseishoshi no cambia los requisitos para la aprobación.
-- **No siempre es más rápido**: La preparación puede ser más fluida, pero eso no significa que el tiempo de resolución de su solicitud vaya a ser más corto.
-- **Su colaboración sigue siendo necesaria**: Hay documentos e información que solo usted puede aportar, por lo que no es posible delegarlo todo.
-- **Es posible que no puedan aceptar su caso**: Por ejemplo, si su consulta va más allá de lo que un gyoseishoshi puede tramitar, es posible que no puedan aceptarla.
+- **Tiene un costo** Debe pagar los honorarios del gyoseishoshi. Según el trámite, las tasas oficiales y el costo de obtener documentos pueden cobrarse aparte.
+- **La aprobación no está garantizada** Las autoridades de inmigración de Japón deciden si aprueban o deniegan su solicitud. Contratar a un gyoseishoshi no cambia los requisitos para la aprobación.
+- **No siempre es más rápido** La preparación puede ser más fluida, pero eso no significa que el tiempo de resolución de su solicitud vaya a ser más corto.
+- **Su colaboración sigue siendo necesaria** Hay documentos e información que solo usted puede aportar, por lo que no es posible delegarlo todo.
+- **Es posible que no puedan aceptar su caso** Por ejemplo, si su consulta va más allá de lo que un gyoseishoshi puede tramitar, es posible que no puedan aceptarla.
 
 Aunque una oficina rechace su caso, otra podría ayudarle, o podrían recomendarle a un profesional más adecuado para su situación. No dude en hacer una primera consulta.
 

@@ -33,21 +33,21 @@ Some offices offer a free first consultation or a free initial review of your si
 In principle, you can apply for a status of residence on your own. Hiring a gyoseishoshi is not required. You can also choose to consult a gyoseishoshi for advice only and then handle the procedure yourself.<br>
 Even so, hiring a gyoseishoshi has these benefits.
 
-- **A professional assessment of your situation**: Before you apply, a gyoseishoshi can review your situation and the requirements for approval, and help identify possible problems and what you need to prepare.
-- **Help planning for your future**: You can discuss which status of residence suits your current job and family situation, and plan ahead for future job changes, marriage, bringing your family to Japan or permanent residence.
-- **The right documents for your case**: A gyoseishoshi can confirm which documents and explanations your situation requires.
-- **Help with Japanese paperwork**: You can leave the preparation of Japanese application forms and supporting documents to a professional.
-- **Fewer trips to the immigration office**: Gyoseishoshi who have completed the required training and notified the immigration authorities can submit certain immigration applications on behalf of their clients. For eligible procedures, you generally do not need to visit the immigration office yourself, although you may still be asked to come in person.
-- **Help with applications from abroad**: When you live overseas, contacting immigration or collecting documents issued in Japan can be difficult. A gyoseishoshi can work with your employer or family in Japan when needed and help you prepare your application remotely.
-- **Confidential advice**: Gyoseishoshi are legally required to keep confidential any information they learn through their work, so you can safely discuss personal matters such as your income or family situation.
+- **A professional assessment of your situation** Before you apply, a gyoseishoshi can review your situation and the requirements for approval, and help identify possible problems and what you need to prepare.
+- **Help planning for your future** You can discuss which status of residence suits your current job and family situation, and plan ahead for future job changes, marriage, bringing your family to Japan or permanent residence.
+- **The right documents for your case** A gyoseishoshi can confirm which documents and explanations your situation requires.
+- **Help with Japanese paperwork** You can leave the preparation of Japanese application forms and supporting documents to a professional.
+- **Fewer trips to the immigration office** Gyoseishoshi who have completed the required training and notified the immigration authorities can submit certain immigration applications on behalf of their clients. For eligible procedures, you generally do not need to visit the immigration office yourself, although you may still be asked to come in person.
+- **Help with applications from abroad** When you live overseas, contacting immigration or collecting documents issued in Japan can be difficult. A gyoseishoshi can work with your employer or family in Japan when needed and help you prepare your application remotely.
+- **Confidential advice** Gyoseishoshi are legally required to keep confidential any information they learn through their work, so you can safely discuss personal matters such as your income or family situation.
 
 <h2 id="limitations">Limitations of Hiring a Gyoseishoshi</h2>
 
-- **It costs money**: You need to pay the gyoseishoshi's fee. Depending on the procedure, government fees and the cost of obtaining documents may be charged separately.
-- **Approval is not guaranteed**: The immigration authorities decide whether to approve or deny your application. Hiring a gyoseishoshi does not change the requirements for approval.
-- **It may not be faster**: Preparation may go more smoothly, but the time immigration authorities take to review your application will not necessarily be shorter.
-- **Your cooperation is still needed**: Some documents and information can only come from you, so you cannot leave everything to the gyoseishoshi.
-- **They may not be able to take your case**: For example, if your request goes beyond what a gyoseishoshi is permitted to handle, they may not be able to accept it.
+- **It costs money** You need to pay the gyoseishoshi's fee. Depending on the procedure, government fees and the cost of obtaining documents may be charged separately.
+- **Approval is not guaranteed** The immigration authorities decide whether to approve or deny your application. Hiring a gyoseishoshi does not change the requirements for approval.
+- **It may not be faster** Preparation may go more smoothly, but the time immigration authorities take to review your application will not necessarily be shorter.
+- **Your cooperation is still needed** Some documents and information can only come from you, so you cannot leave everything to the gyoseishoshi.
+- **They may not be able to take your case** For example, if your request goes beyond what a gyoseishoshi is permitted to handle, they may not be able to accept it.
 
 Even if one office turns you down, another office may be able to help, or they may refer you to a more suitable professional. Please feel free to reach out.
 
