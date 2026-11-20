@@ -328,3 +328,5 @@ footer{background:#0b0d12}
   .office-table dt{border-bottom:none;padding-bottom:2px}
   .office-table dd{padding-top:2px}
 }
+.page-photo{margin:8px 0 34px}
+.page-photo img{display:block;width:100%;height:auto;border-radius:14px;box-shadow:0 14px 40px rgba(26,111,224,.14)}
