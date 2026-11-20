@@ -377,3 +377,15 @@ h1.hero-title em{background:linear-gradient(90deg,var(--blue),var(--sky),var(--b
 .hero-skyline .sky-tower{fill:rgba(232,98,82,.45)}
 .hero-skyline .sky-tree{fill:url(#treeGrad);stroke:rgba(70,110,160,.55);stroke-width:1}
 .hero-skyline .sky-tree-band{fill:rgba(70,110,160,.55);animation-delay:.3s}
+/* remove the short lines before section labels */
+.sec-eyebrow::before,.sec-eyebrow::after{display:none !important}
+/* skyline: keep the whole picture (no cropped Skytree) by tying its height to the width */
+.hero-skyline{height:20.9vw;min-height:120px;max-height:340px}
+.hero-inner{padding-bottom:max(150px,19vw)}
+@media(max-width:1024px){.hero-skyline{height:20.9vw;min-height:120px}.hero-inner{padding-bottom:max(130px,19vw)}}
+/* world map behind the case list: blue instead of grey */
+#cases::before{
+  background:url('https://images.pexels.com/photos/7634436/pexels-photo-7634436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center center / cover no-repeat,#3d8ef5;
+  background-blend-mode:luminosity;
+  filter:none;opacity:.32;
+}
