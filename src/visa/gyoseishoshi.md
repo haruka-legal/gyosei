@@ -2,9 +2,9 @@
 layout: layouts/page.njk
 lang: en
 permalink: /gyoseishoshi/
-title: "What Is a Gyoseishoshi? How to Choose One for Japanese Immigration Procedures | HARUKA Gyoseishoshi Office"
+title: "What Is a Gyoseishoshi (Administrative Scrivener)? How to Choose One for Japanese Immigration Procedures | HARUKA Gyoseishoshi Office"
 heading: "What Is a Gyoseishoshi?"
-description: "What a gyoseishoshi is, how to choose one for Japanese immigration procedures such as visa and status of residence applications, and the benefits and limitations of hiring one."
+description: "What a gyoseishoshi (often translated as \"administrative scrivener\") is, how to choose one for Japanese visa and status of residence applications, and the benefits and limitations of hiring one."
 altUrls:
   en: /gyoseishoshi/
   es: /es/gyoseishoshi/

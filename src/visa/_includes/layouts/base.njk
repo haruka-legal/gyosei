@@ -21,8 +21,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ '/assets/style.css' | url }}">
-<link rel="stylesheet" href="{{ '/assets/site-extra.css' | url }}">
+<link rel="stylesheet" href="{{ '/assets/style.css' | url }}?v={{ build.v }}">
+<link rel="stylesheet" href="{{ '/assets/site-extra.css' | url }}?v={{ build.v }}">
 <link rel="icon" href="{{ '/assets/images/logo.jpg' | url }}">
 <script type="application/ld+json">
 {
@@ -168,6 +168,6 @@
 </div>
 </div>
 </footer>
-<script src="{{ '/assets/main.js' | url }}"></script>
+<script src="{{ '/assets/main.js' | url }}?v={{ build.v }}"></script>
 </body>
 </html>
