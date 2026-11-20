@@ -246,3 +246,85 @@ html{scroll-padding-top:120px}
 
 /* the header is taller now (menu row), so push the hero text below it */
 .hero{padding-top:110px}
+
+/* ═════════ Bright theme: blue · white · black (2026-11) ═════════ */
+:root{
+  --navy:#0f1729;      /* near-black for headings and strong text */
+  --navy-dark:#0b1220;
+  --navy-mid:#1a5fd0;
+  --blue:#1a6fe0;      /* main bright blue */
+  --sky:#3d8ef5;
+  --sky-light:#bcd8fb;
+  --pale:#f5f9ff;
+  --light-bg:#eaf3ff;
+  --ink:#111827;
+  --mid:#3b4352;
+  --light:#6b7584;
+  --gold:#1a6fe0;
+  --border:rgba(26,111,224,0.14);
+  --shadow:0 6px 28px rgba(26,111,224,0.10);
+}
+/* header */
+header{background:rgba(255,255,255,.98)}
+.hdr-cta-form{background:var(--blue)}
+/* hero: light, with the founder's photo */
+.hero{
+  background:
+    radial-gradient(ellipse 60% 70% at 85% 35%,rgba(61,142,245,.18) 0%,transparent 60%),
+    radial-gradient(ellipse 50% 60% at 5% 90%,rgba(26,111,224,.10) 0%,transparent 60%),
+    linear-gradient(180deg,#ffffff 0%,#f2f7ff 100%);
+  min-height:auto;
+}
+.hero-glow{display:none}
+.hero-waves path:nth-child(1){fill:rgba(26,111,224,.05)}
+.hero-waves path:nth-child(2){fill:rgba(61,142,245,.07)}
+.hero-waves path:nth-child(3){fill:rgba(255,255,255,.9)}
+.hero-inner{padding:64px 40px 96px;grid-template-columns:1fr 380px}
+.hero-eyebrow{color:var(--blue)}
+.hero-eyebrow::before{background:var(--blue);opacity:1}
+h1.hero-title{color:var(--ink);font-weight:400}
+h1.hero-title em{color:var(--blue)}
+.hero-desc{color:var(--mid);font-weight:400}
+.btn-ghost{background:#fff;color:var(--blue);border:1.5px solid var(--blue)}
+.btn-ghost:hover{background:var(--light-bg)}
+.hero-photo{position:relative}
+.hero-photo img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:18px;box-shadow:0 24px 60px rgba(26,111,224,.22)}
+.hero-photo::before{content:"";position:absolute;inset:18px -18px -18px 18px;border:2px solid var(--sky-light);border-radius:18px;z-index:-1}
+@media(max-width:1024px){
+  .hero-inner{grid-template-columns:1fr;padding:40px 24px 72px}
+  .hero-photo{display:none}
+}
+/* "free initial review" banner: bright blue */
+.free-banner{background:linear-gradient(120deg,#1a6fe0 0%,#3d8ef5 100%)}
+.free-banner p{color:#fff}
+/* contact section: white instead of dark navy */
+#info{background:linear-gradient(180deg,#f2f7ff 0%,#ffffff 100%) !important;color:var(--ink)}
+.info-title{color:var(--ink) !important}
+.info-title em{color:var(--blue)}
+.info-desc,.det-k,.det-v,.acc-item{color:var(--mid) !important}
+.det-k{color:var(--blue) !important}
+#info .ib{color:#fff}
+/* footer: black */
+footer{background:#0b0d12}
+/* FAQ and office sections on the home page */
+.home-faq,.home-office{padding:80px 40px;background:#fff}
+.home-office{background:var(--pale)}
+.home-sec-inner{max-width:880px;margin:0 auto}
+.faq-list{margin-top:28px;border-top:1px solid var(--border)}
+.faq-item{border-bottom:1px solid var(--border)}
+.faq-item summary{cursor:pointer;list-style:none;padding:20px 40px 20px 0;font-size:17px;font-weight:600;color:var(--ink);position:relative}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";position:absolute;right:6px;top:50%;transform:translateY(-50%);font-size:24px;font-weight:300;color:var(--blue)}
+.faq-item[open] summary::after{content:"−"}
+.faq-item p{padding:0 0 22px;font-size:16.5px;line-height:1.85;color:var(--mid)}
+.faq-item p a{color:var(--blue);text-decoration:underline}
+.office-table{margin-top:28px;display:grid;grid-template-columns:11em 1fr;border-top:1px solid var(--border);background:#fff;border-radius:8px}
+.office-table dt,.office-table dd{padding:16px 18px;border-bottom:1px solid var(--border);font-size:16.5px;line-height:1.75}
+.office-table dt{color:var(--blue);font-weight:600}
+.office-table dd{color:var(--ink)}
+@media(max-width:640px){
+  .home-faq,.home-office{padding:56px 20px}
+  .office-table{grid-template-columns:1fr}
+  .office-table dt{border-bottom:none;padding-bottom:2px}
+  .office-table dd{padding-top:2px}
+}

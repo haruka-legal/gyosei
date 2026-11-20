@@ -1,0 +1,95 @@
+{# よくある質問・事務所案内（EN・ES・JA共通）。#}
+{% set fo = {
+  en: {
+    faqEyebrow: "FAQ", faqTitle: "Frequently Asked <em>Questions</em>",
+    faq: [
+      { q: "Is the consultation free?", a: "The initial review of your situation is free of charge. We will tell you whether we can help and give you an estimate of the procedure and fees. Individual answers based on research into the rules and required documents are provided under our Initial Research &amp; Guidance Plan (from ¥5,000). If you then hire us for your application, the plan fee is deducted from our fee." },
+      { q: "Can I consult you if I don't speak Japanese?", a: "Yes. You can consult us in English, Spanish or Japanese. We use translation tools when needed." },
+      { q: "Can I consult you if I live outside Japan?", a: "Yes. You can consult us by email or chat from anywhere in the world." },
+      { q: "Can I meet you in person?", a: "We mainly communicate in writing, but if you wish, we can visit you anywhere in Japan or abroad. Travel and accommodation costs are charged separately, and we will give you a quote in advance." },
+      { q: "How soon will I get a reply?", a: "We accept inquiries 24 hours a day and generally reply within 24 hours." },
+      { q: "What happens if my application is denied?", a: "For cases we handle, if your application is denied, we will review the reason and reapply once free of charge within 6 months of the decision. If approval is ultimately not granted, the remaining 50% is not charged. Some exceptions apply. Please see our <a href=\"#fees\">fees</a> for details." },
+      { q: "How do I pay?", a: "By bank transfer. The Initial Research &amp; Guidance Plan is paid in advance. For application services, we start work after confirming your payment." }
+    ],
+    offEyebrow: "Our Office", offTitle: "About Our <em>Office</em>",
+    office: [
+      ["Office", "HARUKA Gyoseishoshi Office (遥か行政書士事務所)"],
+      ["Representative", "Haruka Kishi, Gyoseishoshi"],
+      ["Association", "Tokyo Gyoseishoshi Association (Registration No. 26083037)"],
+      ["Address", "3-6-4 Kanda-Nishikicho, Chiyoda-ku, Tokyo"],
+      ["Languages", "English, Spanish and Japanese (we use translation tools when needed)"],
+      ["How to consult", "Mainly in writing, by email or chat (WhatsApp, LINE). If you would like to meet in person, we can visit you anywhere in Japan or abroad. Travel and accommodation costs are charged separately, and we will give you a quote in advance."],
+      ["Hours", "Inquiries accepted 24 hours a day. We generally reply within 24 hours."]
+    ]
+  },
+  es: {
+    faqEyebrow: "Preguntas frecuentes", faqTitle: "Preguntas <em>frecuentes</em>",
+    faq: [
+      { q: "¿La consulta es gratuita?", a: "La revisión inicial de su situación es gratuita. Le indicamos si podemos ayudarle y le damos una estimación del trámite y de los honorarios. Las respuestas individuales basadas en la investigación de las normas y de los documentos necesarios se ofrecen con nuestro Plan de investigación y orientación inicial (desde ¥5,000). Si después nos encarga la solicitud, descontamos el costo del plan de nuestros honorarios." },
+      { q: "¿Puedo consultar si no hablo japonés?", a: "Sí. Puede consultarnos en inglés, español o japonés. Cuando es necesario, usamos herramientas de traducción." },
+      { q: "¿Puedo consultar si vivo fuera de Japón?", a: "Sí. Puede consultarnos por correo electrónico o chat desde cualquier lugar del mundo." },
+      { q: "¿Puedo reunirme en persona?", a: "Nos comunicamos principalmente por escrito, pero si lo desea, podemos visitarle en cualquier lugar de Japón o del extranjero. Los gastos de viaje y alojamiento se cobran aparte, y le enviamos un presupuesto previo." },
+      { q: "¿Cuánto tardan en responder?", a: "Recibimos consultas las 24 horas y, por lo general, respondemos en un plazo de 24 horas." },
+      { q: "¿Qué ocurre si mi solicitud es denegada?", a: "En los casos que gestionamos, si su solicitud es denegada, revisaremos el motivo y volveremos a presentarla una vez sin costo dentro de los 6 meses posteriores a la decisión. Si finalmente no se obtiene la aprobación, no se cobra el 50% restante. Hay algunas excepciones. Consulte los detalles en nuestros <a href=\"#fees\">honorarios</a>." },
+      { q: "¿Cómo se paga?", a: "Por transferencia bancaria. El Plan de investigación y orientación inicial se paga por adelantado. En los trámites de solicitud, empezamos a trabajar después de confirmar su pago." }
+    ],
+    offEyebrow: "Nuestra oficina", offTitle: "Nuestra <em>oficina</em>",
+    office: [
+      ["Oficina", "HARUKA Gyoseishoshi Office (遥か行政書士事務所)"],
+      ["Representante", "Haruka Kishi, gyoseishoshi"],
+      ["Asociación", "Asociación de Gyoseishoshi de Tokio (n.º de registro 26083037)"],
+      ["Dirección", "3-6-4 Kanda-Nishikicho, Chiyoda-ku, Tokio"],
+      ["Idiomas", "Inglés, español y japonés (usamos herramientas de traducción cuando es necesario)"],
+      ["Forma de consulta", "Principalmente por escrito, por correo electrónico o chat (WhatsApp, LINE). Si desea reunirse en persona, podemos visitarle en cualquier lugar de Japón o del extranjero. Los gastos de viaje y alojamiento se cobran aparte, y le enviamos un presupuesto previo."],
+      ["Horario", "Recibimos consultas las 24 horas y, por lo general, respondemos en un plazo de 24 horas."]
+    ]
+  },
+  ja: {
+    faqEyebrow: "よくある質問", faqTitle: "よくある<em>質問</em>",
+    faq: [
+      { q: "相談は無料ですか？", a: "初回の状況確認は無料です。対応できる内容か、必要な手続きと費用の目安をご案内します。制度や必要書類を調べたうえでの個別のご回答は、「初期調査・回答プラン」（5,000円〜）となります。そのまま申請をご依頼いただいた場合は、プランの費用を報酬から差し引きます。" },
+      { q: "日本語が話せなくても相談できますか？", a: "はい。英語・スペイン語・日本語でご相談いただけます。必要に応じて翻訳ツールなどを使いながら対応しています。" },
+      { q: "海外に住んでいても相談できますか？", a: "はい。世界中どこからでも、メールやチャットでご相談いただけます。" },
+      { q: "対面で相談できますか？", a: "やり取りは文章が基本ですが、ご希望の場合は日本国内・海外どこへでも伺います。交通費・宿泊費などの諸費用は別途いただきます（事前にお見積りします）。" },
+      { q: "返事はどのくらいで来ますか？", a: "お問い合わせは24時間受け付けており、原則として24時間以内にご返信します。" },
+      { q: "不許可になったらどうなりますか？", a: "当事務所がお受けした案件で不許可となった場合は、理由を確認のうえ、不許可から6か月以内に1回、無料で再申請を行います。最終的に許可が得られなかった場合、残金50%はいただきません。ただし、対象外となる場合があります。詳しくは<a href=\"#fees\">料金</a>をご覧ください。" },
+      { q: "支払い方法は？", a: "銀行振込です。初期調査・回答プランは事前のお支払いとなります。申請のご依頼は、ご入金を確認してから業務を始めます。" }
+    ],
+    offEyebrow: "事務所案内", offTitle: "<em>事務所</em>案内",
+    office: [
+      ["事務所名", "遥か行政書士事務所（HARUKA Gyoseishoshi Office）"],
+      ["代表", "行政書士 岸 はるか"],
+      ["所属", "東京都行政書士会（登録番号 第26083037号）"],
+      ["所在地", "東京都千代田区神田錦町3−6−4"],
+      ["対応言語", "英語・スペイン語・日本語（必要に応じて翻訳ツールなどを使います）"],
+      ["ご相談の方法", "メール・チャット（WhatsApp・LINE）での文章のやり取りが基本です。対面でのご相談をご希望の場合は、日本国内・海外どこへでも伺います（交通費・宿泊費などは別途、事前にお見積りします）。"],
+      ["受付時間", "24時間受付・原則24時間以内にご返信"]
+    ]
+  }
+} %}
+{% set t = fo[lang] %}
+<section id="faq" class="home-faq">
+  <div class="home-sec-inner">
+    <div class="sec-eyebrow">{{ t.faqEyebrow }}</div>
+    <h2 class="sec-title">{{ t.faqTitle | safe }}</h2>
+    <div class="faq-list">
+      {% for item in t.faq %}
+      <details class="faq-item">
+        <summary>{{ item.q }}</summary>
+        <p>{{ item.a | safe }}</p>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section id="office" class="home-office">
+  <div class="home-sec-inner">
+    <div class="sec-eyebrow">{{ t.offEyebrow }}</div>
+    <h2 class="sec-title">{{ t.offTitle | safe }}</h2>
+    <dl class="office-table">
+      {% for row in t.office %}
+      <dt>{{ row[0] }}</dt><dd>{{ row[1] }}</dd>
+      {% endfor %}
+    </dl>
+  </div>
+</section>
