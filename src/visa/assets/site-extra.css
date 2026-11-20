@@ -494,3 +494,10 @@ html[lang="es"] .fab-form span{font-size:8.5px}
 .hero-skyline .lm-diet-win{fill:rgba(140,140,150,.45)}
 .hero-skyline .lm-fuji-body{fill:rgba(120,150,200,.28)}
 .hero-skyline .lm-fuji-snow{fill:rgba(255,255,255,.92)}
+.hero-skyline .lm-bay{fill:rgba(61,142,245,.30)}
+.hero-skyline .lm-cable{fill:none;stroke:rgba(110,130,160,.75);stroke-width:1.4}
+.hero-skyline .lm-bridge-tower{fill:#fff;stroke:rgba(90,115,150,.55);stroke-width:.8}
+.hero-skyline .lm-bridge-bar{fill:rgba(90,115,150,.55)}
+.hero-skyline .lm-deck{fill:rgba(150,165,190,.9)}
+/* phones: show more of the row (a little smaller) so more landmarks fit */
+.hero-skyline{min-height:100px}
