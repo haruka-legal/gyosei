@@ -71,6 +71,7 @@
 <a href="{{ ((altUrls.ja if (altUrls and altUrls.ja) else '/ja/')) | url }}" class="{% if lang == 'ja' %}active{% endif %}" lang="ja">JP</a>
 </div>
 </div>
+<button aria-label="Menu" class="hamburger" onclick="openMobileNav()"><span></span><span></span><span></span></button>
 </div>
 </div>
 <nav class="main-nav" aria-label="Menu">
@@ -127,6 +128,49 @@
 </ul>
 </nav>
 </header>
+<div class="mobile-nav" id="mobileNav">
+<button class="mobile-nav-close" onclick="closeMobileNav()" aria-label="Close">✕</button>
+{% if lang == 'en' %}
+  <a href="{{ '/' | url }}" onclick="closeMobileNav()">Home</a>
+  <a href="{{ '/#cases' | url }}" onclick="closeMobileNav()">Services</a>
+  <a href="{{ '/gyoseishoshi/' | url }}" onclick="closeMobileNav()">What Is a Gyoseishoshi?</a>
+  <a class="mnav-sub" href="{{ '/gyoseishoshi/#how-to-choose' | url }}" onclick="closeMobileNav()">How to Choose a Gyoseishoshi</a>
+  <a class="mnav-sub" href="{{ '/gyoseishoshi/#benefits' | url }}" onclick="closeMobileNav()">Benefits and Limitations</a>
+  <a class="mnav-sub" href="{{ '/why-choose-us/' | url }}" onclick="closeMobileNav()">Why Choose Us</a>
+  <a href="{{ '/#fees' | url }}" onclick="closeMobileNav()">Fees</a>
+  <a href="{{ '/guides/' | url }}" onclick="closeMobileNav()">Guides</a>
+  <a href="{{ '/#profile' | url }}" onclick="closeMobileNav()">Meet the Founder</a>
+  <a href="{{ '/#faq' | url }}" onclick="closeMobileNav()">FAQ</a>
+  <a href="{{ '/#office' | url }}" onclick="closeMobileNav()">Our Office</a>
+  <a href="{{ '/#info' | url }}" onclick="closeMobileNav()">Contact Us</a>
+{% elif lang == 'es' %}
+  <a href="{{ '/es/' | url }}" onclick="closeMobileNav()">Inicio</a>
+  <a href="{{ '/es/#cases' | url }}" onclick="closeMobileNav()">Servicios</a>
+  <a href="{{ '/es/gyoseishoshi/' | url }}" onclick="closeMobileNav()">¿Qué es un gyoseishoshi?</a>
+  <a class="mnav-sub" href="{{ '/es/gyoseishoshi/#how-to-choose' | url }}" onclick="closeMobileNav()">Cómo elegir un gyoseishoshi</a>
+  <a class="mnav-sub" href="{{ '/es/gyoseishoshi/#benefits' | url }}" onclick="closeMobileNav()">Ventajas y limitaciones</a>
+  <a class="mnav-sub" href="{{ '/es/why-choose-us/' | url }}" onclick="closeMobileNav()">Por qué elegirnos</a>
+  <a href="{{ '/es/#fees' | url }}" onclick="closeMobileNav()">Honorarios</a>
+  <a href="{{ '/es/guides/' | url }}" onclick="closeMobileNav()">Guías</a>
+  <a href="{{ '/es/#profile' | url }}" onclick="closeMobileNav()">Nuestra fundadora</a>
+  <a href="{{ '/es/#faq' | url }}" onclick="closeMobileNav()">Preguntas frecuentes</a>
+  <a href="{{ '/es/#office' | url }}" onclick="closeMobileNav()">Nuestra oficina</a>
+  <a href="{{ '/es/#info' | url }}" onclick="closeMobileNav()">Contacto</a>
+{% elif lang == 'ja' %}
+  <a href="{{ '/ja/' | url }}" onclick="closeMobileNav()">トップ</a>
+  <a href="{{ '/ja/#cases' | url }}" onclick="closeMobileNav()">業務内容</a>
+  <a href="{{ '/ja/gyoseishoshi/' | url }}" onclick="closeMobileNav()">行政書士とは</a>
+  <a class="mnav-sub" href="{{ '/ja/gyoseishoshi/#how-to-choose' | url }}" onclick="closeMobileNav()">行政書士の選び方</a>
+  <a class="mnav-sub" href="{{ '/ja/gyoseishoshi/#benefits' | url }}" onclick="closeMobileNav()">依頼するメリット・デメリット</a>
+  <a class="mnav-sub" href="{{ '/ja/why-choose-us/' | url }}" onclick="closeMobileNav()">当事務所が選ばれる理由</a>
+  <a href="{{ '/ja/#fees' | url }}" onclick="closeMobileNav()">料金</a>
+  <a href="{{ '/ja/guides/' | url }}" onclick="closeMobileNav()">お役立ち記事</a>
+  <a href="{{ '/ja/#profile' | url }}" onclick="closeMobileNav()">代表挨拶</a>
+  <a href="{{ '/ja/#faq' | url }}" onclick="closeMobileNav()">よくある質問</a>
+  <a href="{{ '/ja/#office' | url }}" onclick="closeMobileNav()">事務所案内</a>
+  <a href="{{ '/ja/#info' | url }}" onclick="closeMobileNav()">お問い合わせ</a>
+{% endif %}
+</div>
 <div class="float-ctas fab-contact" aria-label="Contact">
 {% if lang == 'en' %}
 <a class="fab-btn fab-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 5.92 2 10.72c0 3.1 1.7 5.84 4.3 7.52l-.7 2.62 2.92-1.44c1.1.3 2.27.46 3.48.46 5.52 0 10-3.92 10-8.72S17.52 2 12 2z"/></svg><span>LINE</span></a>

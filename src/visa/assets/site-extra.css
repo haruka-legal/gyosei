@@ -206,7 +206,6 @@ p, li, dd, td { word-break: auto-phrase; }
 .ft-list .ft-body{word-break:normal}
 
 /* ── Header: WhatsApp / form buttons on the right, menu row always visible ── */
-.hamburger{display:none !important}
 .hdr-ctas{display:flex;gap:8px;align-items:center;margin-right:10px}
 .hdr-cta{display:inline-flex;align-items:center;justify-content:center;height:38px;padding:0 16px;border-radius:6px;font-size:14.5px;font-weight:600;letter-spacing:.02em;white-space:nowrap;text-decoration:none}
 .hdr-cta-wa{background:#25D366;color:#fff}
@@ -425,3 +424,22 @@ html[lang="es"] .fab-form span{font-size:8.5px}
 .ft-more{text-align:center;margin-top:28px}
 .ft-more a{display:inline-block;padding:12px 26px;border:1.5px solid var(--blue);border-radius:6px;color:var(--blue);font-weight:600;font-size:15.5px;background:#fff;transition:background .2s}
 .ft-more a:hover{background:var(--light-bg)}
+
+/* ── Menu: ≡ button on narrower screens (like the Japanese site), full row on wide screens ── */
+.hamburger{display:none}
+@media(max-width:1239px){
+  .main-nav{display:none}
+  .hamburger{display:flex !important}
+  html{scroll-padding-top:80px}
+  .hero{padding-top:70px}
+  .guide-article{padding-top:110px}
+}
+.mobile-nav{background:rgba(255,255,255,.98);overflow-y:auto;justify-content:flex-start;padding:72px 0 120px}
+.mobile-nav a{color:var(--ink);font-family:'Plus Jakarta Sans','Noto Sans JP',sans-serif;font-weight:500;font-size:18px;padding:14px 32px;border-bottom:1px solid var(--border);text-align:left}
+.mobile-nav a:first-of-type{border-top:1px solid var(--border)}
+.mobile-nav a:hover{color:var(--blue)}
+.mobile-nav a.mnav-sub{font-size:15.5px;font-weight:400;color:var(--mid);padding:11px 32px 11px 52px;background:var(--pale)}
+.mobile-nav a.mnav-sub::before{content:"└ ";color:var(--light)}
+.mobile-nav-close{color:var(--ink) !important}
+.mobile-nav{z-index:800}
+.mobile-nav.open ~ .float-ctas{display:none !important}
