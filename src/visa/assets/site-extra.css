@@ -443,3 +443,17 @@ html[lang="es"] .fab-form span{font-size:8.5px}
 .mobile-nav-close{color:var(--ink) !important}
 .mobile-nav{z-index:800}
 .mobile-nav.open ~ .float-ctas{display:none !important}
+/* keep the ≡ button on screen: the logo shrinks instead of pushing the buttons out (Safari's wider fonts) */
+.header-inner{flex-wrap:nowrap}
+.logo{min-width:0;flex:1 1 auto}
+.logo img{flex-shrink:0}
+.logo-name{min-width:0;overflow:hidden}
+.logo-name,.logo-name small{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.hdr-right{flex-shrink:0}
+.hamburger{flex-shrink:0}
+@media(max-width:600px){
+  .header-inner{padding:0 12px;gap:8px}
+  .logo-name{font-size:clamp(13.5px,4.1vw,17px) !important;letter-spacing:0 !important}
+  .logo-name small{font-size:clamp(8.5px,2.5vw,11px) !important;letter-spacing:.02em !important}
+  .lang-switch{margin-right:2px}
+}
