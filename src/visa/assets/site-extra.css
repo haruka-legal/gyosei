@@ -417,3 +417,4 @@ html[lang="es"] .fab-form span{font-size:8.5px}
 .btn-free:hover{transform:translateY(-2px);opacity:.95}
 .hero-btns{align-items:stretch}
 .hero-btns .btn-ghost{align-items:center}
+.office-table dd a{color:var(--blue);text-decoration:underline;word-break:break-all}

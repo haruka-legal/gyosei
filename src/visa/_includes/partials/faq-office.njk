@@ -19,7 +19,8 @@
       ["Address", "3-6-4 Kanda-Nishikicho, Chiyoda-ku, Tokyo"],
       ["Languages", "English, Spanish and Japanese (we use translation tools when needed)"],
       ["How to consult", "Mainly in writing, by email or chat (WhatsApp, LINE). If you would like to meet in person, we can visit you anywhere in Japan or abroad. Travel and accommodation costs are charged separately, and we will give you a quote in advance."],
-      ["Hours", "Inquiries accepted 24 hours a day. We generally reply within 24 hours."]
+      ["Hours", "Inquiries accepted 24 hours a day. We generally reply within 24 hours."],
+      ["Website", "<a href=\"https://haruka-legal.com/\">https://haruka-legal.com/</a> (our main website, in Japanese)"]
     ]
   },
   es: {
@@ -41,7 +42,8 @@
       ["Dirección", "3-6-4 Kanda-Nishikicho, Chiyoda-ku, Tokio"],
       ["Idiomas", "Inglés, español y japonés (usamos herramientas de traducción cuando es necesario)"],
       ["Forma de consulta", "Principalmente por escrito, por correo electrónico o chat (WhatsApp, LINE). Si desea reunirse en persona, podemos visitarle en cualquier lugar de Japón o del extranjero. Los gastos de viaje y alojamiento se cobran aparte, y le enviamos un presupuesto previo."],
-      ["Horario", "Recibimos consultas las 24 horas y, por lo general, respondemos en un plazo de 24 horas."]
+      ["Horario", "Recibimos consultas las 24 horas y, por lo general, respondemos en un plazo de 24 horas."],
+      ["Sitio web", "<a href=\"https://haruka-legal.com/\">https://haruka-legal.com/</a> (nuestro sitio principal, en japonés)"]
     ]
   },
   ja: {
@@ -63,7 +65,8 @@
       ["所在地", "東京都千代田区神田錦町3−6−4"],
       ["対応言語", "英語・スペイン語・日本語（必要に応じて翻訳ツールなどを使います）"],
       ["ご相談の方法", "メール・チャット（WhatsApp・LINE）での文章のやり取りが基本です。対面でのご相談をご希望の場合は、日本国内・海外どこへでも伺います（交通費・宿泊費などは別途、事前にお見積りします）。"],
-      ["受付時間", "24時間受付・原則24時間以内にご返信"]
+      ["受付時間", "24時間受付・原則24時間以内にご返信"],
+      ["ホームページ", "<a href=\"https://haruka-legal.com/\">https://haruka-legal.com/</a>（総合トップページ）"]
     ]
   }
 } %}
@@ -88,7 +91,7 @@
     <h2 class="sec-title">{{ t.offTitle | safe }}</h2>
     <dl class="office-table">
       {% for row in t.office %}
-      <dt>{{ row[0] }}</dt><dd>{{ row[1] }}</dd>
+      <dt>{{ row[0] }}</dt><dd>{{ row[1] | safe }}</dd>
       {% endfor %}
     </dl>
   </div>
