@@ -422,3 +422,6 @@ html[lang="es"] .fab-form span{font-size:8.5px}
   .main-nav ul.sub{position:fixed;top:auto;left:0}
 }
 .main-nav li.has-sub.open > ul.sub{display:flex}
+.ft-more{text-align:center;margin-top:28px}
+.ft-more a{display:inline-block;padding:12px 26px;border:1.5px solid var(--blue);border-radius:6px;color:var(--blue);font-weight:600;font-size:15.5px;background:#fff;transition:background .2s}
+.ft-more a:hover{background:var(--light-bg)}
