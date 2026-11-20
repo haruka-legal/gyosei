@@ -389,18 +389,22 @@ h1.hero-title em{background:linear-gradient(90deg,var(--blue),var(--sky),var(--b
   background-blend-mode:luminosity;
   filter:none;opacity:.32;
 }
-/* ── Floating contact buttons: always on the right, on every page ── */
-.hdr-ctas{display:none !important}
-.float-ctas{display:flex !important;position:fixed;z-index:700;right:18px;top:50%;transform:translateY(-50%);flex-direction:column;gap:10px;animation:floatIn .7s cubic-bezier(.2,.7,.2,1) .4s both}
-.float-ctas .hdr-cta{height:46px;min-width:150px;padding:0 18px;border-radius:999px;font-size:15px;box-shadow:0 8px 22px rgba(7,24,50,.18);transition:transform .2s,box-shadow .2s}
-.float-ctas .hdr-cta:hover{transform:translateX(-4px);box-shadow:0 12px 28px rgba(7,24,50,.24)}
-.hdr-cta-line{background:#06C755;color:#fff}
-@keyframes floatIn{from{opacity:0;transform:translate(40px,-50%)}to{opacity:1;transform:translate(0,-50%)}}
-/* phones and tablets: bottom-right corner, smaller */
-@media(max-width:1024px){
-  .float-ctas{top:auto;bottom:14px;right:12px;transform:none;gap:8px;animation-name:floatInB}
-  .float-ctas .hdr-cta{height:40px;min-width:0;padding:0 15px;font-size:13.5px}
-  .float-ctas .hdr-cta:hover{transform:none}
-}
-@keyframes floatInB{from{opacity:0;transform:translateX(40px)}to{opacity:1;transform:none}}
+/* ── Floating contact buttons (same round shape as the Japanese site), every page ── */
+.float-ctas{display:flex !important;position:fixed;z-index:700;right:20px;bottom:22px;flex-direction:column;gap:10px;animation:floatIn .6s ease .4s both}
+.fab-btn{width:56px;height:56px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.01em;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.18);transition:transform .2s}
+.fab-btn:hover{transform:translateY(-2px)}
+.fab-btn svg{width:22px;height:22px}
+.fab-btn span{line-height:1.1;white-space:nowrap}
+.fab-line{background:#06c755}
+.fab-line svg{fill:#fff}
+.fab-wa{background:#25d366}
+.fab-wa .wa-ring{fill:none;stroke:#fff;stroke-width:1.7}
+.fab-wa .wa-ph{fill:#fff}
+.fab-wa span{font-size:8.5px;letter-spacing:0}
+.fab-form{background:var(--blue)}
+.fab-form svg{fill:none;stroke:#fff;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+html[lang="es"] .fab-form span{font-size:8.5px}
+@keyframes floatIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+@media(max-width:700px){.float-ctas{right:14px;bottom:16px;gap:8px}}
 @media(prefers-reduced-motion:reduce){.float-ctas{animation:none}}
+
