@@ -228,7 +228,6 @@ html{scroll-padding-top:120px}
 @media(max-width:1239px){
   .main-nav-list{justify-content:flex-start;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:0 12px}
   .main-nav-list::-webkit-scrollbar{display:none}
-  .main-nav ul.sub,.main-nav li.has-sub > a::after{display:none !important}
   .main-nav a{padding:10px 10px;font-size:14px}
 }
 @media(max-width:1024px){ .header-inner{height:58px} }
@@ -418,3 +417,8 @@ html[lang="es"] .fab-form span{font-size:8.5px}
 .hero-btns{align-items:stretch}
 .hero-btns .btn-ghost{align-items:center}
 .office-table dd a{color:var(--blue);text-decoration:underline;word-break:break-all}
+/* narrow screens: the small menu still opens (placed under the item by main.js) */
+@media(max-width:1239px){
+  .main-nav ul.sub{position:fixed;top:auto;left:0}
+}
+.main-nav li.has-sub.open > ul.sub{display:flex}

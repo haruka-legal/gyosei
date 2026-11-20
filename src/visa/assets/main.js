@@ -174,3 +174,32 @@ document.addEventListener('DOMContentLoaded', function () {
     if (e.key === 'Escape') { sw.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); }
   });
 });
+
+// ── Small menu under "What Is a Gyoseishoshi?" on narrow screens and touch devices
+(function(){
+  var items=document.querySelectorAll('.main-nav li.has-sub');
+  function place(li){
+    var m=li.querySelector('ul.sub'); if(!m||getComputedStyle(m).position!=='fixed')return;
+    var r=li.getBoundingClientRect();
+    m.style.top=r.bottom+'px';
+    m.style.left=Math.max(8,Math.min(r.left,window.innerWidth-m.offsetWidth-8))+'px';
+  }
+  function closeAll(except){items.forEach(function(li){if(li!==except)li.classList.remove('open');});}
+  items.forEach(function(li){
+    var a=li.querySelector(':scope > a');
+    li.addEventListener('mouseenter',function(){requestAnimationFrame(function(){place(li);});});
+    li.addEventListener('focusin',function(){requestAnimationFrame(function(){place(li);});});
+    a.addEventListener('click',function(e){
+      var touch=window.matchMedia('(hover: none)').matches;
+      if((touch||window.innerWidth<1240)&&!li.classList.contains('open')){
+        e.preventDefault(); closeAll(li); li.classList.add('open');
+        requestAnimationFrame(function(){place(li);});
+      }
+    });
+  });
+  document.addEventListener('click',function(e){if(!e.target.closest('.main-nav li.has-sub'))closeAll();});
+  var list=document.querySelector('.main-nav-list');
+  if(list)list.addEventListener('scroll',function(){closeAll();},{passive:true});
+  window.addEventListener('scroll',function(){closeAll();},{passive:true});
+  window.addEventListener('resize',function(){closeAll();});
+})();
