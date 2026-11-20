@@ -374,3 +374,4 @@ h1.hero-title em{background:linear-gradient(90deg,var(--blue),var(--sky),var(--b
 .hero-skyline .sky-tree{fill:#ffffff;stroke:rgba(26,111,224,.55);stroke-width:1.4;animation-delay:.3s}
 .hero-inner{padding-bottom:210px}
 @media(max-width:1024px){.hero-skyline{height:150px}.hero-inner{padding-bottom:150px}}
+.hero-skyline .sky-tower{fill:rgba(232,98,82,.45)}
