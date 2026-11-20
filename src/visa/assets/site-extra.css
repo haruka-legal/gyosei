@@ -471,3 +471,20 @@ html[lang="es"] .fab-form span{font-size:8.5px}
 .hero-skyline .sky-tower-band rect{fill:rgba(255,255,255,.85)}
 .hero-skyline .sky-tower-base{fill:rgba(255,255,255,.9);stroke:rgba(26,111,224,.25);stroke-width:1}
 .hero-skyline .sky-tower-band,.hero-skyline .sky-tower-base{animation:skyRise 1.6s cubic-bezier(.2,.7,.2,1) .25s both}
+/* small Tokyo landmarks between the towers: Imperial Palace, Tokyo Station, Kaminarimon */
+.hero-skyline .lm{animation:skyRise 1.6s cubic-bezier(.2,.7,.2,1) .35s both}
+.hero-skyline .lm-moat{fill:rgba(61,142,245,.35)}
+.hero-skyline .lm-tree{fill:rgba(96,168,120,.55)}
+.hero-skyline .lm-sakura{fill:rgba(244,170,192,.85)}
+.hero-skyline .lm-stone{fill:rgba(150,160,175,.75)}
+.hero-skyline .lm-wall{fill:#fff;stroke:rgba(90,105,130,.35);stroke-width:.6}
+.hero-skyline .lm-roof{fill:rgba(80,92,112,.8)}
+.hero-skyline .lm-bridge{fill:rgba(185,192,204,.95)}
+.hero-skyline .lm-rail{fill:rgba(120,130,148,.8)}
+.hero-skyline .lm-brick{fill:rgba(196,98,76,.72)}
+.hero-skyline .lm-band{fill:rgba(255,255,255,.85)}
+.hero-skyline .lm-slate{fill:rgba(74,86,104,.82)}
+.hero-skyline .lm-red{fill:rgba(205,60,50,.78)}
+.hero-skyline .lm-kroof{fill:rgba(70,78,92,.85)}
+.hero-skyline .lm-lantern{fill:rgba(214,52,44,.95)}
+.hero-skyline .lm-lantern-band{fill:rgba(40,40,40,.85)}
