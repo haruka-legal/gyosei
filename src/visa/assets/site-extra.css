@@ -330,3 +330,40 @@ footer{background:#0b0d12}
 }
 .page-photo{margin:8px 0 34px}
 .page-photo img{display:block;width:100%;height:auto;border-radius:14px;box-shadow:0 14px 40px rgba(26,111,224,.14)}
+/* hero: centered text with a gentle entrance animation */
+.hero-inner{text-align:center;justify-items:center;max-width:960px}
+.hero-eyebrow{justify-content:center}
+.hero-eyebrow::after{content:'';width:28px;height:1px;background:var(--blue)}
+.hero-desc{margin-left:auto;margin-right:auto;max-width:620px}
+.hero-btns{justify-content:center}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;filter:blur(40px);pointer-events:none;z-index:0}
+.hero::before{width:520px;height:520px;left:-140px;top:-120px;background:rgba(61,142,245,.18);animation:heroFloat 14s ease-in-out infinite alternate}
+.hero::after{width:460px;height:460px;right:-120px;bottom:-80px;background:rgba(26,111,224,.14);animation:heroFloat 18s ease-in-out infinite alternate-reverse}
+@keyframes heroFloat{from{transform:translate(0,0) scale(1)}to{transform:translate(60px,40px) scale(1.12)}}
+@keyframes heroUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+.hero-inner > div > *{opacity:0;animation:heroUp .9s cubic-bezier(.2,.7,.2,1) forwards}
+.hero-inner > div > *:nth-child(1){animation-delay:.05s}
+.hero-inner > div > *:nth-child(2){animation-delay:.15s}
+.hero-inner > div > *:nth-child(3){animation-delay:.3s}
+.hero-inner > div > *:nth-child(4){animation-delay:.5s}
+.hero-inner > div > *:nth-child(5){animation-delay:.7s}
+h1.hero-title em{background:linear-gradient(90deg,var(--blue),var(--sky),var(--blue));background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:heroShine 6s linear infinite}
+@keyframes heroShine{to{background-position:-200% 0}}
+@media(prefers-reduced-motion:reduce){
+  .hero::before,.hero::after,h1.hero-title em{animation:none}
+  .hero-inner > div > *{opacity:1;animation:none}
+}
+@media(max-width:1024px){.hero-inner{padding:48px 22px 80px}}
+/* Tokyo skyline at the bottom of the hero (original simple silhouette) */
+.hero-waves{display:none}
+.hero-skyline{position:absolute;left:0;right:0;bottom:0;width:100%;height:200px;pointer-events:none;z-index:1}
+.hero-skyline .sky-back{fill:rgba(61,142,245,.12)}
+.hero-skyline .sky-landmark{fill:rgba(26,111,224,.16)}
+.hero-skyline .sky-front{fill:rgba(26,111,224,.10)}
+.hero-skyline path{transform-origin:bottom;animation:skyRise 1.6s cubic-bezier(.2,.7,.2,1) both}
+.hero-skyline .sky-landmark{animation-delay:.25s}
+.hero-skyline .sky-front{animation-delay:.4s}
+@keyframes skyRise{from{transform:translateY(60px);opacity:0}to{transform:none;opacity:1}}
+.hero-inner{padding-bottom:190px}
+@media(max-width:1024px){.hero-skyline{height:130px}.hero-inner{padding-bottom:140px}}
+@media(prefers-reduced-motion:reduce){.hero-skyline path{animation:none}}
