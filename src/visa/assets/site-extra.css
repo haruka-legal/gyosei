@@ -368,3 +368,9 @@ h1.hero-title em{background:linear-gradient(90deg,var(--blue),var(--sky),var(--b
 @media(max-width:1024px){.hero-skyline{height:130px}.hero-inner{padding-bottom:140px}}
 @media(prefers-reduced-motion:reduce){.hero-skyline path{animation:none}}
 .hero-eyebrow::before,.hero-eyebrow::after{display:none !important}
+/* landmarks: Tokyo Tower (left, red) and Skytree (right, white with blue edge, taller) */
+.hero-skyline{height:230px}
+.hero-skyline .sky-tower{fill:rgba(226,74,51,.62);animation-delay:.25s}
+.hero-skyline .sky-tree{fill:#ffffff;stroke:rgba(26,111,224,.55);stroke-width:1.4;animation-delay:.3s}
+.hero-inner{padding-bottom:210px}
+@media(max-width:1024px){.hero-skyline{height:150px}.hero-inner{padding-bottom:150px}}
