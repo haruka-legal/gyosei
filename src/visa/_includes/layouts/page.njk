@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+---
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ title | dump | safe }},
+  "description": {{ description | dump | safe }},
+  "inLanguage": "{{ lang }}",
+  "url": "{{ site.url }}{{ page.url | url }}",
+  "publisher": { "@type": "LegalService", "name": "{{ site.brandName }}", "url": "{{ site.url }}{{ '/' | url }}" }
+}
+</script>
+{% endblock %}
+
+<article class="guide-article info-page">
+  <div class="wrap guide-wrap">
+    <h1 class="guide-title">{{ heading or title }}</h1>
+    <div class="guide-body">
+      {{ content | safe }}
+    </div>
+  </div>
+</article>

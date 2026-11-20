@@ -54,18 +54,39 @@
 <ul>
 {% if lang == 'en' %}
   <li><a href="{{ '/#cases' | url }}">Who We Help</a></li>
+  <li class="has-sub"><a href="{{ '/gyoseishoshi/' | url }}" aria-haspopup="true">What Is a Gyoseishoshi?</a>
+    <ul class="sub">
+      <li><a href="{{ '/gyoseishoshi/#how-to-choose' | url }}">How to Choose a Gyoseishoshi</a></li>
+      <li><a href="{{ '/gyoseishoshi/#benefits' | url }}">Benefits and Limitations</a></li>
+      <li><a href="{{ '/why-choose-us/' | url }}">Why Choose Us</a></li>
+    </ul>
+  </li>
   <li><a href="{{ '/#fees' | url }}">Fees</a></li>
   <li><a href="{{ '/guides/' | url }}">Guides</a></li>
   <li><a href="{{ '/#profile' | url }}">Message from the Founder</a></li>
   <li><a href="{{ '/#info' | url }}">Contact</a></li>
 {% elif lang == 'es' %}
   <li><a href="{{ '/es/#cases' | url }}">A quién ayudamos</a></li>
+  <li class="has-sub"><a href="{{ '/es/gyoseishoshi/' | url }}" aria-haspopup="true">¿Qué es un gyoseishoshi?</a>
+    <ul class="sub">
+      <li><a href="{{ '/es/gyoseishoshi/#how-to-choose' | url }}">Cómo elegir un gyoseishoshi</a></li>
+      <li><a href="{{ '/es/gyoseishoshi/#benefits' | url }}">Ventajas y limitaciones</a></li>
+      <li><a href="{{ '/es/why-choose-us/' | url }}">Por qué elegirnos</a></li>
+    </ul>
+  </li>
   <li><a href="{{ '/es/#fees' | url }}">Honorarios</a></li>
   <li><a href="{{ '/es/guides/' | url }}">Guías</a></li>
   <li><a href="{{ '/es/#profile' | url }}">Mensaje de la Fundadora</a></li>
   <li><a href="{{ '/es/#info' | url }}">Contacto</a></li>
 {% else %}
   <li><a href="{{ '/ja/#cases' | url }}">対象の方</a></li>
+  <li class="has-sub"><a href="{{ '/ja/gyoseishoshi/' | url }}" aria-haspopup="true">行政書士とは</a>
+    <ul class="sub">
+      <li><a href="{{ '/ja/gyoseishoshi/#how-to-choose' | url }}">行政書士の選び方</a></li>
+      <li><a href="{{ '/ja/gyoseishoshi/#benefits' | url }}">依頼するメリット・デメリット</a></li>
+      <li><a href="{{ '/ja/why-choose-us/' | url }}">当事務所が選ばれる理由</a></li>
+    </ul>
+  </li>
   <li><a href="{{ '/ja/#fees' | url }}">料金</a></li>
   <li><a href="{{ '/ja/guides/' | url }}">お役立ち記事</a></li>
   <li><a href="{{ '/ja/#profile' | url }}">代表挨拶</a></li>
@@ -91,18 +112,30 @@
 <button class="mobile-nav-close" onclick="closeMobileNav()">✕</button>
 {% if lang == 'en' %}
   <a href="{{ '/#cases' | url }}" onclick="closeMobileNav()">Who We Help</a>
+  <a href="{{ '/gyoseishoshi/' | url }}" onclick="closeMobileNav()">What Is a Gyoseishoshi?</a>
+  <a class="mnav-sub" href="{{ '/gyoseishoshi/#how-to-choose' | url }}" onclick="closeMobileNav()">How to Choose a Gyoseishoshi</a>
+  <a class="mnav-sub" href="{{ '/gyoseishoshi/#benefits' | url }}" onclick="closeMobileNav()">Benefits and Limitations</a>
+  <a class="mnav-sub" href="{{ '/why-choose-us/' | url }}" onclick="closeMobileNav()">Why Choose Us</a>
   <a href="{{ '/#fees' | url }}" onclick="closeMobileNav()">Fees</a>
   <a href="{{ '/guides/' | url }}" onclick="closeMobileNav()">Guides</a>
   <a href="{{ '/#profile' | url }}" onclick="closeMobileNav()">Message from the Founder</a>
   <a href="{{ '/#info' | url }}" onclick="closeMobileNav()">Contact</a>
 {% elif lang == 'es' %}
   <a href="{{ '/es/#cases' | url }}" onclick="closeMobileNav()">A quién ayudamos</a>
+  <a href="{{ '/es/gyoseishoshi/' | url }}" onclick="closeMobileNav()">¿Qué es un gyoseishoshi?</a>
+  <a class="mnav-sub" href="{{ '/es/gyoseishoshi/#how-to-choose' | url }}" onclick="closeMobileNav()">Cómo elegir un gyoseishoshi</a>
+  <a class="mnav-sub" href="{{ '/es/gyoseishoshi/#benefits' | url }}" onclick="closeMobileNav()">Ventajas y limitaciones</a>
+  <a class="mnav-sub" href="{{ '/es/why-choose-us/' | url }}" onclick="closeMobileNav()">Por qué elegirnos</a>
   <a href="{{ '/es/#fees' | url }}" onclick="closeMobileNav()">Honorarios</a>
   <a href="{{ '/es/guides/' | url }}" onclick="closeMobileNav()">Guías</a>
   <a href="{{ '/es/#profile' | url }}" onclick="closeMobileNav()">Mensaje de la Fundadora</a>
   <a href="{{ '/es/#info' | url }}" onclick="closeMobileNav()">Contacto</a>
 {% else %}
   <a href="{{ '/ja/#cases' | url }}" onclick="closeMobileNav()">対象の方</a>
+  <a href="{{ '/ja/gyoseishoshi/' | url }}" onclick="closeMobileNav()">行政書士とは</a>
+  <a class="mnav-sub" href="{{ '/ja/gyoseishoshi/#how-to-choose' | url }}" onclick="closeMobileNav()">行政書士の選び方</a>
+  <a class="mnav-sub" href="{{ '/ja/gyoseishoshi/#benefits' | url }}" onclick="closeMobileNav()">依頼するメリット・デメリット</a>
+  <a class="mnav-sub" href="{{ '/ja/why-choose-us/' | url }}" onclick="closeMobileNav()">当事務所が選ばれる理由</a>
   <a href="{{ '/ja/#fees' | url }}" onclick="closeMobileNav()">料金</a>
   <a href="{{ '/ja/guides/' | url }}" onclick="closeMobileNav()">お役立ち記事</a>
   <a href="{{ '/ja/#profile' | url }}" onclick="closeMobileNav()">代表挨拶</a>
