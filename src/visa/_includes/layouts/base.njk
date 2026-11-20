@@ -51,18 +51,6 @@
 </div>
 </a>
 <div class="hdr-right">
-<div class="hdr-ctas">
-{% if lang == 'en' %}
-<a class="hdr-cta hdr-cta-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
-<a class="hdr-cta hdr-cta-form" href="{{ '/#info' | url }}">Contact form</a>
-{% elif lang == 'es' %}
-<a class="hdr-cta hdr-cta-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
-<a class="hdr-cta hdr-cta-form" href="{{ '/es/#info' | url }}">Formulario</a>
-{% elif lang == 'ja' %}
-<a class="hdr-cta hdr-cta-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
-<a class="hdr-cta hdr-cta-form" href="{{ '/ja/#info' | url }}">フォームで相談</a>
-{% endif %}
-</div>
 <div class="lang-switch">
 <button type="button" class="lang-toggle" aria-haspopup="true" aria-expanded="false" aria-label="{% if lang == 'en' %}Language{% elif lang == 'es' %}Idioma{% else %}言語{% endif %}">{% if lang == 'en' %}EN{% elif lang == 'es' %}ES{% else %}JP{% endif %}<span aria-hidden="true">▾</span></button>
 <div class="lang-menu">
@@ -127,14 +115,17 @@
 </ul>
 </nav>
 </header>
-<div class="float-ctas">
+<div class="float-ctas" aria-label="Contact">
 {% if lang == 'en' %}
+<a class="hdr-cta hdr-cta-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">LINE</a>
 <a class="hdr-cta hdr-cta-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
 <a class="hdr-cta hdr-cta-form" href="{{ '/#info' | url }}">Contact form</a>
 {% elif lang == 'es' %}
+<a class="hdr-cta hdr-cta-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">LINE</a>
 <a class="hdr-cta hdr-cta-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
 <a class="hdr-cta hdr-cta-form" href="{{ '/es/#info' | url }}">Formulario</a>
 {% elif lang == 'ja' %}
+<a class="hdr-cta hdr-cta-line" href="https://lin.ee/Sgysu6a" rel="noopener" target="_blank">LINE</a>
 <a class="hdr-cta hdr-cta-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
 <a class="hdr-cta hdr-cta-form" href="{{ '/ja/#info' | url }}">フォームで相談</a>
 {% endif %}
