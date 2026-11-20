@@ -205,24 +205,44 @@ p, li, dd, td { word-break: auto-phrase; }
 @media (max-width:600px){#features .proc-inner{padding:0 18px}}
 .ft-list .ft-body{word-break:normal}
 
-/* ── Header dropdown: 行政書士とは ── */
-nav li.has-sub{position:relative}
-nav ul.sub{display:none;position:absolute;top:100%;left:0;z-index:300;flex-direction:column;gap:0;min-width:240px;padding:8px;margin-top:0;background:#fff;border:1px solid var(--border);border-radius:6px;box-shadow:0 10px 28px rgba(10,42,94,.12)}
-nav li.has-sub::after{content:"";position:absolute;left:0;right:0;top:100%;height:8px}
-nav li.has-sub:hover > ul.sub,nav li.has-sub:focus-within > ul.sub{display:flex}
-nav ul.sub a{display:block;font-size:15px;padding:9px 12px}
-.mobile-nav{overflow-y:auto;justify-content:flex-start;padding:64px 0 32px}
-.mobile-nav a.mnav-sub{font-size:16px;padding:10px 40px;font-family:'Plus Jakarta Sans','Noto Sans JP',sans-serif;color:rgba(255,255,255,.7)}
+/* ── Header: WhatsApp / form buttons on the right, menu row always visible ── */
+.hamburger{display:none !important}
+.hdr-ctas{display:flex;gap:8px;align-items:center;margin-right:10px}
+.hdr-cta{display:inline-flex;align-items:center;justify-content:center;height:38px;padding:0 16px;border-radius:6px;font-size:14.5px;font-weight:600;letter-spacing:.02em;white-space:nowrap;text-decoration:none}
+.hdr-cta-wa{background:#25D366;color:#fff}
+.hdr-cta-wa:hover{background:#1ebe5a}
+.hdr-cta-form{background:var(--navy);color:#fff}
+.hdr-cta-form:hover{opacity:.9}
+.header-inner{height:64px}
+.main-nav{border-top:1px solid var(--border);background:rgba(255,255,255,.98)}
+.main-nav-list{max-width:1240px;margin:0 auto;padding:0 32px;display:flex;justify-content:center;gap:2px;list-style:none}
+.main-nav a{display:block;padding:10px 11px;font-size:14.5px;color:var(--mid);letter-spacing:.03em;white-space:nowrap;border-radius:4px}
+.main-nav a:hover{background:var(--light-bg);color:var(--navy)}
+.main-nav li.has-sub{position:relative}
+.main-nav li.has-sub > a::after{content:"▾";font-size:10px;margin-left:4px;color:var(--light)}
+.main-nav ul.sub{display:none;position:absolute;top:100%;left:0;z-index:600;flex-direction:column;min-width:240px;padding:8px;list-style:none;background:#fff;border:1px solid var(--border);border-radius:6px;box-shadow:0 10px 28px rgba(10,42,94,.12)}
+.main-nav li.has-sub:hover > ul.sub,.main-nav li.has-sub:focus-within > ul.sub{display:flex}
+.main-nav ul.sub a{font-size:14.5px;padding:9px 12px}
+html{scroll-padding-top:120px}
+/* narrower screens: the menu row scrolls sideways instead of disappearing */
+@media(max-width:1239px){
+  .main-nav-list{justify-content:flex-start;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:0 12px}
+  .main-nav-list::-webkit-scrollbar{display:none}
+  .main-nav ul.sub,.main-nav li.has-sub > a::after{display:none !important}
+  .main-nav a{padding:10px 10px;font-size:14px}
+}
+@media(max-width:1024px){ .header-inner{height:58px} }
+/* phones: the two buttons move to the bottom-right corner of the screen */
+.float-ctas{display:none}
+@media(max-width:700px){
+  .hdr-ctas{display:none}
+  .float-ctas{display:flex;position:fixed;right:12px;bottom:14px;flex-direction:column;align-items:stretch;gap:8px;z-index:700}
+  .float-ctas .hdr-cta{height:42px;padding:0 16px;font-size:14px;box-shadow:0 6px 18px rgba(7,24,50,.22);border-radius:999px}
+}
 .guide-body hr{border:none;border-top:1px solid var(--border);margin:36px 0 28px}
-/* 6 menu items: tighten the desktop menu, and use the hamburger menu until there is room for all of them */
-@media(min-width:1025px){
-  .header-inner{max-width:1440px}
-  nav a{padding:7px 9px;font-size:15px;letter-spacing:.02em}
-}
-@media(min-width:1025px) and (max-width:1439px){
-  nav ul{display:none}
-  .hamburger{display:flex}
-}
 /* fixed header covers the top of article pages */
-.guide-article{padding-top:112px}
-@media(max-width:1024px){.guide-article{padding-top:96px}}
+.guide-article{padding-top:140px}
+@media(max-width:1024px){.guide-article{padding-top:120px}}
+
+/* the header is taller now (menu row), so push the hero text below it */
+.hero{padding-top:110px}

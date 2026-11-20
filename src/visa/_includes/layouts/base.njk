@@ -50,10 +50,34 @@
 <small>Visa &amp; Immigration Support · Tokyo</small>
 </div>
 </a>
-<nav>
-<ul>
+<div class="hdr-right">
+<div class="hdr-ctas">
 {% if lang == 'en' %}
-  <li><a href="{{ '/#cases' | url }}">Who We Help</a></li>
+<a class="hdr-cta hdr-cta-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
+<a class="hdr-cta hdr-cta-form" href="{{ '/#info' | url }}">Contact form</a>
+{% elif lang == 'es' %}
+<a class="hdr-cta hdr-cta-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
+<a class="hdr-cta hdr-cta-form" href="{{ '/es/#info' | url }}">Formulario</a>
+{% elif lang == 'ja' %}
+<a class="hdr-cta hdr-cta-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
+<a class="hdr-cta hdr-cta-form" href="{{ '/ja/#info' | url }}">フォームで相談</a>
+{% endif %}
+</div>
+<div class="lang-switch">
+<button type="button" class="lang-toggle" aria-haspopup="true" aria-expanded="false" aria-label="{% if lang == 'en' %}Language{% elif lang == 'es' %}Idioma{% else %}言語{% endif %}">{% if lang == 'en' %}EN{% elif lang == 'es' %}ES{% else %}JP{% endif %}<span aria-hidden="true">▾</span></button>
+<div class="lang-menu">
+<a href="{{ ((altUrls.en if (altUrls and altUrls.en) else '/')) | url }}" class="{% if lang == 'en' %}active{% endif %}" lang="en">EN</a>
+<a href="{{ ((altUrls.es if (altUrls and altUrls.es) else '/es/')) | url }}" class="{% if lang == 'es' %}active{% endif %}" lang="es">ES</a>
+<a href="{{ ((altUrls.ja if (altUrls and altUrls.ja) else '/ja/')) | url }}" class="{% if lang == 'ja' %}active{% endif %}" lang="ja">JP</a>
+</div>
+</div>
+</div>
+</div>
+<nav class="main-nav" aria-label="Menu">
+<ul class="main-nav-list">
+{% if lang == 'en' %}
+  <li><a href="{{ '/' | url }}">Home</a></li>
+  <li><a href="{{ '/#cases' | url }}">Services</a></li>
   <li class="has-sub"><a href="{{ '/gyoseishoshi/' | url }}" aria-haspopup="true">What Is a Gyoseishoshi?</a>
     <ul class="sub">
       <li><a href="{{ '/gyoseishoshi/#how-to-choose' | url }}">How to Choose a Gyoseishoshi</a></li>
@@ -64,9 +88,12 @@
   <li><a href="{{ '/#fees' | url }}">Fees</a></li>
   <li><a href="{{ '/guides/' | url }}">Guides</a></li>
   <li><a href="{{ '/#profile' | url }}">Message from the Founder</a></li>
+  <li><a href="{{ '/#faq' | url }}">FAQ</a></li>
+  <li><a href="{{ '/#office' | url }}">Our Office</a></li>
   <li><a href="{{ '/#info' | url }}">Contact</a></li>
 {% elif lang == 'es' %}
-  <li><a href="{{ '/es/#cases' | url }}">A quién ayudamos</a></li>
+  <li><a href="{{ '/es/' | url }}">Inicio</a></li>
+  <li><a href="{{ '/es/#cases' | url }}">Servicios</a></li>
   <li class="has-sub"><a href="{{ '/es/gyoseishoshi/' | url }}" aria-haspopup="true">¿Qué es un gyoseishoshi?</a>
     <ul class="sub">
       <li><a href="{{ '/es/gyoseishoshi/#how-to-choose' | url }}">Cómo elegir un gyoseishoshi</a></li>
@@ -77,9 +104,12 @@
   <li><a href="{{ '/es/#fees' | url }}">Honorarios</a></li>
   <li><a href="{{ '/es/guides/' | url }}">Guías</a></li>
   <li><a href="{{ '/es/#profile' | url }}">Mensaje de la Fundadora</a></li>
+  <li><a href="{{ '/es/#faq' | url }}">Preguntas frecuentes</a></li>
+  <li><a href="{{ '/es/#office' | url }}">Nuestra oficina</a></li>
   <li><a href="{{ '/es/#info' | url }}">Contacto</a></li>
-{% else %}
-  <li><a href="{{ '/ja/#cases' | url }}">対象の方</a></li>
+{% elif lang == 'ja' %}
+  <li><a href="{{ '/ja/' | url }}">トップ</a></li>
+  <li><a href="{{ '/ja/#cases' | url }}">業務内容</a></li>
   <li class="has-sub"><a href="{{ '/ja/gyoseishoshi/' | url }}" aria-haspopup="true">行政書士とは</a>
     <ul class="sub">
       <li><a href="{{ '/ja/gyoseishoshi/#how-to-choose' | url }}">行政書士の選び方</a></li>
@@ -90,63 +120,26 @@
   <li><a href="{{ '/ja/#fees' | url }}">料金</a></li>
   <li><a href="{{ '/ja/guides/' | url }}">お役立ち記事</a></li>
   <li><a href="{{ '/ja/#profile' | url }}">代表挨拶</a></li>
-  <li><a href="{{ '/ja/#info' | url }}">事務所案内</a></li>
+  <li><a href="{{ '/ja/#faq' | url }}">よくある質問</a></li>
+  <li><a href="{{ '/ja/#office' | url }}">事務所案内</a></li>
+  <li><a href="{{ '/ja/#info' | url }}">お問い合わせ</a></li>
 {% endif %}
 </ul>
 </nav>
-<div class="hdr-right">
-<div class="lang-switch">
-<button type="button" class="lang-toggle" aria-haspopup="true" aria-expanded="false" aria-label="{% if lang == 'en' %}Language{% elif lang == 'es' %}Idioma{% else %}言語{% endif %}">{% if lang == 'en' %}EN{% elif lang == 'es' %}ES{% else %}JP{% endif %}<span aria-hidden="true">▾</span></button>
-<div class="lang-menu">
-<a href="{{ ((altUrls.en if (altUrls and altUrls.en) else '/')) | url }}" class="{% if lang == 'en' %}active{% endif %}" lang="en">EN</a>
-<a href="{{ ((altUrls.es if (altUrls and altUrls.es) else '/es/')) | url }}" class="{% if lang == 'es' %}active{% endif %}" lang="es">ES</a>
-<a href="{{ ((altUrls.ja if (altUrls and altUrls.ja) else '/ja/')) | url }}" class="{% if lang == 'ja' %}active{% endif %}" lang="ja">JP</a>
-</div>
-</div>
-<button aria-label="Menu" class="hamburger" onclick="openMobileNav()"><span></span><span></span><span></span></button>
-</div>
-</div>
 </header>
-
-<div class="mobile-nav" id="mobileNav">
-<button class="mobile-nav-close" onclick="closeMobileNav()">✕</button>
+<div class="float-ctas">
 {% if lang == 'en' %}
-  <a href="{{ '/#cases' | url }}" onclick="closeMobileNav()">Who We Help</a>
-  <a href="{{ '/gyoseishoshi/' | url }}" onclick="closeMobileNav()">What Is a Gyoseishoshi?</a>
-  <a class="mnav-sub" href="{{ '/gyoseishoshi/#how-to-choose' | url }}" onclick="closeMobileNav()">How to Choose a Gyoseishoshi</a>
-  <a class="mnav-sub" href="{{ '/gyoseishoshi/#benefits' | url }}" onclick="closeMobileNav()">Benefits and Limitations</a>
-  <a class="mnav-sub" href="{{ '/why-choose-us/' | url }}" onclick="closeMobileNav()">Why Choose Us</a>
-  <a href="{{ '/#fees' | url }}" onclick="closeMobileNav()">Fees</a>
-  <a href="{{ '/guides/' | url }}" onclick="closeMobileNav()">Guides</a>
-  <a href="{{ '/#profile' | url }}" onclick="closeMobileNav()">Message from the Founder</a>
-  <a href="{{ '/#info' | url }}" onclick="closeMobileNav()">Contact</a>
+<a class="hdr-cta hdr-cta-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
+<a class="hdr-cta hdr-cta-form" href="{{ '/#info' | url }}">Contact form</a>
 {% elif lang == 'es' %}
-  <a href="{{ '/es/#cases' | url }}" onclick="closeMobileNav()">A quién ayudamos</a>
-  <a href="{{ '/es/gyoseishoshi/' | url }}" onclick="closeMobileNav()">¿Qué es un gyoseishoshi?</a>
-  <a class="mnav-sub" href="{{ '/es/gyoseishoshi/#how-to-choose' | url }}" onclick="closeMobileNav()">Cómo elegir un gyoseishoshi</a>
-  <a class="mnav-sub" href="{{ '/es/gyoseishoshi/#benefits' | url }}" onclick="closeMobileNav()">Ventajas y limitaciones</a>
-  <a class="mnav-sub" href="{{ '/es/why-choose-us/' | url }}" onclick="closeMobileNav()">Por qué elegirnos</a>
-  <a href="{{ '/es/#fees' | url }}" onclick="closeMobileNav()">Honorarios</a>
-  <a href="{{ '/es/guides/' | url }}" onclick="closeMobileNav()">Guías</a>
-  <a href="{{ '/es/#profile' | url }}" onclick="closeMobileNav()">Mensaje de la Fundadora</a>
-  <a href="{{ '/es/#info' | url }}" onclick="closeMobileNav()">Contacto</a>
-{% else %}
-  <a href="{{ '/ja/#cases' | url }}" onclick="closeMobileNav()">対象の方</a>
-  <a href="{{ '/ja/gyoseishoshi/' | url }}" onclick="closeMobileNav()">行政書士とは</a>
-  <a class="mnav-sub" href="{{ '/ja/gyoseishoshi/#how-to-choose' | url }}" onclick="closeMobileNav()">行政書士の選び方</a>
-  <a class="mnav-sub" href="{{ '/ja/gyoseishoshi/#benefits' | url }}" onclick="closeMobileNav()">依頼するメリット・デメリット</a>
-  <a class="mnav-sub" href="{{ '/ja/why-choose-us/' | url }}" onclick="closeMobileNav()">当事務所が選ばれる理由</a>
-  <a href="{{ '/ja/#fees' | url }}" onclick="closeMobileNav()">料金</a>
-  <a href="{{ '/ja/guides/' | url }}" onclick="closeMobileNav()">お役立ち記事</a>
-  <a href="{{ '/ja/#profile' | url }}" onclick="closeMobileNav()">代表挨拶</a>
-  <a href="{{ '/ja/#info' | url }}" onclick="closeMobileNav()">事務所案内</a>
+<a class="hdr-cta hdr-cta-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
+<a class="hdr-cta hdr-cta-form" href="{{ '/es/#info' | url }}">Formulario</a>
+{% elif lang == 'ja' %}
+<a class="hdr-cta hdr-cta-wa" href="https://wa.me/819038581198" rel="noopener" target="_blank">WhatsApp</a>
+<a class="hdr-cta hdr-cta-form" href="{{ '/ja/#info' | url }}">フォームで相談</a>
 {% endif %}
-<div class="mobile-nav-langs">
-<a href="{{ ((altUrls.en if (altUrls and altUrls.en) else '/')) | url }}" class="{% if lang == 'en' %}active{% endif %}">EN</a>
-<a href="{{ ((altUrls.es if (altUrls and altUrls.es) else '/es/')) | url }}" class="{% if lang == 'es' %}active{% endif %}">ES</a>
-<a href="{{ ((altUrls.ja if (altUrls and altUrls.ja) else '/ja/')) | url }}" class="{% if lang == 'ja' %}active{% endif %}">JP</a>
 </div>
-</div>
+
 
 {% if site.notice[lang] %}
 <div class="site-notice" role="status"><div class="wrap">{{ site.notice[lang] }}</div></div>
