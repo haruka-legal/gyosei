@@ -466,3 +466,8 @@ html[lang="es"] .fab-form span{font-size:8.5px}
 .info-page .guide-body li strong + *{margin-top:0}
 .info-page .guide-body p{margin-bottom:16px}
 .info-page .guide-body h2{line-height:1.45}
+/* Tokyo Tower: red with white bands and a small base building, like the real tower */
+.hero-skyline .sky-tower{fill:rgba(232,98,82,.55)}
+.hero-skyline .sky-tower-band rect{fill:rgba(255,255,255,.85)}
+.hero-skyline .sky-tower-base{fill:rgba(255,255,255,.9);stroke:rgba(26,111,224,.25);stroke-width:1}
+.hero-skyline .sky-tower-band,.hero-skyline .sky-tower-base{animation:skyRise 1.6s cubic-bezier(.2,.7,.2,1) .25s both}
