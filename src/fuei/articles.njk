@@ -1,10 +1,17 @@
 ---
 layout: layouts/base.njk
-title: "お役立ち記事一覧"
+title: "風俗営業許可・夜のお店のお役立ち記事一覧"
 description: "風俗営業の許可や深夜酒類提供飲食店営業の届出について、開業を考えている方に向けて解説した記事一覧です。"
 permalink: /articles/
 navActive: articles
 ---
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CollectionPage","name":{{ title | dump | safe }},"description":{{ description | dump | safe }},"url":"{{ site.url }}/articles/","inLanguage":"ja","isPartOf":{"@type":"WebSite","name":"遥か行政書士事務所","url":"{{ site.url }}/"},"mainEntity":{"@type":"ItemList","numberOfItems":{{ collections.articles.length }},"itemListElement":[{% for article in collections.articles %}{"@type":"ListItem","position":{{ loop.index }},"url":"{{ site.url }}{{ article.url }}","name":{{ article.data.title | dump | safe }}}{% if not loop.last %},{% endif %}{% endfor %}]}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"トップ","item":"{{ site.url }}/"},{"@type":"ListItem","position":2,"name":"お役立ち記事一覧","item":"{{ site.url }}/articles/"}]}
+</script>
+
 {% set root = page.url | relRoot %}
 <div class="article-hero">
   <div class="container">
