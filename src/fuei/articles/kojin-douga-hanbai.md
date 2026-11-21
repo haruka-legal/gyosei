@@ -1,6 +1,7 @@
 ---
 layout: layouts/article.njk
 title: "個人でアダルト動画を売るのに届出は要る？Fantia・FC2・myfansなどで稼ぐときに必要なこと"
+seoTitle: "個人でアダルト動画を売るのに届出は要る？Fantia・FC2など"
 description: "FantiaやFC2コンテンツマーケット、myfansなどで、個人で撮ったアダルト動画や画像を売るときに必要な風営法の届出をまとめました。サイト側が届出をしていても自分の届出が要るのか、届出の出し先と書類、無料で見せる場合やOnlyFans・Pornhubなど海外のサイトを使う場合の考え方、届出をしても許されないことまで説明します。"
 keywords: "個人撮影,アダルト動画,販売,Fantia,FC2,コンテンツマーケット,myfans,マイファンズ,OnlyFans,Pornhub,クリエイター,映像送信型性風俗特殊営業,届出,風営法,警察署,年齢確認,無修正"
 category: "開業のきほん"

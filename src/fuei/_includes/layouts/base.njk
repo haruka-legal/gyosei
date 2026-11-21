@@ -4,7 +4,7 @@
 {% set root = page.url | relRoot %}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ title }}{% if site.name not in title %} | {{ site.name }}{% endif %}</title>
+{% set pageTitle = seoTitle or title %}<title>{{ pageTitle }}{% if site.name not in pageTitle %} | {{ site.name }}{% endif %}</title>
 
 <meta name="description" content="{{ description }}">
 {% if keywords %}<meta name="keywords" content="{{ keywords }}">{% endif %}
@@ -14,7 +14,7 @@
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
 <meta property="og:type" content="{{ ogType or 'website' }}">
-<meta property="og:title" content="{{ title }}">
+<meta property="og:title" content="{{ seoTitle or title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.name }}">

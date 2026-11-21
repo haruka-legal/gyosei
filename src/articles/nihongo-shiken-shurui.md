@@ -1,6 +1,7 @@
 ---
 layout: layouts/article.njk
 title: "外国人の日本語の試験にはどのような種類がある？JLPT・JFT-Basic・BJTの違い"
+seoTitle: "外国人の日本語試験の種類は？JLPT・JFT-Basic・BJTの違い"
 description: "外国人の日本語の力を示す試験には、日本語能力試験（JLPT）、国際交流基金日本語基礎テスト（JFT-Basic）、BJTビジネス日本語能力テストなどがあります。それぞれの特徴、実施の頻度、結果の出方と、在留資格の申請でどの試験の何点が使われるかを、外国人を雇う会社向けに整理します。"
 keywords: "日本語 試験 種類,日本語能力試験,JLPT,JFT-Basic,BJT,日本留学試験,介護日本語評価試験,在留資格,特定技能"
 category: "在留資格の基礎"
