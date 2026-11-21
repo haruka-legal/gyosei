@@ -141,12 +141,22 @@
   .area .how{list-style:none;margin:0 0 12px;font-size:16.5px;line-height:2}
   .area .how li::before{content:"・"}
   .area .sub{font-size:14.5px;color:var(--muted)}
-  .others{margin-top:40px}
-  .others-list{list-style:none;padding:0;margin:0;display:grid;gap:10px}
-  .others-list a{display:block;padding:14px 18px;border:1px solid var(--line);border-radius:10px;text-decoration:none;color:inherit}
-  .others-list a:hover{background:rgba(61,142,245,.06)}
-  .others-list .o-t{display:block;font-weight:700;font-size:16.5px;color:var(--blue,#1f5fae)}
-  .others-list .o-d{display:block;font-size:14px;color:var(--muted,#5a6b80);margin-top:2px}
+  .routes a:has(.thumb){grid-template-columns:auto minmax(0,1fr) auto}
+  .thumb{width:120px;height:90px;display:block;flex:none}
+  .routes .sub{display:block;margin:-22px 0 22px 144px;font-size:14.5px;color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+  .others{margin-top:44px}
+  .others h2{font-family:var(--mincho);font-weight:700;font-size:19px;line-height:1.4;padding-left:12px;border-left:4px solid var(--blue);margin-bottom:6px}
+  .routes-sm a{padding:18px 4px}
+  .routes-sm .t{font-size:17px}
+  .routes-sm .d{font-size:14.5px}
+  .routes-sm .go{width:36px;height:36px}
+  @media (max-width:720px){
+    .routes{grid-auto-rows:auto!important}
+    .routes a{height:auto!important}
+    .routes a:has(.thumb){padding:16px 2px;gap:12px}
+    .thumb{width:64px;height:48px}
+    .routes .sub{margin:-18px 0 16px 78px;font-size:13.5px;line-height:1.6}
+  }
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LegalService", "@id": "https://haruka-legal.com/#office", "name": "遥か行政書士事務所", "alternateName": ["はるか行政書士事務所", "HARUKA Gyoseishoshi Office"], "url": "https://haruka-legal.com/", "description": "東京都千代田区（神保町・御茶ノ水）の行政書士事務所。ビザ・外国人雇用などの国際業務、相続手続き・遺言書作成、夜のお店の風俗営業許可・届出をサポートします。日本全国・海外からのご相談にオンラインで対応し、訪問も承ります。", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressLocality": "千代田区", "addressCountry": "JP"}, "email": "info@haruka-legal.com", "founder": {"@type": "Person", "name": "岸 はるか", "jobTitle": "行政書士"}, "areaServed": [{"@type": "AdministrativeArea", "name": "東京都"}, {"@type": "Country", "name": "日本"}, "Worldwide"], "knowsAbout": ["在留資格", "外国人雇用", "就労ビザ", "特定技能", "育成就労", "配偶者ビザ", "永住許可", "帰化", "相続手続き", "遺言書作成", "風俗営業許可", "深夜酒類提供飲食店営業の届出"], "logo": "https://haruka-legal.com/gyosei/images/logo.jpg", "image": "https://haruka-legal.com/gyosei/images/logo.jpg", "contactPoint": {"@type": "ContactPoint", "contactType": "customer service", "url": "https://lin.ee/Sgysu6a", "email": "info@haruka-legal.com", "availableLanguage": ["ja", "en", "es"]}, "sameAs": ["https://www.linkedin.com/in/haruka-kishi"], "subOrganization": [{"@type": "LegalService", "name": "遥か行政書士事務所（ビザ・外国人雇用）", "url": "https://haruka-legal.com/gyosei/"}, {"@type": "LegalService", "name": "遥か行政書士事務所（相続・遺言）", "url": "https://haruka-legal.com/souzoku/"}, {"@type": "LegalService", "name": "遥か行政書士事務所（風俗営業許可）", "url": "https://haruka-legal.com/fuei/"}, {"@type": "LegalService", "name": "HARUKA Gyoseishoshi Office (Visa & Immigration Support)", "url": "https://haruka-legal.com/visa/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"遥か行政書士事務所","alternateName":"HARUKA Gyoseishoshi Office","url":"https://haruka-legal.com/","inLanguage":["ja","en","es"],"publisher":{"@id":"https://haruka-legal.com/#office"}}</script>
@@ -161,16 +171,15 @@
     <p class="lead"><span class="ph" style="--j:0">受け継ぎ、</span><span class="ph" style="--j:1">つなぎ、</span><span class="ph" style="--j:2">遥か未来へ。</span></p>
     <p class="intro">東京・千代田区の行政書士事務所です。<br><span class="ln">外国人雇用・ビザ、相続・遺言、</span><span class="ln">夜のお店の許可・届出を代行します。</span></p>
     <ul class="routes">
-      <li><a href="gyosei/"><span><span class="t">ビザ・外国人雇用</span><span class="d">外国人の採用や雇用後の手続きを任せたい企業様、結婚・永住ビザや帰化をお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
-      <li><a href="souzoku/"><span><span class="t">相続・遺言</span><span class="d">相続手続き、遺言書の作成、認知症や老後への備えをお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
-      <li><a href="fuei/"><span><span class="t">風俗営業許可・深夜酒類提供の届出</span><span class="d">スナック・キャバクラ・バーなど、夜のお店の開業・変更をお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
-      <li><a href="visa/" lang="en"><span><span class="t">For international clients — English / Español</span><span class="d">Work, family and permanent residence visas for individuals and companies.</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
+      <li><a href="gyosei/"><svg class="thumb" viewBox="0 0 120 90" aria-hidden="true"><rect width="120" height="90" rx="12" fill="#e6f0fc"/><circle cx="48" cy="50" r="26" fill="#bcd8fb"/><path d="M28 42c8 4 14-2 20 2s6 12 14 10M30 60c6-2 10 4 16 2" fill="none" stroke="#7fb0ea" stroke-width="3" stroke-linecap="round"/><circle cx="48" cy="50" r="26" fill="none" stroke="#3d7fd6" stroke-width="2"/><rect x="72" y="40" width="28" height="36" rx="4" fill="#1f5fae"/><circle cx="86" cy="54" r="7" fill="none" stroke="#fff" stroke-width="1.8"/><rect x="79" y="66" width="14" height="2.4" rx="1" fill="#fff"/><path d="M74 20l22-6c3-1 4 2 1 3l-8 3-5 8h-3l2-7-6 2-2 3h-2l1-4z" fill="#fff" stroke="#3d7fd6" stroke-width="1.2"/></svg><span><span class="t">ビザ・外国人雇用</span><span class="d">外国人の採用や雇用後の手続きを任せたい企業様、結婚・永住ビザや帰化をお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a><a class="sub" href="visa/" lang="en">For international clients →</a></li>
+      <li><a href="souzoku/"><svg class="thumb" viewBox="0 0 120 90" aria-hidden="true"><rect width="120" height="90" rx="12" fill="#f3efe6"/><circle cx="92" cy="38" r="15" fill="#f4b6c8"/><circle cx="82" cy="46" r="10" fill="#f8cdd9"/><rect x="90" y="48" width="4" height="22" fill="#9a7b5c"/><path d="M26 46l24-18 24 18" fill="#c4624c"/><rect x="31" y="45" width="38" height="27" fill="#fff" stroke="#c9bfae" stroke-width="1.4"/><rect x="45" y="56" width="10" height="16" fill="#c4624c" opacity=".85"/><rect x="35" y="51" width="7" height="7" fill="#bcd8fb"/><rect x="58" y="51" width="7" height="7" fill="#bcd8fb"/><rect x="14" y="70" width="92" height="3" rx="1.5" fill="#d9cfbd"/></svg><span><span class="t">相続・遺言</span><span class="d">相続手続き、遺言書の作成、認知症や老後への備えをお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
+      <li><a href="fuei/"><svg class="thumb" viewBox="0 0 120 90" aria-hidden="true"><rect width="120" height="90" rx="12" fill="#1d2b4a"/><circle cx="96" cy="18" r="6" fill="#f6e7a8"/><circle cx="20" cy="14" r="1.2" fill="#fff"/><circle cx="60" cy="10" r="1" fill="#fff"/><circle cx="78" cy="26" r="1" fill="#fff"/><rect x="10" y="40" width="40" height="40" fill="#2c3d63"/><rect x="16" y="46" width="10" height="8" fill="#f6c96b"/><rect x="32" y="46" width="10" height="8" fill="#f6c96b" opacity=".6"/><rect x="58" y="32" width="44" height="48" fill="#34466f"/><rect x="62" y="38" width="36" height="9" rx="2" fill="#e85a7a"/><ellipse cx="80" cy="62" rx="6" ry="8" fill="#d6342c"/><rect x="74.5" y="53.5" width="11" height="2" fill="#222"/><rect x="74.5" y="68.5" width="11" height="2" fill="#222"/><path d="M28 64h12l-6 8z" fill="#bcd8fb"/><rect x="33" y="72" width="2" height="6" fill="#bcd8fb"/><rect x="29" y="78" width="10" height="1.6" fill="#bcd8fb"/></svg><span><span class="t">風俗営業許可・深夜酒類提供の届出</span><span class="d">スナック・キャバクラ・バーなど、夜のお店の開業・変更をお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
     </ul>
     <section class="others" aria-labelledby="others-h">
       <h2 id="others-h">その他の取扱業務</h2>
-      <ul class="others-list">
-        <li><a href="/nouchi/"><span class="o-t">農地転用・農地の手続き</span><span class="o-d">田や畑を宅地や駐車場にするとき、相続した農地の届出</span></a></li>
-        <li><a href="/creator/"><span class="o-t">クリエイター・配信者の手続き</span><span class="o-d">契約書の作成、著作権登録、会社設立</span></a></li>
+      <ul class="routes routes-sm">
+        <li><a href="/nouchi/"><span><span class="t">農地転用・農地の手続き</span><span class="d">田や畑を宅地や駐車場にするとき、相続した農地の届出</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
+        <li><a href="/creator/"><span><span class="t">クリエイター・配信者の手続き</span><span class="d">契約書の作成、著作権登録、会社設立</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
       </ul>
     </section>
     <section class="news" aria-labelledby="news-h">
