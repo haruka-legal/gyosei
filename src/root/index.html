@@ -144,7 +144,20 @@
   .routes a:has(.thumb){grid-template-columns:auto minmax(0,1fr) auto}
   .thumb{width:120px;height:90px;display:block;flex:none;object-fit:cover;border-radius:10px}
   .routes .sub{display:block;margin:-22px 0 22px 144px;font-size:14.5px;color:var(--blue);text-decoration:underline;text-underline-offset:3px}
-  .others{margin-top:44px}
+  .cards{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 28px;margin-top:20px}
+  .cards li,.cards li:last-child{border:none!important}
+  .routes.cards a:not(.sub){display:flex!important;flex-direction:column;padding:0!important;gap:0;background:none;height:auto!important}
+  .cards .ph{display:block;overflow:hidden;border-radius:12px}
+  .routes.cards .thumb{width:100%;height:auto;aspect-ratio:3/2;border-radius:0;transition:transform .5s ease}
+  .cards a:hover .thumb,.cards a:focus-visible .thumb{transform:scale(1.04)}
+  .cards .body{display:block;padding:18px 2px 0}
+  .cards .go{display:none}
+  .cards .d{margin-top:6px;line-height:1.75}
+  .cards .body::after{content:"詳しく見る →";display:inline-block;margin-top:14px;padding-bottom:4px;border-bottom:1px solid var(--blue);font-size:14.5px;letter-spacing:.08em;color:var(--blue)}
+  .routes.cards .sub{margin:14px 2px 0;font-size:14px}
+  @media (max-width:900px){.cards{grid-template-columns:1fr;gap:40px}}
+  @media (prefers-reduced-motion:reduce){.cards .thumb{transition:none}}
+  .others{margin-top:56px}
   .others h2{font-family:var(--mincho);font-weight:700;font-size:19px;line-height:1.4;padding-left:12px;border-left:4px solid var(--blue);margin-bottom:6px}
   .routes-sm a{padding:18px 4px}
   .routes-sm .t{font-size:17px}
@@ -170,10 +183,10 @@
   <div class="side">
     <p class="lead"><span class="ph" style="--j:0">受け継ぎ、</span><span class="ph" style="--j:1">つなぎ、</span><span class="ph" style="--j:2">遥か未来へ。</span></p>
     <p class="intro">東京・千代田区の行政書士事務所です。<br><span class="ln">外国人雇用・ビザ、相続・遺言、</span><span class="ln">夜のお店の許可・届出を代行します。</span></p>
-    <ul class="routes">
-      <li><a href="gyosei/"><img class="thumb" src="images/visa.jpg" alt="地球儀と飛行機の模型" width="480" height="360" loading="lazy" decoding="async"><span><span class="t">ビザ・外国人雇用</span><span class="d">外国人の採用や雇用後の手続きを任せたい企業様、結婚・永住ビザや帰化をお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a><a class="sub" href="visa/" lang="en">For international clients →</a></li>
-      <li><a href="souzoku/"><img class="thumb" src="images/souzoku.jpg" alt="重なり合う家族の手" width="480" height="360" loading="lazy" decoding="async"><span><span class="t">相続・遺言</span><span class="d">相続手続き、遺言書の作成、認知症や老後への備えをお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
-      <li><a href="fuei/"><img class="thumb" src="images/fuei.jpg" alt="バーカウンターでお酒を注ぐ様子" width="480" height="360" loading="lazy" decoding="async"><span><span class="t">風俗営業許可・深夜酒類提供の届出</span><span class="d">スナック・キャバクラ・バーなど、夜のお店の開業・変更をお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></a></li>
+    <ul class="routes cards">
+      <li><a href="gyosei/"><span class="ph"><img class="thumb" src="images/visa.jpg" alt="地球儀と飛行機の模型" width="1080" height="720" loading="lazy" decoding="async"></span><span class="body"><span><span class="t">ビザ・外国人雇用</span><span class="d">外国人の採用や雇用後の手続きを任せたい企業様、結婚・永住ビザや帰化をお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></span></a><a class="sub" href="visa/" lang="en">For international clients →</a></li>
+      <li><a href="souzoku/"><span class="ph"><img class="thumb" src="images/souzoku.jpg" alt="重なり合う家族の手" width="1080" height="720" loading="lazy" decoding="async"></span><span class="body"><span><span class="t">相続・遺言</span><span class="d">相続手続き、遺言書の作成、認知症や老後への備えをお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></span></a></li>
+      <li><a href="fuei/"><span class="ph"><img class="thumb" src="images/fuei.jpg" alt="バーカウンターでお酒を注ぐ様子" width="1080" height="720" loading="lazy" decoding="async"></span><span class="body"><span><span class="t">風俗営業許可・深夜酒類提供の届出</span><span class="d">スナック・キャバクラ・バーなど、夜のお店の開業・変更をお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></span></a></li>
     </ul>
     <section class="others" aria-labelledby="others-h">
       <h2 id="others-h">その他の取扱業務</h2>
