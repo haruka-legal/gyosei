@@ -94,7 +94,7 @@
   .office a{color:var(--blue)}
   @media (max-width:720px){.intro{margin-top:-8px}}
   /* 屋号とロゴを横並びのヘッダーにする（全画面幅） */
-  .page{grid-template-columns:minmax(0,1fr);gap:40px;max-width:820px}
+  .page{grid-template-columns:minmax(0,1fr);gap:40px;max-width:1040px}
   .left{flex-direction:row;align-items:center;justify-content:flex-start;gap:18px;width:100%;padding-bottom:18px;background:linear-gradient(var(--blue),var(--blue)) left bottom/100% 2px no-repeat;animation:lineh 2.8s cubic-bezier(.33,0,.2,1) both}
   .seal{order:-1;flex:none;width:68px;height:68px;border-radius:0}
   .name{writing-mode:horizontal-tb;font-size:clamp(24px,3.6vw,34px);letter-spacing:.06em;padding:0;border:none;background:none;animation:none}
@@ -173,6 +173,7 @@
   .routes a.intl:hover,.routes a.intl:focus-visible{background:var(--blue);color:#fff}
   @media (max-width:900px){.intl-pc{display:none}.routes a.intl-m{display:flex;margin-top:24px}.cards li:first-child{flex-direction:column}}
   @media (max-width:720px){.intl{padding:16px 18px;gap:12px}.intl .globe{width:28px;height:28px}.intl-t{font-size:17px}.intl-d{font-size:13px;line-height:1.6}}
+  .nw{display:inline-block}
   .svc-h{font-family:var(--mincho);font-weight:700;font-size:21px;line-height:1.4;padding-left:12px;border-left:4px solid var(--blue);margin:40px 0 4px}
   .others-list{list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 28px;margin-top:20px}
   .others-list a,.others-list .nolink{display:block;text-decoration:none;color:inherit}
@@ -183,7 +184,7 @@
   .others-list .d{font-size:14px;line-height:1.7;margin-top:4px}
   .soon{display:inline-block;margin-bottom:6px;padding:1px 8px;border:1px solid var(--muted);border-radius:999px;font-size:11.5px;font-weight:500;color:var(--muted);letter-spacing:.05em}
   .greet{margin-top:56px}
-  .greet-in{display:grid;grid-template-columns:220px minmax(0,1fr);gap:32px;align-items:start;margin-top:20px}
+  .greet-in{display:grid;grid-template-columns:260px minmax(0,1fr);gap:32px;align-items:start;margin-top:20px}
   .greet-ph{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%;border-radius:12px;display:block}
   .greet-tx p{font-size:15.5px;line-height:1.95;margin:0 0 12px}
   .greet-name{margin-top:18px!important;font-size:14px!important;line-height:1.7!important;color:var(--muted)}
@@ -224,7 +225,7 @@
     <ul class="routes cards">
       <li><a href="gyosei/"><span class="ph"><img class="thumb" src="images/visa.jpg" alt="地球儀と飛行機の模型" width="1080" height="720" loading="lazy" decoding="async"></span><span class="body"><span><span class="t">ビザ・外国人雇用</span><span class="d">外国人の採用や雇用後の手続きを任せたい企業様、結婚・永住ビザや帰化をお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></span></a><a class="intl intl-m" href="visa/" lang="en"><svg class="globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg><span class="intl-txt"><span class="intl-t">For international clients</span><span class="intl-d">Visa &amp; Immigration Support in English, Español and 日本語</span></span><span class="intl-go" aria-hidden="true">→</span></a></li>
       <li><a href="souzoku/"><span class="ph"><img class="thumb" src="images/souzoku.jpg" alt="重なり合う家族の手" width="1080" height="720" loading="lazy" decoding="async"></span><span class="body"><span><span class="t">相続・遺言</span><span class="d">相続手続き、遺言書の作成、認知症や老後への備えをお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></span></a></li>
-      <li><a href="fuei/"><span class="ph"><img class="thumb" src="images/fuei.jpg" alt="バーカウンターでお酒を注ぐ様子" width="1080" height="720" loading="lazy" decoding="async"></span><span class="body"><span><span class="t">風俗営業許可・深夜酒類提供の届出</span><span class="d">スナック・キャバクラ・バーなど、夜のお店の開業・変更をお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></span></a></li>
+      <li><a href="fuei/"><span class="ph"><img class="thumb" src="images/fuei.jpg" alt="バーカウンターでお酒を注ぐ様子" width="1080" height="720" loading="lazy" decoding="async"></span><span class="body"><span><span class="t">風俗営業許可・<span class="nw">深夜酒類提供の届出</span></span><span class="d">スナック・キャバクラ・バーなど、夜のお店の開業・変更をお考えの方</span></span><span class="go" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3l5 5-5 5"/></svg></span></span></a></li>
     </ul>
     <a class="intl intl-pc" href="visa/" lang="en"><svg class="globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg><span class="intl-txt"><span class="intl-t">For international clients</span><span class="intl-d">Visa &amp; Immigration Support in English, Español and 日本語</span></span><span class="intl-go" aria-hidden="true">→</span></a>
     <section class="others" aria-labelledby="others-h">

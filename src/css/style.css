@@ -2571,3 +2571,16 @@ footer p, footer a { color: var(--text-light); }
 /* スマホのメニュー：「当事務所が選ばれる理由」を「行政書士の選び方」の小項目として小さく表示 */
 .mobile-menu a.mm-parent{border-bottom:none!important;padding-bottom:6px!important}
 .mobile-menu a.mm-sub{font-size:14.5px!important;padding:4px 0 16px 1em!important;opacity:.85}
+
+/* ===== 文字サイズの整理（2026-11-23）：本文＞補足14px＞ラベル13px ===== */
+.fees-note,.fee-note-box,.fee-note,.form-open-note,.form-footer,.footer-souzoku,.article-contact-note,.article-contact > .article-contact-note,.profile-reg{font-size:14px}
+.post-meta,.post-cat,.article-date,.flow-infobox-label,.btn-sub,.nav-addr{font-size:13px}
+.tab-btn{font-size:14px}
+@media (max-width:480px){.tab-btn{font-size:13.5px;padding:10px 2px}}
+.hero-foreign-link{font-size:14.5px}
+footer a[href*="privacy"]{display:inline-block;padding:10px 4px}
+
+/* 右下の丸ボタン：最初の画面では隠し、スクロールしてから出す（2026-11-23） */
+.fab-contact{transition:opacity .3s ease,transform .3s ease}
+.fab-contact.is-hidden{opacity:0;transform:translateY(16px);pointer-events:none;animation:none}
+@media (prefers-reduced-motion:reduce){.fab-contact{transition:none}}

@@ -620,3 +620,15 @@ p, li, dd, td { word-break: auto-phrase; }
 .article-figure{margin:28px 0 32px;}
 .article-figure img{display:block;width:100%;max-width:640px;height:auto;margin:0 auto;border:1px solid #ddd;border-radius:8px;background:#fff;}
 .article-figure figcaption{max-width:640px;margin:10px auto 0;font-size:14px;line-height:1.7;color:#666;}
+
+/* ===== 文字サイズの整理（2026-11-23）：本文＞補足14px＞ラベル13px ===== */
+.step-note,.steps-foot,.flow-note,.flow-notes p,.fees-note,.fee-note-box,.form-open-note,.form-footer,.article-contact-note,.profile-role,.profile-reg{font-size:14px}
+.post-meta,.post-cat,.article-cat,.article-date,.step-flag,.btn-sub,.access-label{font-size:13px}
+.steps-foot{max-width:44em}
+.hero-desc .hl{display:inline-block}
+footer a[href*="privacy"]{display:inline-block;padding:10px 4px}
+
+/* 右下の丸ボタン：最初の画面では隠し、スクロールしてから出す（2026-11-23） */
+.fab-contact{transition:opacity .3s ease,transform .3s ease}
+.fab-contact.is-hidden{opacity:0;transform:translateY(16px);pointer-events:none;animation:none}
+@media (prefers-reduced-motion:reduce){.fab-contact{transition:none}}

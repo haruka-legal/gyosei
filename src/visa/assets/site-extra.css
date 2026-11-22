@@ -520,3 +520,15 @@ html[lang="es"] .fab-form span{font-size:8.5px}
 .hero-skyline .lm-terminal{fill:#fff;stroke:rgba(70,100,150,.55);stroke-width:.9}
 .hero-skyline .lm-terminal-glass{fill:rgba(120,170,230,.7)}
 .hero-skyline .lm-kaminari-niche{fill:rgba(60,40,40,.55)}
+
+/* ===== 文字サイズの整理（2026-11-23） ===== */
+.fab-btn{font-size:11px}
+.fab-wa span{font-size:10px;letter-spacing:-.02em}
+.cd-fee-note,.cd-note,.fee-tbl-note,.det-v{font-size:14px}
+.cur-label,.fee-box-title,.fee-tbl th{font-size:13px}
+.flow-desc{max-width:44em}
+
+/* 右下の丸ボタン：最初の画面では隠し、スクロールしてから出す（2026-11-23） */
+.fab-contact{transition:opacity .3s ease,transform .3s ease}
+.fab-contact.is-hidden{opacity:0;transform:translateY(16px);pointer-events:none;animation:none}
+@media (prefers-reduced-motion:reduce){.fab-contact{transition:none}}
