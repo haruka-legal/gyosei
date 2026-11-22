@@ -632,3 +632,6 @@ footer a[href*="privacy"]{display:inline-block;padding:10px 4px}
 .fab-contact{transition:opacity .3s ease,transform .3s ease}
 .fab-contact.is-hidden{opacity:0;transform:translateY(16px);pointer-events:none;animation:none}
 @media (prefers-reduced-motion:reduce){.fab-contact{transition:none}}
+/* 右下のフォームボタン：黒い画面に溶けないよう白にする（2026-11-23） */
+.fab-form{background:#fff!important;color:#121213!important;border:1px solid rgba(0,0,0,.12)}
+.fab-form svg{stroke:#121213!important}
