@@ -174,6 +174,18 @@
   @media (max-width:900px){.intl-pc{display:none}.routes a.intl-m{display:flex;margin-top:24px}.cards li:first-child{flex-direction:column}}
   @media (max-width:720px){.intl{padding:16px 18px;gap:12px}.intl .globe{width:28px;height:28px}.intl-t{font-size:17px}.intl-d{font-size:13px;line-height:1.6}}
   .nw{display:inline-block}
+  .philo{position:relative;margin-top:64px;padding:56px 24px 72px;text-align:center;border-radius:16px;background:linear-gradient(180deg,#f3f8fe 0%,#fff 100%);overflow:hidden}
+  .philo-mark{width:56px;height:56px;margin:0 auto 14px;display:block;opacity:.9}
+  .philo-label{font-family:var(--gothic);font-size:13px;font-weight:700;letter-spacing:.4em;color:var(--blue);margin:0 0 18px;padding-left:.4em}
+  .philo-motto{font-family:var(--mincho);font-weight:500;font-size:clamp(26px,3.4vw,36px);line-height:1.6;letter-spacing:.14em;color:var(--ink);margin:0}
+  .philo-motto .sp{display:none}
+  .philo-rule{display:block;width:48px;height:2px;background:var(--blue);margin:28px auto 26px}
+  .philo-in p{font-size:16px;line-height:2.1;margin:0 0 14px;color:var(--ink)}
+  .philo-in .nw{display:inline-block}
+  .philo-end{margin-top:18px!important;font-size:14.5px!important;color:var(--muted)!important;letter-spacing:.06em}
+  .philo-wave{position:absolute;left:0;right:0;bottom:10px;width:100%;height:40px;color:var(--blue);opacity:.18}
+  @media (max-width:720px){.philo{padding:44px 18px 64px;margin-top:56px}.philo-motto{font-size:27px;letter-spacing:.12em}.philo-motto .sp{display:inline}.philo-in p{font-size:15.5px}}
+
   .topbar{max-width:1040px;width:100%;margin:0 auto;padding:14px 20px 0;display:flex;justify-content:flex-end}
   .lang-link{display:inline-flex;align-items:center;gap:7px;padding:8px 16px;border:1.5px solid var(--blue);border-radius:999px;color:var(--blue);font-size:14.5px;font-weight:700;letter-spacing:.02em;text-decoration:none;transition:background .3s,color .3s}
   .lang-link svg{width:18px;height:18px}
@@ -189,11 +201,6 @@
   .others-list .d{font-size:14px;line-height:1.7;margin-top:4px}
   .soon{display:inline-block;margin-bottom:6px;padding:1px 8px;border:1px solid var(--muted);border-radius:999px;font-size:11.5px;font-weight:500;color:var(--muted);letter-spacing:.05em}
   .greet{margin-top:56px}
-  .philo{margin-top:56px}
-  .philo-in{margin-top:20px;max-width:44em}
-  .philo-in p{font-size:15.5px;line-height:2;margin:0 0 14px}
-  .philo-motto{margin:0 0 18px!important;font-family:var(--mincho);font-size:clamp(21px,2.4vw,26px)!important;line-height:1.6!important;color:var(--ink);letter-spacing:.06em}
-  .philo-logo{font-size:14px!important;color:var(--muted)}
   .greet-in{display:grid;grid-template-columns:260px minmax(0,1fr);gap:32px;align-items:start;margin-top:20px}
   .greet-ph{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%;border-radius:12px;display:block}
   .greet-tx p{font-size:15.5px;line-height:1.95;margin:0 0 12px}
@@ -248,13 +255,16 @@
       </ul>
     </section>
     <section class="philo" aria-labelledby="philo-h">
-      <h2 class="svc-h" id="philo-h">理念</h2>
+      <img class="philo-mark" src="gyosei/images/logo-mark.png" alt="" width="64" height="64" loading="lazy" decoding="async">
+      <h2 class="philo-label" id="philo-h">理念</h2>
+      <p class="philo-motto">受け継ぎ、<br class="sp">つなぎ、<br class="sp">遥か未来へ。</p>
+      <span class="philo-rule" aria-hidden="true"></span>
       <div class="philo-in">
-        <p class="philo-motto">受け継ぎ、つなぎ、遥か未来へ。</p>
-        <p>受け継いだものを大切にしながら、人と人、国と国、過去と未来をつなぐ。</p>
-        <p>人々の暮らしや新たな挑戦を支え、次の世代の子どもたちが安心して夢を描ける未来へ。</p>
-        <p>それが、遥か行政書士事務所の理念です。</p>
+        <p><span class="nw">受け継いだものを大切にしながら、</span><span class="nw">人と人、国と国、過去と未来をつなぐ。</span></p>
+        <p><span class="nw">人々の暮らしや新たな挑戦を支え、</span><span class="nw">次の世代の子どもたちが</span><span class="nw">安心して夢を描ける未来へ。</span></p>
+        <p class="philo-end">それが、遥か行政書士事務所の理念です。</p>
       </div>
+      <svg class="philo-wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 34 C150 14 300 54 450 34 S750 14 900 34 S1100 50 1200 30" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M0 46 C160 28 320 62 480 44 S800 26 960 44 S1120 56 1200 42" fill="none" stroke="currentColor" stroke-width="1" opacity=".55"/></svg>
     </section>
     <section class="greet" aria-labelledby="greet-h">
       <h2 class="svc-h" id="greet-h">代表挨拶</h2>
