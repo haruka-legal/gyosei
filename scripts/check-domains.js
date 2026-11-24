@@ -118,6 +118,8 @@ const ALLOWED_HOSTS = [
   "www.city.bunkyo.lg.jp", // 文京区（外国人住民の住民票）
   "www.bk.mufg.jp", // 三菱UFJ銀行（相続手続きの必要書類）
   "www.zenginkyo.or.jp", // 全国銀行協会（預金相続の手続き）
+  "www.kokusen.go.jp", // 国民生活センター（遺品整理のトラブル）
+  "www.city.yokohama.lg.jp", // 横浜市（遺品整理業者への依頼の注意点）
   "www.smbc.co.jp", // 三井住友銀行（払戻し制度・口座照会の資料）
   "www.koshonin.gr.jp", // 日本公証人連合会
   "www.mlit.go.jp", // 国土交通省
