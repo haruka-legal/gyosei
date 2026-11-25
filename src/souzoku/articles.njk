@@ -27,42 +27,50 @@ navActive: articles
 
 <div class="services-section" id="articles">
   <div class="container">
-    {% set compact = true %}{% include "partials/start-here.njk" %}
-    {% set cats = collections.articles | categoryCounts %}
-    {% if cats.length > 1 %}
-    <div class="post-filter" role="group" aria-label="カテゴリで絞り込む">
-      <button type="button" class="post-filter-btn" data-cat="all" aria-pressed="true">すべて<span class="post-filter-count">{{ collections.articles.length }}</span></button>
-      {% for c in cats %}<button type="button" class="post-filter-btn" data-cat="{{ c.name }}" aria-pressed="false">{{ c.name }}<span class="post-filter-count">{{ c.count }}</span></button>{% endfor %}
-    </div>
-    {% endif %}
-    <ul class="post-list post-list--full" id="post-list">
-      {% for article in collections.articles %}
-      <li class="post-item" data-cat="{{ article.data.category }}">
-        <a href="{{ root }}{{ article.url | noLeadSlash }}">
-          <span class="post-meta"><time datetime="{{ article.data.datePublished | isoDate }}">{{ article.data.datePublished | cardDate }}</time>{% if article.data.category %}<span class="post-cat">{{ article.data.category }}</span>{% endif %}</span>
-          <span class="post-title">{{ article.data.title }}</span>
-          {% if article.data.description %}<span class="post-desc">{{ article.data.description }}</span>{% endif %}
-        </a>
-      </li>
+    <nav class="chapter-nav" aria-label="章の一覧">
+      {% for p in chapters %}
+      <div class="chapter-nav-part">
+        <p class="chapter-nav-part-title">{{ p.part }}</p>
+        <ol class="chapter-nav-list">
+          {% for c in p.chapters %}{% set list = collections.articles | chapterArticles(c.slugs) %}
+          <li><a href="#ch-{{ c.no }}"><span class="chapter-no">{{ "0" ~ c.no }}</span><span class="chapter-nav-name">{{ c.name }}</span><span class="chapter-nav-count">{{ list.length }}本</span></a></li>
+          {% endfor %}
+        </ol>
+      </div>
       {% endfor %}
-    </ul>
+    </nav>
+
+    {% for p in chapters %}
+    <div class="chapter-part">
+      <h2 class="chapter-part-title">{{ p.part }}</h2>
+      <p class="chapter-part-lead">{{ p.partLead }}</p>
+      {% for c in p.chapters %}{% set list = collections.articles | chapterArticles(c.slugs) %}
+      <section class="chapter" id="ch-{{ c.no }}" aria-labelledby="ch-{{ c.no }}-title">
+        <h3 class="chapter-title" id="ch-{{ c.no }}-title"><span class="chapter-no">第{{ c.no }}章</span>{{ c.name }}</h3>
+        <p class="chapter-lead">{{ c.lead }}</p>
+        <ul class="post-list post-list--full">
+          {% for article in list %}
+          <li class="post-item">
+            <a href="{{ root }}{{ article.url | noLeadSlash }}">
+              <span class="post-title">{{ article.data.title }}</span>
+              {% if article.data.description %}<span class="post-desc">{{ article.data.description }}</span>{% endif %}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endfor %}
+    </div>
+    {% endfor %}
+
+    {% set rest = collections.articles | unchaptered(chapters) %}
+    {% if rest.length %}
+    <section class="chapter" id="ch-other">
+      <h3 class="chapter-title">そのほかの記事</h3>
+      <ul class="post-list post-list--full">
+        {% for article in rest %}<li class="post-item"><a href="{{ root }}{{ article.url | noLeadSlash }}"><span class="post-title">{{ article.data.title }}</span></a></li>{% endfor %}
+      </ul>
+    </section>
+    {% endif %}
   </div>
 </div>
-
-<script>
-(function(){
-  var btns = document.querySelectorAll('.post-filter-btn');
-  if (!btns.length) return;
-  var items = document.querySelectorAll('#post-list .post-item');
-  function apply(cat){
-    btns.forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.cat === cat ? 'true' : 'false'); });
-    items.forEach(function(li){ li.hidden = !(cat === 'all' || li.dataset.cat === cat); });
-  }
-  btns.forEach(function(b){ b.addEventListener('click', function(){
-    apply(b.dataset.cat);
-    try { history.replaceState(null, '', b.dataset.cat === 'all' ? location.pathname : '#' + encodeURIComponent(b.dataset.cat)); } catch(e) {}
-  }); });
-  var h = decodeURIComponent(location.hash.slice(1));
-  if (h) { var ok = Array.prototype.some.call(btns, function(b){ return b.dataset.cat === h; }); if (ok) apply(h); }
-})();
-</script>

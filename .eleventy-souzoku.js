@@ -25,6 +25,18 @@ eleventyConfig.addPassthroughCopy({ "src/souzoku/images": "images" });
     (articles || []).forEach((a) => { const c = a.data.category; if (c) m.set(c, (m.get(c) || 0) + 1); });
     return [...m.entries()].sort((a, b) => b[1] - a[1]).map(([name, count]) => ({ name, count }));
   });
+
+  // 章立て：slug の並び順どおりに記事を取り出す
+  eleventyConfig.addFilter("chapterArticles", (articles, slugs) => {
+    const m = new Map((articles || []).map((a) => [a.fileSlug, a]));
+    return (slugs || []).map((s) => m.get(s)).filter(Boolean);
+  });
+  // 章立てに入っていない記事（入れ忘れ防止。あれば「そのほかの記事」に出す）
+  eleventyConfig.addFilter("unchaptered", (articles, parts) => {
+    const set = new Set();
+    (parts || []).forEach((p) => p.chapters.forEach((c) => c.slugs.forEach((s) => set.add(s))));
+    return (articles || []).filter((a) => !set.has(a.fileSlug));
+  });
   eleventyConfig.addFilter("cardDate", (dateObj) => {
     let dt = typeof dateObj === "string" ? DateTime.fromISO(dateObj) : DateTime.fromJSDate(dateObj);
     return dt.setZone("Asia/Tokyo").toFormat("yyyy.LL.dd");

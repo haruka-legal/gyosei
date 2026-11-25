@@ -2687,3 +2687,20 @@ header.scrolled.sb-up .sitebar{height:30px}
 .cta-pair{display:flex;flex-wrap:wrap;justify-content:center;align-items:stretch;gap:14px}
 .cta-pair a{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:54px;min-width:240px}
 @media (max-width:560px){.cta-pair{flex-direction:column;align-items:center}.cta-pair a{width:100%;max-width:340px}}
+
+/* ===== 記事一覧：章立て ===== */
+.chapter-nav { max-width: 760px; margin: 8px auto 40px; display: grid; gap: 20px; }
+.chapter-nav-part-title { font-weight: 700; color: var(--navy); font-size: 17px; margin: 0 0 8px; }
+.chapter-nav-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; }
+.chapter-nav-list a { display: flex; align-items: baseline; gap: 10px; padding: 12px 14px; border: 1px solid var(--border, #d6dde8); border-radius: 10px; background: #fff; color: var(--navy); text-decoration: none; transition: background .2s; height: 100%; }
+.chapter-nav-list a:hover { background: var(--off-white); }
+.chapter-nav-list .chapter-no { font-weight: 700; color: var(--blue); font-variant-numeric: tabular-nums; }
+.chapter-nav-name { flex: 1; font-weight: 600; line-height: 1.5; }
+.chapter-nav-count { font-size: 14px; opacity: .7; white-space: nowrap; }
+.chapter-part { max-width: 760px; margin: 0 auto 48px; }
+.chapter-part-title { font-size: 24px; color: var(--navy); border-bottom: 2px solid var(--navy); padding-bottom: 8px; margin: 0 0 6px; }
+.chapter-part-lead { color: var(--text-muted, #5d6b7a); margin: 0 0 24px; }
+.chapter { margin: 0 0 36px; scroll-margin-top: 90px; }
+.chapter-title { font-size: 20px; color: var(--navy); margin: 0 0 4px; display: flex; gap: 10px; align-items: baseline; }
+.chapter-title .chapter-no { font-size: 15px; color: var(--blue); font-weight: 700; white-space: nowrap; }
+.chapter-lead { color: var(--text-muted, #5d6b7a); font-size: 15.5px; margin: 0 0 8px; }
