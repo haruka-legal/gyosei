@@ -668,3 +668,28 @@ header.scrolled.sb-up .sitebar{height:30px}
 .cta-pair{display:flex;flex-wrap:wrap;justify-content:center;align-items:stretch;gap:14px}
 .cta-pair a{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:54px;min-width:240px}
 @media (max-width:560px){.cta-pair{flex-direction:column;align-items:center}.cta-pair a{width:100%;max-width:340px}}
+/* 記事一覧の章立て */
+#articles { padding-top: 48px; }
+.chapter-group { margin-top: 56px; }
+.chapter-group-title { font-size: 22px; padding-bottom: 12px; border-bottom: 2px solid var(--ink); }
+.chapter { margin-top: 12px; }
+.chapter-group-title + .chapter { margin-top: 20px; }
+.chapter-title { display: flex; align-items: baseline; gap: 12px; margin: 0; padding: 14px 16px; font-size: 17px; font-weight: 700; background: var(--mist); border-left: 4px solid var(--ink); cursor: pointer; list-style: none; }
+.chapter-title::-webkit-details-marker { display: none; }
+.chapter-title:hover { background: #e4e4e2; }
+.chapter-name { flex: 1; }
+.chapter-count { flex-shrink: 0; font-size: 13px; font-weight: 400; color: #666; }
+.chapter-title::after { content: "＋"; flex-shrink: 0; font-weight: 400; }
+.chapter[open] > .chapter-title::after { content: "－"; }
+.chapter-no { flex-shrink: 0; font-size: 13px; letter-spacing: .05em; color: #666; }
+.chapter .post-list { margin-top: 0; border-top: none; }
+.chapter .post-item a { display: flex; align-items: baseline; gap: 16px; padding: 14px 4px; }
+.chapter .post-meta { flex-shrink: 0; margin: 0; }
+.chapter .post-title { margin: 0; }
+@media (max-width: 600px) {
+  .chapter-group-title { font-size: 19px; }
+  .chapter-title { font-size: 16px; padding: 10px 12px; }
+  .chapter .post-item a { display: block; padding: 12px 4px; }
+}
+.chapter { scroll-margin-top: 90px; }
+.chapter-group:first-child { margin-top: 0; }
