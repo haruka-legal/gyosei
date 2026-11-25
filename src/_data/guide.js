@@ -26,6 +26,7 @@ module.exports = [
   { title: "専門職で雇う", lead: "技人国・高度専門職・経営・管理", items: [
     ["gijinkoku", "技人国とは"],
     ["gijinkoku-fukyoka", "技人国が不許可になるとき"],
+    ["ryugakusei-shinsotsu", "留学生を4月に新卒採用する"],
     ["koudo-senmonshoku", "高度専門職とは"],
     ["keiei-kanri", "外国人が会社を経営する（経営・管理）"],
   ]},
