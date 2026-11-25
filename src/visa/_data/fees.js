@@ -24,7 +24,7 @@ module.exports = {
             { label: { en: "Extension of period of stay (same employer)", es: "Renovación del período de estancia (mismo empleador)", ja: "在留期間更新（転職なし）" }, jpy: 55000 },
             { label: { en: "Extension of period of stay (after changing jobs)", es: "Renovación del período de estancia (tras cambiar de empleo)", ja: "在留期間更新（転職あり）" }, jpy: 110000 },
           ],
-          note: { en: "The same fees apply to Intra-company Transferee and Highly Skilled Professional (i)(a)/(i)(b).", es: "Los mismos honorarios se aplican a Transferencia Intraempresarial y Profesional Altamente Calificado (i)(a)/(i)(b).", ja: "企業内転勤・高度専門職1号イ・ロも同じ料金です。" },
+          note: { en: "The same fees apply to Intra-company Transferee and Highly Skilled Professional (i)(a)/(i)(b).", es: "Los mismos honorarios se aplican a Traslado Intraempresarial y Profesional Altamente Calificado (i)(a)/(i)(b).", ja: "企業内転勤・高度専門職1号イ・ロも同じ料金です。" },
         },
         {
           caption: { en: "Specified Skilled Worker (SSW) / Employment for Skill Development", es: "Trabajador con Habilidades Específicas (SSW) / Empleo para el Desarrollo de Habilidades", ja: "特定技能・育成就労" },
