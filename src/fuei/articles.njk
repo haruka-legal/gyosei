@@ -47,7 +47,6 @@ navActive: articles
             <a href="{{ root }}{{ article.url | noLeadSlash }}">
               <span class="post-meta"><time datetime="{{ article.data.datePublished | isoDate }}">{{ article.data.datePublished | cardDate }}</time></span>
               <span class="post-title">{{ article.data.title }}</span>
-              {% if article.data.description %}<span class="post-desc">{{ article.data.description }}</span>{% endif %}
             </a>
           </li>
           {% endfor %}
