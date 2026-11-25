@@ -27,10 +27,6 @@ navActive: articles
 
 <div class="services-section" id="articles">
   <div class="container">
-    <div class="post-filter" role="group" aria-label="章で絞り込む">
-      <button type="button" class="post-filter-btn" data-cat="all" aria-pressed="true">すべて<span class="post-filter-count">{{ collections.articles.length }}</span></button>
-      {% for g in chapters.groups %}{% for ch in g.chapters %}{% set n = collections.articles | filterByCat(ch.cat) | length %}{% if n %}<button type="button" class="post-filter-btn" data-cat="{{ ch.cat }}" aria-pressed="false">{{ ch.cat }}<span class="post-filter-count">{{ n }}</span></button>{% endif %}{% endfor %}{% endfor %}
-    </div>
     {% set no = 0 %}
     {% for g in chapters.groups %}
     <div class="chapter-group">
@@ -39,8 +35,8 @@ navActive: articles
       {% set list = collections.articles | filterByCat(ch.cat) %}
       {% if list.length %}
       {% if ch.cat != "コラム" %}{% set no = no + 1 %}{% endif %}
-      <section class="chapter" data-cat="{{ ch.cat }}">
-        <h3 class="chapter-title">{% if ch.cat != "コラム" %}<span class="chapter-no">第{{ no }}章</span>{% endif %}{{ ch.title }}</h3>
+      <details class="chapter" id="{{ ch.cat }}">
+        <summary class="chapter-title">{% if ch.cat != "コラム" %}<span class="chapter-no">第{{ no }}章</span>{% endif %}<span class="chapter-name">{{ ch.title }}</span><span class="chapter-count">{{ list.length }}本</span></summary>
         <ul class="post-list post-list--full">
           {% for article in list %}
           <li class="post-item">
@@ -51,7 +47,7 @@ navActive: articles
           </li>
           {% endfor %}
         </ul>
-      </section>
+      </details>
       {% endif %}
       {% endfor %}
     </div>
@@ -61,20 +57,13 @@ navActive: articles
 
 <script>
 (function(){
-  var btns = document.querySelectorAll('.post-filter-btn');
-  if (!btns.length) return;
-  var secs = document.querySelectorAll('.chapter');
-  var groups = document.querySelectorAll('.chapter-group');
-  function apply(cat){
-    btns.forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.cat === cat ? 'true' : 'false'); });
-    secs.forEach(function(s){ s.hidden = !(cat === 'all' || s.dataset.cat === cat); });
-    groups.forEach(function(g){ g.hidden = !g.querySelector('.chapter:not([hidden])'); });
+  function openHash(){
+    var h = decodeURIComponent(location.hash.slice(1));
+    if (!h) return;
+    var d = document.getElementById(h);
+    if (d && d.tagName === 'DETAILS') { d.open = true; d.scrollIntoView(); }
   }
-  btns.forEach(function(b){ b.addEventListener('click', function(){
-    apply(b.dataset.cat);
-    try { history.replaceState(null, '', b.dataset.cat === 'all' ? location.pathname : '#' + encodeURIComponent(b.dataset.cat)); } catch(e) {}
-  }); });
-  var h = decodeURIComponent(location.hash.slice(1));
-  if (h) { var ok = Array.prototype.some.call(btns, function(b){ return b.dataset.cat === h; }); if (ok) apply(h); }
+  openHash();
+  window.addEventListener('hashchange', openHash);
 })();
 </script>
