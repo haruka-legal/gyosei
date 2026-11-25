@@ -33,3 +33,5 @@
 /* 複数選択の見出し（legend）が細く折り返される問題の修正 */
 .hkf legend{display:block;width:100%;float:none}
 .hkf legend .hkf-badge{display:inline-block;margin-left:8px;vertical-align:2px}
+.hkf[hidden],.hkf-done[hidden],.form-footer[hidden]{display:none!important}
+.hkf-done .hkf-done-n{margin-top:10px;font-size:14px;color:var(--hkf-muted)}

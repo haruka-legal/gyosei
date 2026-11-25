@@ -15,7 +15,7 @@
       sources: ['検索（Google・Yahoo!など）', 'Googleマップ', 'AI（ChatGPTなど）に聞いて', 'ブログ記事を読んで', 'SNS（X・Instagram・YouTubeなど）', '知人・他の専門家からの紹介', '交流会・イベント', 'その他'],
       agreeA: '', agreeLink: 'プライバシーポリシー', agreeB: 'に同意する', privacy: '/privacy/',
       submit: '送信する', sending: '送信しています…',
-      okTitle: 'お問い合わせを受け付けました', okText: 'ご入力のメールアドレスに確認のメールをお送りしました。24時間以内にご返信いたします。',
+      okTitle: 'お問い合わせを受け付けました', okText: 'ご入力いただいたメールアドレスに、受付確認のメール（自動送信）をお送りしました。内容を確認のうえ、24時間以内に同じアドレスへご返信いたします。', okNote: '確認のメールが届かない場合は、迷惑メールフォルダもご確認ください。',
       errReq: 'を入力してください', errEmail: 'メールアドレスの形式をご確認ください', errTopic: 'ご相談の分野を選んでください', errAgree: 'プライバシーポリシーへの同意が必要です',
       errSend: '送信できませんでした。お手数ですが、時間をおいて再度お試しいただくか、' + MAIL + ' までメールでご連絡ください。',
       topics: [['visa', 'ビザ・在留資格・外国人雇用'], ['souzoku', '相続・遺言'], ['fuei', '風俗営業許可・深夜酒類の届出'], ['nouchi', '農地転用・農地の手続き'], ['creator', 'エンタメ・クリエイター支援'], ['uchu', '宇宙ビジネス支援'], ['unknown', 'どの分野か分からない'], ['other', 'その他']]
@@ -28,7 +28,7 @@
       sources: ['Google or other search engines', 'Google Maps', 'AI tools (ChatGPT, etc.)', 'An article or guide on our website', 'Social media (Facebook, Instagram, X, YouTube, etc.)', 'Referral (friend or another professional)', 'Networking event', 'Other'],
       agreeA: 'I agree to the ', agreeLink: 'Privacy Policy', agreeB: '', privacy: '/privacy/en/',
       submit: 'Send', sending: 'Sending…',
-      okTitle: 'Thank you. We have received your message.', okText: 'A confirmation email has been sent to your address. We will reply within 24 hours.',
+      okTitle: 'Thank you. We have received your message.', okText: 'We have sent an automatic confirmation to the email address you entered. We will reply to the same address within 24 hours.', okNote: 'If you do not see the confirmation, please check your spam folder.',
       errReq: ' is required', errEmail: 'Please check your email address', errTopic: 'Please select at least one topic', errAgree: 'Please agree to the Privacy Policy',
       errSend: 'Your message could not be sent. Please try again later or email us at ' + MAIL + '.',
       visa: ['Work visa / Residence status', 'Visa renewal / Change of status', 'Starting or running a business in Japan', 'International marriage', 'Family visa', 'Permanent residence / Naturalization', 'Hiring foreign employees', 'Not sure which applies', 'Other']
@@ -41,7 +41,7 @@
       sources: ['Google u otros buscadores', 'Google Maps', 'Herramientas de IA (ChatGPT, etc.)', 'Un artículo o guía de nuestra web', 'Redes sociales (Facebook, Instagram, X, YouTube, etc.)', 'Recomendación (amigo u otro profesional)', 'Evento de networking', 'Otro'],
       agreeA: 'Acepto la ', agreeLink: 'Política de privacidad', agreeB: '', privacy: '/privacy/en/',
       submit: 'Enviar', sending: 'Enviando…',
-      okTitle: 'Gracias. Hemos recibido su mensaje.', okText: 'Le hemos enviado un correo de confirmación. Le responderemos en un plazo de 24 horas.',
+      okTitle: 'Gracias. Hemos recibido su mensaje.', okText: 'Hemos enviado una confirmación automática al correo que indicó. Le responderemos a esa misma dirección en un plazo de 24 horas.', okNote: 'Si no la recibe, revise también su carpeta de spam.',
       errReq: ' es obligatorio', errEmail: 'Revise su correo electrónico', errTopic: 'Seleccione al menos un tema', errAgree: 'Debe aceptar la Política de privacidad',
       errSend: 'No se pudo enviar el mensaje. Inténtelo de nuevo más tarde o escríbanos a ' + MAIL + '.',
       visa: ['Visa de trabajo / Estatus de residencia', 'Renovación de visa / Cambio de estatus', 'Iniciar o gestionar un negocio en Japón', 'Matrimonio internacional', 'Visa familiar', 'Residencia permanente / Naturalización', 'Contratación de trabajadores extranjeros', 'No sé qué opción elegir', 'Otro']
@@ -84,7 +84,7 @@
       '<button type="submit" class="hkf-submit">' + esc(t.submit) + '</button>' +
       '<p class="hkf-err hkf-send-err" role="alert"></p>' +
       '</form>' +
-      '<div class="hkf-done" role="status" hidden><p class="hkf-done-t">' + esc(t.okTitle) + '</p><p>' + esc(t.okText) + '</p></div>';
+      '<div class="hkf-done" role="status" hidden><p class="hkf-done-t">' + esc(t.okTitle) + '</p><p>' + esc(t.okText) + '</p><p class="hkf-done-n">' + esc(t.okNote) + '</p></div>';
 
     var form = root.querySelector('form'), started = Date.now();
     var err = function (k, msg) { var p = form.querySelector('.hkf-err[data-for="' + k + '"]'); if (p) p.textContent = msg || ''; var f = form.querySelector('#' + id(k)); if (f) f.setAttribute('aria-invalid', msg ? 'true' : 'false'); };
@@ -103,7 +103,7 @@
 
       var btn = form.querySelector('.hkf-submit'), sendErr = form.querySelector('.hkf-send-err');
       sendErr.textContent = '';
-      var done = function () { form.hidden = true; var d = root.querySelector('.hkf-done'); d.hidden = false; d.setAttribute('tabindex', '-1'); d.focus(); };
+      var done = function () { form.hidden = true; var d = root.querySelector('.hkf-done'); d.hidden = false; d.setAttribute('tabindex', '-1'); d.focus(); var ft = root.parentNode && root.parentNode.querySelector('.form-footer'); if (ft) ft.hidden = true; d.scrollIntoView({ block: 'center' }); };
       if (v('website') || Date.now() - started < 3000) { done(); return; } // ロボット対策
       if (!ENDPOINT) { sendErr.textContent = t.errSend; return; }
       btn.disabled = true; btn.textContent = t.sending;
