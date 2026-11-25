@@ -635,3 +635,12 @@ footer a[href*="privacy"]{display:inline-block;padding:10px 4px}
 /* 右下のフォームボタン：黒い画面に溶けないよう白にする（2026-11-23） */
 .fab-form{background:#fff!important;color:#121213!important;border:1px solid rgba(0,0,0,.12)}
 .fab-form svg{stroke:#121213!important}
+
+/* 事務所トップ（総合トップ）への導線（2026-11-25） */
+.hd-home{margin-left:auto;margin-right:20px;display:flex;flex-direction:column;align-items:flex-end;text-decoration:none;color:inherit;line-height:1.35;padding:8px 4px}
+.hd-home-t{font-size:14px;font-weight:700;letter-spacing:.04em;border-bottom:1px solid currentColor;padding-bottom:1px}
+.hd-home-s{font-size:12px;opacity:.7;margin-top:3px}
+.hd-home:hover .hd-home-t{opacity:.75}
+@media (max-width:900px){.hd-home{display:none}}
+.mobile-menu .mm-home{font-size:15px;opacity:.85;line-height:1.5}
+.mobile-menu .mm-home span{display:block;font-size:12.5px;opacity:.75;margin-top:2px}

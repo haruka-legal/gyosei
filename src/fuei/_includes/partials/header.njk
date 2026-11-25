@@ -1,6 +1,7 @@
 <!-- ===================== MOBILE MENU ===================== -->
 <div class="mobile-menu" id="mobileMenu">
   <button class="mobile-menu-close" onclick="closeMobileMenu()">✕</button>
+  <a href="/" onclick="closeMobileMenu()" class="mm-home">← 事務所トップへ<span>すべての取扱業務</span></a>
   {% for link in site.navLinks %}
   {% if link.children %}{% for c in link.children %}<a href="{{ root }}{{ c.href }}" onclick="closeMobileMenu()" class="{% if loop.first %}mm-parent{% else %}mm-sub{% endif %}">{% if not loop.first %}└ {% endif %}{{ c.label }}</a>{% endfor %}
   {% else %}<a href="{{ root }}{{ link.href }}" onclick="closeMobileMenu()">{{ link.label }}</a>{% endif %}
@@ -20,6 +21,7 @@
         <span class="logo-sub">神保町・御茶ノ水</span>
       </span>
     </a>
+    <a class="hd-home" href="/"><span class="hd-home-t">事務所トップへ</span><span class="hd-home-s">すべての取扱業務</span></a>
     <div class="header-cta-wrap">
       <a href="{{ site.lineUrl }}" class="header-cta" target="_blank" rel="noopener" aria-label="LINE相談">
         LINEで無料相談
