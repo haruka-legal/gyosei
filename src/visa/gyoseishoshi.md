@@ -54,6 +54,6 @@ Even if one office turns you down, another office may be able to help, or they m
 <hr>
 
 At HARUKA Gyoseishoshi Office, an initial review of your situation is free of charge. If detailed research or personalized advice is needed, we will explain the fees in advance. We offer consultations by email and chat in English, Spanish and Japanese. Please see our [fee guide](https://haruka-legal.com/visa/#fees).<br>
-No question is too small. Feel free to contact us via [WhatsApp](https://wa.me/819038581198), our [contact form](https://haruka-legal.com/visa/#info) or [LINE](https://lin.ee/Sgysu6a).
+No question is too small. Feel free to contact us via [WhatsApp](https://wa.me/haruka.legal?text=Hello%2C%20I%20would%20like%20to%20consult%20about%20my%20visa.), our [contact form](https://haruka-legal.com/visa/#info) or [LINE](https://lin.ee/Sgysu6a).
 
 We sincerely hope you can begin and continue your life in Japan with peace of mind and confidence.

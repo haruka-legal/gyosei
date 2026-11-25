@@ -9,5 +9,10 @@
     "location": "Kanda-Nishikicho, Chiyoda-ku, Tokyo"
   },
   "line": "https://line.me/R/ti/p/@haruka-legal",
-  "whatsapp": "https://wa.me/00000000000"
+  "whatsapp": "https://wa.me/haruka.legal",
+  "wa": {
+    "en": "https://wa.me/haruka.legal?text=Hello%2C%20I%20would%20like%20to%20consult%20about%20my%20visa.",
+    "es": "https://wa.me/haruka.legal?text=Hola%2C%20quisiera%20consultar%20sobre%20mi%20visa.",
+    "ja": "https://wa.me/haruka.legal?text=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E3%80%82%E3%83%93%E3%82%B6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99%E3%80%82"
+  }
 }
