@@ -20,6 +20,7 @@ eleventyConfig.addPassthroughCopy({ "src/fuei/images": "images" });
 
   // カード用の短い日付「2026.07.03」
   // 記事一覧の絞り込みボタン用：カテゴリを記事数の多い順に並べる
+  eleventyConfig.addFilter("filterByCat", (articles, cat) => (articles || []).filter((a) => a.data.category === cat));
   eleventyConfig.addFilter("categoryCounts", (articles) => {
     const m = new Map();
     (articles || []).forEach((a) => { const c = a.data.category; if (c) m.set(c, (m.get(c) || 0) + 1); });

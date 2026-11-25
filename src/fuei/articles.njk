@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 title: "風俗営業許可・夜のお店のお役立ち記事一覧"
-description: "風俗営業の許可や深夜酒類提供飲食店営業の届出について、開業を考えている方に向けて解説した記事一覧です。"
+description: "風俗営業の許可や深夜酒類提供飲食店営業の届出について、開業を考えている方に向けた記事を、開業の段階と業種・テーマごとにまとめています。"
 permalink: /articles/
 navActive: articles
 ---
@@ -20,31 +20,43 @@ navActive: articles
     </div>
     <h1 class="article-hero-title">お役立ち記事一覧</h1>
     <div class="article-hero-meta">
-      <span>風俗営業の許可や深夜営業の届出について、開業を考えている方に向けて解説します。</span>
+      <span>お店の開業に必要な許可や届出、営業を始めてからの手続きを、段階と業種・テーマごとにまとめています。</span>
     </div>
   </div>
 </div>
 
 <div class="services-section" id="articles">
   <div class="container">
-    {% set cats = collections.articles | categoryCounts %}
-    {% if cats.length > 1 %}
-    <div class="post-filter" role="group" aria-label="カテゴリで絞り込む">
+    <div class="post-filter" role="group" aria-label="章で絞り込む">
       <button type="button" class="post-filter-btn" data-cat="all" aria-pressed="true">すべて<span class="post-filter-count">{{ collections.articles.length }}</span></button>
-      {% for c in cats %}<button type="button" class="post-filter-btn" data-cat="{{ c.name }}" aria-pressed="false">{{ c.name }}<span class="post-filter-count">{{ c.count }}</span></button>{% endfor %}
+      {% for g in chapters.groups %}{% for ch in g.chapters %}{% set n = collections.articles | filterByCat(ch.cat) | length %}{% if n %}<button type="button" class="post-filter-btn" data-cat="{{ ch.cat }}" aria-pressed="false">{{ ch.cat }}<span class="post-filter-count">{{ n }}</span></button>{% endif %}{% endfor %}{% endfor %}
     </div>
-    {% endif %}
-    <ul class="post-list post-list--full" id="post-list">
-      {% for article in collections.articles %}
-      <li class="post-item" data-cat="{{ article.data.category }}">
-        <a href="{{ root }}{{ article.url | noLeadSlash }}">
-          <span class="post-meta"><time datetime="{{ article.data.datePublished | isoDate }}">{{ article.data.datePublished | cardDate }}</time>{% if article.data.category %}<span class="post-cat">{{ article.data.category }}</span>{% endif %}</span>
-          <span class="post-title">{{ article.data.title }}</span>
-          {% if article.data.description %}<span class="post-desc">{{ article.data.description }}</span>{% endif %}
-        </a>
-      </li>
+    {% set no = 0 %}
+    {% for g in chapters.groups %}
+    <div class="chapter-group">
+      <h2 class="chapter-group-title">{{ g.name }}</h2>
+      {% for ch in g.chapters %}
+      {% set list = collections.articles | filterByCat(ch.cat) %}
+      {% if list.length %}
+      {% if ch.cat != "コラム" %}{% set no = no + 1 %}{% endif %}
+      <section class="chapter" data-cat="{{ ch.cat }}">
+        <h3 class="chapter-title">{% if ch.cat != "コラム" %}<span class="chapter-no">第{{ no }}章</span>{% endif %}{{ ch.title }}</h3>
+        <ul class="post-list post-list--full">
+          {% for article in list %}
+          <li class="post-item">
+            <a href="{{ root }}{{ article.url | noLeadSlash }}">
+              <span class="post-meta"><time datetime="{{ article.data.datePublished | isoDate }}">{{ article.data.datePublished | cardDate }}</time></span>
+              <span class="post-title">{{ article.data.title }}</span>
+              {% if article.data.description %}<span class="post-desc">{{ article.data.description }}</span>{% endif %}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endif %}
       {% endfor %}
-    </ul>
+    </div>
+    {% endfor %}
   </div>
 </div>
 
@@ -52,10 +64,12 @@ navActive: articles
 (function(){
   var btns = document.querySelectorAll('.post-filter-btn');
   if (!btns.length) return;
-  var items = document.querySelectorAll('#post-list .post-item');
+  var secs = document.querySelectorAll('.chapter');
+  var groups = document.querySelectorAll('.chapter-group');
   function apply(cat){
     btns.forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.cat === cat ? 'true' : 'false'); });
-    items.forEach(function(li){ li.hidden = !(cat === 'all' || li.dataset.cat === cat); });
+    secs.forEach(function(s){ s.hidden = !(cat === 'all' || s.dataset.cat === cat); });
+    groups.forEach(function(g){ g.hidden = !g.querySelector('.chapter:not([hidden])'); });
   }
   btns.forEach(function(b){ b.addEventListener('click', function(){
     apply(b.dataset.cat);
