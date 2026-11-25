@@ -27,16 +27,17 @@ navActive: articles
 
 <div class="services-section" id="articles">
   <div class="container">
-    <section class="post-start" aria-labelledby="post-start-title">
-      <h2 class="post-start-title" id="post-start-title">外国人をはじめて雇う会社の方へ</h2>
-      <p class="post-start-lead">まずは次の5本を順番に読むと、制度の全体がつかめます。</p>
-      <ol class="post-start-list">
-        <li><a href="{{ root }}articles/gaikokujin-koyo-hajimekata/">外国人を雇いたい。何から始める？6つのステップ</a></li>
-        <li><a href="{{ root }}articles/gaikokujin-koyo-merit/">外国人を雇うメリット・デメリットは？</a></li>
-        <li><a href="{{ root }}articles/zairyu-shikaku-visa-difference/">パスポート・ビザ・在留資格の違いとは？</a></li>
-        <li><a href="{{ root }}articles/zairyu-card-check/">在留カードの確認方法とは？雇う前に見るポイント</a></li>
-        <li><a href="{{ root }}articles/tokutei-ginou-kokuseki/">特定技能で外国人を雇うならどこの国？</a></li>
-      </ol>
+    <section class="guide-toc" aria-labelledby="guide-toc-title">
+      <h2 class="guide-toc-title" id="guide-toc-title">記事の目次<span class="guide-toc-sub">はじめての方は上から順に</span></h2>
+      {% for ch in guide %}{% set chn = loop.index %}
+      <section class="guide-ch">
+        <h3 class="guide-ch-head"><span class="guide-ch-no">{{ chn }}</span><span class="guide-ch-name">{{ ch.title }}{% if ch.lead %}<small>{{ ch.lead }}</small>{% endif %}</span></h3>
+        <ol class="guide-ch-list">
+          {% for it in ch.items %}<li><a href="{{ root }}articles/{{ it[0] }}/"><span class="guide-no">{{ chn }}-{{ loop.index }}</span><span class="guide-label">{{ it[1] }}</span><span class="guide-arrow" aria-hidden="true">›</span></a></li>
+          {% endfor %}
+        </ol>
+      </section>
+      {% endfor %}
     </section>
     <h2 class="post-all-title">すべての記事</h2>
     {% set cats = collections.articles | categoryCounts %}
