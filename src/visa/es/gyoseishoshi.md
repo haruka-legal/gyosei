@@ -54,6 +54,6 @@ Aunque una oficina rechace su caso, otra podría ayudarle, o podrían recomendar
 <hr>
 
 En HARUKA Gyoseishoshi Office, la revisión inicial de su situación es gratuita. Si necesita un análisis detallado o asesoramiento personalizado, le informaremos previamente de los honorarios correspondientes. Ofrecemos consultas por correo electrónico y chat en inglés, español y japonés. Consulte nuestra [guía de honorarios](https://haruka-legal.com/visa/es/#fees).<br>
-No dude en consultarnos, por sencilla que parezca su pregunta. Puede contactarnos por [WhatsApp](https://wa.me/819038581198), nuestro [formulario de contacto](https://haruka-legal.com/visa/es/#info) o [LINE](https://lin.ee/Sgysu6a).
+No dude en consultarnos, por sencilla que parezca su pregunta. Puede contactarnos por [WhatsApp](https://wa.me/haruka.legal?text=Hola%2C%20quisiera%20consultar%20sobre%20mi%20visa.), nuestro [formulario de contacto](https://haruka-legal.com/visa/es/#info) o [LINE](https://lin.ee/Sgysu6a).
 
 Deseamos de corazón que pueda iniciar y continuar su vida en Japón con tranquilidad y confianza.

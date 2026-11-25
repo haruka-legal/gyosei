@@ -55,4 +55,4 @@ Our [fee guide](https://haruka-legal.com/visa/#fees) is available on our website
 
 <hr>
 
-No question is too small. Feel free to contact us via [WhatsApp](https://wa.me/819038581198), our [contact form](https://haruka-legal.com/visa/#info) or [LINE](https://lin.ee/Sgysu6a).
+No question is too small. Feel free to contact us via [WhatsApp](https://wa.me/haruka.legal?text=Hello%2C%20I%20would%20like%20to%20consult%20about%20my%20visa.), our [contact form](https://haruka-legal.com/visa/#info) or [LINE](https://lin.ee/Sgysu6a).

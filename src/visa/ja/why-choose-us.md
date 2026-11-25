@@ -55,4 +55,4 @@ altUrls:
 
 <hr>
 
-小さなお悩みでもかまいません。まずは[WhatsApp](https://wa.me/819038581198)・[LINE](https://lin.ee/Sgysu6a)・[お問い合わせフォーム](https://haruka-legal.com/visa/ja/#info)からお気軽にご連絡ください。
+小さなお悩みでもかまいません。まずは[WhatsApp](https://wa.me/haruka.legal?text=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E3%80%82%E3%83%93%E3%82%B6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99%E3%80%82)・[LINE](https://lin.ee/Sgysu6a)・[お問い合わせフォーム](https://haruka-legal.com/visa/ja/#info)からお気軽にご連絡ください。

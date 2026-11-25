@@ -54,6 +54,6 @@ altUrls:
 <hr>
 
 遥か行政書士事務所も、初回の状況確認は無料です。詳しい調査や個別のご相談が必要な場合は、事前に料金をご案内します。英語・スペイン語・日本語で、メールやチャットからのご相談を受け付けています。料金の目安は[こちら](https://haruka-legal.com/visa/ja/#fees)をご覧ください。<br>
-小さなお悩みでもかまいません。まずは[WhatsApp](https://wa.me/819038581198)・[LINE](https://lin.ee/Sgysu6a)・[お問い合わせフォーム](https://haruka-legal.com/visa/ja/#info)からお気軽にご連絡ください。
+小さなお悩みでもかまいません。まずは[WhatsApp](https://wa.me/haruka.legal?text=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%E3%80%82%E3%83%93%E3%82%B6%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E7%9B%B8%E8%AB%87%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99%E3%80%82)・[LINE](https://lin.ee/Sgysu6a)・[お問い合わせフォーム](https://haruka-legal.com/visa/ja/#info)からお気軽にご連絡ください。
 
 あなたの日本での暮らしが、より良い形で始まり、続いていくことを心から願っています。

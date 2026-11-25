@@ -55,4 +55,4 @@ Nuestra [guía de honorarios](https://haruka-legal.com/visa/es/#fees) está publ
 
 <hr>
 
-No dude en consultarnos, por sencilla que parezca su pregunta. Puede contactarnos por [WhatsApp](https://wa.me/819038581198), nuestro [formulario de contacto](https://haruka-legal.com/visa/es/#info) o [LINE](https://lin.ee/Sgysu6a).
+No dude en consultarnos, por sencilla que parezca su pregunta. Puede contactarnos por [WhatsApp](https://wa.me/haruka.legal?text=Hola%2C%20quisiera%20consultar%20sobre%20mi%20visa.), nuestro [formulario de contacto](https://haruka-legal.com/visa/es/#info) o [LINE](https://lin.ee/Sgysu6a).
