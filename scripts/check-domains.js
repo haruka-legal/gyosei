@@ -21,6 +21,7 @@ const BLOCKED_HOSTS = [
 
 // リンクしてよいドメイン
 const ALLOWED_HOSTS = [
+  "script.google.com", // お問い合わせフォームの送信先（Google Apps Script）
   "janica.jp",
   "www.janica.jp",
   "dsg.or.jp",
