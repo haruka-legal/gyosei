@@ -10,7 +10,7 @@
     ja: {
       name: 'お名前', email: 'メールアドレス', phone: '電話番号', topic: 'ご相談の分野', topicMulti: 'ご相談の内容（複数選択可）',
       message: 'ご相談内容', req: '必須', opt: '任意', choose: '選択してください',
-      msgHint: '簡単に状況を書いていただけると、その後のご案内がスムーズです。', source: '当事務所を知ったきっかけ',
+      msgHint: '差し支えのない範囲で、ご事情を簡単にお書きいただけると、その後のご案内がスムーズになります。', source: '当事務所を知ったきっかけ',
       phPhone: '例）090-1234-5678', phMsg: '例）いつ頃までに、どのような手続きが必要か など',
       sources: ['検索（Google・Yahoo!など）', '地図アプリ（Googleマップなど）', 'AI（ChatGPTなど）に聞いて', 'ブログ記事を読んで', 'SNS（X・Instagram・YouTubeなど）', '知人・取引先からの紹介', 'その他'],
       agreeA: '', agreeLink: 'プライバシーポリシー', agreeB: 'に同意する', privacy: '/privacy/',
@@ -23,7 +23,7 @@
     en: {
       name: 'Name', email: 'Email', phone: 'Phone / WhatsApp', topicMulti: 'What is your inquiry about? (select all that apply)',
       message: 'Message', req: 'Required', opt: 'Optional', choose: 'Please select',
-      msgHint: 'A short description of your situation helps us reply faster.', source: 'How did you hear about us?',
+      msgHint: 'If you are comfortable sharing, a brief description of your situation helps us guide you more smoothly.', source: 'How did you hear about us?',
       phPhone: 'e.g. +81 90-1234-5678', phMsg: 'e.g. I have a job offer in Tokyo and need to apply for a work visa.',
       sources: ['Search engine (Google, etc.)', 'Map app (Google Maps, etc.)', 'AI assistant (ChatGPT, etc.)', 'An article or guide on our website', 'Social media (Facebook, Instagram, X, YouTube, etc.)', 'Referral from a friend or company', 'Other'],
       agreeA: 'I agree to the ', agreeLink: 'Privacy Policy', agreeB: '', privacy: '/privacy/en/',
@@ -36,7 +36,7 @@
     es: {
       name: 'Nombre', email: 'Correo electrónico', phone: 'Teléfono / WhatsApp', topicMulti: '¿Sobre qué es su consulta? (puede elegir varias)',
       message: 'Mensaje', req: 'Obligatorio', opt: 'Opcional', choose: 'Seleccione una opción',
-      msgHint: 'Una breve descripción de su situación nos ayuda a responderle más rápido.', source: '¿Cómo nos conoció?',
+      msgHint: 'Si lo desea, una breve descripción de su situación nos ayudará a orientarle con mayor fluidez.', source: '¿Cómo nos conoció?',
       phPhone: 'p. ej. +81 90-1234-5678', phMsg: 'p. ej. Tengo una oferta de trabajo en Tokio y necesito solicitar la visa de trabajo.',
       sources: ['Buscador (Google, etc.)', 'App de mapas (Google Maps, etc.)', 'Asistente de IA (ChatGPT, etc.)', 'Un artículo o guía de nuestra web', 'Redes sociales (Facebook, Instagram, X, YouTube, etc.)', 'Recomendación de un amigo o empresa', 'Otro'],
       agreeA: 'Acepto la ', agreeLink: 'Política de privacidad', agreeB: '', privacy: '/privacy/en/',
