@@ -654,3 +654,11 @@ header.scrolled .sitebar{height:0}
 .sitebar-top{border-bottom:1px solid rgba(255,255,255,.5)}
 @media (max-width:680px){.sitebar-here{display:none}.sitebar-in{justify-content:flex-end;padding:0 16px}}
 @media (prefers-reduced-motion:reduce){.sitebar{transition:none}}
+
+/* 中くらいの画面幅（681〜1000px）：メニューの行がはみ出すので、ハンバーガーメニューに切り替える（2026-11-25） */
+@media (min-width:681px) and (max-width:1000px){
+  header nav{display:none!important}
+  .hamburger{display:flex!important;margin-left:12px}
+  .header-cta-wrap{margin-left:auto!important}
+  .header-inner{justify-content:flex-start!important}
+}
