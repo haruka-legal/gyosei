@@ -3,7 +3,7 @@
            <script src="/assets/hk-form.js" defer></script>
    送信先は Google Apps Script のウェブアプリ（ENDPOINT）。 */
 (function () {
-  var ENDPOINT = ''; // ← Google Apps Script のウェブアプリURLを入れる
+  var ENDPOINT = 'https://script.google.com/macros/s/AKfycbzzQp-Y6Kd8iYhmqT0nP44nnuOGzGZtJk8IoV2Pv_RwhLbXM_aVMd5-_6keyUSSwl1L/exec';
   var MAIL = 'info@haruka-legal.com';
 
   var T = {
