@@ -128,20 +128,20 @@ module.exports = {
     title: { en: "Common Terms", es: "Condiciones Generales", ja: "共通事項" },
     items: {
       en: [
-        "Retainer: 50% of the fee when you engage us / Remaining 50%: when your application is approved",
-        "Payment: bank transfer in Japan, in Japanese yen. Work begins after payment is confirmed.",
+        "Payment: the full fee is paid in advance when you engage us. Work begins after payment is confirmed.",
+        "Payment methods: bank transfer in Japan (Japanese yen). From outside Japan: credit card or Wise. Transfer fees are paid by the sender.",
         "Out-of-pocket costs are separate: translation, certificates, postage, etc. We quote these in advance.",
         "If you would like us to travel to meet you: travel, accommodation and other related expenses are charged separately (quoted in advance).",
       ],
       es: [
-        "Anticipo: 50% del honorario al contratar / Saldo del 50%: cuando se aprueba la solicitud",
-        "Pago: transferencia bancaria en Japón, en yenes japoneses. El trabajo comienza tras confirmar el pago.",
+        "Pago: el honorario completo se paga por adelantado al contratar. El trabajo comienza tras confirmar el pago.",
+        "Métodos de pago: transferencia bancaria en Japón (en yenes). Desde el extranjero: tarjeta de crédito o Wise. Las comisiones de envío corren a cargo del remitente.",
         "Gastos aparte: traducciones, certificados, envíos, etc. Se los presupuestamos por adelantado.",
         "Si desea que viajemos para reunirnos con usted: los gastos de viaje, alojamiento y otros gastos relacionados se cobran aparte (con presupuesto previo).",
       ],
       ja: [
-        "着手金：報酬額の50%（依頼確定時）／残金：許可時",
-        "お支払い：銀行振込（日本円）。ご入金確認後に業務を開始いたします",
+        "お支払い：ご依頼確定時に報酬の全額をお支払いいただき、ご入金を確認してから業務を始めます",
+        "お支払い方法：日本国内からは銀行振込（日本円）、海外からはクレジットカードまたはWise。送金・振込の手数料はお客様のご負担となります",
         "別途実費：翻訳料・証明書取得費用・郵送料など（事前にお見積りします）",
         "出張の費用：対面でのご相談で伺う場合は、交通費・宿泊費などの諸費用を別途いただきます（事前にお見積りします）",
       ],
