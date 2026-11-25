@@ -10,8 +10,8 @@
     ja: {
       name: 'お名前', email: 'メールアドレス', phone: '電話番号', topic: 'ご相談の分野', topicMulti: 'ご相談の内容（複数選択可）',
       message: 'ご相談内容', req: '必須', opt: '任意', choose: '選択してください',
-      msgHint: '差し支えのない範囲で、ご事情を簡単にお書きいただけると、その後のご案内がスムーズになります。', source: '当事務所を知ったきっかけ',
-      phPhone: '例）090-1234-5678', phMsg: '例）いつ頃までに、どのような手続きが必要か など',
+      msgHint: 'ご事情やご希望など、わかる範囲でお聞かせください。その後のご案内がスムーズになります。', company: '会社名・団体名', phCompany: '法人・団体でのご相談の場合', source: '当事務所を知ったきっかけ',
+      phPhone: '例）090-1234-5678', phMsg: '例）何から手をつければよいか分からないので、まず相談したい',
       sources: ['検索（Google・Yahoo!など）', '地図アプリ（Googleマップなど）', 'AI（ChatGPTなど）に聞いて', 'ブログ記事を読んで', 'SNS（X・Instagram・YouTubeなど）', '知人・取引先からの紹介', 'その他'],
       agreeA: '', agreeLink: 'プライバシーポリシー', agreeB: 'に同意する', privacy: '/privacy/',
       submit: '送信する', sending: '送信しています…',
@@ -23,7 +23,7 @@
     en: {
       name: 'Name', email: 'Email', phone: 'Phone / WhatsApp', topicMulti: 'What is your inquiry about? (select all that apply)',
       message: 'Message', req: 'Required', opt: 'Optional', choose: 'Please select',
-      msgHint: 'If you are comfortable sharing, a brief description of your situation helps us guide you more smoothly.', source: 'How did you hear about us?',
+      msgHint: 'Please briefly tell us about your situation and how we can help.', company: 'Company / Organization', phCompany: 'If applicable', source: 'How did you hear about us?',
       phPhone: 'e.g. +81 90-1234-5678', phMsg: 'e.g. I have a job offer in Tokyo and need to apply for a work visa.',
       sources: ['Search engine (Google, etc.)', 'Map app (Google Maps, etc.)', 'AI assistant (ChatGPT, etc.)', 'An article or guide on our website', 'Social media (Facebook, Instagram, X, YouTube, etc.)', 'Referral from a friend or company', 'Other'],
       agreeA: 'I agree to the ', agreeLink: 'Privacy Policy', agreeB: '', privacy: '/privacy/en/',
@@ -36,7 +36,7 @@
     es: {
       name: 'Nombre', email: 'Correo electrónico', phone: 'Teléfono / WhatsApp', topicMulti: '¿Sobre qué es su consulta? (puede elegir varias)',
       message: 'Mensaje', req: 'Obligatorio', opt: 'Opcional', choose: 'Seleccione una opción',
-      msgHint: 'Si lo desea, una breve descripción de su situación nos ayudará a orientarle con mayor fluidez.', source: '¿Cómo nos conoció?',
+      msgHint: 'Cuéntenos brevemente su situación y cómo podemos ayudarle.', company: 'Empresa / Organización', phCompany: 'Si corresponde', source: '¿Cómo nos conoció?',
       phPhone: 'p. ej. +81 90-1234-5678', phMsg: 'p. ej. Tengo una oferta de trabajo en Tokio y necesito solicitar la visa de trabajo.',
       sources: ['Buscador (Google, etc.)', 'App de mapas (Google Maps, etc.)', 'Asistente de IA (ChatGPT, etc.)', 'Un artículo o guía de nuestra web', 'Redes sociales (Facebook, Instagram, X, YouTube, etc.)', 'Recomendación de un amigo o empresa', 'Otro'],
       agreeA: 'Acepto la ', agreeLink: 'Política de privacidad', agreeB: '', privacy: '/privacy/en/',
@@ -73,6 +73,7 @@
     root.innerHTML =
       '<form class="hkf" novalidate>' +
       '<div class="hkf-row">' + label('name', t.name, true) + '<input id="' + id('name') + '" name="name" type="text" autocomplete="name" maxlength="100"><p class="hkf-err" data-for="name"></p></div>' +
+      '<div class="hkf-row">' + label('company', t.company, false) + '<input id="' + id('company') + '" name="company" type="text" autocomplete="organization" maxlength="150" placeholder="' + esc(t.phCompany) + '"></div>' +
       '<div class="hkf-row">' + label('email', t.email, true) + '<input id="' + id('email') + '" name="email" type="email" autocomplete="email" inputmode="email" maxlength="200"><p class="hkf-err" data-for="email"></p></div>' +
       '<div class="hkf-row">' + label('phone', t.phone, false) + '<input id="' + id('phone') + '" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="50" placeholder="' + esc(t.phPhone) + '"></div>' +
       topicHtml +
@@ -108,9 +109,11 @@
       btn.disabled = true; btn.textContent = t.sending;
       var body = new URLSearchParams();
       body.append('name', v('name')); body.append('email', v('email')); body.append('phone', v('phone'));
-      var msg = v('message'), src = v('source');
-      if (src) msg = (msg ? msg + '\n\n' : '') + '【当事務所を知ったきっかけ】' + src;
-      if (!msg) msg = '（ご相談内容の記入なし）';
+      var parts = [], co = v('company'), src = v('source');
+      if (co) parts.push('【会社名・団体名】' + co);
+      parts.push(v('message') || '（ご相談内容の記入なし）');
+      if (src) parts.push('【当事務所を知ったきっかけ】' + src);
+      var msg = parts.join('\n\n');
       body.append('topic', topics); body.append('message', msg);
       body.append('site', root.getAttribute('data-site') || ''); body.append('lang', lang); body.append('page', location.href);
       fetch(ENDPOINT, { method: 'POST', mode: 'no-cors', body: body })
