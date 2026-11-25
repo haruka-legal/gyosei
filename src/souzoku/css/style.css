@@ -2682,3 +2682,8 @@ header.scrolled.sb-up .sitebar{height:30px}
   .header-cta-wrap{margin-left:auto!important}
   .header-inner{justify-content:flex-start!important}
 }
+
+/* 流れの下：ボタン2つを横に並べる（スマホは縦） */
+.cta-pair{display:flex;flex-wrap:wrap;justify-content:center;align-items:stretch;gap:14px}
+.cta-pair a{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:54px;min-width:240px}
+@media (max-width:560px){.cta-pair{flex-direction:column;align-items:center}.cta-pair a{width:100%;max-width:340px}}
