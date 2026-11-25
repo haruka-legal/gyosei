@@ -97,7 +97,7 @@
   /* 屋号とロゴを横並びのヘッダーにする（全画面幅） */
   .page{grid-template-columns:minmax(0,1fr);gap:40px;max-width:1040px}
   .left{flex-direction:row;align-items:center;justify-content:flex-start;gap:18px;width:100%;padding-bottom:18px;background:linear-gradient(var(--blue),var(--blue)) left bottom/100% 2px no-repeat;animation:lineh 2.8s cubic-bezier(.33,0,.2,1) both}
-  .seal{order:-1;flex:none;width:68px;height:68px;border-radius:0}
+  .seal{order:-1;flex:none;width:96px;height:96px;border-radius:0}
   .name{writing-mode:horizontal-tb;font-size:clamp(24px,3.6vw,34px);letter-spacing:.06em;padding:0;border:none;background:none;animation:none}
   .name small{margin:10px 0 0;font-size:15px;letter-spacing:.12em;white-space:nowrap}
   .left{justify-content:center}
@@ -123,7 +123,7 @@
   .intro{text-align:center;max-width:none;margin:-10px auto 8px;line-height:2}
   .intro .ln{display:inline-block}
   @keyframes lineh{from{background-size:0 2px}to{background-size:100% 2px}}
-  @media (max-width:720px){.page{gap:32px}.left{gap:12px}.seal{width:clamp(52px,15vw,62px);height:clamp(52px,15vw,62px)}}
+  @media (max-width:720px){.page{gap:32px}.left{gap:12px}.seal{width:clamp(52px,17vw,78px);height:clamp(52px,17vw,78px)}.name{white-space:nowrap}}
   @media (prefers-reduced-motion:reduce){.left{animation:none}}
   /* 対応エリア：文ごとに段落を分け、行間と段落の間をあける */
   .area{max-width:none;gap:0}
