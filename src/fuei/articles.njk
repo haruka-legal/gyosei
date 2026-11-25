@@ -35,7 +35,7 @@ navActive: articles
       {% set list = collections.articles | filterByCat(ch.cat) %}
       {% if list.length %}
       {% if ch.cat != "コラム" %}{% set no = no + 1 %}{% endif %}
-      <details class="chapter" id="{{ ch.cat }}">
+      <details class="chapter" id="{{ ch.cat }}"{% if no == 1 and ch.cat != "コラム" %} open{% endif %}>
         <summary class="chapter-title">{% if ch.cat != "コラム" %}<span class="chapter-no">第{{ no }}章</span>{% endif %}<span class="chapter-name">{{ ch.title }}</span><span class="chapter-count">{{ list.length }}本</span></summary>
         <ul class="post-list post-list--full">
           {% for article in list %}
