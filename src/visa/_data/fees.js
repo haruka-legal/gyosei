@@ -19,11 +19,12 @@ module.exports = {
         {
           caption: { en: "Engineer / Specialist in Humanities / International Services", es: "Ingeniero / Especialista en Humanidades / Servicios Internacionales", ja: "技術・人文知識・国際業務（技人国）" },
           rows: [
-            { label: { en: "Certificate of Eligibility (hiring from abroad)", es: "Certificado de Elegibilidad (contratación desde el extranjero)", ja: "在留資格認定証明書（海外からの呼び寄せ）" }, jpy: 121000 },
-            { label: { en: "Change of status of residence", es: "Cambio de estatus de residencia", ja: "在留資格変更" }, jpy: 99000 },
+            { label: { en: "Certificate of Eligibility (hiring from abroad)", es: "Certificado de Elegibilidad (contratación desde el extranjero)", ja: "在留資格認定証明書（海外からの呼び寄せ）" }, jpy: 132000 },
+            { label: { en: "Change of status of residence", es: "Cambio de estatus de residencia", ja: "在留資格変更" }, jpy: 121000 },
             { label: { en: "Extension of period of stay (same employer)", es: "Renovación del período de estancia (mismo empleador)", ja: "在留期間更新（転職なし）" }, jpy: 55000 },
-            { label: { en: "Extension of period of stay (after changing jobs)", es: "Renovación del período de estancia (tras cambiar de empleo)", ja: "在留期間更新（転職あり）" }, jpy: 99000 },
+            { label: { en: "Extension of period of stay (after changing jobs)", es: "Renovación del período de estancia (tras cambiar de empleo)", ja: "在留期間更新（転職あり）" }, jpy: 110000 },
           ],
+          note: { en: "The same fees apply to Intra-company Transferee and Highly Skilled Professional (i)(a)/(i)(b).", es: "Los mismos honorarios se aplican a Transferencia Intraempresarial y Profesional Altamente Calificado (i)(a)/(i)(b).", ja: "企業内転勤・高度専門職1号イ・ロも同じ料金です。" },
         },
         {
           caption: { en: "Specified Skilled Worker (SSW) / Employment for Skill Development", es: "Trabajador con Habilidades Específicas (SSW) / Empleo para el Desarrollo de Habilidades", ja: "特定技能・育成就労" },
@@ -89,11 +90,11 @@ module.exports = {
       tables: [
         {
           rows: [
-            { label: { en: "Certificate of Eligibility (from abroad)", es: "Certificado de Elegibilidad (desde el extranjero)", ja: "在留資格認定証明書（海外からの呼び寄せ）" }, jpy: 209000, from: true },
-            { label: { en: "Change of status of residence", es: "Cambio de estatus de residencia", ja: "在留資格変更" }, jpy: 209000, from: true },
+            { label: { en: "Certificate of Eligibility (from abroad)", es: "Certificado de Elegibilidad (desde el extranjero)", ja: "在留資格認定証明書（海外からの呼び寄せ）" }, jpy: 330000, from: true },
+            { label: { en: "Change of status of residence", es: "Cambio de estatus de residencia", ja: "在留資格変更" }, jpy: 330000, from: true },
             { label: { en: "Extension of period of stay", es: "Renovación del período de estancia", ja: "在留期間更新" }, jpy: 132000, from: true },
           ],
-          note: { en: "Company setup costs are separate. We start by checking whether your plan meets the permit criteria revised in October 2025 (including capital of ¥30 million or more).", es: "Los costos de constitución de la empresa son aparte. Empezamos verificando si su plan cumple los criterios revisados en octubre de 2025 (incluido un capital de ¥30 millones o más).", ja: "会社設立にかかる費用は別途です。2025年10月の許可基準改正（資本金3,000万円以上など）を満たしているかの確認から承ります。" },
+          note: { en: "The same fees apply to Highly Skilled Professional (i)(c) (business management). Company setup costs are separate. We start by checking whether your plan meets the permit criteria revised in October 2025 (including capital of ¥30 million or more).", es: "Los mismos honorarios se aplican a Profesional Altamente Calificado (i)(c) (gestión empresarial). Los costos de constitución de la empresa son aparte. Empezamos verificando si su plan cumple los criterios revisados en octubre de 2025 (incluido un capital de ¥30 millones o más).", ja: "高度専門職1号ハ（経営・管理の活動）も同じ料金です。会社設立にかかる費用は別途です。2025年10月の許可基準改正（資本金3,000万円以上など）を満たしているかの確認から承ります。" },
         },
       ],
     },
