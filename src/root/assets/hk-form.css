@@ -30,3 +30,6 @@
 .hkf-done p{margin:0;font-size:15.5px;line-height:1.9}
 .hkf-done .hkf-done-t{font-size:18px;font-weight:700;margin-bottom:8px;color:var(--hkf-accent)}
 @media (max-width:600px){.hkf{padding:22px 16px;gap:20px}.hkf-submit{width:100%;min-width:0}}
+/* 複数選択の見出し（legend）が細く折り返される問題の修正 */
+.hkf legend{display:block;width:100%;float:none}
+.hkf legend .hkf-badge{display:inline-block;margin-left:8px;vertical-align:2px}
