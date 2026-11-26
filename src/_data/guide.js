@@ -27,6 +27,7 @@ module.exports = [
     ["gijinkoku", "技人国とは"],
     ["gijinkoku-fukyoka", "技人国が不許可になるとき"],
     ["ryugakusei-shinsotsu", "留学生を4月に新卒採用する"],
+    ["gijinkoku-riyusho", "技人国の採用理由書の書き方"],
     ["koudo-senmonshoku", "高度専門職とは"],
     ["keiei-kanri", "外国人が会社を経営する（経営・管理）"],
   ]},
