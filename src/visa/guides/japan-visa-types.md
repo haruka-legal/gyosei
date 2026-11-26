@@ -19,7 +19,11 @@ altUrls:
   es: /es/guides/japan-visa-types/
   ja: /ja/guides/japan-visa-types/
 ---
-**In short:** Japan has **29 statuses of residence**. They are often called "visas," but officially a visa and a status of residence are different things. Statuses of residence fall into 4 main groups: **statuses that allow work**, **statuses that in principle do not allow work**, **Designated Activities**, where the permitted activities are designated individually, and **statuses based on personal status or position**. Whether you can work, and what kind of work you can do, depends on your status. Before you start a job or change jobs, check your status of residence and your work restrictions.
+<div class="guide-summary">
+
+Japan has **29 statuses of residence**. They are often called "visas," but officially a visa and a status of residence are different things. Statuses of residence fall into 4 main groups: **statuses that allow work**, **statuses that in principle do not allow work**, **Designated Activities**, where the permitted activities are designated individually, and **statuses based on personal status or position**. Whether you can work, and what kind of work you can do, depends on your status. Before you start a job or change jobs, check your status of residence and your work restrictions.
+
+</div>
 
 <nav class="guide-toc" aria-label="Contents">
 <p class="guide-toc-title">Contents</p>

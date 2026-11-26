@@ -65,6 +65,22 @@ module.exports = function (eleventyConfig) {
     return text.length > len ? `${text.slice(0, len)}…` : text;
   });
 
+  // ガイド記事の表：クラスと横スクロール枠を付け、スマホでは縦並び（カード）にする
+  eleventyConfig.addTransform("guideTables", function (content) {
+    const out = this.page.outputPath || "";
+    if (!out.endsWith(".html") || !/\/guides\//.test(out)) return content;
+    return content.replace(/(?:<div class="guide-table-wrap">\s*)?<table([^>]*)>([\s\S]*?)<\/table>(?:\s*<\/div>)?/g, (m, attrs, inner) => {
+      const ths = [...inner.matchAll(/<th[^>]*>([\s\S]*?)<\/th>/g)].map((x) => x[1].replace(/<[^>]+>/g, "").trim());
+      const body = inner.replace(/<tr>([\s\S]*?)<\/tr>/g, (tm, row) => {
+        let i = 0;
+        return "<tr>" + row.replace(/<td([^>]*)>/g, (td, a) => `<td${a} data-label="${(ths[i++] || "").replace(/"/g, "&quot;")}">`) + "</tr>";
+      });
+      const cls = ["guide-table"]; cls.push("guide-table--stack"); // スマホでは全ての表をカード表示にそろえる
+      const rest = attrs.replace(/\s*class="[^"]*"/, "");
+      return `<div class="guide-table-wrap"><table class="${cls.join(" ")}"${rest}>${body}</table></div>`;
+    });
+  });
+
   return {
     pathPrefix: "/visa/",
     dir: {

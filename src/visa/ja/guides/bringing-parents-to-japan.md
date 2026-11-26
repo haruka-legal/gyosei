@@ -11,10 +11,14 @@ altUrls:
   es: /es/guides/bringing-parents-to-japan/
   ja: /ja/guides/bringing-parents-to-japan/
 ---
-**結論：** 親を呼んで一緒に暮らすための一般的な在留資格はありません。<br>
+<div class="guide-summary">
+
+親を呼んで一緒に暮らすための一般的な在留資格はありません。<br>
 ただし、高度専門職の人には、子育てや妊娠中の支援のために親を呼べる制度があります。<br>
 また、高齢の親について、人道上の事情から「特定活動」での在留が例外的に認められる場合もあります。<br>
 短い期間の訪問なら、「短期滞在」で親を日本に呼べます。
+
+</div>
 
 <nav class="guide-toc" aria-label="目次">
 <p class="guide-toc-title">目次</p>

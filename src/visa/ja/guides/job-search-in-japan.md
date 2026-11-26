@@ -6,15 +6,18 @@ description: "日本に住む外国人が仕事を探すときの手順を、在
 date: 2026-11-26
 tags: ["job-search", "status-of-residence", "work"]
 excerptText: "在留資格でできる仕事の確認から、国の無料相談窓口、人材紹介会社の確認、内定後の在留資格の手続きまで、日本で仕事を探す5つの手順を解説します。"
-canonical: "https://haruka-legal.com/gyosei/articles/job-search-in-japan/"
 altUrls:
   en: /guides/job-search-in-japan/
   es: /es/guides/job-search-in-japan/
   ja: /ja/guides/job-search-in-japan/
 ---
-**結論：** まず、ご自身の在留資格でどのような仕事ができるかを確認しましょう。<br>
+<div class="guide-summary">
+
+まず、ご自身の在留資格でどのような仕事ができるかを確認しましょう。<br>
 仕事探しは、ハローワークの外国人向け窓口や学校のキャリアセンター、国の許可を受けた人材紹介会社が頼りになります。<br>
 内定が出たら、新しい仕事を始める前に在留資格の手続きが必要かどうかを確認しましょう。
+
+</div>
 
 「日本で働きたいので、仕事を紹介してもらえませんか？」<br>
 当事務所にも、このようなお問い合わせがよく届きます。仕事の紹介を事業として行うには、原則として国の許可が必要です。当事務所では、仕事の紹介は行っておりません。<br>

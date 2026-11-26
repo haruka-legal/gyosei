@@ -11,9 +11,13 @@ altUrls:
   es: /es/guides/job-search-in-japan/
   ja: /ja/guides/job-search-in-japan/
 ---
-**En resumen:** Primero, compruebe qué tipo de trabajo le permite su estatus de residencia.<br>
+<div class="guide-summary">
+
+Primero, compruebe qué tipo de trabajo le permite su estatus de residencia.<br>
 Para buscar empleo, puede acudir a los servicios para extranjeros de Hello Work (el servicio público de empleo de Japón), al centro de orientación profesional de su escuela o a una agencia de colocación autorizada.<br>
 Cuando reciba una oferta de trabajo, verifique si necesita realizar algún trámite migratorio antes de empezar el nuevo empleo.
+
+</div>
 
 "Quiero trabajar en Japón. ¿Podrían ayudarme a encontrar trabajo?"<br>
 Recibimos a menudo consultas como esta. En Japón, para ejercer actividades de intermediación laboral se necesita, en principio, una autorización gubernamental. Nuestra oficina no ofrece servicios de intermediación laboral.<br>

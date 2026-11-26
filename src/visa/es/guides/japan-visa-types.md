@@ -19,7 +19,11 @@ altUrls:
   es: /es/guides/japan-visa-types/
   ja: /ja/guides/japan-visa-types/
 ---
-**En resumen:** Japón tiene **29 estatus de residencia**. A menudo se les llama "visas", pero oficialmente la visa y el estatus de residencia son cosas distintas. Los estatus de residencia se dividen en 4 grupos principales: **estatus que permiten trabajar**, **estatus que en principio no permiten trabajar**, **Actividades Designadas**, en las que las actividades permitidas se designan de forma individual, y **estatus basados en la situación personal o la posición**. Si puede trabajar, y qué tipo de trabajo puede hacer, depende de su estatus. Antes de empezar un empleo o de cambiar de trabajo, compruebe su estatus de residencia y sus restricciones laborales.
+<div class="guide-summary">
+
+Japón tiene **29 estatus de residencia**. A menudo se les llama "visas", pero oficialmente la visa y el estatus de residencia son cosas distintas. Los estatus de residencia se dividen en 4 grupos principales: **estatus que permiten trabajar**, **estatus que en principio no permiten trabajar**, **Actividades Designadas**, en las que las actividades permitidas se designan de forma individual, y **estatus basados en la situación personal o la posición**. Si puede trabajar, y qué tipo de trabajo puede hacer, depende de su estatus. Antes de empezar un empleo o de cambiar de trabajo, compruebe su estatus de residencia y sus restricciones laborales.
+
+</div>
 
 <nav class="guide-toc" aria-label="Contenido">
 <p class="guide-toc-title">Contenido</p>

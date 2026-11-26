@@ -11,10 +11,14 @@ altUrls:
   es: /es/guides/re-entry-permit-japan/
   ja: /ja/guides/re-entry-permit-japan/
 ---
-**En resumen:** Para salir de Japón y volver con su estatus de residencia, necesita un trámite de reingreso.<br>
+<div class="guide-summary">
+
+Para salir de Japón y volver con su estatus de residencia, necesita un trámite de reingreso.<br>
 Si volverá dentro del plazo de un año desde la salida, puede usar el "permiso especial de reingreso" con solo indicar su intención al salir (dos años para los residentes permanentes especiales).<br>
 Si piensa estar fuera un año o más, obtenga un "permiso de reingreso" en inmigración antes de salir (hasta 5 años).<br>
 Si no vuelve antes de la fecha límite, pierde su estatus de residencia. Esto también se aplica a los residentes permanentes.
+
+</div>
 
 <nav class="guide-toc" aria-label="Contenido">
 <p class="guide-toc-title">Contenido</p>

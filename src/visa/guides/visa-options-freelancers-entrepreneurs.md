@@ -18,7 +18,11 @@ altUrls:
   es: /es/guides/visa-options-freelancers-entrepreneurs/
   ja: /ja/guides/visa-options-freelancers-entrepreneurs/
 ---
-**In short:** Japan has no status of residence called a "freelance visa." To work as a freelancer, start a business, or keep working remotely in Japan, you need a [status of residence](/visa/guides/japan-visa-types/) that matches how you will work. The main options are **Business Manager** for running your own business, the **startup visa** for preparing to start one, **Engineer / Specialist in Humanities / International Services** for working under contracts with organizations in Japan, **Digital Nomad** for continuing your work from abroad, and **Artist** for artists. Statuses such as **Permanent Resident** and **Spouse or Child of Japanese National** have no restrictions on the type of work.
+<div class="guide-summary">
+
+Japan has no status of residence called a "freelance visa." To work as a freelancer, start a business, or keep working remotely in Japan, you need a [status of residence](/visa/guides/japan-visa-types/) that matches how you will work. The main options are **Business Manager** for running your own business, the **startup visa** for preparing to start one, **Engineer / Specialist in Humanities / International Services** for working under contracts with organizations in Japan, **Digital Nomad** for continuing your work from abroad, and **Artist** for artists. Statuses such as **Permanent Resident** and **Spouse or Child of Japanese National** have no restrictions on the type of work.
+
+</div>
 
 <div class="guide-table-wrap">
 <table class="guide-table">

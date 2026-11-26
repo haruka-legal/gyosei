@@ -11,9 +11,13 @@ altUrls:
   es: /es/guides/work-in-japan-from-abroad/
   ja: /ja/guides/work-in-japan-from-abroad/
 ---
-**In short:** If you live outside Japan and want to work for a Japanese company, you generally need to find a job in Japan first.<br>
+<div class="guide-summary">
+
+If you live outside Japan and want to work for a Japanese company, you generally need to find a job in Japan first.<br>
 Then, in most cases, you receive a Certificate of Eligibility, obtain a visa and come to Japan.<br>
 Under the Temporary Visitor status, such as for tourism, you generally cannot engage in paid employment.
+
+</div>
 
 "I want to work in Japan, but I do not have a status of residence yet. What should I do?"<br>
 We often receive inquiries like this from abroad. Please note that our office does not provide job placement services or introduce employers. We advise on the status of residence you need to work in Japan and help prepare documents.<br>

@@ -532,3 +532,16 @@ html[lang="es"] .fab-form span{font-size:8.5px}
 .fab-contact{transition:opacity .3s ease,transform .3s ease}
 .fab-contact.is-hidden{opacity:0;transform:translateY(16px);pointer-events:none;animation:none}
 @media (prefers-reduced-motion:reduce){.fab-contact{transition:none}}
+
+/* Guide summary box (replaces the 結論 / In short / En resumen label) */
+.guide-summary{background:var(--pale);border-left:4px solid var(--blue);border-radius:var(--radius);padding:18px 22px;margin:0 0 30px;}
+.guide-summary p{margin:0 !important;}
+/* Guide tables: 3+ columns become stacked cards on phones */
+@media(max-width:640px){
+  .guide-table--stack thead{display:none;}
+  .guide-table--stack,.guide-table--stack tbody,.guide-table--stack tr,.guide-table--stack td{display:block;width:100%;}
+  .guide-table--stack tr{border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;margin-bottom:12px;background:#fff;}
+  .guide-table--stack td{border:0;padding:4px 0;}
+  .guide-table--stack td:first-child{font-weight:600;color:var(--navy);padding-bottom:6px;}
+  .guide-table--stack td:not(:first-child)::before{content:attr(data-label);display:block;font-size:13px;font-weight:600;color:var(--blue);letter-spacing:.04em;}
+}

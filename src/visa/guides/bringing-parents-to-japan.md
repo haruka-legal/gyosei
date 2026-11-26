@@ -11,10 +11,14 @@ altUrls:
   es: /es/guides/bringing-parents-to-japan/
   ja: /ja/guides/bringing-parents-to-japan/
 ---
-**In short:** Japan does not have a general status of residence that allows foreign nationals to bring their parents to live with them.<br>
+<div class="guide-summary">
+
+Japan does not have a general status of residence that allows foreign nationals to bring their parents to live with them.<br>
 However, Highly Skilled Professionals may be able to bring their parents to Japan to help care for young children or provide support during pregnancy.<br>
 In exceptional cases, elderly parents may also be granted Designated Activities status on humanitarian grounds.<br>
 For short visits, parents may enter Japan under Temporary Visitor status.
+
+</div>
 
 <nav class="guide-toc" aria-label="Contents">
 <p class="guide-toc-title">Contents</p>

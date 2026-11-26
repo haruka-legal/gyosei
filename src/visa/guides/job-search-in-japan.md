@@ -11,9 +11,13 @@ altUrls:
   es: /es/guides/job-search-in-japan/
   ja: /ja/guides/job-search-in-japan/
 ---
-**In short:** First, check what kind of work your status of residence allows.<br>
+<div class="guide-summary">
+
+First, check what kind of work your status of residence allows.<br>
 To look for work, use the services for foreign nationals at Hello Work (Japan's public employment service), your school's career center, or a licensed recruitment agency.<br>
 Once you receive a job offer, check whether you need to complete any immigration procedures before you start the new job.
+
+</div>
 
 "I want to work in Japan. Could you help me find a job?"<br>
 We often receive inquiries like this. In Japan, running a job placement business generally requires government authorization. Our office does not provide job placement services.<br>

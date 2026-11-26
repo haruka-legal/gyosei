@@ -11,10 +11,14 @@ altUrls:
   es: /es/guides/residence-status-expiring/
   ja: /ja/guides/residence-status-expiring/
 ---
-**En resumen:** Si su período de estancia está por vencer, lo más importante es presentar la solicitud ante inmigración a más tardar en la fecha de vencimiento.<br>
+<div class="guide-summary">
+
+Si su período de estancia está por vencer, lo más importante es presentar la solicitud ante inmigración a más tardar en la fecha de vencimiento.<br>
 Si su período de estancia es de 6 meses o más, puede solicitar la prórroga desde 3 meses antes del vencimiento.<br>
 Si presenta la solicitud antes del vencimiento, puede seguir en Japón durante cierto tiempo aunque la fecha pase mientras se revisa su solicitud.<br>
 Si la fecha pasa sin haber presentado la solicitud, su estancia pasa a ser irregular (overstay), así que consulte de inmediato con inmigración.
+
+</div>
 
 <nav class="guide-toc" aria-label="Contenido">
 <p class="guide-toc-title">Contenido</p>

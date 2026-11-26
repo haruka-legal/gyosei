@@ -19,7 +19,11 @@ altUrls:
   es: /es/guides/how-to-move-to-japan/
   ja: /ja/guides/how-to-move-to-japan/
 ---
-**In short:** To live in Japan long-term, you need a **status of residence** that matches what you will do in Japan. The Temporary Visitor status used for tourism is not a status for living in Japan. The 5 main ways to move to Japan are to **work**, **study**, **live with family**, **run a business**, or **stay for a limited time** through a working holiday or as a digital nomad. Use the table below to find the option that best fits your situation.
+<div class="guide-summary">
+
+To live in Japan long-term, you need a **status of residence** that matches what you will do in Japan. The Temporary Visitor status used for tourism is not a status for living in Japan. The 5 main ways to move to Japan are to **work**, **study**, **live with family**, **run a business**, or **stay for a limited time** through a working holiday or as a digital nomad. Use the table below to find the option that best fits your situation.
+
+</div>
 
 <div class="guide-table-wrap">
 <table class="guide-table">

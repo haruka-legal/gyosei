@@ -11,10 +11,14 @@ altUrls:
   es: /es/guides/residence-status-expiring/
   ja: /ja/guides/residence-status-expiring/
 ---
-**In short:** If your period of stay is about to expire, the most important thing is to apply to immigration by the expiry date.<br>
+<div class="guide-summary">
+
+If your period of stay is about to expire, the most important thing is to apply to immigration by the expiry date.<br>
 If your period of stay is 6 months or longer, you can apply for an extension from 3 months before it expires.<br>
 If you apply by the expiry date, you can stay in Japan for a certain period even if the date passes while your application is under review.<br>
 If your period of stay expires without an application, you become an overstayer. Contact immigration immediately.
+
+</div>
 
 <nav class="guide-toc" aria-label="Contents">
 <p class="guide-toc-title">Contents</p>

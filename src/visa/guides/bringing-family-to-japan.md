@@ -12,10 +12,14 @@ altUrls:
   es: /es/guides/bringing-family-to-japan/
   ja: /ja/guides/bringing-family-to-japan/
 ---
-**In short:** Whether you can bring your family depends on your own status of residence.<br>
+<div class="guide-summary">
+
+Whether you can bring your family depends on your own status of residence.<br>
 Under most work statuses, a spouse and children you support can live with you under the "Dependent" status.<br>
 Parents and siblings are, in principle, not covered by the Dependent status.<br>
 People with Specified Skilled Worker (i) or Technical Intern Training status cannot, in principle, bring their family under the Dependent status.
+
+</div>
 
 <nav class="guide-toc" aria-label="Contents">
 <p class="guide-toc-title">Contents</p>

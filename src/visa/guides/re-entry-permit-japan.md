@@ -11,10 +11,14 @@ altUrls:
   es: /es/guides/re-entry-permit-japan/
   ja: /ja/guides/re-entry-permit-japan/
 ---
-**In short:** To leave Japan and come back with your status of residence, you need a re-entry procedure.<br>
+<div class="guide-summary">
+
+To leave Japan and come back with your status of residence, you need a re-entry procedure.<br>
 If you will return within one year of departure, you can use the "Special Re-entry Permit" simply by stating your intention when you leave (within two years for special permanent residents).<br>
 If you plan to be away for one year or more, get a "Re-entry Permit" from immigration before you leave (up to 5 years).<br>
 If you do not return by the deadline, you lose your status of residence. This applies to permanent residents too.
+
+</div>
 
 <nav class="guide-toc" aria-label="Contents">
 <p class="guide-toc-title">Contents</p>

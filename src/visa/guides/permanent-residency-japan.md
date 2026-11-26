@@ -11,10 +11,14 @@ altUrls:
   es: /es/guides/permanent-residency-japan/
   ja: /ja/guides/permanent-residency-japan/
 ---
-**In short:** To get permanent residency, you must meet three requirements: good conduct, the ability to support yourself independently, and your permanent residence being in Japan's interest.<br>
+<div class="guide-summary">
+
+To get permanent residency, you must meet three requirements: good conduct, the ability to support yourself independently, and your permanent residence being in Japan's interest.<br>
 In principle, you must have lived in Japan continuously for at least 10 years, including at least 5 years with a work or residence-based status.<br>
 New standards, such as those on pension and Japanese language ability, apply to applications filed on or after April 1, 2027. The new income standard already applies to applications filed on or after October 1, 2026, and to applications filed on or after April 1, 2026 that were still pending on October 1, 2026.<br>
 For applications received on or after October 1, 2026, the fee is, in principle, ¥200,000.
+
+</div>
 
 <nav class="guide-toc" aria-label="Contents">
 <p class="guide-toc-title">Contents</p>

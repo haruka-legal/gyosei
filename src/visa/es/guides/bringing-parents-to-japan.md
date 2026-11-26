@@ -11,10 +11,14 @@ altUrls:
   es: /es/guides/bringing-parents-to-japan/
   ja: /ja/guides/bringing-parents-to-japan/
 ---
-**En resumen:** Japón no cuenta con un estatus de residencia general que permita a los extranjeros traer a sus padres para vivir con ellos.<br>
+<div class="guide-summary">
+
+Japón no cuenta con un estatus de residencia general que permita a los extranjeros traer a sus padres para vivir con ellos.<br>
 Sin embargo, los profesionales altamente calificados pueden acogerse a un sistema que permite traer a sus padres para ayudar con el cuidado de niños pequeños o durante un embarazo.<br>
 En casos excepcionales, también puede autorizarse la residencia de padres de edad avanzada bajo el estatus de Actividades Designadas por razones humanitarias.<br>
 Para visitas breves, pueden utilizar el estatus de Visitante Temporal.
+
+</div>
 
 <nav class="guide-toc" aria-label="Contenido">
 <p class="guide-toc-title">Contenido</p>

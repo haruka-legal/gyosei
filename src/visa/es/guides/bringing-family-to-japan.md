@@ -12,10 +12,14 @@ altUrls:
   es: /es/guides/bringing-family-to-japan/
   ja: /ja/guides/bringing-family-to-japan/
 ---
-**En resumen:** Que pueda traer a su familia depende de su propio estatus de residencia.<br>
+<div class="guide-summary">
+
+Que pueda traer a su familia depende de su propio estatus de residencia.<br>
 Con la mayoría de los estatus de trabajo, el cónyuge y los hijos que usted mantiene pueden vivir con usted con el estatus de "Dependiente".<br>
 En principio, los padres y los hermanos no están cubiertos por el estatus de Dependiente.<br>
 En principio, quienes tienen el estatus de Trabajador con Habilidades Específicas (i) o de Prácticas Técnicas no pueden traer a su familia con el estatus de Dependiente.
+
+</div>
 
 <nav class="guide-toc" aria-label="Contenido">
 <p class="guide-toc-title">Contenido</p>

@@ -11,10 +11,14 @@ altUrls:
   es: /es/guides/re-entry-permit-japan/
   ja: /ja/guides/re-entry-permit-japan/
 ---
-**結論：** 在留資格を持つ人が日本を出て戻ってくるには、再入国の手続きが必要です。<br>
+<div class="guide-summary">
+
+在留資格を持つ人が日本を出て戻ってくるには、再入国の手続きが必要です。<br>
 出国から1年以内に戻るなら、出国のときに意思を示すだけの「みなし再入国許可」が使えます（特別永住者は2年以内）。<br>
 1年以上日本を離れる予定なら、出国前に入管で「再入国許可」を受けます（最長5年）。<br>
 期限までに戻らないと在留資格がなくなります。永住者も同じです。
+
+</div>
 
 <nav class="guide-toc" aria-label="目次">
 <p class="guide-toc-title">目次</p>

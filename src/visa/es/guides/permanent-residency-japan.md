@@ -11,10 +11,14 @@ altUrls:
   es: /es/guides/permanent-residency-japan/
   ja: /ja/guides/permanent-residency-japan/
 ---
-**En resumen:** Para obtener la residencia permanente, debe cumplir tres requisitos: buena conducta, capacidad para mantenerse por sí mismo y que su residencia permanente sea de interés para Japón.<br>
+<div class="guide-summary">
+
+Para obtener la residencia permanente, debe cumplir tres requisitos: buena conducta, capacidad para mantenerse por sí mismo y que su residencia permanente sea de interés para Japón.<br>
 En principio, debe haber vivido en Japón de forma continua durante al menos 10 años, de los cuales al menos 5 con un estatus de trabajo o un estatus basado en la residencia.<br>
 Los nuevos criterios, como los de pensión y de nivel de japonés, se aplican a las solicitudes presentadas a partir del 1 de abril de 2027. El nuevo criterio de ingresos ya se aplica a las solicitudes presentadas a partir del 1 de octubre de 2026 y a las presentadas a partir del 1 de abril de 2026 que seguían pendientes de resolución el 1 de octubre de 2026.<br>
 Para las solicitudes recibidas a partir del 1 de octubre de 2026, la tasa es, en principio, de 200,000 yenes.
+
+</div>
 
 <nav class="guide-toc" aria-label="Contenido">
 <p class="guide-toc-title">Contenido</p>

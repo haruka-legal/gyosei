@@ -19,7 +19,11 @@ altUrls:
   es: /es/guides/how-to-move-to-japan/
   ja: /ja/guides/how-to-move-to-japan/
 ---
-**En resumen:** Para vivir en Japón a largo plazo, necesita un **estatus de residencia** acorde con lo que hará en Japón. El estatus de Visitante Temporal que se usa para turismo no es un estatus para vivir en Japón. Las 5 vías principales para mudarse a Japón son **trabajar**, **estudiar**, **vivir con su familia**, **dirigir un negocio** o **quedarse por un tiempo limitado** con un Working Holiday o como nómada digital. Empiece por la tabla de abajo para encontrar la vía más cercana a su situación.
+<div class="guide-summary">
+
+Para vivir en Japón a largo plazo, necesita un **estatus de residencia** acorde con lo que hará en Japón. El estatus de Visitante Temporal que se usa para turismo no es un estatus para vivir en Japón. Las 5 vías principales para mudarse a Japón son **trabajar**, **estudiar**, **vivir con su familia**, **dirigir un negocio** o **quedarse por un tiempo limitado** con un Working Holiday o como nómada digital. Empiece por la tabla de abajo para encontrar la vía más cercana a su situación.
+
+</div>
 
 <div class="guide-table-wrap">
 <table class="guide-table">

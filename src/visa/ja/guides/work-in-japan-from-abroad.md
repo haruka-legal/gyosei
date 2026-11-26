@@ -6,15 +6,18 @@ description: "海外に住む外国人が日本の会社に就職して来日す
 date: 2026-11-26
 tags: ["work", "certificate-of-eligibility", "visa"]
 excerptText: "海外から日本の会社に就職して来日するまでの流れと、観光で来日して働けない理由、主な在留資格、海外の仲介業者への注意点を解説します。"
-canonical: "https://haruka-legal.com/gyosei/articles/work-in-japan-from-abroad/"
 altUrls:
   en: /guides/work-in-japan-from-abroad/
   es: /es/guides/work-in-japan-from-abroad/
   ja: /ja/guides/work-in-japan-from-abroad/
 ---
-**結論：** 海外にいる人が日本の会社に就職する場合は、一般には、まず日本での就職先を決める必要があります。<br>
+<div class="guide-summary">
+
+海外にいる人が日本の会社に就職する場合は、一般には、まず日本での就職先を決める必要があります。<br>
 その後、通常は在留資格認定証明書の交付を受け、ビザを取得して来日します。<br>
 観光などの短期滞在では、原則として報酬を受ける仕事はできません。
+
+</div>
 
 「日本で働きたいけれど、まだ在留資格を持っていない。どうすればいい？」<br>
 当事務所にも、海外からこのようなお問い合わせがよく届きます。なお、当事務所では仕事の紹介や就職先のあっせんは行っておりません。日本で働くための在留資格のご相談や、書類の作成をお手伝いしています。<br>

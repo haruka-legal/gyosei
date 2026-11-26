@@ -12,10 +12,14 @@ altUrls:
   es: /es/guides/bringing-family-to-japan/
   ja: /ja/guides/bringing-family-to-japan/
 ---
-**結論：** 家族を連れて来られるかは、働く本人の在留資格で決まります。<br>
+<div class="guide-summary">
+
+家族を連れて来られるかは、働く本人の在留資格で決まります。<br>
 多くの就労の在留資格では、本人に扶養される配偶者と子が「家族滞在」で一緒に住めます。<br>
 親や兄弟姉妹は、原則として家族滞在の対象になりません。<br>
 特定技能1号や技能実習の人は、原則として家族滞在で家族を呼べません。
+
+</div>
 
 <nav class="guide-toc" aria-label="目次">
 <p class="guide-toc-title">目次</p>

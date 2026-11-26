@@ -11,10 +11,14 @@ altUrls:
   es: /es/guides/residence-status-expiring/
   ja: /ja/guides/residence-status-expiring/
 ---
-**結論：** 在留期限が近いときは、期限の日までに入管へ申請することが最も大切です。<br>
+<div class="guide-summary">
+
+在留期限が近いときは、期限の日までに入管へ申請することが最も大切です。<br>
 在留期間が6か月以上の人は、期限の3か月前から更新の申請ができます。<br>
 期限までに申請すれば、審査中に期限が過ぎても一定の期間は日本にいられます。<br>
 申請をしないまま期限を過ぎるとオーバーステイ（不法残留）になるため、すぐに入管へ相談してください。
+
+</div>
 
 <nav class="guide-toc" aria-label="目次">
 <p class="guide-toc-title">目次</p>
