@@ -59,7 +59,7 @@ For permanent residency, the following are considered in principle:
 - Of those, you have lived in Japan continuously for at least 5 years with a work status (excluding Technical Intern Training, Specified Skilled Worker (i) and others) or a residence-based status
 - You hold the longest period of stay available for your current [status of residence](/visa/guides/japan-visa-types/)
 
-Under the revised guideline, Employment for Skill Development (育成就労), Intra-company Transferee and some Designated Activities are also excluded from the work statuses that count toward these 5 years.
+Under the revised guideline (which in principle applies to applications filed on or after April 1, 2027), Employment for Skill Development (育成就労), Intra-company Transferee and some Designated Activities are also excluded from the work statuses that count toward these 5 years.
 
 Time spent in Japan as a student or with Dependent status counts toward the 10 years, but not toward the 5 years with a work or residence-based status. Periods spent under certain Designated Activities statuses excluded by the revised guideline, such as those for job hunting, do not count toward the 10 years either.
 
@@ -78,7 +78,7 @@ The list below shows the new standards, which in principle apply to applications
 
 <h2 id="changes">What changes with the October 2026 revision?</h2>
 
-The guideline was revised on October 1, 2026. The main changes are:
+The guideline was revised on October 1, 2026. Which changes apply depends on the date you file your application (see [When do the new standards apply?](#timing)). The main changes are:
 
 - **Income:** Immigration looks at whether your household's annual income has consistently been above the average for Japanese households of the same size. No specific amount is given. The income of family members who do not have a work status, such as those with Dependent status, is not included in household income
 - **Pension:** Your expected future pension is compared with the level you would receive after working for 30 years and paying into the employees' pension insurance. You can make up any shortfall with assets such as savings

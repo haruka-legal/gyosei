@@ -48,7 +48,7 @@ Antes de buscar, compruebe qué trabajos le permite su [estatus de residencia](/
 
 Con el permiso general para realizar actividades fuera del estatus de residencia autorizado, los estudiantes y los familiares dependientes pueden trabajar, en principio, hasta 28 horas por semana. Si trabaja en más de un lugar, se suman las horas. Los estudiantes pueden trabajar hasta 8 horas al día durante las vacaciones largas de la escuela, como las de verano.
 
-El permiso general no permite trabajar en locales donde se operan negocios regulados por la legislación japonesa sobre establecimientos de entretenimiento, como salones de pachinko o snack bars que atienden a los clientes. Esto incluye trabajos como la limpieza o la cocina. Sin embargo, desde el 1 de octubre de 2026, quienes tienen el estatus de familiar dependiente pueden trabajar en establecimientos recreativos como los salones de pachinko si obtienen un permiso individual. Aun así, todas las actividades ajenas a su estatus de residencia, en conjunto, deben quedar dentro de las 28 horas por semana.
+El permiso general no permite trabajar en locales donde se operan negocios regulados por la legislación japonesa sobre establecimientos de entretenimiento, como salones de pachinko o bares tipo snack donde se atiende y entretiene a los clientes (接待). Esto incluye trabajos como la limpieza o la cocina. Sin embargo, desde el 1 de octubre de 2026, quienes tienen el estatus de familiar dependiente pueden trabajar en establecimientos de juego como los salones de pachinko si obtienen un permiso individual. Aun así, todas las actividades ajenas a su estatus de residencia, en conjunto, deben quedar dentro de las 28 horas por semana.
 
 **Los estudiantes internacionales que quieran trabajar en Japón después de graduarse** deben, en principio, cambiar a un estatus de residencia que corresponda al trabajo. La elegibilidad no depende únicamente del tipo de contrato laboral. Las autoridades de inmigración examinan las funciones del puesto, su formación, su experiencia laboral y las condiciones de empleo. Para algunos estatus, también se revisa la relación entre lo que estudió y el trabajo.
 
@@ -97,7 +97,7 @@ Si vive fuera de Japón y todavía no tiene un estatus de residencia japonés, e
 
 Saber qué estatus podría obtener antes de empezar a buscar trabajo le facilita elegir dónde postularse.
 
-- **Revisión inicial de su situación**: gratis
+- **Revisión inicial gratuita de su situación**
 - **Plan de investigación y orientación inicial**: desde 5,000 yenes
 
 Realizamos una revisión inicial gratuita de su situación y le indicamos si podemos ayudarle y el presupuesto estimado. Las evaluaciones e investigaciones de casos individuales tienen un costo a partir de 5,000 yenes. La tarifa varía según el alcance y la complejidad del caso, y le facilitaremos un presupuesto antes de que contrate nuestros servicios. Si después nos encarga su solicitud, el costo del plan se descontará de nuestros honorarios. La evaluación no garantiza la obtención del estatus de residencia.
@@ -110,5 +110,5 @@ HARUKA Gyoseishoshi Office es un despacho de profesionales administrativos acred
 - [Centros de Servicios de Empleo para Extranjeros — Ministerio de Salud, Trabajo y Bienestar (en japonés)](https://jsite.mhlw.go.jp/tokyo-foreigner/gaikokujin_center_goannai.html)
 - [Sitio Integral de Servicios de Recursos Humanos — Ministerio de Salud, Trabajo y Bienestar (en japonés)](https://jinzai.hellowork.mhlw.go.jp/JinzaiWeb)
 - [Lo que deben saber quienes usan agencias de colocación (PDF) — Ministerio de Salud, Trabajo y Bienestar (en japonés)](https://www.mhlw.go.jp/content/000851397.pdf)
-- [Permiso para trabajar en establecimientos recreativos (familiar dependiente) — Agencia de Servicios de Inmigración de Japón (en japonés)](https://www.moj.go.jp/isa/10_00274.html)
+- [Permiso para trabajar en establecimientos de juego (familiar dependiente) — Agencia de Servicios de Inmigración de Japón (en japonés)](https://www.moj.go.jp/isa/10_00274.html)
 - [Permanencia para seguir buscando empleo tras graduarse — Agencia de Servicios de Inmigración de Japón (en japonés)](https://www.moj.go.jp/isa/applications/resources/nyukan_nyukan84.html)

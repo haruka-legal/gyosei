@@ -2,7 +2,7 @@
 layout: layouts/guide.njk
 lang: en
 title: "Traveling Abroad from Japan: Re-entry Permits Explained"
-description: "If you live in Japan and leave for a trip or a visit home without the right re-entry procedure, you can lose your status of residence. This guide explains the difference between the Special Re-entry Permit for returning within one year of departure and the Re-entry Permit for longer stays abroad, and what to do if you cannot return in time."
+description: "If you live in Japan and leave for a trip or a visit home without the right re-entry procedure, you can lose your status of residence. This guide explains the differences between the Special Re-entry Permit and the Re-entry Permit, their validity periods and conditions of use, and what to do if you cannot return before the deadline."
 date: 2026-11-15
 updated: 2026-11-26
 tags: ["re-entry-permit", "status-of-residence", "travel"]

@@ -59,7 +59,7 @@ Para la residencia permanente, en principio se tiene en cuenta lo siguiente:
 - De ellos, ha vivido en Japón de forma continua al menos 5 años con un estatus de trabajo (excepto Prácticas Técnicas, Trabajador con Habilidades Específicas (i) y otros) o con un estatus basado en la residencia
 - Tiene el período de estancia más largo posible en su [estatus de residencia](/visa/es/guides/japan-visa-types/) actual
 
-Con las directrices revisadas, el Empleo para el Desarrollo de Habilidades (育成就労), el Traslado Intraempresarial y algunas Actividades Designadas tampoco cuentan como estatus de trabajo para estos 5 años.
+Con las directrices revisadas (que en principio se aplican a las solicitudes presentadas a partir del 1 de abril de 2027), el Empleo para el Desarrollo de Habilidades (育成就労), el Traslado Intraempresarial y algunas Actividades Designadas tampoco cuentan como estatus de trabajo para estos 5 años.
 
 El tiempo vivido en Japón como estudiante o con el estatus de Dependiente cuenta para los 10 años, pero no para los 5 años con un estatus de trabajo o basado en la residencia. Los períodos de estancia bajo determinadas modalidades de Actividades Designadas excluidas por las directrices revisadas, como las destinadas a la búsqueda de empleo, tampoco cuentan para los 10 años.
 
@@ -78,7 +78,7 @@ La lista muestra los nuevos criterios, que en principio se aplican a las solicit
 
 <h2 id="changes">¿Qué cambia con la revisión de octubre de 2026?</h2>
 
-Las directrices se revisaron el 1 de octubre de 2026. Los principales cambios son:
+Las directrices se revisaron el 1 de octubre de 2026. Los cambios que se aplican dependen de la fecha en que presente su solicitud (consulte [¿Desde cuándo se aplican los nuevos criterios?](#timing)). Los principales cambios son:
 
 - **Ingresos:** se revisa si los ingresos anuales de su hogar han superado de forma continua el promedio de los hogares japoneses del mismo tamaño. No se indica una cantidad concreta. Los ingresos de los familiares que no tienen un estatus de trabajo, como los que tienen el estatus de Dependiente, no se suman a los ingresos del hogar
 - **Pensión:** la pensión que se prevé que recibirá se compara con la que recibiría después de trabajar 30 años cotizando al seguro de pensiones para empleados. Puede compensar la diferencia con bienes como sus ahorros

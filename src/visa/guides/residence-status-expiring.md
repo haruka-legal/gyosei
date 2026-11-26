@@ -1,7 +1,7 @@
 ---
 layout: layouts/guide.njk
 lang: en
-title: "Your Status of Residence Is About to Expire: What to Do Now"
+title: "Your Period of Stay in Japan Is About to Expire: What to Do Now"
 description: "If your period of stay in Japan is about to end, the most important thing is to apply for an extension or change before the expiry date. This guide explains when you can apply, the special period that lets you stay during review, what happens if you are denied, and what to do if your stay has already expired."
 date: 2026-11-14
 updated: 2026-11-26

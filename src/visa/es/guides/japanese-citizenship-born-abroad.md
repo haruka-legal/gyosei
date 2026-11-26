@@ -83,7 +83,7 @@ En las consultas sobre la nacionalidad japonesa de hijos nacidos en el extranjer
 La notificación de recuperación y la solicitud de naturalización deben presentarse en persona en una Oficina de Asuntos Jurídicos por el interesado. Si es menor de 15 años, la presenta su representante legal (normalmente, el padre o la madre). Si se necesita un trámite fuera del ámbito de un gyoseishoshi, como un procedimiento ante el tribunal de familia, se lo indicaremos.
 
 Como los trámites presentados y las anotaciones del registro familiar varían de una familia a otra, empezamos comprobando lo que realmente se ha presentado.<br>
-HARUKA Gyoseishoshi Office investiga qué trámites son posibles para su familia y se los explica. Atendemos consultas desde el extranjero por correo electrónico o chat. La investigación y respuesta individual cuesta desde 5,000 yenes, y le daremos un presupuesto según su caso antes de empezar.
+HARUKA Gyoseishoshi Office investiga qué trámites son posibles para su familia y se los explica. Atendemos consultas desde el extranjero por correo electrónico o chat. Los honorarios por la investigación y el asesoramiento individualizados parten de 5,000 yenes, y le daremos un presupuesto según su caso antes de empezar.
 
 ### Referencias
 

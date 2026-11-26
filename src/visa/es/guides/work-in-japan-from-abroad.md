@@ -98,7 +98,7 @@ En el programa de Empleo para el Desarrollo de Habilidades (ESD), que comenzará
 
 Su elegibilidad para trabajar en Japón depende de factores como su formación, experiencia laboral, nivel de japonés y el trabajo que busca. Conocer sus posibilidades antes de pagarle a un intermediario le ayuda a evitar gastos y trámites innecesarios.
 
-- **Revisión inicial de su situación**: gratis
+- **Revisión inicial gratuita de su situación**
 - **Plan de investigación y orientación inicial**: desde 5,000 yenes
 
 Realizamos una revisión inicial gratuita de su situación y le indicamos si podemos ayudarle y el presupuesto estimado. Las evaluaciones e investigaciones de casos individuales tienen un costo a partir de 5,000 yenes. La tarifa varía según el alcance y la complejidad del caso, y le facilitaremos un presupuesto antes de que contrate nuestros servicios. Si después nos encarga su solicitud, el costo del plan se descontará de nuestros honorarios. La evaluación no garantiza la obtención del estatus de residencia.

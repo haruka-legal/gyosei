@@ -2,7 +2,7 @@
 layout: layouts/guide.njk
 lang: es
 title: "Salir de Japón de viaje o para visitar su país: permiso especial de reingreso y permiso de reingreso"
-description: "Si vive en Japón y sale del país de viaje o para visitar su país sin hacer el trámite de reingreso adecuado, puede perder su estatus de residencia. Esta guía explica la diferencia entre el permiso especial de reingreso, para volver dentro del plazo de un año desde la salida, y el permiso de reingreso, para estancias más largas en el extranjero, y qué hacer si no puede volver a tiempo."
+description: "Si vive en Japón y sale del país de viaje o para visitar su país sin hacer el trámite de reingreso adecuado, puede perder su estatus de residencia. Esta guía explica las diferencias entre el permiso especial de reingreso y el permiso de reingreso, sus plazos de validez y condiciones de uso, y qué hacer si no puede regresar antes del vencimiento."
 date: 2026-11-15
 updated: 2026-11-26
 tags: ["re-entry-permit", "status-of-residence", "travel"]

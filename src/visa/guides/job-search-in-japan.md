@@ -2,7 +2,7 @@
 layout: layouts/guide.njk
 lang: en
 title: "How to Find a Job in Japan as a Foreign Resident: 5 Steps and Free Employment Services"
-description: "A step-by-step guide for foreign residents looking for work in Japan: checking what your status of residence allows, preparing your résumé and Japanese, using free public employment services, checking recruitment agencies, and the immigration procedures after a job offer."
+description: "A step-by-step guide for foreign residents looking for work in Japan: checking what your status of residence allows, preparing your résumé and improving your Japanese, using free public employment services, checking recruitment agencies, and the immigration procedures after a job offer."
 date: 2026-11-26
 tags: ["job-search", "status-of-residence", "work"]
 excerptText: "Five steps for finding a job in Japan, from checking what your status of residence allows to free public employment services and the immigration procedures after a job offer."

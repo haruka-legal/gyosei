@@ -74,7 +74,7 @@ Los criterios cambiaron de forma importante el 16 de octubre de 2025. En princip
 
 El empleado a tiempo completo que cumple el requisito de japonés no tiene que ser una de las personas que cuentan para el número de empleados. Por ejemplo, un empleado con el estatus de Ingeniero / Especialista en Humanidades / Servicios Internacionales también puede cumplir el requisito de japonés.
 
-Hay una medida transitoria para quienes ya tienen el estatus de Gerente de Negocios. Si renuevan hasta el 16 de octubre de 2028, su solicitud no se denegará solo por no cumplir los nuevos criterios. Sin embargo, la situación de su negocio y otros factores se siguen examinando como hasta ahora.
+Hay una medida transitoria para quienes ya tienen el estatus de Gestión Empresarial. Si renuevan hasta el 16 de octubre de 2028, su solicitud no se denegará solo por no cumplir los nuevos criterios. Sin embargo, la situación de su negocio y otros factores se siguen examinando como hasta ahora.
 
 Hay muchas condiciones, y la preparación lleva tiempo y dinero. En lugar de solicitarlo después de crear la empresa, es importante comprobar si puede cumplir las condiciones mientras aún está planificando.
 

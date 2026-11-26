@@ -1,7 +1,7 @@
 ---
 layout: layouts/guide.njk
 lang: es
-title: "Su estatus de residencia está por vencer: qué hacer ahora"
+title: "Su período de estancia en Japón está por vencer: qué hacer ahora"
 description: "Si su período de estancia en Japón está por terminar, lo más importante es solicitar la prórroga o el cambio antes de la fecha de vencimiento. Esta guía explica cuándo se puede solicitar, el período especial que permite seguir en Japón durante la revisión, qué pasa si se deniega la solicitud y qué hacer si la estancia ya venció."
 date: 2026-11-14
 updated: 2026-11-26
