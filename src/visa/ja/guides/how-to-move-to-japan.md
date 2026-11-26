@@ -4,7 +4,7 @@ lang: ja
 title: "日本に移住するには？仕事・留学・家族など5つの方法をやさしく解説"
 description: "日本に長く住むには、目的に合った在留資格が必要です。働く・学ぶ・家族と暮らす・事業を経営する・一定期間だけ暮らす、の5つの方法を、はじめての方向けにやさしく解説します。"
 date: 2026-10-29
-updated: 2026-11-16
+updated: 2026-11-26
 tags: ["moving-to-japan", "status-of-residence", "work-visa", "student-visa", "spouse-visa", "business-manager-visa", "permanent-residency"]
 excerptText: "日本に長く住むには、目的に合った「在留資格」が必要です。観光での滞在では住めません。この記事では、日本に移住するための主な5つの方法を、はじめての方にも分かるように解説します。"
 faq:
@@ -64,8 +64,8 @@ altUrls:
 日本の会社に就職して住む方法です。主な在留資格は次の3つです。
 
 - **技術・人文知識・国際業務（Engineer / Specialist in Humanities / International Services）**：大学などで学んだ専門知識や、一定の実務経験を生かす仕事が対象です。エンジニア、通訳・翻訳、海外取引の業務などです。仕事の内容と学歴・職歴が合っているかも審査されるため、どのような仕事でも働けるわけではありません。
-- **特定技能（Specified Skilled Worker）**：介護、外食、建設など、人手が足りない分野で働くための在留資格です。原則として、仕事の技能試験と日本語試験に合格する必要があります。
-- **高度専門職（Highly Skilled Professional）**：学歴・職歴・年収などをポイントで計算し、一定の点数を超えた人が優遇される在留資格です。
+- **特定技能（Specified Skilled Worker）**：介護、外食、建設など、人手が足りない分野で働くための在留資格です。特定技能1号では、原則として分野ごとの技能試験と日本語試験に合格する必要があります。
+- **高度専門職（Highly Skilled Professional）**：学歴・職歴・年収などをポイントで計算し、70点以上の人が優遇される在留資格です。学歴または職歴と年収が一定の水準以上の人は、ポイント計算とは別の「特別高度人材制度（J-Skip：Japan System for Special Highly Skilled Professionals）」の対象になります。
 
 日本の会社に就職する場合は、ふつう、先に就職先を決めてから在留資格の手続きを進めます。ただし、条件は在留資格によって違います。
 
@@ -81,7 +81,7 @@ altUrls:
 
 家族がいることで日本に住める在留資格もあります。
 
-- **日本人の配偶者等（Spouse or Child of Japanese National）**：日本人と結婚した方や、日本人の子どもなど
+- **日本人の配偶者等（Spouse or Child of Japanese National）**：日本人と結婚した方や、日本人の子として生まれた人など
 - **永住者の配偶者等（Spouse or Child of Permanent Resident）**：永住者と結婚した方など
 - **家族滞在（Dependent）**：日本で働く人や留学生に扶養されている、配偶者や子ども
 

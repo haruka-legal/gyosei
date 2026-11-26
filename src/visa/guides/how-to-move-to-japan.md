@@ -4,7 +4,7 @@ lang: en
 title: "How to Move to Japan: 5 Visa Pathways for Work, Study, Family and More"
 description: "To live in Japan long-term, you need a status of residence that matches what you will do here. A beginner's guide to the 5 main ways to move to Japan — work, study, family, business, and short-term options like the working holiday."
 date: 2026-10-29
-updated: 2026-11-11
+updated: 2026-11-26
 tags: ["moving-to-japan", "status-of-residence", "work-visa", "student-visa", "spouse-visa", "business-manager-visa", "permanent-residency"]
 excerptText: "To live in Japan long-term, you need a status of residence that fits what you will do here. Tourist status does not allow you to settle in Japan long-term. This guide explains the 5 main ways to move to Japan, so you can find the one that fits your situation."
 faq:
@@ -64,8 +64,8 @@ The **Temporary Visitor** status, used for tourism and short business trips, is 
 This means getting a job at a company in Japan and living here as an employee. There are 3 main statuses of residence:
 
 - **Engineer / Specialist in Humanities / International Services (技術・人文知識・国際業務):** For jobs that require specialized knowledge acquired through university education or relevant work experience — for example engineering, interpreting and translation, or international business. Immigration also checks whether the job matches your education or work history, so this status does not cover every kind of job.
-- **Specified Skilled Worker (特定技能):** For work in fields with labor shortages, such as nursing care, food service, and construction. In principle, you need to pass a skills test for the job and a Japanese language test.
-- **Highly Skilled Professional (高度専門職):** Your education, work history, income, and other factors are scored with a points system. Applicants who meet the required point threshold may qualify for preferential immigration treatment.
+- **Specified Skilled Worker (特定技能):** For work in fields with labor shortages, such as nursing care, food service, and construction. For Specified Skilled Worker (i), you generally need to pass a skills test for the field and a Japanese language test.
+- **Highly Skilled Professional (高度専門職):** Your education, work history, income, and other factors are scored with a points system. Applicants who score 70 points or more may qualify for preferential immigration treatment. People whose education or work experience and annual income are above a certain level can qualify under the Japan System for Special Highly Skilled Professionals (J-Skip), which is separate from the points calculation.
 
 If you are joining a company in Japan, you usually decide on your employer first and then start the status of residence procedures. However, the conditions differ by status of residence.
 
@@ -81,7 +81,7 @@ Many students change to a work status of residence after graduating and finding 
 
 Certain statuses of residence allow you to live in Japan based on your family relationships:
 
-- **Spouse or Child of Japanese National (日本人の配偶者等):** For people married to a Japanese national, children of Japanese nationals, and others
+- **Spouse or Child of Japanese National (日本人の配偶者等):** For people married to a Japanese national, people born as children of Japanese nationals, and others
 - **Spouse or Child of Permanent Resident (永住者の配偶者等):** For people married to a permanent resident of Japan, and others
 - **Dependent (家族滞在):** For the spouse or children supported by someone who lives in Japan to work or study
 

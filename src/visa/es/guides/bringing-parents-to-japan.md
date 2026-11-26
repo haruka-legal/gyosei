@@ -4,6 +4,7 @@ lang: es
 title: "¿Pueden los extranjeros traer a sus padres a vivir a Japón? Requisitos para profesionales altamente calificados y padres de edad avanzada"
 description: "¿Pueden los extranjeros residentes en Japón traer a sus padres para vivir juntos? Conozca por qué los padres no pueden obtener el estatus de Dependiente, las condiciones aplicables a los profesionales altamente calificados, los casos excepcionales de manutención de padres de edad avanzada y las normas para visitas de corta duración."
 date: 2026-11-16
+updated: 2026-11-26
 tags: ["parents", "family", "designated-activities", "status-of-residence"]
 excerptText: "Japón no cuenta con un estatus de residencia general para traer a sus padres a vivir con usted. Conozca las condiciones para los padres de profesionales altamente calificados y los casos excepcionales de padres de edad avanzada."
 altUrls:
@@ -16,7 +17,7 @@ altUrls:
 Japón no cuenta con un estatus de residencia general que permita a los extranjeros traer a sus padres para vivir con ellos.<br>
 Sin embargo, los profesionales altamente calificados pueden acogerse a un sistema que permite traer a sus padres para ayudar con el cuidado de niños pequeños o durante un embarazo.<br>
 En casos excepcionales, también puede autorizarse la residencia de padres de edad avanzada bajo el estatus de Actividades Designadas por razones humanitarias.<br>
-Para visitas breves, pueden utilizar el estatus de Visitante Temporal.
+Para visitas breves, es posible que puedan venir a Japón con el estatus de Visitante Temporal.
 
 </div>
 
@@ -28,7 +29,7 @@ Para visitas breves, pueden utilizar el estatus de Visitante Temporal.
 <li><a href="#roshin">Manutención de padres de edad avanzada (老親扶養)</a></li>
 <li><a href="#factors">Circunstancias mencionadas en la práctica migratoria</a></li>
 <li><a href="#apply">Solicitud del estatus de Actividades Designadas</a></li>
-<li><a href="#visit">Visitas breves: el estatus de Visitante Temporal</a></li>
+<li><a href="#visit">Visitas breves: es posible venir como Visitante Temporal</a></li>
 <li><a href="#help">¿Necesita asesoramiento para traer a sus padres a Japón?</a></li>
 </ol>
 </nav>
@@ -54,7 +55,7 @@ El sistema para los padres de profesionales altamente calificados está establec
 
 <h2 id="roshin">Manutención de padres de edad avanzada (老親扶養)</h2>
 
-En circunstancias excepcionales, puede autorizarse la estancia en Japón de un padre o una madre de edad avanzada por razones humanitarias, bajo el estatus de Actividades Designadas. En la práctica migratoria japonesa, estos casos suelen denominarse *rōshin fuyō* (老親扶養).
+En circunstancias excepcionales, puede autorizarse la estancia en Japón de un padre o una madre de edad avanzada por razones humanitarias, bajo el estatus de Actividades Designadas. Corresponde al tipo de Actividades Designadas que no figura en la notificación pública (告示外特定活動). En la práctica migratoria japonesa, estos casos suelen denominarse *rōshin fuyō* (老親扶養).
 
 No se trata de una categoría migratoria ordinaria establecida en una ley o en una notificación pública (告示). La Agencia de Servicios de Inmigración no ha publicado criterios específicos para estos casos. Cada solicitud se examina individualmente y, en general, se considera difícil obtener la autorización.
 
@@ -72,15 +73,15 @@ Los siguientes factores aparecen en las explicaciones de profesionales especiali
 
 A diferencia de la forma habitual de invitar a familiares con un Certificado de Elegibilidad, el procedimiento aplicable a estos casos debe evaluarse caso por caso. Algunos profesionales describen situaciones en las que el padre o la madre entra en Japón con el estatus de Visitante Temporal y posteriormente solicita el cambio a Actividades Designadas.
 
-Sin embargo, conforme a la salvedad prevista en el artículo 20, apartado 3, de la Ley de Control de Inmigración y Reconocimiento de Refugiados, el cambio desde el estatus de Visitante Temporal solo puede autorizarse cuando existen circunstancias especiales inevitables. La entrada como visitante o la edad avanzada no son suficientes, por sí solas, para obtener la autorización.
+Sin embargo, conforme a la salvedad prevista en el artículo 20, apartado 3, de la Ley de Control de Inmigración y Reconocimiento de Refugiados, el cambio desde el estatus de Visitante Temporal en principio no se permite, y solo puede autorizarse cuando existen circunstancias especiales inevitables. La entrada como visitante o la edad avanzada no son suficientes, por sí solas, para obtener la autorización.
 
 Es importante estudiar las circunstancias y examinar con cuidado si existen fundamentos para presentar una solicitud antes de que el familiar viaje a Japón.
 
 Si se concede la autorización, el período de estancia y las actividades permitidas se determinan individualmente. Por lo general, no se permite trabajar cuando la estancia se autoriza para la manutención de un padre o una madre de edad avanzada.
 
-<h2 id="visit">Visitas breves: el estatus de Visitante Temporal</h2>
+<h2 id="visit">Visitas breves: es posible venir como Visitante Temporal</h2>
 
-Si sus padres solo quieren visitarle durante un tiempo, y no vivir con usted, pueden entrar en Japón con el estatus de Visitante Temporal (短期滞在). El período de estancia es de 15, 30 o 90 días, según el caso, y el período que se concede depende de la nacionalidad, del motivo del viaje y de otros factores.
+Si sus padres solo quieren visitarle durante un tiempo, y no vivir con usted, es posible que puedan venir a Japón con el estatus de Visitante Temporal (短期滞在). El período de estancia es de 15, 30 o 90 días, según el caso, y el período que se concede depende de la nacionalidad, del motivo del viaje y de otros factores.
 
 Según su nacionalidad, es posible que sus padres necesiten obtener antes un visado en una embajada o un consulado de Japón. En ese caso, usted, como hijo o hija en Japón, puede tener que preparar documentos como una carta que explique el motivo de la invitación (招へい理由書).
 

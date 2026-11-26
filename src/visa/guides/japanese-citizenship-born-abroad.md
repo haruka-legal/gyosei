@@ -43,12 +43,12 @@ Right after giving birth, parents are often busy recovering, attending medical a
 
 However, for a child born abroad who also acquires another nationality at birth, a nationality reservation must, as a rule, be filed within 3 months of birth. If the deadline has passed, the options depend on the child's age and where they live.
 
-## Looking into Japanese nationality as an adult
+## Procedures that differ depending on whether nationality was reserved
 
 Some people look into their Japanese nationality for the first time when they consider moving to Japan, apply for a Japanese passport or check a parent's family register. What comes next depends on the situation.
 
 - **If no nationality reservation was filed:** A person who lost Japanese nationality because no reservation was filed can, as a rule, reacquire it by notification to the Minister of Justice while under 18 and domiciled in Japan (Article 17, Paragraph 1 of the Nationality Act). Being domiciled in Japan means that Japan is the center of your life; short stays such as a trip home or sightseeing do not count. Even if the child now lives in the United States, reacquisition may be possible if the center of their life moves to Japan before they turn 18. The notification must be made in person at a Legal Affairs Bureau by the child (or, if under 15, by a parent or other legal representative). Japanese nationality is acquired at the time of the notification; it is not restored retroactively to birth.
-- **If the person is 18 or older:** Reacquisition by this notification is not possible, so other options such as naturalization need to be considered. For a biological child of a Japanese national who is domiciled in Japan, some naturalization requirements are relaxed (Article 8, Item 1 of the Nationality Act). Relaxed requirements do not guarantee approval. In naturalization, losing any foreign nationality is, as a rule, a condition.
+- **If the person lost Japanese nationality by not reserving it and is now 18 or older:** Reacquisition by this notification is not possible, so other options such as naturalization need to be considered. For a biological child of a Japanese national who is domiciled in Japan, some naturalization requirements are relaxed (Article 8, Item 1 of the Nationality Act). Relaxed requirements do not guarantee approval. In naturalization, losing any foreign nationality is, as a rule, a condition.
 - **If a reservation was filed and the person still holds both Japanese and U.S. nationality:** A dual national must choose one nationality by the deadline (Article 14 of the Nationality Act). Missing the deadline does not immediately end Japanese nationality. However, the Minister of Justice may issue a formal notice to choose, and if Japanese nationality is not chosen within one month of receiving it, Japanese nationality is, as a rule, lost (Article 15). Making a declaration choosing Japanese nationality does not by itself complete the process of renouncing U.S. citizenship. A person who has declared their choice of Japanese nationality must endeavor to renounce their foreign nationality (Article 16, Paragraph 1).
 - **If records are incomplete or unclear:** This can happen when a family has lived in several countries. We start by checking the family register and other documents and organizing the procedures that may be needed.
 
@@ -63,7 +63,7 @@ The main deadlines are:
 
 The deadlines for choosing a nationality changed with the amendment effective April 1, 2022. Transitional measures apply to people who were already dual nationals before the amendment, so the deadline depends on their age and when they became dual nationals.
 
-## What changes depending on whether nationality was reserved
+## Do you need a status of residence to live in Japan?
 
 Whether a nationality reservation was filed makes a big difference to the procedures a family needs.
 
@@ -80,7 +80,7 @@ For questions about the Japanese nationality of a child born abroad, it is impor
 - Preparing application documents for the Spouse or Child of Japanese National status when a child with foreign nationality moves to Japan
 - Checking the entries in the family register and explaining the procedures needed
 
-The notification for reacquisition and the application for naturalization must be made in person at a Legal Affairs Bureau by the person concerned or their legal representative. If a procedure outside the scope of an administrative scrivener, such as a family court procedure, is needed, we will let you know.
+The notification for reacquisition and the application for naturalization must be made in person at a Legal Affairs Bureau by the person concerned. If the person is under 15, their legal representative (usually a parent) makes it. If a procedure outside the scope of an administrative scrivener, such as a family court procedure, is needed, we will let you know.
 
 Because filing histories and family register entries differ from family to family, we start by checking what has actually been filed.<br>
 HARUKA Gyoseishoshi Office researches what procedures are available for your family and explains them to you. We handle inquiries from abroad by email or chat. Individual research and answers start at ¥5,000, and we will give you a quote based on your situation before we begin.

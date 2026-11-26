@@ -4,6 +4,7 @@ lang: en
 title: "Traveling Abroad from Japan: Re-entry Permits Explained"
 description: "If you live in Japan and leave for a trip or a visit home without the right re-entry procedure, you can lose your status of residence. This guide explains the difference between the Special Re-entry Permit for returning within one year of departure and the Re-entry Permit for longer stays abroad, and what to do if you cannot return in time."
 date: 2026-11-15
+updated: 2026-11-26
 tags: ["re-entry-permit", "status-of-residence", "travel"]
 excerptText: "The difference between the Special Re-entry Permit and the Re-entry Permit when you leave Japan for a trip or a visit home, and what to do if you cannot return in time."
 altUrls:
@@ -15,7 +16,7 @@ altUrls:
 
 To leave Japan and come back with your status of residence, you need a re-entry procedure.<br>
 If you will return within one year of departure, you can use the "Special Re-entry Permit" simply by stating your intention when you leave (within two years for special permanent residents).<br>
-If you plan to be away for one year or more, get a "Re-entry Permit" from immigration before you leave (up to 5 years).<br>
+If you plan to be away for more than one year, get a "Re-entry Permit" from immigration before you leave (up to 5 years).<br>
 If you do not return by the deadline, you lose your status of residence. This applies to permanent residents too.
 
 </div>
@@ -26,7 +27,7 @@ If you do not return by the deadline, you lose your status of residence. This ap
 <li><a href="#without">What happens if you leave Japan without a re-entry procedure?</a></li>
 <li><a href="#minashi">Returning within one year: the Special Re-entry Permit</a></li>
 <li><a href="#not-eligible">Who cannot use the Special Re-entry Permit</a></li>
-<li><a href="#permit">Away for one year or more: the Re-entry Permit</a></li>
+<li><a href="#permit">Away for more than one year: the Re-entry Permit</a></li>
 <li><a href="#extension">If you cannot return by the deadline</a></li>
 <li><a href="#notes">Notes for people whose period of stay ends soon or who will be away for a long time</a></li>
 <li><a href="#help">Not sure what you need before leaving Japan?</a></li>
@@ -60,9 +61,9 @@ Even if you cannot use the Special Re-entry Permit, you may be able to get a reg
 
 Please note that people with Temporary Visitor status, in principle, cannot get a regular Re-entry Permit either.
 
-<h2 id="permit">Away for one year or more: the Re-entry Permit</h2>
+<h2 id="permit">Away for more than one year: the Re-entry Permit</h2>
 
-If you plan to be away from Japan for one year or more, or have not yet decided when you will come back, get a **Re-entry Permit (再入国許可)** at a Regional Immigration Services Bureau before you leave. However, the validity of a Re-entry Permit cannot go beyond your current period of stay.
+If you plan to be away from Japan for more than one year, or have not yet decided when you will come back, get a **Re-entry Permit (再入国許可)** at a Regional Immigration Services Bureau before you leave. However, the validity of a Re-entry Permit cannot go beyond your current period of stay.
 
 - **Validity:** up to 5 years (6 years for special permanent residents), within your period of stay
 - **Types:** a single-entry permit and a multiple-entry permit that can be used any number of times during its validity
@@ -76,6 +77,7 @@ Online applications are only possible together with another application, such as
 If you cannot return by the deadline for an unavoidable reason, such as illness, you can apply to extend a Re-entry Permit at a Japanese embassy or consulate abroad.
 
 - You must apply for the extension before your Re-entry Permit expires
+- Each extension can be for up to 1 year
 - The extension can last up to a total of 6 years from the date the permit was granted (7 years for special permanent residents), and cannot go beyond your period of stay
 - If a multiple-entry Re-entry Permit is extended abroad, you can use it to re-enter Japan only once. When you leave Japan again after returning, check again whether you can use the Special Re-entry Permit or need a regular Re-entry Permit
 
@@ -84,7 +86,7 @@ If you left Japan under the Special Re-entry Permit, it cannot be extended. If t
 <h2 id="notes">Notes for people whose period of stay ends soon or who will be away for a long time</h2>
 
 - **If your period of stay ends soon:** neither the Special Re-entry Permit nor the Re-entry Permit can be used beyond your period of stay. Before leaving, check when you need to renew so that your period of stay does not end while you are abroad
-- **If you have applied for an extension or change of status:** different deadline rules apply while your application is under review. If you plan to leave Japan during that time, check with immigration before you go
+- **If you have applied for an extension or change of status:** you can still leave Japan with a Re-entry Permit or the Special Re-entry Permit while your application is pending. However, once your original period of stay has passed, you must return within the special period (up to 2 months after the original expiry date) and receive the result. If you cannot return in time, you lose your status of residence, so check your schedule before you leave
 - **If you are thinking about permanent residency:** being away from Japan for a long time may be viewed negatively when [applying for permanent residence](/visa/guides/permanent-residency-japan/) in Japan
 
 <h2 id="help">Not sure what you need before leaving Japan?</h2>

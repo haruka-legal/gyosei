@@ -4,6 +4,7 @@ lang: en
 title: "Visa Options for Freelancers, Entrepreneurs and Remote Workers in Japan"
 description: "Japan has no freelance visa. A beginner's guide to the statuses of residence for working in Japan as a freelancer, starting a business, or working remotely: Business Manager, the startup visa, Engineer/Specialist in Humanities/International Services, Digital Nomad and Artist."
 date: 2026-11-12
+updated: 2026-11-26
 tags: ["freelance", "business-manager-visa", "startup-visa", "digital-nomad", "status-of-residence"]
 excerptText: "Japan has no visa called a freelance visa. To freelance, start a business, or work remotely in Japan, you need a status of residence that matches how you will work. This guide explains the main options."
 faq:
@@ -67,11 +68,13 @@ The criteria changed significantly on October 16, 2025. In principle, you now ne
 - For a company, the capital or total investment must be at least ¥30 million. For a sole proprietorship, the total amount invested in the business, such as securing a business office, staff salaries (for one year) and equipment, must be at least ¥30 million.
 - You must hire at least one full-time employee. Only the following can be counted: Japanese nationals, special permanent residents, permanent residents, spouses or children of Japanese nationals, spouses or children of permanent residents, and long-term residents.
 - Either you or a full-time employee must have Japanese language proficiency equivalent to B2 or higher under Japan's Framework of Reference for Japanese Language Education. The Japanese-Language Proficiency Test (JLPT) N2 or higher is one accepted way to show this, but other forms of evidence may also qualify.
-- You must have at least 3 years of experience in business management or administration, or a degree equivalent to a master's or higher in business management or in a field of technology or knowledge needed for the business.
+- You must have at least 3 years of experience in business management or administration, or a doctoral, master's or professional degree in business management or in a field of technology or knowledge needed for the business.
 - Your business plan must be checked by a professional holding one of the following Japanese qualifications: small and medium enterprise management consultant (中小企業診断士), certified public accountant (公認会計士), or certified tax accountant (税理士).
 - You must have a business office in Japan. In principle, using your home as your business office is not allowed.
 
 The full-time employee who meets the Japanese language requirement does not have to be one of the people listed above for the headcount. For example, an employee with Engineer / Specialist in Humanities / International Services status can also meet the Japanese language requirement.
+
+There is a transitional measure for people who already hold Business Manager status. When they renew by October 16, 2028, their application will not be denied solely because they do not meet the new standards. However, the state of their business and other factors are still examined as before.
 
 There are many conditions, and preparation takes time and money. Rather than applying after setting up your company, it is important to check whether you can meet the conditions while you are still planning.
 
@@ -96,7 +99,7 @@ However, an outsourcing contract alone does not guarantee approval. The main poi
 - You receive pay equal to or more than what a Japanese national would receive for the same work.
 - The work is covered by the status, and you meet the required standards for education or work experience.
 
-If you only work for clients abroad, this status may not apply. Also, when a contract ends or you sign a new contract, you may need to notify the Immigration Services Agency within 14 days.
+If you only have contracts with companies or clients abroad, this status generally does not apply. If you have a contract with a company or other organization in Japan and do work for its overseas clients, the status may apply. Also, when a contract ends or you sign a new contract, you may need to notify the Immigration Services Agency within 14 days.
 
 <h2 id="digital-nomad">Keep your work abroad and work remotely: Digital Nomad</h2>
 
@@ -106,11 +109,11 @@ People employed by a company abroad, or who provide services to clients abroad, 
 - You hold the nationality of an [eligible country or region](https://www.moj.go.jp/isa/content/001416527.pdf) (see the column "特定活動53号（デジタルノマド）" — Designated Activities No. 53, Digital Nomad — in this PDF).
 - You have private medical or travel insurance covering your entire planned stay in Japan, including death, injury and illness. Coverage for medical treatment due to injury or illness must be at least ¥10 million.
 
-However, you can stay for a maximum of 6 months, the stay cannot be extended, and no residence card is issued. You also cannot work as an employee of a company in Japan. This program is not a way to live in Japan long-term; it is for experiencing life in Japan.
+However, you can stay for a maximum of 6 months in any 12-month period, the stay cannot be extended, and no residence card is issued. You also cannot work as an employee of a company in Japan. This program is not a way to live in Japan long-term; it is for experiencing life in Japan.
 
 <h2 id="artist">Live in Japan as a writer or painter: Artist</h2>
 
-Composers, painters, writers and others who live in Japan while earning income by creating works or writing can use the **Artist (芸術)** status. It covers artistic activities that come with income. Performing in concerts or on stage falls under a different status, Entertainer (興行).
+Composers, painters, writers and others who live in Japan while earning income by creating works or writing can use the **Artist (芸術)** status. It covers artistic activities that come with income. Activities that count as entertainment, such as performing in concerts or on stage, fall under a different status, Entertainer (興行).
 
 When you apply, you need documents showing your past artistic activities, what you will do in Japan, and your expected income. Even if you have no work contract, you need to explain your activities and expected income.
 

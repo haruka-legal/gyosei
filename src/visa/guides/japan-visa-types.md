@@ -4,7 +4,7 @@ lang: en
 title: "Japan Visa Types: All 29 Statuses of Residence Explained in 4 Groups"
 description: "Japan has 29 statuses of residence, often called visa types. A beginner's guide to the 4 groups, which ones allow you to work, and how to check what your residence card allows."
 date: 2026-11-10
-updated: 2026-11-11
+updated: 2026-11-26
 tags: ["status-of-residence", "visa-types", "work-visa", "residence-card", "part-time-work"]
 excerptText: "Japan has 29 statuses of residence, often called visa types. Whether you can work, and what kind of work you can do, depends on which of 4 groups your status belongs to."
 faq:
@@ -61,7 +61,7 @@ Your status of residence and period of stay are usually granted at the immigrati
 </table>
 </div>
 
-The 19 statuses that allow work include **Diplomat** and **Official**, which are for diplomats and officials of foreign governments. These 4 groups are a simple way to understand whether you can work; they are not the exact categories used in Japanese law.
+The 19 statuses that allow work include **Diplomat** and **Official**, which are for diplomats and officials of foreign governments. They are not statuses that ordinary people use to get a job in Japan. These 4 groups are a simple way to understand whether you can work; they are not the exact categories used in Japanese law.
 
 From April 1, 2027, a new system called **Employment for Skill Development (育成就労)** will start, replacing the Technical Intern Training system. However, transitional measures apply to people already in Technical Intern Training before it starts, and they can continue under certain conditions.
 

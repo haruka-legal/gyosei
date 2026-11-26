@@ -4,6 +4,7 @@ lang: es
 title: "Requisitos para la residencia permanente en Japón: qué cambia con la revisión de las directrices de octubre de 2026"
 description: "Guía para principiantes sobre los requisitos de la residencia permanente en Japón: los tres requisitos legales, la regla general de 10 años de residencia, las excepciones que permiten una estancia más corta, los nuevos criterios de ingresos, pensión y japonés de las directrices revisadas el 1 de octubre de 2026, y desde cuándo se aplican."
 date: 2026-11-15
+updated: 2026-11-26
 tags: ["permanent-residency", "status-of-residence", "guideline-2026"]
 excerptText: "Los tres requisitos de la residencia permanente en Japón, la regla de los 10 años y sus excepciones, y qué cambia con las directrices revisadas en octubre de 2026."
 altUrls:
@@ -89,9 +90,13 @@ Las directrices se revisaron el 1 de octubre de 2026. Los principales cambios so
 
 <h2 id="timing">¿Desde cuándo se aplican los nuevos criterios?</h2>
 
-Las nuevas directrices se aplican, en principio, a las **solicitudes presentadas a partir del 1 de abril de 2027**.
+Los criterios que se aplican dependen de la fecha de presentación de la solicitud.
 
-Sin embargo, los nuevos criterios relativos a los ingresos y a no constituir una carga pública se aplican a las solicitudes presentadas a partir del 1 de octubre de 2026, así como a las presentadas a partir del 1 de abril de 2026 que seguían pendientes de resolución el 1 de octubre de 2026. A las solicitudes presentadas hasta el 31 de marzo de 2026 se les aplican, en principio, las directrices anteriores.
+| Fecha de solicitud | Criterios aplicados |
+|---|---|
+| Hasta el 31 de marzo de 2026 | En principio, las directrices anteriores |
+| Del 1 de abril de 2026 al 31 de marzo de 2027 | Nuevos criterios sobre ingresos y sobre no constituir una carga pública (incluidas las solicitudes pendientes el 1 de octubre de 2026). En lo demás, las directrices anteriores |
+| A partir del 1 de abril de 2027 | Las nuevas directrices |
 
 También hay una medida transitoria sobre el período de estancia más largo. Las personas con un período de estancia de 3 años que presenten la solicitud hasta el 31 de marzo de 2027 se consideran titulares del período de estancia más largo. A partir del 1 de abril de 2027, el mismo trato se aplica solo a una primera solicitud que cumpla ciertas condiciones.
 

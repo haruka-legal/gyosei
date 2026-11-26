@@ -43,12 +43,12 @@ Justo después del parto, los padres suelen estar ocupados con la recuperación,
 
 Sin embargo, en el caso de un niño nacido en el extranjero que también adquiere otra nacionalidad al nacer, en principio hay que presentar la reserva de nacionalidad dentro de los 3 meses siguientes al nacimiento. Si ya pasó el plazo, las opciones dependen de la edad del hijo y de dónde vive.
 
-## Si investiga su nacionalidad japonesa siendo adulto
+## Trámites que varían según se haya reservado o no la nacionalidad
 
 Algunas personas investigan por primera vez su nacionalidad japonesa cuando piensan mudarse a Japón, solicitan un pasaporte japonés o revisan el registro familiar de sus padres. Lo que sigue depende de la situación.
 
 - **Si no se presentó la reserva de nacionalidad:** Quien perdió la nacionalidad japonesa por no haberse presentado la reserva puede, en principio, recuperarla mediante una notificación al Ministro de Justicia si es menor de 18 años y tiene su domicilio en Japón (artículo 17, párrafo 1 de la Ley de Nacionalidad). Tener domicilio en Japón significa tener en Japón el centro de su vida; las estancias cortas, como una visita familiar o turismo, no cuentan. Aunque el hijo viva ahora en Estados Unidos, la recuperación puede ser posible si traslada el centro de su vida a Japón antes de cumplir 18 años. La notificación debe presentarla en persona en una Oficina de Asuntos Jurídicos el propio hijo (o, si es menor de 15 años, su padre, madre u otro representante legal). La nacionalidad japonesa se adquiere en el momento de la notificación; no se restablece con efecto retroactivo desde el nacimiento.
-- **Si la persona tiene 18 años o más:** No es posible recuperarla mediante esta notificación, por lo que hay que considerar otras vías, como la naturalización. Para los hijos biológicos de japoneses que tienen su domicilio en Japón, algunos requisitos de naturalización se flexibilizan (artículo 8, numeral 1 de la Ley de Nacionalidad). Que los requisitos se flexibilicen no garantiza la aprobación. En la naturalización, perder la nacionalidad extranjera es, en principio, una condición.
+- **Si la persona perdió la nacionalidad japonesa por no reservarla y ya tiene 18 años o más:** No es posible recuperarla mediante esta notificación, por lo que hay que considerar otras vías, como la naturalización. Para los hijos biológicos de japoneses que tienen su domicilio en Japón, algunos requisitos de naturalización se flexibilizan (artículo 8, numeral 1 de la Ley de Nacionalidad). Que los requisitos se flexibilicen no garantiza la aprobación. En la naturalización, perder la nacionalidad extranjera es, en principio, una condición.
 - **Si se presentó la reserva y la persona sigue teniendo la nacionalidad japonesa y la estadounidense:** Quien tiene doble nacionalidad debe elegir una dentro del plazo (artículo 14 de la Ley de Nacionalidad). Pasar el plazo no supone perder de inmediato la nacionalidad japonesa. Sin embargo, el Ministro de Justicia puede enviar un requerimiento para elegir, y si no se elige la nacionalidad japonesa dentro del mes siguiente a recibirlo, en principio se pierde (artículo 15). La declaración de elección de la nacionalidad japonesa no completa por sí sola el trámite de renuncia a la nacionalidad estadounidense. Quien declara elegir la nacionalidad japonesa debe procurar renunciar a su nacionalidad extranjera (artículo 16, párrafo 1).
 - **Si los registros están incompletos o no son claros:** Esto puede ocurrir cuando la familia ha vivido en varios países. Empezamos revisando el registro familiar y otros documentos y organizando los trámites que puedan ser necesarios.
 
@@ -63,7 +63,7 @@ Los principales plazos son:
 
 Los plazos para elegir la nacionalidad cambiaron con la reforma vigente desde el 1 de abril de 2022. Hay medidas transitorias para quienes ya tenían doble nacionalidad antes de la reforma, por lo que el plazo depende de la edad y de cuándo se adquirió la doble nacionalidad.
 
-## Qué cambia según se haya reservado o no la nacionalidad
+## ¿Se necesita un estatus de residencia para vivir en Japón?
 
 Haber presentado o no la reserva de nacionalidad cambia mucho los trámites que necesita la familia.
 
@@ -80,7 +80,7 @@ En las consultas sobre la nacionalidad japonesa de hijos nacidos en el extranjer
 - La preparación de la solicitud del estatus de cónyuge o hijo de japonés cuando un hijo con nacionalidad extranjera se muda a Japón
 - La revisión de las anotaciones del registro familiar y la explicación de los trámites necesarios
 
-La notificación de recuperación y la solicitud de naturalización deben presentarse en persona en una Oficina de Asuntos Jurídicos por el interesado o su representante legal. Si se necesita un trámite fuera del ámbito de un gyoseishoshi, como un procedimiento ante el tribunal de familia, se lo indicaremos.
+La notificación de recuperación y la solicitud de naturalización deben presentarse en persona en una Oficina de Asuntos Jurídicos por el interesado. Si es menor de 15 años, la presenta su representante legal (normalmente, el padre o la madre). Si se necesita un trámite fuera del ámbito de un gyoseishoshi, como un procedimiento ante el tribunal de familia, se lo indicaremos.
 
 Como los trámites presentados y las anotaciones del registro familiar varían de una familia a otra, empezamos comprobando lo que realmente se ha presentado.<br>
 HARUKA Gyoseishoshi Office investiga qué trámites son posibles para su familia y se los explica. Atendemos consultas desde el extranjero por correo electrónico o chat. La investigación y respuesta individual cuesta desde 5,000 yenes, y le daremos un presupuesto según su caso antes de empezar.

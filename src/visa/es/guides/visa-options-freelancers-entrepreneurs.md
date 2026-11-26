@@ -4,6 +4,7 @@ lang: es
 title: "Opciones de visa para freelancers, emprendedores y trabajadores remotos en Japón"
 description: "Japón no tiene una visa de freelancer. Guía para principiantes sobre los estatus de residencia para trabajar en Japón como freelancer, emprender o trabajar a distancia: Gestión Empresarial, la visa de startup, Ingeniero/Especialista en Humanidades/Servicios Internacionales, Nómada Digital y Artista."
 date: 2026-11-12
+updated: 2026-11-26
 tags: ["freelance", "business-manager-visa", "startup-visa", "digital-nomad", "status-of-residence"]
 excerptText: "Japón no tiene una visa llamada visa de freelancer. Para trabajar como freelancer, emprender o trabajar a distancia en Japón, necesita un estatus de residencia acorde con su forma de trabajar. Esta guía explica las principales opciones."
 faq:
@@ -67,11 +68,13 @@ Los criterios cambiaron de forma importante el 16 de octubre de 2025. En princip
 - En el caso de una empresa, el capital o la inversión total debe ser de al menos ¥30 millones. En el caso de un negocio individual, el total invertido en el negocio, como la obtención de una oficina, los sueldos del personal (de un año) y el equipamiento, debe ser de al menos ¥30 millones.
 - Debe contratar al menos a un empleado a tiempo completo. Solo se pueden contar las siguientes personas: personas de nacionalidad japonesa, residentes permanentes especiales, residentes permanentes, cónyuges o hijos de personas japonesas, cónyuges o hijos de residentes permanentes y residentes de largo plazo.
 - Usted o un empleado a tiempo completo debe tener un nivel de japonés equivalente a B2 o superior según el Marco de Referencia para la Enseñanza del Japonés. El Examen de Aptitud en Idioma Japonés (JLPT: Japanese-Language Proficiency Test) N2 o superior es una forma aceptada de acreditarlo, pero también pueden servir otros medios.
-- Debe tener al menos 3 años de experiencia en dirección o gestión de empresas, o un título equivalente a máster o superior en gestión empresarial o en un campo de tecnología o conocimientos necesarios para el negocio.
+- Debe tener al menos 3 años de experiencia en dirección o gestión de empresas, o un título de doctorado, máster o título profesional de posgrado en gestión empresarial o en un campo de tecnología o conocimientos necesarios para el negocio.
 - Su plan de negocio debe ser revisado por uno de los siguientes profesionales con una cualificación reconocida en Japón: un consultor de gestión de pequeñas y medianas empresas (中小企業診断士), un contador público certificado (公認会計士) o un asesor fiscal certificado (税理士).
 - Debe tener una oficina para el negocio en Japón. En principio, no se permite usar su vivienda como oficina.
 
 El empleado a tiempo completo que cumple el requisito de japonés no tiene que ser una de las personas que cuentan para el número de empleados. Por ejemplo, un empleado con el estatus de Ingeniero / Especialista en Humanidades / Servicios Internacionales también puede cumplir el requisito de japonés.
+
+Hay una medida transitoria para quienes ya tienen el estatus de Gerente de Negocios. Si renuevan hasta el 16 de octubre de 2028, su solicitud no se denegará solo por no cumplir los nuevos criterios. Sin embargo, la situación de su negocio y otros factores se siguen examinando como hasta ahora.
 
 Hay muchas condiciones, y la preparación lleva tiempo y dinero. En lugar de solicitarlo después de crear la empresa, es importante comprobar si puede cumplir las condiciones mientras aún está planificando.
 
@@ -96,7 +99,7 @@ Sin embargo, tener un contrato de prestación de servicios no garantiza la aprob
 - Recibe una remuneración igual o superior a la que recibiría una persona japonesa por el mismo trabajo.
 - El trabajo está cubierto por el estatus y usted cumple los requisitos de estudios o experiencia laboral.
 
-Si solo trabaja para clientes del extranjero, puede que este estatus no se aplique. Además, cuando termina un contrato o firma uno nuevo, puede que deba notificarlo a la Agencia de Servicios de Inmigración en un plazo de 14 días.
+Si solo tiene contratos con empresas o clientes del extranjero, en principio este estatus no se aplica. Si tiene un contrato con una empresa u otra organización de Japón y trabaja para los clientes extranjeros de esa empresa, el estatus puede aplicarse. Además, cuando termina un contrato o firma uno nuevo, puede que deba notificarlo a la Agencia de Servicios de Inmigración en un plazo de 14 días.
 
 <h2 id="digital-nomad">Seguir con su trabajo del extranjero a distancia: Nómada Digital</h2>
 
@@ -106,11 +109,11 @@ Las personas empleadas por una empresa del extranjero, o que prestan servicios a
 - Tiene la nacionalidad de un [país o región que cumpla los requisitos](https://www.moj.go.jp/isa/content/001416527.pdf) (consulte en este PDF la columna "特定活動53号（デジタルノマド）", es decir, Actividades Designadas n.º 53, Nómada Digital).
 - Cuenta con un seguro médico privado o de viaje que cubra toda su estancia prevista en Japón, incluidos el fallecimiento, las lesiones y las enfermedades. La cobertura de los gastos médicos por lesiones o enfermedades debe ser de al menos ¥10 millones.
 
-Sin embargo, puede quedarse un máximo de 6 meses, la estancia no puede renovarse y no se emite tarjeta de residencia. Tampoco puede trabajar como empleado de una empresa en Japón. Este programa no es una forma de vivir en Japón a largo plazo, sino de vivir la experiencia de Japón.
+Sin embargo, puede quedarse un máximo de 6 meses en cualquier período de 12 meses, la estancia no puede renovarse y no se emite tarjeta de residencia. Tampoco puede trabajar como empleado de una empresa en Japón. Este programa no es una forma de vivir en Japón a largo plazo, sino de vivir la experiencia de Japón.
 
 <h2 id="artist">Vivir en Japón como escritor o pintor: Artista</h2>
 
-Los compositores, pintores, escritores y otras personas que viven en Japón obteniendo ingresos con la creación de obras o la escritura pueden usar el estatus de **Artista (芸術)**. Cubre actividades artísticas que generan ingresos. Actuar en conciertos o en escenarios corresponde a otro estatus: Artista del Espectáculo (興行).
+Los compositores, pintores, escritores y otras personas que viven en Japón obteniendo ingresos con la creación de obras o la escritura pueden usar el estatus de **Artista (芸術)**. Cubre actividades artísticas que generan ingresos. Las actividades que se consideran espectáculos, como actuar en conciertos o en escenarios, corresponden a otro estatus: Artista del Espectáculo (興行).
 
 Al solicitarlo, se piden documentos que muestren su trayectoria artística, las actividades que realizará en Japón y sus ingresos previstos. Aunque no tenga un contrato de trabajo, debe explicar sus actividades y sus ingresos previstos.
 

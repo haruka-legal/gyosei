@@ -48,7 +48,7 @@ Before you start looking, check what work your [status of residence](/visa/guide
 
 With the general Permission to Engage in Activities Other Than That Permitted, students and dependents can generally work up to 28 hours per week. If you work at more than one place, the hours are added together. Students can work up to 8 hours a day during long school holidays, such as summer vacation.
 
-The general permission does not allow you to work at businesses regulated under Japan's entertainment business laws, such as pachinko parlors, snack bars and hostess bars. However, since October 1, 2026, people with Dependent status can work at amusement facilities such as pachinko parlors if they obtain individual permission (still within 28 hours per week).
+The general permission does not allow you to work at premises where businesses regulated under Japan's entertainment business laws are operated, such as pachinko parlors and snack bars that entertain customers. This applies even to jobs such as cleaning or cooking. However, since October 1, 2026, people with Dependent status can work at amusement facilities such as pachinko parlors if they obtain individual permission. Even then, all activities outside your status of residence combined must stay within 28 hours per week.
 
 **International students who want to work in Japan after graduation** generally need to change to a status of residence that matches the job. Eligibility is not determined solely by the type of employment contract. The immigration authorities review the job duties, your education and work experience, and the employment conditions. For some statuses, the connection between what you studied and the job is also reviewed.
 

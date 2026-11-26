@@ -4,6 +4,7 @@ lang: en
 title: "Your Status of Residence Is About to Expire: What to Do Now"
 description: "If your period of stay in Japan is about to end, the most important thing is to apply for an extension or change before the expiry date. This guide explains when you can apply, the special period that lets you stay during review, what happens if you are denied, and what to do if your stay has already expired."
 date: 2026-11-14
+updated: 2026-11-26
 tags: ["extension-of-stay", "change-of-status", "special-period", "overstay", "status-of-residence"]
 excerptText: "If your period of stay is about to expire, the most important thing is to apply to immigration by the expiry date. This guide explains when you can apply, the special period, and what to do if your stay has already expired."
 altUrls:
@@ -60,6 +61,10 @@ You can stay until whichever of the following comes first:
 - The end of the day 2 months after your original expiry date
 
 During this period, you stay under your current status of residence. People in the special period are not overstayers, even after the original expiry date has passed. If you applied at the counter, your residence card will have the notation "申請中" (application pending) on the back.
+
+During the special period, you can only do the activities allowed under your current status of residence. Even if you have applied for a change of status, you must wait until the change is approved before starting the activities of the new status, such as a new job.
+
+Note that an application for [permanent residence](/visa/guides/permanent-residency-japan/) does not create a special period. If your period of stay will end while your permanent residence application is under review, file a separate application to extend your period of stay.
 
 <h2 id="change">If your job or family situation has changed: apply for a change of status</h2>
 

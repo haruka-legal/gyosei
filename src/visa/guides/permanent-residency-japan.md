@@ -4,6 +4,7 @@ lang: en
 title: "Requirements for Permanent Residency in Japan: What Changes with the October 2026 Guideline Revision"
 description: "A beginner's guide to the requirements for permanent residency in Japan: the three legal requirements, the general 10-year residence rule, the exceptions that allow a shorter stay, the new income, pension and Japanese-language standards in the guideline revised on October 1, 2026, and when the new standards apply."
 date: 2026-11-15
+updated: 2026-11-26
 tags: ["permanent-residency", "status-of-residence", "guideline-2026"]
 excerptText: "The three requirements for permanent residency in Japan, the 10-year rule and its exceptions, and what changes with the guideline revised in October 2026."
 altUrls:
@@ -89,9 +90,13 @@ The guideline was revised on October 1, 2026. The main changes are:
 
 <h2 id="timing">When do the new standards apply?</h2>
 
-The new guideline applies, in principle, to **applications filed on or after April 1, 2027**.
+Which standards apply depends on the date you file your application.
 
-However, the new standards on income and on not becoming a public burden apply to applications filed on or after October 1, 2026, as well as to applications filed on or after April 1, 2026 that were still pending on October 1, 2026. For applications filed by March 31, 2026, the previous guideline applies in principle.
+| Application date | Standards applied |
+|---|---|
+| By March 31, 2026 | In principle, the previous guideline |
+| April 1, 2026 to March 31, 2027 | New standards on income and on not becoming a public burden (including applications still pending on October 1, 2026). Otherwise, the previous guideline |
+| On or after April 1, 2027 | The new guideline |
 
 There is also a transitional measure for the longest period of stay. People with a 3-year period of stay who apply by March 31, 2027 are treated as holding the longest period of stay. From April 1, 2027, the same treatment applies only to a first application that meets certain conditions.
 

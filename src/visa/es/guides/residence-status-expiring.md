@@ -4,6 +4,7 @@ lang: es
 title: "Su estatus de residencia está por vencer: qué hacer ahora"
 description: "Si su período de estancia en Japón está por terminar, lo más importante es solicitar la prórroga o el cambio antes de la fecha de vencimiento. Esta guía explica cuándo se puede solicitar, el período especial que permite seguir en Japón durante la revisión, qué pasa si se deniega la solicitud y qué hacer si la estancia ya venció."
 date: 2026-11-14
+updated: 2026-11-26
 tags: ["extension-of-stay", "change-of-status", "special-period", "overstay", "status-of-residence"]
 excerptText: "Si su período de estancia está por vencer, lo más importante es presentar la solicitud ante inmigración a más tardar en la fecha de vencimiento. Esta guía explica cuándo solicitarla, el período especial y qué hacer si la estancia ya venció."
 altUrls:
@@ -60,6 +61,10 @@ Puede quedarse hasta lo que ocurra primero:
 - El final del día en que se cumplen 2 meses desde la fecha original de vencimiento
 
 Durante este período, permanece con su estatus de residencia actual. Quien está en el período especial no se encuentra en situación irregular, aunque haya pasado la fecha original de vencimiento. Si presentó la solicitud en ventanilla, en el reverso de su tarjeta de residencia aparecerá la anotación «申請中» (solicitud en trámite).
+
+Durante el período especial, solo puede realizar las actividades permitidas por su estatus de residencia actual. Aunque haya solicitado un cambio de estatus, debe esperar a que se apruebe antes de empezar las actividades del nuevo estatus, como un nuevo trabajo.
+
+Tenga en cuenta que la solicitud de [residencia permanente](/visa/es/guides/permanent-residency-japan/) no da lugar a un período especial. Si su período de estancia va a vencer mientras se revisa su solicitud de residencia permanente, presente por separado una solicitud de prórroga del período de estancia.
 
 <h2 id="change">Si cambió su trabajo o su situación familiar: solicite el cambio de estatus</h2>
 

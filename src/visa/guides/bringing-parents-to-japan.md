@@ -4,6 +4,7 @@ lang: en
 title: "Can Foreign Nationals Bring Their Parents to Live in Japan? Rules for Highly Skilled Professionals and Support for Elderly Parents"
 description: "Can foreign nationals living in Japan bring their parents to live with them? Learn why parents are not eligible for Dependent status, the requirements for Highly Skilled Professionals, the exceptional treatment of elderly parents, and the rules for short visits."
 date: 2026-11-16
+updated: 2026-11-26
 tags: ["parents", "family", "designated-activities", "status-of-residence"]
 excerptText: "Japan has no general status of residence for bringing your parents to live with you. Learn the rules for parents of Highly Skilled Professionals and the exceptional treatment of elderly parents."
 altUrls:
@@ -16,7 +17,7 @@ altUrls:
 Japan does not have a general status of residence that allows foreign nationals to bring their parents to live with them.<br>
 However, Highly Skilled Professionals may be able to bring their parents to Japan to help care for young children or provide support during pregnancy.<br>
 In exceptional cases, elderly parents may also be granted Designated Activities status on humanitarian grounds.<br>
-For short visits, parents may enter Japan under Temporary Visitor status.
+For short visits, parents may be able to come to Japan under Temporary Visitor status.
 
 </div>
 
@@ -28,7 +29,7 @@ For short visits, parents may enter Japan under Temporary Visitor status.
 <li><a href="#roshin">Support for an Elderly Parent (老親扶養)</a></li>
 <li><a href="#factors">Factors discussed in immigration practice</a></li>
 <li><a href="#apply">Applying for Designated Activities status</a></li>
-<li><a href="#visit">Short visits: Temporary Visitor status</a></li>
+<li><a href="#visit">Short visits: parents may be able to come as Temporary Visitors</a></li>
 <li><a href="#help">Need advice on bringing your parents to Japan?</a></li>
 </ol>
 </nav>
@@ -54,7 +55,7 @@ The arrangement for parents of Highly Skilled Professionals is a system set up f
 
 <h2 id="roshin">Support for an Elderly Parent (老親扶養)</h2>
 
-In exceptional cases, an elderly parent may be permitted to stay in Japan under Designated Activities status on humanitarian grounds. This is commonly referred to in Japanese immigration practice as *rōshin fuyō* (老親扶養).
+In exceptional cases, an elderly parent may be permitted to stay in Japan under Designated Activities status on humanitarian grounds. It falls under the type of Designated Activities that is not listed in the public notice (告示外特定活動). This is commonly referred to in Japanese immigration practice as *rōshin fuyō* (老親扶養).
 
 It is not a standard immigration category set out in a law or public notice (告示). The Immigration Services Agency has not published a specific set of approval criteria for these cases. Each application is assessed individually, and approval is generally considered difficult to obtain.
 
@@ -72,15 +73,15 @@ The following factors are mentioned in guidance published by immigration practit
 
 Unlike the usual way of inviting family members with a Certificate of Eligibility, the application process for elderly parent support must be assessed on a case-by-case basis. Immigration practitioners describe cases in which a parent enters Japan under Temporary Visitor status and subsequently applies to change to Designated Activities status.
 
-However, under the proviso to Article 20(3) of the Immigration Control and Refugee Recognition Act, a change from Temporary Visitor status is permitted only when unavoidable special circumstances exist. Entering Japan as a visitor or being elderly does not, by itself, establish grounds for approval.
+However, under the proviso to Article 20(3) of the Immigration Control and Refugee Recognition Act, a change from Temporary Visitor status is generally not allowed, and is permitted only when unavoidable special circumstances exist. Entering Japan as a visitor or being elderly does not, by itself, establish grounds for approval.
 
 It is important to review the circumstances and carefully consider whether there may be grounds for an application before the parent travels to Japan.
 
 If permission is granted, the period of stay and permitted activities are determined individually. Employment is generally not permitted under an elderly parent support arrangement.
 
-<h2 id="visit">Short visits: Temporary Visitor status</h2>
+<h2 id="visit">Short visits: parents may be able to come as Temporary Visitors</h2>
 
-If your parents simply want to visit you for a while rather than live with you, they may enter Japan under Temporary Visitor (短期滞在) status. The period of stay for Temporary Visitors is 15, 30 or 90 days, among others, and the period actually granted depends on nationality, the purpose of the visit and other factors.
+If your parents simply want to visit you for a while rather than live with you, they may be able to come to Japan under Temporary Visitor (短期滞在) status. The period of stay for Temporary Visitors is 15, 30 or 90 days, among others, and the period actually granted depends on nationality, the purpose of the visit and other factors.
 
 Depending on their nationality, your parents may need to obtain a visa in advance at a Japanese embassy or consulate. In that case, you, as their child in Japan, may need to prepare documents such as a letter explaining the reason for the invitation (招へい理由書).
 

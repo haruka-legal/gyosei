@@ -4,7 +4,7 @@ lang: es
 title: "Tipos de visa en Japón: los 29 estatus de residencia explicados en 4 grupos"
 description: "Japón tiene 29 estatus de residencia, a menudo llamados tipos de visa. Guía para principiantes sobre los 4 grupos, cuáles permiten trabajar y cómo comprobar lo que permite su tarjeta de residencia."
 date: 2026-11-10
-updated: 2026-11-11
+updated: 2026-11-26
 tags: ["status-of-residence", "visa-types", "work-visa", "residence-card", "part-time-work"]
 excerptText: "Japón tiene 29 estatus de residencia, a menudo llamados tipos de visa. Si puede trabajar, y qué tipo de trabajo puede hacer, depende de a cuál de los 4 grupos pertenece su estatus."
 faq:
@@ -61,7 +61,7 @@ El estatus de residencia y el período de estancia normalmente se conceden en el
 </table>
 </div>
 
-Los 19 estatus que permiten trabajar incluyen **Diplomático** y **Oficial**, que son para diplomáticos y funcionarios de gobiernos extranjeros. Estos 4 grupos son una forma sencilla de entender si puede trabajar; no son las categorías exactas de la ley japonesa.
+Los 19 estatus que permiten trabajar incluyen **Diplomático** y **Oficial**, que son para diplomáticos y funcionarios de gobiernos extranjeros. No son estatus que las personas en general usen para conseguir un empleo en Japón. Estos 4 grupos son una forma sencilla de entender si puede trabajar; no son las categorías exactas de la ley japonesa.
 
 A partir del 1 de abril de 2027 empezará un nuevo sistema llamado **Empleo para el Desarrollo de Habilidades (育成就労)**, que sustituirá al sistema de Prácticas Técnicas. Sin embargo, hay medidas transitorias para quienes ya estén en Prácticas Técnicas antes de esa fecha, que podrán continuarlas bajo ciertas condiciones.
 

@@ -50,6 +50,8 @@ Aunque todos "trabajen en Japón", que su familia pueda acompañarle depende del
 
 El estatus de Dependiente cubre al **cónyuge y a los hijos que usted mantiene**. Se parte de la base de que sus ingresos u otros recursos pueden cubrir los gastos de vida de su familia.
 
+Los hijos incluyen a los hijos adoptivos. No hay un límite de edad fijo para los hijos, pero en el caso de hijos adultos y situaciones similares, inmigración examina si realmente dependen de usted económicamente.
+
 Aquí, "cónyuge" significa la persona con la que usted está legalmente casado. En principio, la pareja de hecho no está cubierta por el estatus de Dependiente. Sin embargo, aunque una persona no pueda obtener el estatus de Dependiente, según las circunstancias se le puede conceder otro estatus de residencia.
 
 Los padres y los hermanos tampoco están cubiertos por el estatus de Dependiente. [Traer a los padres](/visa/es/guides/bringing-parents-to-japan/) solo es posible en casos excepcionales muy limitados.
@@ -70,7 +72,7 @@ Si piensa trabajar en una empresa en Japón, confirme primero con la empresa con
 Con algunos estatus, la familia puede vivir en Japón con un estatus distinto al de Dependiente.
 
 - **Profesional Altamente Calificado (高度専門職):** si se cumplen ciertas condiciones, el cónyuge puede trabajar con el estatus de **Actividades Designadas (特定活動)** en trabajos de investigación, educación o del ámbito de Ingeniero / Especialista en Humanidades / Servicios Internacionales, entre otros. Entre las condiciones están vivir con el profesional altamente calificado y recibir una remuneración igual o superior a la que recibiría una persona japonesa. Para este tipo de trabajo, no se aplican los requisitos de estudios ni de experiencia laboral que exigen los estatus de trabajo habituales. Esto no significa que el cónyuge pueda hacer cualquier trabajo
-- **Nómada Digital:** el cónyuge y los hijos que acompañan al nómada reciben el estatus de Actividades Designadas. Igual que el nómada, pueden quedarse en Japón un máximo de 6 meses
+- **Nómada Digital:** el cónyuge y los hijos que acompañan al nómada reciben el estatus de Actividades Designadas. También deben tener la nacionalidad de un país o región que cumpla los requisitos y contar con un seguro médico privado. Igual que el nómada, pueden quedarse en Japón un máximo de 6 meses
 
 <h2 id="steps">Cómo traer a su familia: los pasos</h2>
 
@@ -80,7 +82,9 @@ Cuando la familia viene del extranjero, los pasos habituales son:
 2. Una vez emitido el certificado, la familia solicita el visado en la embajada o el consulado de Japón del país donde vive
 3. Con el visado, la familia entra en Japón
 
-Según el aeropuerto, la tarjeta de residencia se entrega a la llegada. Si su familia entra por otro aeropuerto, la tarjeta de residencia se entrega después de registrar su domicilio.
+Los documentos redactados en un idioma extranjero, como las actas de matrimonio o de nacimiento, deben presentarse con una traducción al japonés.
+
+Si sus familiares son residentes de medio y largo plazo, según el aeropuerto, la tarjeta de residencia se entrega a la llegada. Si su familia entra por otro aeropuerto, la tarjeta de residencia se entrega después de registrar su domicilio.
 
 Su familia puede venir al mismo tiempo que usted o más tarde, cuando usted ya viva en Japón.
 

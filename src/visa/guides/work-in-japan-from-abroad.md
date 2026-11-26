@@ -39,6 +39,8 @@ This article explains the general process and important things to consider when 
 
 People who come to Japan under the Temporary Visitor status, such as for tourism, generally cannot engage in paid employment. You may be able to attend job interviews during a short-term stay, but that is different from actually working. Also, changing from Temporary Visitor to a status of residence that permits employment is not approved unless there are unavoidable special circumstances.
 
+Even if you are from a country or region whose citizens do not need a visa to visit Japan, the visa exemption covers only short-term stays. To work in Japan long-term, you need a status of residence that permits work.
+
 If you want to work in Japan, you generally need to find a job and complete the procedures while you are still outside Japan.
 
 <h2 id="process">The process for working in Japan from abroad</h2>
@@ -63,7 +65,7 @@ Outside Japan, people often use the word "visa" for the right to live and work i
 The main statuses and programs used to come and work in Japan are below. See also [Japan Visa Types](/visa/guides/japan-visa-types/).
 
 - **Engineer/Specialist in Humanities/International Services**: Professional work that requires specialized knowledge or skills, such as interpreting and translation, overseas sales, marketing and engineering. As a rule, there are requirements such as relevant educational qualifications or work experience
-- **Specified Skilled Worker (i)**: Work in fields with labor shortages, such as nursing care, food service and manufacturing. As a rule, you must pass a skills test for the field and a Japanese-language test. People who have successfully completed Technical Intern Training (ii) may be exempt from the tests if they meet the conditions. In some countries and fields, you can take the tests outside Japan
+- **Specified Skilled Worker (i)**: Work in fields with labor shortages, such as nursing care, food service and manufacturing. As a rule, you must pass a skills test for the field and a Japanese-language test. The tests and the required level of Japanese differ by field. People who have successfully completed Technical Intern Training (ii) may be exempt from the tests if they meet the conditions. In some countries and fields, you can take the tests outside Japan
 - **Working Holiday**: A program that lets young people from countries and regions with an agreement with Japan enjoy a holiday and work to help cover their living costs. There are conditions such as nationality and age
 
 From April 1, 2027, a new program called Employment for Skill Development (ESD) will start, replacing the Technical Intern Training Program.

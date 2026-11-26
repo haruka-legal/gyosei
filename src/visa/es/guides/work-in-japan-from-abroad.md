@@ -39,6 +39,8 @@ En este artículo explicamos el proceso general y los puntos importantes si vive
 
 Las personas que llegan a Japón con el estatus de visitante temporal, por ejemplo como turistas, en principio no pueden realizar trabajo remunerado. Durante una estancia corta es posible que pueda asistir a entrevistas de trabajo, pero eso es distinto de trabajar. Además, el cambio de visitante temporal a un estatus de residencia que autorice el trabajo no se aprueba salvo que existan circunstancias especiales e inevitables.
 
+Aunque sea de un país o región cuyos ciudadanos no necesitan visado para visitar Japón, la exención de visado solo cubre las estancias cortas. Para trabajar en Japón a largo plazo, necesita un estatus de residencia que permita trabajar.
+
 Si quiere trabajar en Japón, por lo general debe conseguir empleo y realizar los trámites mientras aún está fuera de Japón.
 
 <h2 id="process">El proceso para trabajar en Japón desde el extranjero</h2>
@@ -63,7 +65,7 @@ Fuera de Japón es común llamar "visa" también al derecho a vivir y trabajar e
 Los principales estatus y programas para venir a trabajar a Japón son los siguientes. Consulte también [Tipos de visa en Japón](/visa/es/guides/japan-visa-types/).
 
 - **Ingeniero/especialista en humanidades/servicios internacionales**: trabajos profesionales que requieren conocimientos o habilidades especializadas, como interpretación y traducción, ventas internacionales, marketing e ingeniería. En principio, hay requisitos como cierto nivel de estudios o experiencia laboral
-- **Trabajador con Habilidades Específicas (i)**: trabajos en sectores con escasez de mano de obra, como servicios de cuidados, servicios de alimentación y manufactura. En principio, debe aprobar un examen de habilidades del sector y un examen de japonés. Quienes hayan completado satisfactoriamente las Prácticas Técnicas (ii) pueden quedar exentos de los exámenes si cumplen las condiciones. En algunos países y sectores, los exámenes se pueden presentar fuera de Japón
+- **Trabajador con Habilidades Específicas (i)**: trabajos en sectores con escasez de mano de obra, como servicios de cuidados, servicios de alimentación y manufactura. En principio, debe aprobar un examen de habilidades del sector y un examen de japonés. Los exámenes y el nivel de japonés exigido varían según el sector. Quienes hayan completado satisfactoriamente las Prácticas Técnicas (ii) pueden quedar exentos de los exámenes si cumplen las condiciones. En algunos países y sectores, los exámenes se pueden presentar fuera de Japón
 - **Vacaciones y Trabajo (Working Holiday)**: programa que permite a jóvenes de países y regiones con acuerdo con Japón disfrutar de unas vacaciones y trabajar para cubrir sus gastos de estancia. Hay condiciones como la nacionalidad y la edad
 
 A partir del 1 de abril de 2027 comenzará un nuevo programa llamado Empleo para el Desarrollo de Habilidades (ESD, por sus siglas en inglés), que sustituirá al Programa de Prácticas Técnicas.

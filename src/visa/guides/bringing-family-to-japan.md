@@ -50,6 +50,8 @@ Even among people who "work in Japan," whether your family can join you depends 
 
 The Dependent status covers a **spouse and children whom you support**. It assumes that your income or other resources can cover your family's living costs.
 
+Children include adopted children. There is no fixed age limit for children, but for adult children and similar cases, immigration examines whether they really depend on you for support.
+
 "Spouse" here means a person you are legally married to. In principle, a common-law partner is not covered by the Dependent status. However, even if someone does not qualify for Dependent status, a different status of residence may be granted depending on the circumstances.
 
 Parents and siblings are also not covered by the Dependent status. [Bringing a parent](/visa/guides/bringing-parents-to-japan/) is only possible in very limited exceptional cases.
@@ -70,7 +72,7 @@ If you plan to work for a company in Japan, first check with the company which s
 With some statuses, family members can live in Japan under a framework other than the Dependent status.
 
 - **Highly Skilled Professional (高度専門職):** if certain conditions are met, the spouse can work under **Designated Activities (特定活動)** status in jobs that fall under research, education, or Engineer / Specialist in Humanities / International Services, among others. The conditions include living with the Highly Skilled Professional and receiving pay equal to or more than what a Japanese national would receive. For this specific type of work, the education and work-experience requirements that apply to regular work statuses do not apply. This does not mean the spouse can do any kind of work
-- **Digital Nomad:** a spouse and children who come with the nomad receive Designated Activities status. Like the nomad, they can stay in Japan for up to 6 months
+- **Digital Nomad:** a spouse and children who come with the nomad receive Designated Activities status. They must also hold the nationality of an eligible country or region and have private medical insurance. Like the nomad, they can stay in Japan for up to 6 months
 
 <h2 id="steps">How to bring your family: the steps</h2>
 
@@ -80,7 +82,9 @@ When your family comes from abroad, the usual steps are:
 2. Once the certificate is issued, your family applies for a visa at the Japanese embassy or consulate in the country where they live
 3. With the visa, your family enters Japan
 
-Depending on the airport, the residence card is issued on arrival. If your family enters through another airport, the residence card is issued after they register their place of residence.
+Documents written in a foreign language, such as marriage or birth certificates, must be submitted with a Japanese translation.
+
+If your family members are mid- to long-term residents, depending on the airport, the residence card is issued on arrival. If your family enters through another airport, the residence card is issued after they register their place of residence.
 
 Your family can come at the same time as you, or later, after you have started living in Japan.
 

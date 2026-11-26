@@ -4,6 +4,7 @@ lang: es
 title: "Salir de Japón de viaje o para visitar su país: permiso especial de reingreso y permiso de reingreso"
 description: "Si vive en Japón y sale del país de viaje o para visitar su país sin hacer el trámite de reingreso adecuado, puede perder su estatus de residencia. Esta guía explica la diferencia entre el permiso especial de reingreso, para volver dentro del plazo de un año desde la salida, y el permiso de reingreso, para estancias más largas en el extranjero, y qué hacer si no puede volver a tiempo."
 date: 2026-11-15
+updated: 2026-11-26
 tags: ["re-entry-permit", "status-of-residence", "travel"]
 excerptText: "La diferencia entre el permiso especial de reingreso y el permiso de reingreso al salir de Japón de viaje o para visitar su país, y qué hacer si no puede volver a tiempo."
 altUrls:
@@ -15,7 +16,7 @@ altUrls:
 
 Para salir de Japón y volver con su estatus de residencia, necesita un trámite de reingreso.<br>
 Si volverá dentro del plazo de un año desde la salida, puede usar el "permiso especial de reingreso" con solo indicar su intención al salir (dos años para los residentes permanentes especiales).<br>
-Si piensa estar fuera un año o más, obtenga un "permiso de reingreso" en inmigración antes de salir (hasta 5 años).<br>
+Si piensa estar fuera más de un año, obtenga un "permiso de reingreso" en inmigración antes de salir (hasta 5 años).<br>
 Si no vuelve antes de la fecha límite, pierde su estatus de residencia. Esto también se aplica a los residentes permanentes.
 
 </div>
@@ -26,7 +27,7 @@ Si no vuelve antes de la fecha límite, pierde su estatus de residencia. Esto ta
 <li><a href="#without">¿Qué pasa si sale de Japón sin un trámite de reingreso?</a></li>
 <li><a href="#minashi">Si vuelve dentro del plazo de un año: el permiso especial de reingreso</a></li>
 <li><a href="#not-eligible">Quién no puede usar el permiso especial de reingreso</a></li>
-<li><a href="#permit">Si estará fuera un año o más: el permiso de reingreso</a></li>
+<li><a href="#permit">Si estará fuera más de un año: el permiso de reingreso</a></li>
 <li><a href="#extension">Si no puede volver antes de la fecha límite</a></li>
 <li><a href="#notes">Notas para quienes tienen un período de estancia que vence pronto o estarán fuera mucho tiempo</a></li>
 <li><a href="#help">¿No sabe qué necesita antes de salir de Japón?</a></li>
@@ -60,9 +61,9 @@ Aunque no pueda usar el permiso especial de reingreso, es posible que pueda obte
 
 Tenga en cuenta que las personas con el estatus de Visitante Temporal, en principio, tampoco pueden obtener un permiso de reingreso ordinario.
 
-<h2 id="permit">Si estará fuera un año o más: el permiso de reingreso</h2>
+<h2 id="permit">Si estará fuera más de un año: el permiso de reingreso</h2>
 
-Si piensa estar fuera de Japón un año o más, o todavía no ha decidido cuándo volverá, obtenga un **permiso de reingreso (再入国許可)** en una Oficina Regional de Servicios de Inmigración antes de salir. Sin embargo, la validez del permiso de reingreso no puede superar su período de estancia actual.
+Si piensa estar fuera de Japón más de un año, o todavía no ha decidido cuándo volverá, obtenga un **permiso de reingreso (再入国許可)** en una Oficina Regional de Servicios de Inmigración antes de salir. Sin embargo, la validez del permiso de reingreso no puede superar su período de estancia actual.
 
 - **Validez:** hasta 5 años (6 años para los residentes permanentes especiales), dentro de su período de estancia
 - **Tipos:** permiso de una sola entrada y permiso de entradas múltiples, que se puede usar las veces que quiera durante su validez
@@ -76,6 +77,7 @@ Solo se puede solicitar en línea junto con otra solicitud, como la prórroga de
 Si no puede volver antes de la fecha límite por una razón inevitable, como una enfermedad, puede solicitar la prórroga de la validez del permiso de reingreso en una embajada o un consulado de Japón en el extranjero.
 
 - Debe solicitar la prórroga antes de que venza su permiso de reingreso
+- Cada prórroga puede ser de 1 año como máximo
 - La prórroga puede llegar hasta un total de 6 años desde la fecha en que se concedió el permiso (7 años para los residentes permanentes especiales) y no puede superar su período de estancia
 - Si se prorroga en el extranjero un permiso de reingreso de entradas múltiples, solo podrá usarlo una vez para volver a Japón. Si vuelve a salir de Japón después de su regreso, compruebe de nuevo si puede usar el permiso especial de reingreso o si necesita un permiso de reingreso ordinario
 
@@ -84,7 +86,7 @@ Si salió de Japón con el permiso especial de reingreso, no se puede prorrogar.
 <h2 id="notes">Notas para quienes tienen un período de estancia que vence pronto o estarán fuera mucho tiempo</h2>
 
 - **Si su período de estancia vence pronto:** ni el permiso especial de reingreso ni el permiso de reingreso se pueden usar más allá de su período de estancia. Antes de salir, revise cuándo debe renovarlo para que no venza mientras está en el extranjero
-- **Si ha solicitado la prórroga o el cambio de estatus:** mientras se revisa su solicitud, se aplican fechas límite distintas a las habituales. Si piensa salir de Japón durante ese tiempo, consulte con inmigración antes de salir
+- **Si ha solicitado la prórroga o el cambio de estatus:** puede salir de Japón con un permiso de reingreso o con el permiso especial de reingreso mientras su solicitud está en trámite. Sin embargo, una vez pasada la fecha original de vencimiento, debe volver dentro del período especial (hasta 2 meses después de esa fecha) y recibir el resultado. Si no vuelve a tiempo, perderá su estatus de residencia, así que revise sus fechas antes de salir
 - **Si está pensando en la residencia permanente:** estar fuera de Japón durante mucho tiempo puede valorarse negativamente en la revisión de la [residencia permanente](/visa/es/guides/permanent-residency-japan/)
 
 <h2 id="help">¿No sabe qué necesita antes de salir de Japón?</h2>

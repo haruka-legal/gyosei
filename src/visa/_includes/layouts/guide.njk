@@ -43,9 +43,9 @@ isGuide: true
       {{ content | safe }}
     </div>
     {% set cta = {
-      en: { title: "Contact us", text: "Your initial assessment is free. All communication is in writing — by chat (LINE, WhatsApp) or email through our contact form. We reply within 24 hours.", form: "Contact form", formUrl: "/#info" },
-      es: { title: "Contáctenos", text: "La evaluación inicial es gratuita. Toda la comunicación es por escrito: por chat (LINE, WhatsApp) o por correo electrónico mediante nuestro formulario. Respondemos en 24 horas.", form: "Formulario de contacto", formUrl: "/es/#info" },
-      ja: { title: "お問い合わせ", text: "初回の状況確認は無料です。やり取りはすべて、チャット（LINE・WhatsApp）またはお問い合わせフォームからのメールで行います。24時間以内にご返信します。", form: "お問い合わせフォーム", formUrl: "/ja/#info" }
+      en: { title: "Contact us", text: "Your initial assessment is free. Communication in English and Spanish is in writing — by chat (LINE, WhatsApp) or email through our contact form. Video consultations are available in Japanese. We generally reply within 24 hours.", form: "Contact form", formUrl: "/#info" },
+      es: { title: "Contáctenos", text: "La evaluación inicial es gratuita. La comunicación en inglés y español es por escrito: por chat (LINE, WhatsApp) o por correo electrónico mediante nuestro formulario. Las consultas por videollamada están disponibles en japonés. Por lo general, respondemos en 24 horas.", form: "Formulario de contacto", formUrl: "/es/#info" },
+      ja: { title: "お問い合わせ", text: "初回の状況確認は無料です。日本語でのご相談は、ビデオ通話でも承ります。英語・スペイン語でのやり取りは、チャット（LINE・WhatsApp）またはお問い合わせフォームからのメールで行います。原則として24時間以内にご返信します。", form: "お問い合わせフォーム", formUrl: "/ja/#info" }
     } %}
     {% set c = cta[lang] %}
     <aside class="guide-cta">

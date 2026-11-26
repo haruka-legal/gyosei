@@ -4,7 +4,7 @@ lang: es
 title: "Cómo mudarse a Japón: 5 vías de visa para trabajar, estudiar, vivir en familia y más"
 description: "Para vivir en Japón a largo plazo, necesita un estatus de residencia acorde con lo que hará aquí. Guía para principiantes sobre las 5 vías principales: trabajo, estudios, familia, negocio y opciones temporales como el Working Holiday."
 date: 2026-10-29
-updated: 2026-11-11
+updated: 2026-11-26
 tags: ["moving-to-japan", "status-of-residence", "work-visa", "student-visa", "spouse-visa", "business-manager-visa", "permanent-residency"]
 excerptText: "Para vivir en Japón a largo plazo, necesita un estatus de residencia acorde con lo que hará aquí. Una estancia turística no sirve. Esta guía explica las 5 vías principales para mudarse a Japón, para que encuentre la que se ajusta a su situación."
 faq:
@@ -64,8 +64,8 @@ El estatus de **Visitante Temporal (短期滞在)**, que se usa para turismo y v
 Consiste en conseguir un empleo en una empresa en Japón y vivir aquí como trabajador. Hay 3 estatus de residencia principales:
 
 - **Ingeniero / Especialista en Humanidades / Servicios Internacionales (技術・人文知識・国際業務):** Para trabajos que aprovechan los conocimientos especializados adquiridos en la universidad u otros estudios, o cierta experiencia laboral; por ejemplo, ingeniería, interpretación y traducción, o comercio internacional. Inmigración también revisa si el trabajo se corresponde con sus estudios o su experiencia, por lo que este estatus no sirve para cualquier tipo de empleo.
-- **Trabajador con Habilidades Específicas (特定技能):** Para trabajar en sectores con falta de personal, como el cuidado de personas mayores o dependientes, la restauración y la construcción. En principio, debe aprobar un examen de habilidades del puesto y un examen de japonés.
-- **Profesional Altamente Calificado (高度専門職):** Sus estudios, experiencia laboral, ingresos y otros factores se puntúan con un sistema de puntos. Quienes superan cierta puntuación reciben un trato preferente.
+- **Trabajador con Habilidades Específicas (特定技能):** Para trabajar en sectores con falta de personal, como el cuidado de personas mayores o dependientes, la restauración y la construcción. Para el Trabajador con Habilidades Específicas (i), en principio debe aprobar un examen de habilidades del sector y un examen de japonés.
+- **Profesional Altamente Calificado (高度専門職):** Sus estudios, experiencia laboral, ingresos y otros factores se puntúan con un sistema de puntos. Quienes obtienen 70 puntos o más reciben un trato preferente. Quienes tienen estudios o experiencia laboral e ingresos anuales por encima de cierto nivel pueden acogerse al Sistema Japonés para Profesionales Especiales Altamente Calificados (J-Skip: Japan System for Special Highly Skilled Professionals), que es independiente del cálculo de puntos.
 
 Si va a trabajar en una empresa en Japón, normalmente primero decide su empleador y después inicia los trámites del estatus de residencia. Sin embargo, las condiciones varían según el estatus de residencia.
 
@@ -81,7 +81,7 @@ Muchos estudiantes cambian a un estatus de trabajo después de graduarse y encon
 
 Algunos estatus de residencia permiten vivir en Japón por motivos familiares:
 
-- **Cónyuge o Hijo de Nacional Japonés (日本人の配偶者等):** Para personas casadas con alguien de nacionalidad japonesa, hijos de personas japonesas, entre otros
+- **Cónyuge o Hijo de Nacional Japonés (日本人の配偶者等):** Para personas casadas con alguien de nacionalidad japonesa, personas nacidas como hijos de japoneses, entre otros
 - **Cónyuge o Hijo de Residente Permanente (永住者の配偶者等):** Para personas casadas con un residente permanente de Japón, entre otros
 - **Dependiente (家族滞在):** Para el cónyuge o los hijos que dependen económicamente de alguien que vive en Japón para trabajar o estudiar
 
