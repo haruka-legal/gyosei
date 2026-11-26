@@ -1,15 +1,15 @@
 // 外国人向けサイト（/visa/ EN・ES・JA）の料金表。
 // 日本語版（/gyosei/ src/index.njk の料金表）と同じ金額にそろえること。
-// 金額は税込・円。from: true で「〜」、plus: true で「＋」を付けます。
+// 金額は円（免税事業者のため消費税の上乗せなし）。from: true で「〜」、plus: true で「＋」を付けます。
 
 module.exports = {
   labels: {
     service: { en: "Service", es: "Servicio", ja: "業務" },
-    fee: { en: "Fee (tax incl.)", es: "Honorario (IVA incl.)", ja: "料金（税込）" },
+    fee: { en: "Fee", es: "Honorario", ja: "料金" },
     condition: { en: "Condition", es: "Condición", ja: "条件" },
-    extra: { en: "Additional fee (tax incl.)", es: "Cargo adicional (IVA incl.)", ja: "追加料金（税込）" },
+    extra: { en: "Additional fee", es: "Cargo adicional", ja: "追加料金" },
     size: { en: "Number of foreign employees", es: "Número de empleados extranjeros", ja: "規模" },
-    monthly: { en: "Monthly (tax incl.)", es: "Mensual (IVA incl.)", ja: "月額（税込）" },
+    monthly: { en: "Monthly", es: "Mensual", ja: "月額" },
   },
 
   groups: [
