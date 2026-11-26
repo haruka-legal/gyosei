@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ title }}</title>
 <meta name="description" content="{{ description }}">
-<link rel="canonical" href="{{ site.url }}{{ page.url | url }}">
+<link rel="canonical" href="{% if canonical %}{{ canonical }}{% else %}{{ site.url }}{{ page.url | url }}{% endif %}">
 {% if altUrls %}
 {% if altUrls.en %}<link rel="alternate" hreflang="en" href="{{ site.url }}{{ altUrls.en | url }}">{% endif %}
 {% if altUrls.es %}<link rel="alternate" hreflang="es" href="{{ site.url }}{{ altUrls.es | url }}">{% endif %}

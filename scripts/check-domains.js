@@ -32,6 +32,7 @@ const ALLOWED_HOSTS = [
   "www.mlit.go.jp",
   "haruka-legal.com",
   "jsite.mhlw.go.jp",
+  "jinzai.hellowork.mhlw.go.jp", // 人材サービス総合サイト（厚生労働省）
   "www.bunka.go.jp",
   "www.jpf.go.jp",
   "www.kanken.or.jp",
