@@ -4,7 +4,7 @@ lang: es
 title: "¿Puede su familia acompañarle si trabaja en Japón? Requisitos y trámites del estatus de Dependiente"
 description: "Que una persona extranjera que trabaja en Japón pueda traer a su cónyuge e hijos depende de su propio estatus de residencia. Esta guía explica qué familiares cubre el estatus de Dependiente, con qué estatus no se puede traer a la familia, los pasos del trámite y las diferencias entre un traslado de empresa y el trabajo por cuenta propia."
 date: 2026-11-15
-updated: 2026-11-16
+updated: 2026-11-26
 tags: ["dependent-visa", "family", "status-of-residence", "work-visa"]
 excerptText: "Que pueda traer a su familia depende de su propio estatus de residencia. Esta guía explica a quién cubre el estatus de Dependiente, con qué estatus no se puede traer a la familia y los pasos del trámite."
 altUrls:
@@ -105,7 +105,7 @@ En un traslado de empresa, la empresa suele preparar muchos de los documentos. S
 
 Los familiares con estatus de Dependiente no están autorizados automáticamente a trabajar. Para trabajar, necesitan el **permiso para realizar actividades distintas a las permitidas por el estatus de residencia (資格外活動許可)**.
 
-Con el permiso general (包括許可), en principio pueden trabajar hasta 28 horas por semana. Sin embargo, no pueden trabajar en establecimientos donde se desarrollen actividades clasificadas como *fuzoku eigyo* (風俗営業), determinados negocios de servicios sexuales o establecimientos de entretenimiento nocturno sujetos a restricciones específicas según la legislación japonesa. Esta prohibición se aplica independientemente del trabajo realizado, incluso si se trata de limpieza o lavado de platos. También incluye determinados bares y salones de pachinko, no solo negocios de entretenimiento para adultos.
+Con el permiso general (包括許可), en principio pueden trabajar hasta 28 horas por semana. Sin embargo, no pueden trabajar en establecimientos donde se desarrollen actividades clasificadas como *fuzoku eigyo* (風俗営業), determinados negocios de servicios sexuales o establecimientos de entretenimiento nocturno sujetos a restricciones específicas según la legislación japonesa. Esta prohibición se aplica independientemente del trabajo realizado, incluso si se trata de limpieza o lavado de platos. También incluye determinados bares y salones de pachinko, no solo negocios de entretenimiento para adultos. Sin embargo, desde el 1 de octubre de 2026, quienes tienen el estatus de familiar dependiente pueden trabajar en establecimientos recreativos como los salones de pachinko si obtienen un permiso individual (siempre dentro de las 28 horas por semana).
 
 <h2 id="help">¿No sabe cómo prepararse para vivir en Japón con su familia?</h2>
 

@@ -4,7 +4,7 @@ lang: en
 title: "Can Your Family Join You When You Work in Japan? Dependent Status Requirements and Procedures"
 description: "Whether a foreign national working in Japan can bring their spouse and children depends on their own status of residence. This guide explains which family members the Dependent status covers, which statuses do not allow you to bring your family, the application steps, and the differences between company transfers and self-employment."
 date: 2026-11-15
-updated: 2026-11-16
+updated: 2026-11-26
 tags: ["dependent-visa", "family", "status-of-residence", "work-visa"]
 excerptText: "Whether you can bring your family depends on your own status of residence. This guide explains who the Dependent status covers, which statuses cannot bring family, and the application steps."
 altUrls:
@@ -105,7 +105,7 @@ With a company transfer, the company usually prepares many of the documents. If 
 
 Family members with Dependent status are not automatically permitted to work. To work, they need **Permission to Engage in Activity Other Than That Permitted under the Status of Residence Previously Granted (資格外活動許可)**.
 
-With the general type of this permission (comprehensive permission), they can, in principle, work up to 28 hours a week. However, they cannot work at premises where businesses classified as *fuzoku eigyo* (風俗営業), certain adult-oriented businesses, or specified late-night entertainment businesses operate under Japanese law. This restriction applies regardless of the type of work performed, including cleaning or dishwashing. It covers certain bars and pachinko parlors, not just adult entertainment businesses.
+With the general type of this permission (comprehensive permission), they can, in principle, work up to 28 hours a week. However, they cannot work at premises where businesses classified as *fuzoku eigyo* (風俗営業), certain adult-oriented businesses, or specified late-night entertainment businesses operate under Japanese law. This restriction applies regardless of the type of work performed, including cleaning or dishwashing. It covers certain bars and pachinko parlors, not just adult entertainment businesses. However, since October 1, 2026, Dependent status holders can work at amusement facilities such as pachinko parlors if they obtain individual permission (still within 28 hours a week).
 
 <h2 id="help">Not sure how to prepare for life in Japan with your family?</h2>
 
