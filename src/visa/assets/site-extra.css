@@ -545,3 +545,8 @@ html[lang="es"] .fab-form span{font-size:8.5px}
   .guide-table--stack td:first-child{font-weight:600;color:var(--navy);padding-bottom:6px;}
   .guide-table--stack td:not(:first-child)::before{content:attr(data-label);display:block;font-size:13px;font-weight:600;color:var(--blue);letter-spacing:.04em;}
 }
+/* Guide tables: full grid lines (vertical + horizontal) on tablets and desktops */
+@media(min-width:641px){
+  .guide-table{border:1px solid #c9d3e3;}
+  .guide-table th,.guide-table td{border:1px solid #c9d3e3;}
+}
