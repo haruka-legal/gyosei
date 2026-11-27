@@ -54,7 +54,7 @@ const ALLOWED_HOSTS = [
   "www.sitemaps.org",
   // 記事で一次情報として引用する公的機関
   "www.moj.go.jp",
-  "www.mext.go.jp", "www.japaneselawtranslation.go.jp",
+  "www.mext.go.jp", "www.cas.go.jp", "www.japaneselawtranslation.go.jp",
   "www.vn.emb-japan.go.jp", // 在ベトナム日本国大使館（政府資料の掲載）
   "www.chicago.us.emb-japan.go.jp", // 在シカゴ日本国総領事館（法務省のお知らせの掲載）
   "www.seattle.us.emb-japan.go.jp", // 在シアトル日本国総領事館（署名証明の案内）

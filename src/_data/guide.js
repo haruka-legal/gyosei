@@ -54,6 +54,7 @@ module.exports = [
     ["tokutei-ginou-kaigo", "介護"],
     ["tokutei-ginou-gaishoku", "飲食店（外食業）"],
     ["tokutei-ginou-shukuhaku", "ホテル・旅館"],
+    ["tokutei-ginou-jidosha-unso", "トラック・タクシー・バスの運転手"],
     ["anime-game-creator", "アニメ・ゲーム会社"],
     ["kougyou", "モデル・俳優・アーティスト（興行）"],
   ]},
